@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2950369e631f8cfc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 11:42:20"
+		timestampiso="2020-10-10T03:42:20"
+		endtime="2020/10/10 11:42:28"
+		timeoutfactor="2"
+		module="program015">
+		<detail>
+			program015
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.675"
+			timeRelativeToTestModuleStartTime="00:02.675"
+			timeWallClock="11:42:23"
+			time="00:02.675"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'AllSaveRiskbtn']"
+				itempath=".//input[#'AllSaveRiskbtn']"
+				fullname="Infomation.方案.一键保存"
+				id="831493be6a0d4d27838f5db54997f93c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program015.cs"
+				codeline="167"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.781"
+			timeRelativeToTestModuleStartTime="00:03.781"
+			timeWallClock="11:42:24"
+			time="00:03.781"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;&#21518;&#30830;&#35748;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[@class='xubox_layer']//a[@innertext='确定']"
+				itempath=".//div[@class='xubox_layer']//a[@innertext='确定']"
+				fullname="Infomation.方案.一键保存后确认"
+				id="75d68f51643c40d8a24c3d4975b2a1bb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program015.cs"
+				codeline="171"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

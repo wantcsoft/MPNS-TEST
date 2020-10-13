@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="24.09s"
+		durationms="24090"
+		type="root"
+		rid="167b330747ce6bb"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/22 16:39:20"
+		timestampiso="2020-09-22T08:39:20"
+		endtime="2020/9/22 16:39:44"
+		timeoutfactor="2"
+		module="login">
+		<detail>
+			login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.752"
+			timeRelativeToTestModuleStartTime="00:04.752"
+			timeWallClock="16:39:25"
+			time="00:04.752"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>loginAccount, loginPassword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.774"
+			timeRelativeToTestModuleStartTime="00:04.774"
+			timeWallClock="16:39:25"
+			time="00:04.774"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$loginAccount' on item 'Mozzie&#30331;&#24405;MozillaFirefox.Text&#36134;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Mozzie - 登录 - Mozilla Fir']//input[#'LoginUserCode']"
+				itempath=".//input[#'LoginUserCode']"
+				fullname="MPNS_TESTRepository.Mozzie登录MozillaFirefox.Text账号"
+				id="d9e62ffacb30456a98e7c6b5119bb391"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Login\login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.091"
+			timeRelativeToTestModuleStartTime="00:24.091"
+			timeWallClock="16:39:44"
+			time="00:24.091"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

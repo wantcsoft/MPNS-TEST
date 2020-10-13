@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2eff5cdb65b3810b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:48:46"
+		timestampiso="2020-09-28T01:48:46"
+		endtime="2020/9/28 9:48:50"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.592"
+			timeRelativeToTestModuleStartTime="00:02.592"
+			timeWallClock="09:48:49"
+			time="00:02.592"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#32500;&#25252;&#31649;&#29702;.NT_E2&#26089;&#26399;&#29256;&#26412;&#26159;&#21542;&#21487;&#29992;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//input[#'EarlyPeriodEnable']"
+				itempath=".//iframe[#'xubox_iframe2']//input[#'EarlyPeriodEnable']"
+				fullname="Infomation.维护管理.NT_E2早期版本是否可用"
+				id="48f635002f37468bbd219d50593ee925"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.834"
+			timeRelativeToTestModuleStartTime="00:03.834"
+			timeWallClock="09:48:50"
+			time="00:03.834"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#32500;&#25252;&#31649;&#29702;.&#20445;&#23384;NT_E2&#35774;&#32622;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//input[#'butSubmit']"
+				itempath=".//iframe[#'xubox_iframe2']//input[#'butSubmit']"
+				fullname="Infomation.维护管理.保存NT_E2设置"
+				id="7f391556a0304ded863b8980ce5fc9c4"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

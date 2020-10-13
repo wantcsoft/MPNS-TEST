@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12e3c35ed9fae8c3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 16:52:14"
+		timestampiso="2020-09-24T08:52:14"
+		endtime="2020/9/24 16:52:17"
+		timeoutfactor="2"
+		module="infomation031">
+		<detail>
+			infomation031
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.699"
+			timeRelativeToTestModuleStartTime="00:02.699"
+			timeWallClock="16:52:17"
+			time="00:02.699"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '13' on item '&#20013;&#26399;&#26679;&#26412;.&#26041;&#26696;&#21517;&#31216;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'SolutionName']"
+				itempath=".//select[#'SolutionName']"
+				fullname="infomation031.中期样本.方案名称"
+				id="51e6dd179ac1498d8b45fa0f0cca1e2e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="214"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.368"
+			timeRelativeToTestModuleStartTime="00:03.368"
+			timeWallClock="16:52:17"
+			time="00:03.368"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Tabindex to '(null)' on item '&#20013;&#26399;&#26679;&#26412;.&#26089;&#26399;&#32852;&#21512;&#26679;&#26412;&#36873;&#25321;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'EarlySampleLst']"
+				itempath=".//select[#'EarlySampleLst']"
+				fullname="infomation031.中期样本.早期联合样本选择"
+				id="bcfb1d1a725749a99f945cf611da686f"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="218"
+				itemindex="35"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

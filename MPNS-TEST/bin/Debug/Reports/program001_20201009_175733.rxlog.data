@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="6.45s"
+		durationms="6447"
+		type="root"
+		rid="30b3598171c5fd1b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 17:57:35"
+		timestampiso="2020-10-09T09:57:35"
+		endtime="2020/10/9 17:57:41"
+		timeoutfactor="2"
+		module="program001">
+		<detail>
+			program001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.027"
+			timeRelativeToTestModuleStartTime="00:05.027"
+			timeWallClock="17:57:40"
+			time="00:05.027"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[1]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[1]/input"
+				fullname="Infomation.早期样本.计算按钮"
+				id="ffd2e58562f64dbf9774968603cb944c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program001.cs"
+				codeline="144"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.448"
+			timeRelativeToTestModuleStartTime="00:06.448"
+			timeWallClock="17:57:41"
+			time="00:06.448"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

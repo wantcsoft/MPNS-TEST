@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="55a317cd417f278"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 9:17:22"
+		timestampiso="2020-10-10T01:17:22"
+		endtime="2020/10/10 9:17:27"
+		timeoutfactor="2"
+		module="program003">
+		<detail>
+			program003
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.747"
+			timeRelativeToTestModuleStartTime="00:02.747"
+			timeWallClock="09:17:25"
+			time="00:02.747"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#21024;&#38500;&#26041;&#26696;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[2]"
+				itempath=".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[2]"
+				fullname="Infomation.方案.删除方案"
+				id="f4f74070aefd406a8af99af1ba32c1b3"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program003.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

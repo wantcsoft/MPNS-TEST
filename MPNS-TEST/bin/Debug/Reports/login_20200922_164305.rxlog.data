@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.58s"
+		durationms="28578"
+		type="root"
+		rid="31c623880b402fdc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/22 16:43:06"
+		timestampiso="2020-09-22T08:43:06"
+		endtime="2020/9/22 16:43:35"
+		timeoutfactor="2"
+		module="login">
+		<detail>
+			login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.737"
+			timeRelativeToTestModuleStartTime="00:04.737"
+			timeWallClock="16:43:11"
+			time="00:04.737"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>loginAccount, loginPassword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.761"
+			timeRelativeToTestModuleStartTime="00:04.761"
+			timeWallClock="16:43:11"
+			time="00:04.761"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$loginAccount' on item 'ApplicationUnderTest.loginAccount'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom//input[#'LoginUserCode']"
+				itempath=".//input[#'LoginUserCode']"
+				fullname="MPNS_TESTRepository.ApplicationUnderTest.loginAccount"
+				id="b517e80f39314a9aab157cc75aad4cf9"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Login\login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.579"
+			timeRelativeToTestModuleStartTime="00:28.579"
+			timeWallClock="16:43:35"
+			time="00:28.579"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

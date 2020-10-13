@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.16s"
+		durationms="12157"
+		type="root"
+		rid="3de87ada8508cc4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 14:17:59"
+		timestampiso="2020-10-10T06:17:59"
+		endtime="2020/10/10 14:18:11"
+		timeoutfactor="2"
+		module="revisit001">
+		<detail>
+			revisit001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.694"
+			timeRelativeToTestModuleStartTime="00:02.694"
+			timeWallClock="14:18:02"
+			time="00:02.694"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;&#21518;&#30830;&#35748;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[@class='xubox_layer']//a[@innertext='确定']"
+				itempath=".//div[@class='xubox_layer']//a[@innertext='确定']"
+				fullname="Infomation.方案.一键保存后确认"
+				id="75d68f51643c40d8a24c3d4975b2a1bb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit001.cs"
+				codeline="160"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.158"
+			timeRelativeToTestModuleStartTime="00:12.158"
+			timeWallClock="14:18:11"
+			time="00:12.158"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

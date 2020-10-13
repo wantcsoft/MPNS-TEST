@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1699970d1def4d3c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/25 17:51:48"
+		timestampiso="2020-09-25T09:51:48"
+		endtime="2020/9/25 17:51:55"
+		timeoutfactor="2"
+		module="sample004">
+		<detail>
+			sample004
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.733"
+			timeRelativeToTestModuleStartTime="00:02.733"
+			timeWallClock="17:51:50"
+			time="00:02.733"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#39044;&#20135;&#26399;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.754"
+			timeRelativeToTestModuleStartTime="00:02.754"
+			timeWallClock="17:51:50"
+			time="00:02.754"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.066"
+			timeRelativeToTestModuleStartTime="00:03.066"
+			timeWallClock="17:51:51"
+			time="00:03.066"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#26032;&#22686;&#20013;&#26399;&#26679;&#26412;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']"
+				itempath=".//input[#'butInsertMiddleSample']"
+				fullname="sample004.中期样本.新增中期样本"
+				id="54ce9aabcea941449bf6c94d1914a37b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="121"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.122"
+			timeRelativeToTestModuleStartTime="00:05.122"
+			timeWallClock="17:51:53"
+			time="00:05.122"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="125"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.422"
+			timeRelativeToTestModuleStartTime="00:05.422"
+			timeWallClock="17:51:53"
+			time="00:05.422"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '346237468732324' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width185 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width185 enter']"
+				fullname="sample004.中期样本.中期样本号"
+				id="83222d8f719f4573a5dc58a790934c29"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="128"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.526"
+			timeRelativeToTestModuleStartTime="00:05.526"
+			timeWallClock="17:51:53"
+			time="00:05.526"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-21' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#37319;&#26679;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width80 time enter']"
+				fullname="sample004.中期样本.中期采样日期"
+				id="ede246d6cdac4e84a108c43a71b334bc"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="132"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.628"
+			timeRelativeToTestModuleStartTime="00:05.628"
+			timeWallClock="17:51:53"
+			time="00:05.628"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-21' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#27979;&#35797;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@class='input-text-screening required width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@class='input-text-screening required width80 time enter']"
+				fullname="sample004.中期样本.中期测试日期"
+				id="de6d232c5c704ca28b3da822c144db53"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="136"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.729"
+			timeRelativeToTestModuleStartTime="00:05.729"
+			timeWallClock="17:51:53"
+			time="00:05.729"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-05-08' on item '&#20013;&#26399;&#26679;&#26412;.LMP&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[3]/?/?/input[@class='input-text-screening width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[3]/?/?/input[@class='input-text-screening width80 time enter']"
+				fullname="sample004.中期样本.LMP日期"
+				id="e64a1d5c2b4c47018d22caeedfaaeaf9"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="140"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.832"
+			timeRelativeToTestModuleStartTime="00:05.832"
+			timeWallClock="17:51:53"
+			time="00:05.832"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '1' on item '&#20013;&#26399;&#26679;&#26412;.&#23381;&#21608;&#31867;&#22411;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[1]/?/?/select[@class='input-text-screening midforedit required enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[1]/?/?/select[@class='input-text-screening midforedit required enter']"
+				fullname="sample004.中期样本.孕周类型"
+				id="01b2bc64ec8045389f5c6329227b1e8c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="144"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.954"
+			timeRelativeToTestModuleStartTime="00:05.954"
+			timeWallClock="17:51:54"
+			time="00:05.954"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item '&#20013;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				fullname="sample004.中期样本.计算按钮"
+				id="da51cfab883543a3a3d01ce31a1044cf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="148"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.060"
+			timeRelativeToTestModuleStartTime="00:06.060"
+			timeWallClock="17:51:54"
+			time="00:06.060"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="152"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.064"
+			timeRelativeToTestModuleStartTime="00:07.064"
+			timeWallClock="17:51:55"
+			time="00:07.064"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Value' from item '&#20013;&#26399;&#26679;&#26412;.&#39044;&#20135;&#26399;' and assigning its value to variable '&#39044;&#20135;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[3]/?/?/input[@class='input-text-screening ChildBirthDateChange']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[3]/?/?/input[@class='input-text-screening ChildBirthDateChange']"
+				fullname="sample004.中期样本.预产期"
+				id="ed6c697954e14f2285f77086048860d4"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="155"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.166"
+			timeRelativeToTestModuleStartTime="00:07.166"
+			timeWallClock="17:51:55"
+			time="00:07.166"
+			level="Info"
+			category="User">
+			<message>
+				2019-02-12
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample004.cs"
+				codeline="159"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

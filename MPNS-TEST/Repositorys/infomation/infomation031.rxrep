@@ -1,0 +1,447 @@
+﻿<repository
+id="e7ea55f3-5b4d-4b59-af65-bba1777bc81f"
+name="infomation031">
+	<codegen
+	classname="infomation031"
+	namespace="MPNS_TEST.Repositorys.infomation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="172b7bce-29f0-41ac-a513-bb462d64717b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a7efca04-702f-438e-be5f-6859c2578b63"
+		isrooted="True"
+		name="筛查信息"
+		refimgid="7e233496-6727-42b7-9a6c-96ed8586f411"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f6984859-bfde-4674-9e61-c1cb3a259c66"
+			name="筛查管理"
+			refimgid="f2f70f5f-4e93-4751-8b19-d72629804fae"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[1]/a[@innertext='筛查管理']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='&#31579;&#26597;&#31649;&#29702;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e453ddd0-0b7e-4c8c-9961-38eb0cd79378"
+			name="筛查信息"
+			refimgid="559a72d8-4ea3-414f-8f59-ccb5805b08d7"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[1]/div/ul/li[1]/a[@innertext='筛查信息']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='&#31579;&#26597;&#20449;&#24687;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="939bc867-274b-46b3-9c80-06e123668baf"
+			name="孕妇姓名"
+			refimgid="1516f2d2-5ed9-4949-83f6-cf156c00f87c"
+			refpath="/dom[@domain='localhost:8016']//input[#'FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a8333816-9850-4ae0-b189-8570117a8500"
+			name="出生日期"
+			refimgid="165b4461-bb51-4b51-a53c-85460a191976"
+			refpath="/dom[@domain='localhost:8016']//input[#'BirthDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'BirthDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="14b19b0d-0aaf-464c-954c-cb16168186d7"
+			name="保存按钮"
+			refimgid="534df116-5b51-42a9-a434-1b25bfb7241c"
+			refpath="/dom[@domain='localhost:8016']//input[#'butSavePregnant']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'butSavePregnant']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0cd62b1e-6bdd-4603-bef2-ffbab32a9c87"
+		isrooted="True"
+		name="早期样本"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2d908872-4e4b-442b-b2d2-39a2f8b0377d"
+			name="新增早期样本"
+			refimgid="3fd46e72-e287-4282-b9ad-7e4af6cc508c"
+			refpath="/dom[@domain='localhost:8016']//input[#'butInsertEarlySample']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'butInsertEarlySample']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7f445996-0ad9-4eed-9e2f-bacd7544668a"
+			name="早期样本号"
+			refimgid="f1cbbeba-6d4d-4ece-85e2-222280ec9993"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width190 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2f2ddc5a-965a-4221-8113-2d1c1ca91b34"
+			name="早期采样日期"
+			refimgid="4ad0c52b-e7b3-4c9d-895c-d658f7aa48ca"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width80 time enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="11d8bfa6-0d01-4e80-bb9c-a6f661279e48"
+			name="早期测试日期"
+			refimgid="3c8bb477-d65d-49a5-89f5-b02a6c0bb4a9"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table//td[@innertext='&#160;(Kg)&#160;']/input[@class='input-text-screening required width80 time enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="887dede9-4630-4083-9233-be8f847637e3"
+			name="体重"
+			refimgid="3a12b7ba-db70-4d5e-a6de-54af63378c66"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table//td[@innertext='&#160;(Kg)&#160;']/input[@class='input-text-screening required required width35 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="07cf22be-9e6c-4263-a2d3-47d837e2fb5e"
+			name="CRL日期"
+			refimgid="2145ffc3-703c-4576-b492-1f594dee9b0e"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/?/?/input[@class='input-text-screening width80 time enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9a93fd8b-41c8-433e-a97f-19a656ddc047"
+			name="CRL长度"
+			refimgid="1e1889c9-9999-4dd3-92b2-7766551ee340"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table//td[@innertext='&#160;mm']/input[@class='input-text-screening width35 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0649120d-409d-4a68-a104-259c97ad6202"
+			name="NT_E结果"
+			refimgid="fbf7e419-10a4-4f95-b154-17238e8a8ee4"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[8]/td[2]/table/tbody/tr[1]/td[3]/input[@class='input-text-screening width70 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="72f015a4-581b-4d95-9316-1d50f78bea03"
+			name="tbhCG_E结果"
+			refimgid="5c790dcd-0483-4751-b99f-151aa7de302a"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[8]/td[2]/table/tbody/tr[2]/td[3]/input[@class='input-text-screening width70 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="231dfac7-20ef-462b-863b-222b2a9cc989"
+			name="PAPPA_E结果"
+			refimgid="a9a4ae00-2779-4254-b7a6-021c214479ed"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[8]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0e1789db-6021-4f59-8c92-10c853d7877a"
+			name="计算按钮"
+			refimgid="d0ebaa74-0232-44da-9b5b-1810a3f60bdd"
+			refpath="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/div/table/tbody/tr[9]/td/div[1]/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[9]//input[@type='button']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5362e895-d42c-45ff-b76b-13f12ee88c27"
+			name="保存按钮"
+			refimgid="70c2acf0-6ca7-4007-9bff-4467ec76a116"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[9]//input[@class='button sample-save enter']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="44ab4b90-bee2-4097-9b7b-e47d66e7008a"
+		isrooted="True"
+		name="中期样本"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="54ce9aab-cea9-4144-9bf6-c94d1914a37b"
+			name="新增中期样本"
+			refimgid="10ed4f94-22af-41c5-a5b4-233873172e45"
+			refpath="/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="83222d8f-719f-4573-a5dc-58a790934c29"
+			name="中期样本号"
+			refimgid="f90a10d5-368f-4651-9424-db1fa6187231"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width185 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ede246d6-cdac-4e84-a108-c43a71b334bc"
+			name="中期采样日期"
+			refimgid="30f9431b-6eef-4201-9ea3-b8bf7bf88442"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width80 time enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="de6d232c-5c70-4ca2-8b3d-a822c144db53"
+			name="中期测试日期"
+			refimgid="6303f45a-cdd5-44a1-b25c-336bd3aaa53a"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext='&#160;(Kg)&#160;']/input[@class='input-text-screening required width80 time enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5ed98efa-e1eb-481a-913b-437f1979b2cb"
+			name="体重"
+			refimgid="7c3d44c4-1c1a-4c55-916a-6f853c146b52"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext='&#160;(Kg)&#160;']/input[@class='input-text-screening required width35 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bba36a40-77df-4628-8b06-803a89f42764"
+			name="AFP_M结果"
+			refimgid="a68ac3d0-7eda-466f-88ff-807279069042"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[1]/td[3]/input[@class='input-text-screening width70 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0577ee12-59ec-4495-89ca-1be0cf8c67f8"
+			name="tbhCG_M结果"
+			refimgid="5f726f56-78cf-4141-b572-4733bdcd43a7"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[2]/td[3]/input[@class='input-text-screening width70 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="17287f73-1ddd-43ec-82b5-919f960fe503"
+			name="uE3_M结果"
+			refimgid="8ab900d8-de37-438d-9993-5b64e6305119"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="da51cfab-8835-43a3-a3d0-1ce31a1044cf"
+			name="计算按钮"
+			refimgid="40d2c851-7402-4fde-95da-94d3f57c45f0"
+			refpath="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/div/table/tbody/tr[10]/td/div[1]/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="dc4d8a6b-1a0c-44ae-9d9c-ed1e56401620"
+			name="保存按钮"
+			refimgid="fb4c082c-6017-4df0-9390-fb6ede0aadad"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@class='button sample-save enter']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="609ea950-9ef9-440f-9bca-074ad705687e"
+			name="新增方案"
+			refimgid="0add812e-77ac-4119-9dad-a1f7fad72a7e"
+			refpath="/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/tbody/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5160222f-6cb3-4ee8-a21a-6942d94d567b"
+			name="早期联合"
+			refimgid="377021e4-7ba1-4e0e-9829-5aa33c286b3a"
+			refpath="/dom[@domain='localhost:8016']//div[#'SolutionList']/div[1]/ul[1]/li[2]/input[@type='checkbox']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'SolutionList']/div[1]/ul[1]/?/?/input[@value='13']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9d050a2f-43c3-4f83-b478-456ccad2ec8e"
+			name="确定新增"
+			refimgid="f4919122-f974-48ab-95d1-20d8377ffe5f"
+			refpath="/dom[@domain='localhost:8016']//div[#'SolutionList']/div[2]/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'SolutionList']/?/?/input[@type='button']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="bcfb1d1a-7257-49a9-9f94-5cf611da686f"
+			name="早期联合样本选择"
+			refimgid="22082689-4387-47f3-975c-6f34b215973a"
+			refpath="/dom[@domain='localhost:8016']//select[#'EarlySampleLst']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//select[#'EarlySampleLst']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="51e6dd17-9ac1-498d-8b45-fa0f0cca1e2e"
+			name="方案名称"
+			refimgid="16a4d60e-2c7d-4626-a874-5adee9698a2e"
+			refpath="/dom[@domain='localhost:8016']//select[#'SolutionName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//select[#'SolutionName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8a4c4e4a-728d-4c24-85bb-708151c65cd4"
+			name="保存方案"
+			refimgid="f773ac91-ed36-4a19-8fe5-e63f24929c54"
+			refpath="/dom[@domain='localhost:8016']//input[#'SaveRiskbtn']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'SaveRiskbtn']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="40b8eb52-666c-4265-9a06-83bc1f8a7779"
+			name="生成风险"
+			refimgid="590bafbe-dc52-4f36-8206-228f445f50be"
+			refpath="/dom[@domain='localhost:8016']//input[#'CreatRiskbtn']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'CreatRiskbtn']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b0b8d863-fa7b-4a75-a796-76294ef2afa8"
+			name="提交审核"
+			refimgid="321014b2-e66e-441b-885f-7e1c7c3d812d"
+			refpath="/dom[@domain='localhost:8016']//input[#'SubmitAuditbtn']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'SubmitAuditbtn']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="07458759-258b-4078-b15e-96cb0309e346"
+			name="通过审核"
+			refimgid="e6ca3e8a-3b45-40b4-b9ae-9a159331e307"
+			refpath="/dom[@domain='localhost:8016']//input[#'PassAuditbtn']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PassAuditbtn']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

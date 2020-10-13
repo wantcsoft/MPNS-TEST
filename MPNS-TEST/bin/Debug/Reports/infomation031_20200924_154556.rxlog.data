@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.98s"
+		durationms="19976"
+		type="root"
+		rid="9495636844467f0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 15:45:58"
+		timestampiso="2020-09-24T07:45:58"
+		endtime="2020/9/24 15:46:18"
+		timeoutfactor="2"
+		module="infomation031">
+		<detail>
+			infomation031
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.585"
+			timeRelativeToTestModuleStartTime="00:02.585"
+			timeWallClock="15:46:00"
+			time="00:02.585"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#26032;&#22686;&#20013;&#26399;&#26679;&#26412;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']"
+				itempath=".//input[#'butInsertMiddleSample']"
+				fullname="infomation031.中期样本.新增中期样本"
+				id="54ce9aabcea941449bf6c94d1914a37b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="153"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.872"
+			timeRelativeToTestModuleStartTime="00:03.872"
+			timeWallClock="15:46:02"
+			time="00:03.872"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1000 units.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="157"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.177"
+			timeRelativeToTestModuleStartTime="00:04.177"
+			timeWallClock="15:46:02"
+			time="00:04.177"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1000 units.
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="161"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.477"
+			timeRelativeToTestModuleStartTime="00:04.477"
+			timeWallClock="15:46:02"
+			time="00:04.477"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '3020320230203' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@name='14252cf5-ad0c-4084-80ee-1d6cdcf93c09|SampleID']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@name='14252cf5-ad0c-4084-80ee-1d6cdcf93c09|SampleID']"
+				fullname="infomation031.中期样本.中期样本号"
+				id="f721dd1f939b476fbc008f8183101c26"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="165"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.977"
+			timeRelativeToTestModuleStartTime="00:19.977"
+			timeWallClock="15:46:18"
+			time="00:19.977"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

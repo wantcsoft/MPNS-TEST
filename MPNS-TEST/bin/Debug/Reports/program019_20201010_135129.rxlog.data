@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14a1540fd068000"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 13:51:30"
+		timestampiso="2020-10-10T05:51:30"
+		endtime="2020/10/10 13:51:34"
+		timeoutfactor="2"
+		module="program019">
+		<detail>
+			program019
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.658"
+			timeRelativeToTestModuleStartTime="00:02.658"
+			timeWallClock="13:51:33"
+			time="00:02.658"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#30830;&#23450;&#28155;&#21152;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']/?/?/input[@type='button']"
+				itempath=".//div[#'SolutionList']/?/?/input[@type='button']"
+				fullname="Infomation.方案.确定添加"
+				id="0952b333f24a44539a7180eccfc213ed"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program019.cs"
+				codeline="256"
+				itemindex="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

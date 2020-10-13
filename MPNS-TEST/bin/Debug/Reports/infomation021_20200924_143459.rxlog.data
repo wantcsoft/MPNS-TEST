@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="84c09b121e8d436"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 14:35:00"
+		timestampiso="2020-09-24T06:35:00"
+		endtime="2020/9/24 14:35:10"
+		timeoutfactor="2"
+		module="infomation021">
+		<detail>
+			infomation021
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.668"
+			timeRelativeToTestModuleStartTime="00:02.668"
+			timeWallClock="14:35:03"
+			time="00:02.668"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'YBH0001' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|SampleID']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|SampleID']"
+				fullname="infomation021.中期样本.中期样本号"
+				id="e240d6d20a8b402da4e1dd6efe080b1b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="117"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.085"
+			timeRelativeToTestModuleStartTime="00:04.085"
+			timeWallClock="14:35:05"
+			time="00:04.085"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '55' on item '&#20013;&#26399;&#26679;&#26412;.&#20307;&#37325;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|Weight']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|Weight']"
+				fullname="infomation021.中期样本.体重"
+				id="d4adddde7ee84e4ba182895b225c540a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="121"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.187"
+			timeRelativeToTestModuleStartTime="00:04.187"
+			timeWallClock="14:35:05"
+			time="00:04.187"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '5' on item '&#20013;&#26399;&#26679;&#26412;.&#23381;&#21608;&#31867;&#22411;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[1]/?/?/select[@name='ed6481ba-ff48-45dc-a811-95903450600e|GestationType']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[1]/?/?/select[@name='ed6481ba-ff48-45dc-a811-95903450600e|GestationType']"
+				fullname="infomation021.中期样本.孕周类型"
+				id="59d16259c0994ce980efdcdd46a17aef"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="125"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.302"
+			timeRelativeToTestModuleStartTime="00:04.302"
+			timeWallClock="14:35:05"
+			time="00:04.302"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '15' on item '&#20013;&#26399;&#26679;&#26412;.&#35780;&#20272;&#23381;&#21608;&#21608;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table//td[@innertext=' 周  天']/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|GestationWeek']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table//td[@innertext=' 周  天']/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|GestationWeek']"
+				fullname="infomation021.中期样本.评估孕周周"
+				id="c27fe81cdcad4c27a117c01164e4a5ca"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="129"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.408"
+			timeRelativeToTestModuleStartTime="00:04.408"
+			timeWallClock="14:35:05"
+			time="00:04.408"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1' on item '&#20013;&#26399;&#26679;&#26412;.&#35780;&#20272;&#23381;&#21608;&#22825;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table//td[@innertext=' 周  天']/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|GestationDay']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table//td[@innertext=' 周  天']/input[@name='ed6481ba-ff48-45dc-a811-95903450600e|GestationDay']"
+				fullname="infomation021.中期样本.评估孕周天"
+				id="5af2cd66103a48f793b3eb9ab74014b1"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="133"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.516"
+			timeRelativeToTestModuleStartTime="00:04.516"
+			timeWallClock="14:35:05"
+			time="00:04.516"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#20445;&#23384;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@name='ed6481ba-ff48-45dc-a811-95903450600e_butSaveSample']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@name='ed6481ba-ff48-45dc-a811-95903450600e_butSaveSample']"
+				fullname="infomation021.中期样本.保存按钮"
+				id="b21e69d77a4241a994a9c93868f4e054"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="137"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.377"
+			timeRelativeToTestModuleStartTime="00:05.377"
+			timeWallClock="14:35:06"
+			time="00:05.377"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="141"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.377"
+			timeRelativeToTestModuleStartTime="00:06.377"
+			timeWallClock="14:35:07"
+			time="00:06.377"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'BLH0001' on item '&#20013;&#26399;&#26679;&#26412;.&#25628;&#32034;&#26694;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'txt_searchKeys']"
+				itempath=".//input[#'txt_searchKeys']"
+				fullname="infomation021.中期样本.搜索框"
+				id="d4ee2f260ce94df984d10a6c89b25092"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="144"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.464"
+			timeRelativeToTestModuleStartTime="00:06.464"
+			timeWallClock="14:35:07"
+			time="00:06.464"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.648"
+			timeRelativeToTestModuleStartTime="00:06.648"
+			timeWallClock="14:35:07"
+			time="00:06.648"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="18"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="152"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.652"
+			timeRelativeToTestModuleStartTime="00:07.652"
+			timeWallClock="14:35:08"
+			time="00:07.652"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'MOZ0001' on item '&#20013;&#26399;&#26679;&#26412;.&#25628;&#32034;&#26694;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'txt_searchKeys']"
+				itempath=".//input[#'txt_searchKeys']"
+				fullname="infomation021.中期样本.搜索框"
+				id="d4ee2f260ce94df984d10a6c89b25092"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="155"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.725"
+			timeRelativeToTestModuleStartTime="00:07.725"
+			timeWallClock="14:35:08"
+			time="00:07.725"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="159"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.906"
+			timeRelativeToTestModuleStartTime="00:07.906"
+			timeWallClock="14:35:08"
+			time="00:07.906"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="21"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="163"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.916"
+			timeRelativeToTestModuleStartTime="00:08.916"
+			timeWallClock="14:35:09"
+			time="00:08.916"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#21608;&#23381;&#22919;' on item '&#20013;&#26399;&#26679;&#26412;.&#25628;&#32034;&#26694;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'txt_searchKeys']"
+				itempath=".//input[#'txt_searchKeys']"
+				fullname="infomation021.中期样本.搜索框"
+				id="d4ee2f260ce94df984d10a6c89b25092"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="166"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.000"
+			timeRelativeToTestModuleStartTime="00:09.000"
+			timeWallClock="14:35:09"
+			time="00:09.000"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="23"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="170"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

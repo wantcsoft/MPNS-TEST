@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8a5477fb331b47e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 10:59:00"
+		timestampiso="2020-09-23T02:59:00"
+		endtime="2020/9/23 10:59:05"
+		timeoutfactor="2"
+		module="Infomation003">
+		<detail>
+			Infomation003
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.720"
+			timeRelativeToTestModuleStartTime="00:02.720"
+			timeWallClock="10:59:03"
+			time="00:02.720"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>registerDate
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.742"
+			timeRelativeToTestModuleStartTime="00:02.742"
+			timeWallClock="10:59:03"
+			time="00:02.742"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Value' from item 'Mozzie&#30331;&#24405;.&#30331;&#35760;&#26085;&#26399;' and assigning its value to variable 'registerDate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'RegisterDate']"
+				itempath=".//input[#'RegisterDate']"
+				fullname="MPNS_TESTRepository.Mozzie登录.登记日期"
+				id="33b2596da7b2422096a3a1c4828d28fb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation003.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.103"
+			timeRelativeToTestModuleStartTime="00:04.103"
+			timeWallClock="10:59:05"
+			time="00:04.103"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$registerDate' on item 'Mozzie&#30331;&#24405;.&#23381;&#22919;&#22995;&#21517;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'FirstName']"
+				itempath=".//input[#'FirstName']"
+				fullname="MPNS_TESTRepository.Mozzie登录.孕妇姓名"
+				id="939bc867274b46b39c8006e123668baf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation003.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

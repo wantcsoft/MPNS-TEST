@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="de0290b4e1fb140"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:37:50"
+		timestampiso="2020-09-28T01:37:50"
+		endtime="2020/9/28 9:37:53"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.577"
+			timeRelativeToTestModuleStartTime="00:02.577"
+			timeWallClock="09:37:53"
+			time="00:02.577"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=600,Y=400}.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.906"
+			timeRelativeToTestModuleStartTime="00:02.906"
+			timeWallClock="09:37:53"
+			time="00:02.906"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Horizontal by 1000 units.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

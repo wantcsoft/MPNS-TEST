@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2a1704d606bb7a66"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:38:51"
+		timestampiso="2020-09-28T01:38:51"
+		endtime="2020/9/28 9:38:56"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.569"
+			timeRelativeToTestModuleStartTime="00:02.569"
+			timeWallClock="09:38:53"
+			time="00:02.569"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=600,Y=400}.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.907"
+			timeRelativeToTestModuleStartTime="00:02.907"
+			timeWallClock="09:38:54"
+			time="00:02.907"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Horizontal by 1000 units.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.210"
+			timeRelativeToTestModuleStartTime="00:03.210"
+			timeWallClock="09:38:54"
+			time="00:03.210"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -2000 units.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.513"
+			timeRelativeToTestModuleStartTime="00:03.513"
+			timeWallClock="09:38:54"
+			time="00:03.513"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item '&#32500;&#25252;&#31649;&#29702;.&#32534;&#36753;NT_E2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']/body/div[2]/form[@action='http://localhost:8016/Parameter/TestItemSet']/?/?/table/?/?/tr/td[2]/div/table/tbody/tr[16]/td[14]"
+				itempath="body/div[2]/form[@action='http://localhost:8016/Parameter/TestItemSet']/?/?/table/?/?/tr/td[2]/div/table/tbody/tr[16]/td[14]"
+				fullname="Infomation.维护管理.编辑NT_E2"
+				id="21d97c3e4b554d7b95cab7c610aa0449"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="117"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

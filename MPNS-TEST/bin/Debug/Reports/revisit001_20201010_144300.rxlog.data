@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="209ab7d73fe4a68b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 14:43:02"
+		timestampiso="2020-10-10T06:43:02"
+		endtime="2020/10/10 14:43:08"
+		timeoutfactor="2"
+		module="revisit001">
+		<detail>
+			revisit001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.761"
+			timeRelativeToTestModuleStartTime="00:02.761"
+			timeWallClock="14:43:04"
+			time="00:02.761"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#31532;&#19968;&#20010;&#22238;&#35775;&#23545;&#35937;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//tbody[#'pregnantentitybody']/?/?/td"
+				itempath=".//tbody[#'pregnantentitybody']/?/?/td"
+				fullname="Infomation.筛查回访.第一个回访对象"
+				id="b523eb33a3754e99853abcc92a696a41"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit001.cs"
+				codeline="193"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.551"
+			timeRelativeToTestModuleStartTime="00:04.551"
+			timeWallClock="14:43:06"
+			time="00:04.551"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="30"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit001.cs"
+				codeline="197"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.856"
+			timeRelativeToTestModuleStartTime="00:04.856"
+			timeWallClock="14:43:06"
+			time="00:04.856"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'diagnoseeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_SaveDiagnose']"
+				itempath=".//form[#'diagnoseeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_SaveDiagnose']"
+				fullname="Infomation.筛查回访.保存"
+				id="f21495bcced14564b5e7702e1e304c1e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit001.cs"
+				codeline="200"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

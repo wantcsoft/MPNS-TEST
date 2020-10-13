@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1bee42b3a73dfa2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 16:24:53"
+		timestampiso="2020-09-24T08:24:53"
+		endtime="2020/9/24 16:24:57"
+		timeoutfactor="2"
+		module="infomation031">
+		<detail>
+			infomation031
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.726"
+			timeRelativeToTestModuleStartTime="00:02.726"
+			timeWallClock="16:24:56"
+			time="00:02.726"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '99' on item '&#20013;&#26399;&#26679;&#26412;.RaceType'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'RaceType']"
+				itempath=".//select[#'RaceType']"
+				fullname="infomation031.中期样本.RaceType"
+				id="25074d3f02ab490c9e76e20a736ade1f"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="227"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

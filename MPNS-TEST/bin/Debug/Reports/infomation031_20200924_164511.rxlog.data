@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7a32e2a00bbc29f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 16:45:13"
+		timestampiso="2020-09-24T08:45:13"
+		endtime="2020/9/24 16:45:17"
+		timeoutfactor="2"
+		module="infomation031">
+		<detail>
+			infomation031
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.623"
+			timeRelativeToTestModuleStartTime="00:02.623"
+			timeWallClock="16:45:15"
+			time="00:02.623"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#20013;&#26399;&#26679;&#26412;.&#26032;&#22686;&#26041;&#26696;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				itempath=".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				fullname="infomation031.中期样本.新增方案"
+				id="609ea9509ef9440f9bca074ad705687e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="214"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.994"
+			timeRelativeToTestModuleStartTime="00:03.994"
+			timeWallClock="16:45:17"
+			time="00:03.994"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#20013;&#26399;&#26679;&#26412;.&#26089;&#26399;&#32852;&#21512;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']/div[1]/ul[1]/?/?/input[@value='13']"
+				itempath=".//div[#'SolutionList']/div[1]/ul[1]/?/?/input[@value='13']"
+				fullname="infomation031.中期样本.早期联合"
+				id="5160222f6cb34ee8a21a6942d94d567b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="218"
+				itemindex="35"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.090"
+			timeRelativeToTestModuleStartTime="00:04.090"
+			timeWallClock="16:45:17"
+			time="00:04.090"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#30830;&#23450;&#26032;&#22686;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']/?/?/input[@type='button']"
+				itempath=".//div[#'SolutionList']/?/?/input[@type='button']"
+				fullname="infomation031.中期样本.确定新增"
+				id="9d050a2f43c34f83b478456ccad2ec8e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="222"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

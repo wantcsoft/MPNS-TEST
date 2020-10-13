@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ebe6437f9d2feb7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 17:54:14"
+		timestampiso="2020-10-09T09:54:14"
+		endtime="2020/10/9 17:54:19"
+		timeoutfactor="2"
+		module="program001">
+		<detail>
+			program001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.665"
+			timeRelativeToTestModuleStartTime="00:02.665"
+			timeWallClock="17:54:17"
+			time="00:02.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[1]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[1]/input"
+				fullname="Infomation.早期样本.计算按钮"
+				id="ffd2e58562f64dbf9774968603cb944c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program001.cs"
+				codeline="144"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.069"
+			timeRelativeToTestModuleStartTime="00:04.069"
+			timeWallClock="17:54:18"
+			time="00:04.069"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#20445;&#23384;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				fullname="Infomation.早期样本.保存按钮"
+				id="6d87e7710eac4f5e967b3bdc39c1208e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program001.cs"
+				codeline="148"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

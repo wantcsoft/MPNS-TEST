@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1bd9ee7187a8652a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 15:21:02"
+		timestampiso="2020-10-12T07:21:02"
+		endtime="2020/10/12 15:21:06"
+		timeoutfactor="2"
+		module="revisit035">
+		<detail>
+			revisit035
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.842"
+			timeRelativeToTestModuleStartTime="00:02.842"
+			timeWallClock="15:21:05"
+			time="00:02.842"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1.5' on item '&#31579;&#26597;&#22238;&#35775;.&#23381;&#21608;&#25968;&#21608;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Childbirth_GestationWeek']"
+				itempath=".//input[#'Childbirth_GestationWeek']"
+				fullname="Infomation.筛查回访.孕周数周"
+				id="bf2fe76b0e1646b8bb890b9b289d2d7e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="139"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.166"
+			timeRelativeToTestModuleStartTime="00:04.166"
+			timeWallClock="15:21:06"
+			time="00:04.166"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '0' on item '&#31579;&#26597;&#22238;&#35775;.&#23381;&#21608;&#25968;&#22825;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Childbirth_GestationDay']"
+				itempath=".//input[#'Childbirth_GestationDay']"
+				fullname="Infomation.筛查回访.孕周数天"
+				id="e3279a1d3a6047d999553070ba470c7c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="143"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

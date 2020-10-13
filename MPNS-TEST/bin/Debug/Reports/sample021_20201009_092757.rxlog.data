@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f03f01d81a1960"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 9:27:58"
+		timestampiso="2020-10-09T01:27:58"
+		endtime="2020/10/9 9:28:02"
+		timeoutfactor="2"
+		module="sample021">
+		<detail>
+			sample021
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.536"
+			timeRelativeToTestModuleStartTime="00:02.536"
+			timeWallClock="09:28:01"
+			time="00:02.536"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#26089;&#26399;&#37319;&#26679;&#26085;&#26399;, &#20013;&#26399;&#37319;&#26679;&#26085;&#26399;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.557"
+			timeRelativeToTestModuleStartTime="00:02.557"
+			timeWallClock="09:28:01"
+			time="00:02.557"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '34234237832984' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input"
+				fullname="Infomation.中期样本.中期样本号"
+				id="f2932e938ced4649aaa0e6ea2b18259a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample021.cs"
+				codeline="200"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.735"
+			timeRelativeToTestModuleStartTime="00:03.735"
+			timeWallClock="09:28:02"
+			time="00:03.735"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Value' from item '&#20013;&#26399;&#26679;&#26412;.&#37319;&#26679;&#26085;&#26399;' and assigning its value to variable '&#20013;&#26399;&#37319;&#26679;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[6]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[6]/input"
+				fullname="Infomation.中期样本.采样日期"
+				id="e7b1aa2749a24249bb4c41d2e9eab685"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample021.cs"
+				codeline="204"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.806"
+			timeRelativeToTestModuleStartTime="00:03.806"
+			timeWallClock="09:28:02"
+			time="00:03.806"
+			level="Info"
+			category="User">
+			<message>
+				2020-10-09
+			</message>
+			<metainfo
+				itemindex="27"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample021.cs"
+				codeline="208"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

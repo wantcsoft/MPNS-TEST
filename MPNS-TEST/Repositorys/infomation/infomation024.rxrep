@@ -1,0 +1,305 @@
+﻿<repository
+id="cf58c3b7-c44b-4f56-af34-9ff9ada2993a"
+name="infomation024">
+	<codegen
+	classname="infomation024"
+	namespace="MPNS_TEST.Repositorys.infomation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2cff6c1c-c5d6-45ba-a0c6-a1c20ca52113"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="fa434f56-77c5-493d-9268-222427114ccc"
+		isrooted="True"
+		name="维护"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="af14041f-7766-4a37-a935-58a8d72444fc"
+			name="维护管理"
+			refimgid="7a8083d0-7771-47e9-b23a-ec40738368bf"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/a[@innertext='维护管理']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='&#32500;&#25252;&#31649;&#29702;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="92af5527-5c64-4f52-9272-62cc937457ed"
+			name="参数信息"
+			refimgid="357ce545-ec25-419f-98f3-833bdf1d8e80"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/div/ul/li[1]/a[@innertext='参数信息']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/div/ul/?/?/a[@innertext='&#21442;&#25968;&#20449;&#24687;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9819e926-3c75-41dd-8dd0-05c01e7d9e08"
+			name="数据来源"
+			refimgid="8312a869-e117-4f36-8a42-cc9d4dd5f9f4"
+			refpath="/dom[@domain='localhost:8016']//div[#'leftcontent']/ul/li[9]/a[@innertext='数据来源']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'leftcontent']//a[@innertext='&#25968;&#25454;&#26469;&#28304;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="45e0355e-70b4-46da-bd42-4b130fe88fd1"
+			name="病历号回车"
+			refimgid="2c7ebd2d-79ef-4719-bc3e-a2f4bb14bc30"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_StartExternalData']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_StartExternalData']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fd0186d7-7a58-4c1e-a24d-0de364ac8f00"
+			name="外部数据接口"
+			refimgid="ab75941e-f373-4b7c-a989-6890c9bfb19e"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_EnableExternalData']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_EnableExternalData']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6f8cd774-615e-4aa5-994d-0a249b2f2a5e"
+			name="读取标记物"
+			refimgid="a90139a9-909a-4e3e-b202-9f10cd067026"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_ExternalRecordType']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_ExternalRecordType']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f65ee4b4-3253-4a99-96b1-3805097b767f"
+			name="替换SQL语句中的起始日期"
+			refimgid="611a58b1-c28a-4eb1-b851-77c61323ae2e"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_ReplDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_ReplDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9a65b12e-2349-494d-99cb-56149441d39b"
+			name="保存按钮"
+			refimgid="57e9a3e2-a194-4e00-adc7-82ed5e319ed8"
+			refpath="/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/input[@type='submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/input[@type='submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b312df2b-c5e6-432b-a24b-c609d74ece90"
+			name="服务器名"
+			refimgid="89ad0643-f9c4-4bf8-a75c-8e13f93db402"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_DatabseServerName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_DatabseServerName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="01360368-267a-43af-9d78-b4923921c270"
+			name="数据库名"
+			refimgid="c1039029-b763-42a9-b035-4e23ffb3b1f0"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_DatabaseName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_DatabaseName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4"
+			name="账户"
+			refimgid="0aeed652-a146-4d41-90fa-cd28865ebb4c"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_DatabaseUserId']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_DatabaseUserId']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4b1e260e-a105-413e-87ce-51a77ca4b3bb"
+			name="密码"
+			refimgid="d7cc62e7-5aa4-4e29-bc61-c102cf6e192e"
+			refpath="/dom[@domain='localhost:8016']//input[#'PatientID_DatabasePassWord']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'PatientID_DatabasePassWord']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="6b2451ec-7612-42d7-b204-991395e94ad0"
+			name="T_SQL语句"
+			refimgid="54ec6fcb-4237-46a7-9b01-ac8f901fc52e"
+			refpath="/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[5]/td/table/tbody/tr/td[2]/textarea[@innertext>'select IDCard,SocialNo,PatientID,FirstName,BirthDate,CheckNo,Diabetes,SmokeHistory,DownsHistory,IVF,GravidNumber,BornNumber,FetalNumber,RegisterDate,SolutionID,BarCode,SampleID,TestDate,SamplingDate,Weight,GestationWeek,GestationDay,GestationType,OriginPlace,Sdoctor,SampleRemark,LMPDate,BPDDate,BPDValue,CRLDate,CRLValue,IVFDate,OPUDate,RaceType']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[5]/?/?/table//textarea[@innertext&gt;'select IDCard,SocialNo,Pa']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="32104d34-f208-49fa-b0b7-00ccdf6c402d"
+			name="测试连接"
+			refimgid="428c1593-d13c-4699-b115-3d3166d0d258"
+			refpath="/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[4]/td/fieldset/table/tbody/tr[6]/td/input[@type='button']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/fieldset[1]/table//fieldset/table/tbody/tr[6]/?/?/input[@type='button']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a7efca04-702f-438e-be5f-6859c2578b63"
+		isrooted="True"
+		name="筛查信息"
+		refimgid="7e233496-6727-42b7-9a6c-96ed8586f411"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f6984859-bfde-4674-9e61-c1cb3a259c66"
+			name="筛查管理"
+			refimgid="f2f70f5f-4e93-4751-8b19-d72629804fae"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[1]/a[@innertext='筛查管理']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='&#31579;&#26597;&#31649;&#29702;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e453ddd0-0b7e-4c8c-9961-38eb0cd79378"
+			name="筛查信息"
+			refimgid="559a72d8-4ea3-414f-8f59-ccb5805b08d7"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[1]/div/ul/li[1]/a[@innertext='筛查信息']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='&#31579;&#26597;&#20449;&#24687;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="939bc867-274b-46b3-9c80-06e123668baf"
+			name="孕妇姓名"
+			refimgid="1516f2d2-5ed9-4949-83f6-cf156c00f87c"
+			refpath="/dom[@domain='localhost:8016']//input[#'FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a8333816-9850-4ae0-b189-8570117a8500"
+			name="出生日期"
+			refimgid="165b4461-bb51-4b51-a53c-85460a191976"
+			refpath="/dom[@domain='localhost:8016']//input[#'BirthDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'BirthDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="14b19b0d-0aaf-464c-954c-cb16168186d7"
+			name="保存按钮"
+			refimgid="534df116-5b51-42a9-a434-1b25bfb7241c"
+			refpath="/dom[@domain='localhost:8016']//input[#'butSavePregnant']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'butSavePregnant']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="44ab4b90-bee2-4097-9b7b-e47d66e7008a"
+		isrooted="True"
+		name="中期样本"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="e8186fbc-549b-472a-8c29-1a81f02d8b27"
+			name="方案名称"
+			refimgid="c01c1c7f-5d7a-4a9c-84f6-5a31ebb981c9"
+			refpath="/dom[@domain='localhost:8016']//select[#'SolutionName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//select[#'SolutionName']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

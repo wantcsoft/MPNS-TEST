@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fc74824fd56790"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/27 10:42:19"
+		timestampiso="2020-09-27T02:42:19"
+		endtime="2020/9/27 10:42:24"
+		timeoutfactor="2"
+		module="sample006">
+		<detail>
+			sample006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.657"
+			timeRelativeToTestModuleStartTime="00:02.657"
+			timeWallClock="10:42:22"
+			time="00:02.657"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#20013;&#26399;&#26679;&#26412;.&#21551;&#29992;BPD&#23381;&#21608;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext='BPD孕周']/input[@class='enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext='BPD孕周']/input[@class='enter']"
+				fullname="sample006.中期样本.启用BPD孕周"
+				id="d55366004de949bbb74a2d5ece942845"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="162"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.830"
+			timeRelativeToTestModuleStartTime="00:03.830"
+			timeWallClock="10:42:23"
+			time="00:03.830"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '19' on item '&#20013;&#26399;&#26679;&#26412;.&#35774;&#32622;BPD&#23381;&#21608;&#21608;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' 周']/input[@class='input-text-screening width35 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' 周']/input[@class='input-text-screening width35 enter']"
+				fullname="sample006.中期样本.设置BPD孕周周"
+				id="dc8851d591eb457ea81640330dafa969"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="166"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.913"
+			timeRelativeToTestModuleStartTime="00:03.913"
+			timeWallClock="10:42:23"
+			time="00:03.913"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '5' on item '&#20013;&#26399;&#26679;&#26412;.&#35774;&#32622;BPD&#23381;&#21608;&#22825;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[4]/td[@innertext=' 天']/input[@class='input-text-screening width35 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[4]/td[@innertext=' 天']/input[@class='input-text-screening width35 enter']"
+				fullname="sample006.中期样本.设置BPD孕周天"
+				id="69d29356fc2941b394ee4a9d241633df"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="170"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.983"
+			timeRelativeToTestModuleStartTime="00:03.983"
+			timeWallClock="10:42:23"
+			time="00:03.983"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Focus() on item '&#20013;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				fullname="sample006.中期样本.计算按钮"
+				id="da51cfab883543a3a3d01ce31a1044cf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="174"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.055"
+			timeRelativeToTestModuleStartTime="00:04.055"
+			timeWallClock="10:42:23"
+			time="00:04.055"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="26"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="178"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.550"
+			timeRelativeToTestModuleStartTime="00:04.550"
+			timeWallClock="10:42:24"
+			time="00:04.550"
+			level="Info"
+			category="User"
+			errimg="images_sample00_db3cb989\sample00_5f64df40_rxlog.jpg"
+			errthumb="images_sample00_db3cb989\sample00_5f64df40_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="27"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="181"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

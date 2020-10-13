@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="40fb1d91d578870"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/22 18:18:45"
+		timestampiso="2020-09-22T10:18:45"
+		endtime="2020/9/22 18:18:49"
+		timeoutfactor="2"
+		module="login">
+		<detail>
+			login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.684"
+			timeRelativeToTestModuleStartTime="00:02.684"
+			timeWallClock="18:18:48"
+			time="00:02.684"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>loginAccount, loginPassword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.707"
+			timeRelativeToTestModuleStartTime="00:02.707"
+			timeWallClock="18:18:48"
+			time="00:02.707"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$loginAccount' on item 'Mozzie&#30331;&#24405;.LoginUserCode'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'LoginUserCode']"
+				itempath=".//input[#'LoginUserCode']"
+				fullname="MPNS_TESTRepository.Mozzie登录.LoginUserCode"
+				id="0b847ded85b5401b9a4d57851893f04e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Login\login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.170"
+			timeRelativeToTestModuleStartTime="00:04.170"
+			timeWallClock="18:18:49"
+			time="00:04.170"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$loginPassword' on item 'Mozzie&#30331;&#24405;.LoginPassWord'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'LoginPassWord']"
+				itempath=".//input[#'LoginPassWord']"
+				fullname="MPNS_TESTRepository.Mozzie登录.LoginPassWord"
+				id="9141bc4ca02844dea2d1a10a2dd2b2cc"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Login\login.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

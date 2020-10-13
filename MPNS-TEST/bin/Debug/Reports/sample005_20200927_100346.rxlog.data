@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="eb1c17ee92b1f80"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/27 10:03:47"
+		timestampiso="2020-09-27T02:03:47"
+		endtime="2020/9/27 10:03:51"
+		timeoutfactor="2"
+		module="sample005">
+		<detail>
+			sample005
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.567"
+			timeRelativeToTestModuleStartTime="00:02.567"
+			timeWallClock="10:03:50"
+			time="00:02.567"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1990-01-01' on item '&#20013;&#26399;&#26679;&#26412;.&#21365;&#23376;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[6]/?/?/input[@class='input-text-screening width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[6]/?/?/input[@class='input-text-screening width80 time enter']"
+				fullname="sample005.中期样本.卵子日期"
+				id="cffb3b8a771142339afa100addaed47f"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample005.cs"
+				codeline="149"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.752"
+			timeRelativeToTestModuleStartTime="00:03.752"
+			timeWallClock="10:03:51"
+			time="00:03.752"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '55' on item '&#20013;&#26399;&#26679;&#26412;.&#20307;&#37325;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@class='input-text-screening required width35 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@class='input-text-screening required width35 enter']"
+				fullname="sample005.中期样本.体重"
+				id="5ed98efae1eb481a913b437f1979b2cb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample005.cs"
+				codeline="153"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.835"
+			timeRelativeToTestModuleStartTime="00:03.835"
+			timeWallClock="10:03:51"
+			time="00:03.835"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '49' on item '&#20013;&#26399;&#26679;&#26412;.AFP_M&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[1]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[1]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample005.中期样本.AFP_M结果"
+				id="bba36a4077df46288b06803a89f42764"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample005.cs"
+				codeline="157"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.918"
+			timeRelativeToTestModuleStartTime="00:03.918"
+			timeWallClock="10:03:51"
+			time="00:03.918"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '33333' on item '&#20013;&#26399;&#26679;&#26412;.tbhCG_M&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[2]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[2]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample005.中期样本.tbhCG_M结果"
+				id="0577ee1259ec449589ca1be0cf8c67f8"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample005.cs"
+				codeline="161"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.994"
+			timeRelativeToTestModuleStartTime="00:03.994"
+			timeWallClock="10:03:51"
+			time="00:03.994"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1' on item '&#20013;&#26399;&#26679;&#26412;.uE3_M&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample005.中期样本.uE3_M结果"
+				id="17287f731ddd43ec82b5919f960fe503"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample005.cs"
+				codeline="165"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="33.45s"
+		durationms="33451"
+		type="root"
+		rid="27d86b5315d5c23"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:50:04"
+		timestampiso="2020-09-28T01:50:04"
+		endtime="2020/9/28 9:50:37"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.536"
+			timeRelativeToTestModuleStartTime="00:02.536"
+			timeWallClock="09:50:06"
+			time="00:02.536"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#32500;&#25252;&#31649;&#29702;.NT_E2&#26089;&#26399;&#29256;&#26412;&#26159;&#21542;&#21487;&#29992;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//input[#'EarlyPeriodEnable']"
+				itempath=".//iframe[#'xubox_iframe2']//input[#'EarlyPeriodEnable']"
+				fullname="Infomation.维护管理.NT_E2早期版本是否可用"
+				id="48f635002f37468bbd219d50593ee925"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.754"
+			timeRelativeToTestModuleStartTime="00:03.754"
+			timeWallClock="09:50:07"
+			time="00:03.754"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#32500;&#25252;&#31649;&#29702;.&#20445;&#23384;NT_E2&#35774;&#32622;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//input[#'butSubmit']"
+				itempath=".//iframe[#'xubox_iframe2']//input[#'butSubmit']"
+				fullname="Infomation.维护管理.保存NT_E2设置"
+				id="7f391556a0304ded863b8980ce5fc9c4"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.849"
+			timeRelativeToTestModuleStartTime="00:03.849"
+			timeWallClock="09:50:07"
+			time="00:03.849"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#31579;&#26597;&#20449;&#24687;.&#31038;&#20445;&#21345;&#20445;&#23384;&#22833;&#36133;&#30830;&#23450;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'xubox_layer1']//a[@innertext='确定']"
+				itempath=".//div[#'xubox_layer1']//a[@innertext='确定']"
+				fullname="Infomation.筛查信息.社保卡保存失败确定"
+				id="c940f0e2dd004a688dcc92ed29b2817b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="124"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.453"
+			timeRelativeToTestModuleStartTime="00:33.453"
+			timeWallClock="09:50:37"
+			time="00:33.453"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

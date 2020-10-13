@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14f8b29a3aef4455"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 14:56:53"
+		timestampiso="2020-10-12T06:56:53"
+		endtime="2020/10/12 14:57:03"
+		timeoutfactor="2"
+		module="revisit033">
+		<detail>
+			revisit033
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.478"
+			timeRelativeToTestModuleStartTime="00:05.478"
+			timeWallClock="14:56:58"
+			time="00:05.478"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20998;&#23081;&#20449;&#24687;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']/body/div[2]/div[2]/table[2]/?/?/tr/td[2]/div[2]/table/tbody/tr[6]/?/?/table//ul/li[3]/a[@innertext='分娩信息']"
+				itempath="body/div[2]/div[2]/table[2]/?/?/tr/td[2]/div[2]/table/tbody/tr[6]/?/?/table//ul/li[3]/a[@innertext='分娩信息']"
+				fullname="Infomation.筛查回访.分娩信息"
+				id="ad541d9b779149debd343e2bba3a47e7"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit033.cs"
+				codeline="163"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.203"
+			timeRelativeToTestModuleStartTime="00:09.203"
+			timeWallClock="14:57:02"
+			time="00:09.203"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '' on item '&#31579;&#26597;&#22238;&#35775;.&#29983;&#20135;&#21307;&#38498;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'Childbirth_HospitalID']"
+				itempath=".//select[#'Childbirth_HospitalID']"
+				fullname="Infomation.筛查回访.生产医院"
+				id="a00ece9b1ef94a818f145cb7b9d38e44"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit033.cs"
+				codeline="167"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.345"
+			timeRelativeToTestModuleStartTime="00:09.345"
+			timeWallClock="14:57:02"
+			time="00:09.345"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20998;&#23081;&#20449;&#24687;&#22238;&#35775;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'childbirtheditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				itempath=".//form[#'childbirtheditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				fullname="Infomation.筛查回访.分娩信息回访保存"
+				id="04e4e32a5b954607aae3e841b45ecdd1"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit033.cs"
+				codeline="171"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

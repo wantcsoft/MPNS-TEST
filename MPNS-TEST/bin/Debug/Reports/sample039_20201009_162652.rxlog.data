@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4ae9a818cc7a628"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 16:26:54"
+		timestampiso="2020-10-09T08:26:54"
+		endtime="2020/10/9 16:26:59"
+		timeoutfactor="2"
+		module="sample039">
+		<detail>
+			sample039
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.672"
+			timeRelativeToTestModuleStartTime="00:02.672"
+			timeWallClock="16:26:57"
+			time="00:02.672"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2004-04-01' on item '&#31579;&#26597;&#20449;&#24687;.&#20986;&#29983;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'BirthDate']"
+				itempath=".//input[#'BirthDate']"
+				fullname="Infomation.筛查信息.出生日期"
+				id="a833381698504ae0b1898570117a8500"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample039.cs"
+				codeline="149"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.899"
+			timeRelativeToTestModuleStartTime="00:03.899"
+			timeWallClock="16:26:58"
+			time="00:03.899"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				fullname="Infomation.中期样本.计算按钮"
+				id="b4d8ed7b3f164b51b4a45008fecb29cb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample039.cs"
+				codeline="153"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.916"
+			timeRelativeToTestModuleStartTime="00:04.916"
+			timeWallClock="16:26:59"
+			time="00:04.916"
+			level="Info"
+			category="User"
+			errimg="images_sample03_587d3c99\sample03_5953ff99_rxlog.jpg"
+			errthumb="images_sample03_587d3c99\sample03_5953ff99_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample039.cs"
+				codeline="157"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1650b4488226d20"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 11:10:02"
+		timestampiso="2020-10-10T03:10:02"
+		endtime="2020/10/10 11:10:10"
+		timeoutfactor="2"
+		module="program014">
+		<detail>
+			program014
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.788"
+			timeRelativeToTestModuleStartTime="00:02.788"
+			timeWallClock="11:10:05"
+			time="00:02.788"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'AllSaveRiskbtn']"
+				itempath=".//input[#'AllSaveRiskbtn']"
+				fullname="Infomation.方案.一键保存"
+				id="831493be6a0d4d27838f5db54997f93c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program014.cs"
+				codeline="163"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.632"
+			timeRelativeToTestModuleStartTime="00:04.632"
+			timeWallClock="11:10:07"
+			time="00:04.632"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="22"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program014.cs"
+				codeline="167"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.641"
+			timeRelativeToTestModuleStartTime="00:07.641"
+			timeWallClock="11:10:10"
+			time="00:07.641"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;&#21518;&#30830;&#35748;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[@class='xubox_layer']//a[@innertext='确定']"
+				itempath=".//div[@class='xubox_layer']//a[@innertext='确定']"
+				fullname="Infomation.方案.一键保存后确认"
+				id="75d68f51643c40d8a24c3d4975b2a1bb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program014.cs"
+				codeline="170"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

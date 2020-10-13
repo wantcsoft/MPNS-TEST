@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c7e6472065bb8e2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 15:03:15"
+		timestampiso="2020-10-10T07:03:15"
+		endtime="2020/10/10 15:03:20"
+		timeoutfactor="2"
+		module="revisit003">
+		<detail>
+			revisit003
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.659"
+			timeRelativeToTestModuleStartTime="00:02.659"
+			timeWallClock="15:03:17"
+			time="00:02.659"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#26446;&#21307;&#29983;' on item '&#31579;&#26597;&#22238;&#35775;.&#22238;&#35775;&#20154;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Diagnose_ReviewUser']"
+				itempath=".//input[#'Diagnose_ReviewUser']"
+				fullname="Infomation.筛查回访.回访人"
+				id="9a86582dbe9e4b9a8031f0b31111db24"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit003.cs"
+				codeline="121"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.937"
+			timeRelativeToTestModuleStartTime="00:03.937"
+			timeWallClock="15:03:18"
+			time="00:03.937"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '&#20998;&#23081;&#20449;&#24687;' on item '&#31579;&#26597;&#22238;&#35775;.&#22791;&#27880;&#20449;&#24687;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//textarea[#'Diagnose_ReviewRemark']"
+				itempath=".//textarea[#'Diagnose_ReviewRemark']"
+				fullname="Infomation.筛查回访.备注信息"
+				id="946d08c0f3a84920862120310d64c6dd"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit003.cs"
+				codeline="125"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.030"
+			timeRelativeToTestModuleStartTime="00:04.030"
+			timeWallClock="15:03:19"
+			time="00:04.030"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'diagnoseeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_SaveDiagnose']"
+				itempath=".//form[#'diagnoseeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_SaveDiagnose']"
+				fullname="Infomation.筛查回访.保存"
+				id="f21495bcced14564b5e7702e1e304c1e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit003.cs"
+				codeline="129"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

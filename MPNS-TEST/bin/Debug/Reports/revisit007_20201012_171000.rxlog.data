@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.97s"
+		durationms="1965"
+		type="root"
+		rid="8bf69ff3d609ebc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 17:10:01"
+		timestampiso="2020-10-12T09:10:01"
+		endtime="2020/10/12 17:10:06"
+		timeoutfactor="2">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.967"
+			timeRelativeToTestModuleStartTime="00:01.967"
+			timeWallClock="17:10:03"
+			time="00:01.967"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.226"
+			timeRelativeToTestModuleStartTime="00:02.226"
+			timeWallClock="17:10:04"
+			time="00:02.226"
+			level="Failure"
+			category="Module"
+			errimg="images_revisit0_440e7fb8\revisit0_440e7fb8_2471cba0_trace.jpg"
+			errthumb="images_revisit0_440e7fb8\revisit0_440e7fb8_2471cba0_trace_thumb.jpg">
+			<message>
+				Failed to load default plugins. Please reinstall Ranorex. Failed to load plugins from assembly 'Ranorex.Plugin.Java, Version=9.1.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a'. Failed to construct plugin 'Ranorex.Plugin.JavaPlugin' from assembly 'Ranorex.Plugin.Java, Version=9.1.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a'. &#27491;&#22312;&#20013;&#27490;&#32447;&#31243;&#12290;
+			</message>
+			<metainfo
+				stacktrace="   在 Ranorex.Core.PluginManager.LoadDefaultPlugins(Boolean nonBlocking)
+   在 Ranorex.Core.PluginManager.LoadDefaultPluginsSuppressible(Boolean nonBlocking)
+   在 Ranorex.Core.ElementEngine.get_Instance()
+   在 Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

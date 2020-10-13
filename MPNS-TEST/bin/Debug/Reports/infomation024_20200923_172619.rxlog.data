@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1dffd638e024ab00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 17:26:21"
+		timestampiso="2020-09-23T09:26:21"
+		endtime="2020/9/23 17:26:26"
+		timeoutfactor="2"
+		module="infomation024">
+		<detail>
+			infomation024
+		</detail>
+		<errormessage>
+			Item 'Infomation.&#32500;&#25252;.&#25968;&#25454;&#26469;&#28304;' is no ATag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.628"
+			timeRelativeToTestModuleStartTime="00:02.628"
+			timeWallClock="17:26:24"
+			time="00:02.628"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#32500;&#25252;.&#32500;&#25252;&#31649;&#29702;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='维护管理']"
+				itempath=".//ul[#'mainmenus']/?/?/a[@innertext='维护管理']"
+				fullname="Infomation.维护.维护管理"
+				id="af14041f77664a37a93558a8d72444fc"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation024.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.471"
+			timeRelativeToTestModuleStartTime="00:04.471"
+			timeWallClock="17:26:25"
+			time="00:04.471"
+			level="Info"
+			category="Mouse"
+			errimg="images_infomati_134523cc\infomati_134523cc_e05caf8a_trace.jpg"
+			errthumb="images_infomati_134523cc\infomati_134523cc_e05caf8a_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item '&#32500;&#25252;.&#21442;&#25968;&#20449;&#24687;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/div/ul/?/?/a[@innertext='参数信息']"
+				itempath=".//ul[#'mainmenus']/li[5]/div/ul/?/?/a[@innertext='参数信息']"
+				fullname="Infomation.维护.参数信息"
+				id="92af55275c644f52927262cc937457ed"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation024.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.085"
+			timeRelativeToTestModuleStartTime="00:05.085"
+			timeWallClock="17:26:26"
+			time="00:05.085"
+			level="Info"
+			category="Mouse"
+			errimg="images_infomati_134523cc\infomati_134523cc_db0730ef_trace.jpg"
+			errthumb="images_infomati_134523cc\infomati_134523cc_db0730ef_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item '&#32500;&#25252;.&#25968;&#25454;&#26469;&#28304;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'leftcontent']//a[@innertext='数据来源']"
+				itempath=".//div[#'leftcontent']//a[@innertext='数据来源']"
+				fullname="Infomation.维护.数据来源"
+				id="9819e9263c7541dd8dd005c01e7d9e08"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation024.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.247"
+			timeRelativeToTestModuleStartTime="00:05.247"
+			timeWallClock="17:26:26"
+			time="00:05.247"
+			level="Error"
+			category="Module"
+			errimg="images_infomati_134523cc\infomati_134523cc_1fe77699_trace.jpg"
+			errthumb="images_infomati_134523cc\infomati_134523cc_1fe77699_trace_thumb.jpg">
+			<message>
+				Item 'Infomation.&#32500;&#25252;.&#25968;&#25454;&#26469;&#28304;' is no ATag.<br/>The element does not support the required capability 'atag'.
+			</message>
+			<metainfo
+				stacktrace="   在 Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   在 Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   在 Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   在 Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   在 Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   在 Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   在 MPNS_TEST.Repositorys.InfomationFolders.维护AppFolder.get_数据来源() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Repositorys\Infomation.cs:行号 1670&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.Infomation.infomation024.Ranorex.Core.Testing.ITestModule.Run() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation024.cs:行号 91&#13;&#10;   在 Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Repositorys\Infomation.cs"
+				codeline="1670"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

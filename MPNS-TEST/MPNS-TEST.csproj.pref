@@ -1,0 +1,13 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Models\Screening-Management\revisit\revisit043.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Models\Screening-Management\revisit\revisit042.rxrec" />
+    <Element value="Models\Screening-Management\revisit\revisit043.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

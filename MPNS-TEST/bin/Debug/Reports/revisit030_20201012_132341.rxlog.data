@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="335f1f919ae021f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 13:23:43"
+		timestampiso="2020-10-12T05:23:43"
+		endtime="2020/10/12 13:23:47"
+		timeoutfactor="2"
+		module="revisit030">
+		<detail>
+			revisit030
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.636"
+			timeRelativeToTestModuleStartTime="00:02.636"
+			timeWallClock="13:23:46"
+			time="00:02.636"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1234567890123456789012345678901' on item '&#31579;&#26597;&#22238;&#35775;.&#22238;&#35775;&#20154;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Diagnose_ReviewUser']"
+				itempath=".//input[#'Diagnose_ReviewUser']"
+				fullname="Infomation.筛查回访.回访人"
+				id="9a86582dbe9e4b9a8031f0b31111db24"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit030.cs"
+				codeline="127"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

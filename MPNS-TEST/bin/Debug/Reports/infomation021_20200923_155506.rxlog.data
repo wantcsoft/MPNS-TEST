@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bf7a1898971e564"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 15:55:08"
+		timestampiso="2020-09-23T07:55:08"
+		endtime="2020/9/23 15:55:12"
+		timeoutfactor="2"
+		module="infomation021">
+		<detail>
+			infomation021
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.584"
+			timeRelativeToTestModuleStartTime="00:02.584"
+			timeWallClock="15:55:11"
+			time="00:02.584"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'YBH0001' on item '&#32500;&#25252;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@name='be3c351d-1b35-4147-893b-3b83c087b987|SampleID']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@name='be3c351d-1b35-4147-893b-3b83c087b987|SampleID']"
+				fullname="Infomation.维护.中期样本号"
+				id="9f3e5412c90d42e4b8a18ae3394ce33d"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.980"
+			timeRelativeToTestModuleStartTime="00:03.980"
+			timeWallClock="15:55:12"
+			time="00:03.980"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '55' on item '&#32500;&#25252;.&#20307;&#37325;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@name='be3c351d-1b35-4147-893b-3b83c087b987|Weight']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@name='be3c351d-1b35-4147-893b-3b83c087b987|Weight']"
+				fullname="Infomation.维护.体重"
+				id="2145523e542b444d9052a067b222a6cd"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

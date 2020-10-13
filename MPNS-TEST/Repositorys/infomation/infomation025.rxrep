@@ -1,0 +1,78 @@
+﻿<repository
+id="285802bd-3a77-48ac-bc58-f1b65c896f84"
+name="infomation025">
+	<codegen
+	classname="infomation025"
+	namespace="MPNS_TEST.Repositorys.infomation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4554c9ef-17bf-4c50-b658-cad65e01d86e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="fa434f56-77c5-493d-9268-222427114ccc"
+		isrooted="True"
+		name="维护"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="af14041f-7766-4a37-a935-58a8d72444fc"
+			name="维护管理"
+			refimgid="7a8083d0-7771-47e9-b23a-ec40738368bf"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/a[@innertext='维护管理']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='&#32500;&#25252;&#31649;&#29702;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="92af5527-5c64-4f52-9272-62cc937457ed"
+			name="参数信息"
+			refimgid="357ce545-ec25-419f-98f3-833bdf1d8e80"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/div/ul/li[1]/a[@innertext='参数信息']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[5]/div/ul/?/?/a[@innertext='&#21442;&#25968;&#20449;&#24687;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9819e926-3c75-41dd-8dd0-05c01e7d9e08"
+			name="数据来源"
+			refimgid="8312a869-e117-4f36-8a42-cc9d4dd5f9f4"
+			refpath="/dom[@domain='localhost:8016']//div[#'leftcontent']/ul/li[9]/a[@innertext='数据来源']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'leftcontent']//a[@innertext='&#25968;&#25454;&#26469;&#28304;']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

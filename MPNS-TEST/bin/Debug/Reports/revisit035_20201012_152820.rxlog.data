@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="304383b235cbbdec"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 15:28:22"
+		timestampiso="2020-10-12T07:28:22"
+		endtime="2020/10/12 15:28:28"
+		timeoutfactor="2"
+		module="revisit035">
+		<detail>
+			revisit035
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.675"
+			timeRelativeToTestModuleStartTime="00:02.675"
+			timeWallClock="15:28:25"
+			time="00:02.675"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '-1' on item '&#31579;&#26597;&#22238;&#35775;.&#23381;&#21608;&#25968;&#21608;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Childbirth_GestationWeek']"
+				itempath=".//input[#'Childbirth_GestationWeek']"
+				fullname="Infomation.筛查回访.孕周数周"
+				id="bf2fe76b0e1646b8bb890b9b289d2d7e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="177"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.981"
+			timeRelativeToTestModuleStartTime="00:03.981"
+			timeWallClock="15:28:26"
+			time="00:03.981"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '0' on item '&#31579;&#26597;&#22238;&#35775;.&#23381;&#21608;&#25968;&#22825;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Childbirth_GestationDay']"
+				itempath=".//input[#'Childbirth_GestationDay']"
+				fullname="Infomation.筛查回访.孕周数天"
+				id="e3279a1d3a6047d999553070ba470c7c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="181"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.087"
+			timeRelativeToTestModuleStartTime="00:04.087"
+			timeWallClock="15:28:26"
+			time="00:04.087"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20998;&#23081;&#20449;&#24687;&#22238;&#35775;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'childbirtheditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				itempath=".//form[#'childbirtheditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				fullname="Infomation.筛查回访.分娩信息回访保存"
+				id="04e4e32a5b954607aae3e841b45ecdd1"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="185"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.323"
+			timeRelativeToTestModuleStartTime="00:05.323"
+			timeWallClock="15:28:27"
+			time="00:05.323"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="28"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="189"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.631"
+			timeRelativeToTestModuleStartTime="00:05.631"
+			timeWallClock="15:28:28"
+			time="00:05.631"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="29"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit035.cs"
+				codeline="192"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.04s"
+		durationms="25040"
+		type="root"
+		rid="9d0d22e48d4efe0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/30 15:38:39"
+		timestampiso="2020-09-30T07:38:39"
+		endtime="2020/9/30 15:39:04"
+		timeoutfactor="2"
+		module="sample019">
+		<detail>
+			sample019
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.843"
+			timeRelativeToTestModuleStartTime="00:04.843"
+			timeWallClock="15:38:44"
+			time="00:04.843"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#36865;&#26816;&#21307;&#29983;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/td[@innertext='送检医生']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/td[@innertext='送检医生']"
+				fullname="Infomation.早期样本.送检医生"
+				id="291ab64b70ca40e5b9a8b6d476df42bf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="136"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.041"
+			timeRelativeToTestModuleStartTime="00:25.041"
+			timeWallClock="15:39:04"
+			time="00:25.041"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

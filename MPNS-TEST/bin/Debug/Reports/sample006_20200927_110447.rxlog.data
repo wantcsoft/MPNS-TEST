@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="189ea9df18821a47"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/27 11:04:48"
+		timestampiso="2020-09-27T03:04:48"
+		endtime="2020/9/27 11:04:53"
+		timeoutfactor="2"
+		module="sample006">
+		<detail>
+			sample006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.600"
+			timeRelativeToTestModuleStartTime="00:02.600"
+			timeWallClock="11:04:51"
+			time="00:02.600"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#26032;&#22686;&#20013;&#26399;&#26679;&#26412;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']"
+				itempath=".//input[#'butInsertMiddleSample']"
+				fullname="sample006.中期样本.新增中期样本"
+				id="54ce9aabcea941449bf6c94d1914a37b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="212"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.393"
+			timeRelativeToTestModuleStartTime="00:04.393"
+			timeWallClock="11:04:52"
+			time="00:04.393"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '345354654657' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width185 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width185 enter']"
+				fullname="sample006.中期样本.中期样本号"
+				id="83222d8f719f4573a5dc58a790934c29"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="216"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.731"
+			timeRelativeToTestModuleStartTime="00:04.731"
+			timeWallClock="11:04:53"
+			time="00:04.731"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-21' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#37319;&#26679;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/?/?/input[@class='input-text-screening required width80 time enter']"
+				fullname="sample006.中期样本.中期采样日期"
+				id="ede246d6cdac4e84a108c43a71b334bc"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="220"
+				itemindex="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.812"
+			timeRelativeToTestModuleStartTime="00:04.812"
+			timeWallClock="11:04:53"
+			time="00:04.812"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-21' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#27979;&#35797;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@class='input-text-screening required width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table//td[@innertext=' (Kg) ']/input[@class='input-text-screening required width80 time enter']"
+				fullname="sample006.中期样本.中期测试日期"
+				id="de6d232c5c704ca28b3da822c144db53"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="224"
+				itemindex="39"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.895"
+			timeRelativeToTestModuleStartTime="00:04.895"
+			timeWallClock="11:04:53"
+			time="00:04.895"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-21' on item '&#20013;&#26399;&#26679;&#26412;.CRL&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[2]/input"
+				fullname="sample006.中期样本.CRL日期"
+				id="5e40ddd686f04c0289d5f0bd56289e71"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="228"
+				itemindex="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.968"
+			timeRelativeToTestModuleStartTime="00:04.968"
+			timeWallClock="11:04:53"
+			time="00:04.968"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '82' on item '&#20013;&#26399;&#26679;&#26412;.CRL&#38271;&#24230;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[4]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[4]/input"
+				fullname="sample006.中期样本.CRL长度"
+				id="7acd225a94f4444084cc474318f7309d"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample006.cs"
+				codeline="232"
+				itemindex="41"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

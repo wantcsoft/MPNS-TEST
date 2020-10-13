@@ -1,0 +1,10 @@
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\MPNS_TEST.rxtmg
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\MPNS_TEST.rxtst
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\MPNS-TEST.exe.config
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\MPNS-TEST.xml
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\MPNS-TEST.exe
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\MPNS-TEST.pdb
+D:\testProject\MPNS-TEST\MPNS-TEST\bin\Debug\Ranorex.Core.Resolver.dll
+D:\testProject\MPNS-TEST\MPNS-TEST\obj\x86\Debug\MPNS-TEST.csprojResolveAssemblyReference.cache
+D:\testProject\MPNS-TEST\MPNS-TEST\obj\x86\Debug\MPNS-TEST.exe
+D:\testProject\MPNS-TEST\MPNS-TEST\obj\x86\Debug\MPNS-TEST.pdb

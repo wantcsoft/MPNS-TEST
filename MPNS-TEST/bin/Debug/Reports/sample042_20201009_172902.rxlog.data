@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c9e25538f07c55e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 17:29:04"
+		timestampiso="2020-10-09T09:29:04"
+		endtime="2020/10/9 17:29:10"
+		timeoutfactor="2"
+		module="sample042">
+		<detail>
+			sample042
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.895"
+			timeRelativeToTestModuleStartTime="00:02.895"
+			timeWallClock="17:29:07"
+			time="00:02.895"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#26032;&#22686;&#20013;&#26399;&#26679;&#26412;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']"
+				itempath=".//input[#'butInsertMiddleSample']"
+				fullname="Infomation.中期样本.新增中期样本"
+				id="54ce9aabcea941449bf6c94d1914a37b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="151"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.735"
+			timeRelativeToTestModuleStartTime="00:04.735"
+			timeWallClock="17:29:09"
+			time="00:04.735"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="155"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.039"
+			timeRelativeToTestModuleStartTime="00:05.039"
+			timeWallClock="17:29:09"
+			time="00:05.039"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1000 units.
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="158"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.340"
+			timeRelativeToTestModuleStartTime="00:05.340"
+			timeWallClock="17:29:09"
+			time="00:05.340"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'YBH00010' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input"
+				fullname="Infomation.中期样本.中期样本号"
+				id="f2932e938ced4649aaa0e6ea2b18259a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="162"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.458"
+			timeRelativeToTestModuleStartTime="00:05.458"
+			timeWallClock="17:29:09"
+			time="00:05.458"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '44' on item '&#20013;&#26399;&#26679;&#26412;.&#20307;&#37325;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[8]/input[2]"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[8]/input[2]"
+				fullname="Infomation.中期样本.体重"
+				id="8192c9ad5da846068dd96d887837523e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="166"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.548"
+			timeRelativeToTestModuleStartTime="00:05.548"
+			timeWallClock="17:29:09"
+			time="00:05.548"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '3' on item '&#20013;&#26399;&#26679;&#26412;.&#23381;&#21608;&#31867;&#22411;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample0_tableleft']//tr[1]/td[2]/select"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample0_tableleft']//tr[1]/td[2]/select"
+				fullname="Infomation.中期样本.孕周类型"
+				id="8c3c0d4ea5674c98ba8fd1acb4106e65"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="170"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.646"
+			timeRelativeToTestModuleStartTime="00:05.646"
+			timeWallClock="17:29:09"
+			time="00:05.646"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'barcode00009' on item '&#20013;&#26399;&#26679;&#26412;.&#26465;&#24418;&#30721;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[4]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[4]/input"
+				fullname="Infomation.中期样本.条形码"
+				id="baa6f3d19eb240f6987e04bba4d683d7"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample042.cs"
+				codeline="174"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

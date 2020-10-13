@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f23dbee0069d040"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 14:58:05"
+		timestampiso="2020-10-10T06:58:05"
+		endtime="2020/10/10 14:58:10"
+		timeoutfactor="2"
+		module="revisit003">
+		<detail>
+			revisit003
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.986"
+			timeRelativeToTestModuleStartTime="00:02.986"
+			timeWallClock="14:58:08"
+			time="00:02.986"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '0' on item '&#31579;&#26597;&#22238;&#35775;.N21&#19977;&#20307;&#23454;&#38469;&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'Diagnose_DownsRevResult']"
+				itempath=".//select[#'Diagnose_DownsRevResult']"
+				fullname="Infomation.筛查回访.N21三体实际结果"
+				id="ecd2cb2ab75a47d28202f3da547a8920"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit003.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.400"
+			timeRelativeToTestModuleStartTime="00:04.400"
+			timeWallClock="14:58:10"
+			time="00:04.400"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '0' on item '&#31579;&#26597;&#22238;&#35775;.ONTD&#23454;&#38469;&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'diagnoseeditform']/table/?/?/tr/td[1]/table/tbody/tr[1]/?/?/select[@name='Diagnose_ONTDRevResult']"
+				itempath=".//form[#'diagnoseeditform']/table/?/?/tr/td[1]/table/tbody/tr[1]/?/?/select[@name='Diagnose_ONTDRevResult']"
+				fullname="Infomation.筛查回访.ONTD实际结果"
+				id="d593d8b8793f4a0bb2f7cc0aa0ae48b5"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit003.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.510"
+			timeRelativeToTestModuleStartTime="00:04.510"
+			timeWallClock="14:58:10"
+			time="00:04.510"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '0' on item '&#31579;&#26597;&#22238;&#35775;.N18&#19977;&#20307;&#23454;&#38469;&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'Diagnose_TrisomyRevResult']"
+				itempath=".//select[#'Diagnose_TrisomyRevResult']"
+				fullname="Infomation.筛查回访.N18三体实际结果"
+				id="84e1535bb521424095e5ec0e3189d97a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit003.cs"
+				codeline="117"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

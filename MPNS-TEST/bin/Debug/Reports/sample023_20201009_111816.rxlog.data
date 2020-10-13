@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1dcfc8c78a24b4e2"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 11:18:17"
+		timestampiso="2020-10-09T03:18:17"
+		endtime="2020/10/9 11:18:22"
+		timeoutfactor="2"
+		module="sample023">
+		<detail>
+			sample023
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.586"
+			timeRelativeToTestModuleStartTime="00:02.586"
+			timeWallClock="11:18:20"
+			time="00:02.586"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#26089;&#26399;LMP&#26085;&#26399;, &#20013;&#26399;LMP&#26085;&#26399;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.608"
+			timeRelativeToTestModuleStartTime="00:02.608"
+			timeWallClock="11:18:20"
+			time="00:02.608"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				fullname="Infomation.中期样本.计算按钮"
+				id="b4d8ed7b3f164b51b4a45008fecb29cb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample023.cs"
+				codeline="208"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.742"
+			timeRelativeToTestModuleStartTime="00:04.742"
+			timeWallClock="11:18:22"
+			time="00:04.742"
+			level="Info"
+			category="User"
+			errimg="images_sample02_7ada798b\sample02_81f5d5f0_rxlog.jpg"
+			errthumb="images_sample02_7ada798b\sample02_81f5d5f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="28"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample023.cs"
+				codeline="212"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

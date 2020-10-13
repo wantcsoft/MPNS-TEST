@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="05a8db7a-197e-49fb-82aa-fd30821efe20"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="MPNS_TEST">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="firefox"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://localhost:8016/Home/Login
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="fd2f2c0c-6e83-4439-b8e0-83cf60e9e742"
+	name="Infomation"
+	relativepath="Repositorys\Infomation.rxrep">
+		<codegen
+		classname="Infomation"
+		namespace="MPNS_TEST.Repositorys">
+		</codegen>
+		<rootfolder
+		id="56c51c45-13de-46e4-8e1e-ce761c536d7f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

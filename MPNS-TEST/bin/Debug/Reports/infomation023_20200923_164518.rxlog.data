@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="289d9b691392f2d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 16:45:19"
+		timestampiso="2020-09-23T08:45:19"
+		endtime="2020/9/23 16:45:25"
+		timeoutfactor="2"
+		module="infomation023">
+		<detail>
+			infomation023
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.654"
+			timeRelativeToTestModuleStartTime="00:02.654"
+			timeWallClock="16:45:22"
+			time="00:02.654"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39640;&#32423;&#26597;&#35810;.&#25628;&#32034;&#21040;&#30340;&#31532;&#19968;&#20154;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//tbody[#'pregnantentitybody']/tr//p[@title='周孕妇']"
+				itempath=".//tbody[#'pregnantentitybody']/tr//p[@title='周孕妇']"
+				fullname="Infomation.高级查询.搜索到的第一人"
+				id="49829bcf990a45dd8202571cdffb5b12"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation023.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.726"
+			timeRelativeToTestModuleStartTime="00:04.726"
+			timeWallClock="16:45:24"
+			time="00:04.726"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39640;&#32423;&#26597;&#35810;.&#26085;&#24535;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butBusinessLog']"
+				itempath=".//input[#'butBusinessLog']"
+				fullname="Infomation.高级查询.日志"
+				id="7f9c09c4ffda4ea28b5cf05d8432cb5f"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation023.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

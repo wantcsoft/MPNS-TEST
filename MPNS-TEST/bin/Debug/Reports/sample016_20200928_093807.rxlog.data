@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7664dfa0e3b1dd4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:38:09"
+		timestampiso="2020-09-28T01:38:09"
+		endtime="2020/9/28 9:38:15"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.829"
+			timeRelativeToTestModuleStartTime="00:04.829"
+			timeWallClock="09:38:14"
+			time="00:04.829"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move at {X=600,Y=400}.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.152"
+			timeRelativeToTestModuleStartTime="00:05.152"
+			timeWallClock="09:38:14"
+			time="00:05.152"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Horizontal by 1000 units.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.457"
+			timeRelativeToTestModuleStartTime="00:05.457"
+			timeWallClock="09:38:14"
+			time="00:05.457"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -2000 units.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

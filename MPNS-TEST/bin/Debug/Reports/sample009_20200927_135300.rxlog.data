@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="257fedb482af59a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/27 13:53:02"
+		timestampiso="2020-09-27T05:53:02"
+		endtime="2020/9/27 13:53:06"
+		timeoutfactor="2"
+		module="sample009">
+		<detail>
+			sample009
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.652"
+			timeRelativeToTestModuleStartTime="00:02.652"
+			timeWallClock="13:53:05"
+			time="00:02.652"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-09-26' on item '&#20013;&#26399;&#26679;&#26412;.CRL&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[2]/input"
+				fullname="sample009.中期样本.CRL日期"
+				id="5e40ddd686f04c0289d5f0bd56289e71"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample009.cs"
+				codeline="211"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.910"
+			timeRelativeToTestModuleStartTime="00:03.910"
+			timeWallClock="13:53:06"
+			time="00:03.910"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '68' on item '&#20013;&#26399;&#26679;&#26412;.CRL&#38271;&#24230;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[4]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/td[4]/input"
+				fullname="sample009.中期样本.CRL长度"
+				id="7acd225a94f4444084cc474318f7309d"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample009.cs"
+				codeline="215"
+				itemindex="35"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

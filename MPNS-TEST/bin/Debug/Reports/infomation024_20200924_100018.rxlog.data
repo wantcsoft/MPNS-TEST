@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="aa4b9b29dad433"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 10:00:20"
+		timestampiso="2020-09-24T02:00:20"
+		endtime="2020/9/24 10:00:23"
+		timeoutfactor="2"
+		module="infomation024">
+		<detail>
+			infomation024
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.528"
+			timeRelativeToTestModuleStartTime="00:02.528"
+			timeWallClock="10:00:22"
+			time="00:02.528"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '20' on item '&#20013;&#26399;&#26679;&#26412;.&#26041;&#26696;&#21517;&#31216;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'SolutionName']"
+				itempath=".//select[#'SolutionName']"
+				fullname="Infomation.中期样本.方案名称"
+				id="e8186fbc549b472a8c291a81f02d8b27"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation024.cs"
+				codeline="174"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

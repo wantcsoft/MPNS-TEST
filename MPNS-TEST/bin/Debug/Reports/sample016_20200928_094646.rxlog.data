@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15aacf603b93baa7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:46:48"
+		timestampiso="2020-09-28T01:46:48"
+		endtime="2020/9/28 9:46:52"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.525"
+			timeRelativeToTestModuleStartTime="00:02.525"
+			timeWallClock="09:46:51"
+			time="00:02.525"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#32500;&#25252;&#31649;&#29702;.NT_E2&#26089;&#26399;&#29256;&#26412;&#26159;&#21542;&#21487;&#29992;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//input[#'EarlyPeriodEnable']"
+				itempath=".//iframe[#'xubox_iframe2']//input[#'EarlyPeriodEnable']"
+				fullname="Infomation.维护管理.NT_E2早期版本是否可用"
+				id="48f635002f37468bbd219d50593ee925"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

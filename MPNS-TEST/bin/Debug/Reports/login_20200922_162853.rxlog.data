@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="27.02s"
+		durationms="27016"
+		type="root"
+		rid="1cc62c3896ba8458"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/22 16:28:55"
+		timestampiso="2020-09-22T08:28:55"
+		endtime="2020/9/22 16:29:22"
+		timeoutfactor="2"
+		module="login">
+		<detail>
+			login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.811"
+			timeRelativeToTestModuleStartTime="00:04.811"
+			timeWallClock="16:29:00"
+			time="00:04.811"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '101001' on item 'ApplicationUnderTest.Text&#36134;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost']//input[#'LoginUserCode']"
+				itempath=".//input[#'LoginUserCode']"
+				fullname="MPNS_TESTRepository.ApplicationUnderTest.Text账号"
+				id="b517e80f39314a9aab157cc75aad4cf9"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Login\login.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.017"
+			timeRelativeToTestModuleStartTime="00:27.017"
+			timeWallClock="16:29:22"
+			time="00:27.017"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

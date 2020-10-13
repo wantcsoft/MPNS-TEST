@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7b631101fbd405c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 15:16:01"
+		timestampiso="2020-10-12T07:16:01"
+		endtime="2020/10/12 15:16:06"
+		timeoutfactor="2"
+		module="revisit034">
+		<detail>
+			revisit034
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.007"
+			timeRelativeToTestModuleStartTime="00:03.007"
+			timeWallClock="15:16:04"
+			time="00:03.007"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '' on item '&#31579;&#26597;&#22238;&#35775;.&#20998;&#23081;&#26041;&#24335;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'Childbirth_ChildbirthType']"
+				itempath=".//select[#'Childbirth_ChildbirthType']"
+				fullname="Infomation.筛查回访.分娩方式"
+				id="f944c13eef3843d28df68960562ce8b1"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit034.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.329"
+			timeRelativeToTestModuleStartTime="00:04.329"
+			timeWallClock="15:16:05"
+			time="00:04.329"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20998;&#23081;&#20449;&#24687;&#22238;&#35775;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'childbirtheditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				itempath=".//form[#'childbirtheditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				fullname="Infomation.筛查回访.分娩信息回访保存"
+				id="04e4e32a5b954607aae3e841b45ecdd1"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit034.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b6278391bc7d55e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 16:25:36"
+		timestampiso="2020-10-09T08:25:36"
+		endtime="2020/10/9 16:25:40"
+		timeoutfactor="2"
+		module="sample039">
+		<detail>
+			sample039
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.722"
+			timeRelativeToTestModuleStartTime="00:02.722"
+			timeWallClock="16:25:39"
+			time="00:02.722"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2004-04-01' on item '&#31579;&#26597;&#20449;&#24687;.&#20986;&#29983;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'BirthDate']"
+				itempath=".//input[#'BirthDate']"
+				fullname="Infomation.筛查信息.出生日期"
+				id="a833381698504ae0b1898570117a8500"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample039.cs"
+				codeline="149"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

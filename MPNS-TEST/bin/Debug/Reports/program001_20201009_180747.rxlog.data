@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="122c54eeca1fc32b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 18:07:49"
+		timestampiso="2020-10-09T10:07:49"
+		endtime="2020/10/9 18:07:56"
+		timeoutfactor="2"
+		module="program001">
+		<detail>
+			program001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.869"
+			timeRelativeToTestModuleStartTime="00:04.869"
+			timeWallClock="18:07:54"
+			time="00:04.869"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#26041;&#26696;.&#22686;&#21152;&#26041;&#26696;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				itempath=".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				fullname="Infomation.方案.增加方案"
+				id="bcc01d5b6fe14175aa174119b6efebb0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program001.cs"
+				codeline="206"
+				itemindex="32"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.213"
+			timeRelativeToTestModuleStartTime="00:06.213"
+			timeWallClock="18:07:55"
+			time="00:06.213"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#30830;&#23450;&#28155;&#21152;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']/?/?/input[@type='button']"
+				itempath=".//div[#'SolutionList']/?/?/input[@type='button']"
+				fullname="Infomation.方案.确定添加"
+				id="0952b333f24a44539a7180eccfc213ed"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program001.cs"
+				codeline="210"
+				itemindex="33"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.17s"
+		durationms="12166"
+		type="root"
+		rid="64af2f07e322648"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/24 15:28:43"
+		timestampiso="2020-09-24T07:28:43"
+		endtime="2020/9/24 15:28:55"
+		timeoutfactor="2"
+		module="infomation031">
+		<detail>
+			infomation031
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.245"
+			timeRelativeToTestModuleStartTime="00:03.245"
+			timeWallClock="15:28:46"
+			time="00:03.245"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '10202103120012' on item '&#26089;&#26399;&#26679;&#26412;.&#26089;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/?/?/input[@name='97ff4da3-e2ae-42c5-8b3b-b81a7309a670|SampleID']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/?/?/input[@name='97ff4da3-e2ae-42c5-8b3b-b81a7309a670|SampleID']"
+				fullname="infomation031.早期样本.早期样本号"
+				id="7f4459960ad94eed9e2fbacd7544668a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.054"
+			timeRelativeToTestModuleStartTime="00:05.054"
+			timeWallClock="15:28:48"
+			time="00:05.054"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-09-26' on item '&#26089;&#26399;&#26679;&#26412;.&#37319;&#26679;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/?/?/input[@name='fd001fe8-63aa-4dc5-955c-94c7da43f348|SamplingDate']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/?/?/input[@name='fd001fe8-63aa-4dc5-955c-94c7da43f348|SamplingDate']"
+				fullname="infomation031.早期样本.采样日期"
+				id="56103ddd8c0041cdb64afd6c137863e7"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation031.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.168"
+			timeRelativeToTestModuleStartTime="00:12.168"
+			timeWallClock="15:28:55"
+			time="00:12.168"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

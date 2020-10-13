@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="27f0179737a86320"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/30 15:57:33"
+		timestampiso="2020-09-30T07:57:33"
+		endtime="2020/9/30 15:57:42"
+		timeoutfactor="2"
+		module="sample019">
+		<detail>
+			sample019
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.770"
+			timeRelativeToTestModuleStartTime="00:04.770"
+			timeWallClock="15:57:37"
+			time="00:04.770"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '45' on item '&#26089;&#26399;&#26679;&#26412;.&#20307;&#37325;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/td[8]/input[2]"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[2]/td[8]/input[2]"
+				fullname="Infomation.早期样本.体重"
+				id="265816f374e449838d617555a8af0d43"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="132"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.192"
+			timeRelativeToTestModuleStartTime="00:06.192"
+			timeWallClock="15:57:39"
+			time="00:06.192"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '(null)' on item '&#26089;&#26399;&#26679;&#26412;.&#36865;&#26816;&#21307;&#29983;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				fullname="Infomation.早期样本.送检医生"
+				id="291ab64b70ca40e5b9a8b6d476df42bf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="136"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.298"
+			timeRelativeToTestModuleStartTime="00:06.298"
+			timeWallClock="15:57:39"
+			time="00:06.298"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1234567890123456789012345678901' with focus on '&#26089;&#26399;&#26679;&#26412;.&#36865;&#26816;&#21307;&#29983;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				fullname="Infomation.早期样本.送检医生"
+				id="291ab64b70ca40e5b9a8b6d476df42bf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="140"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.601"
+			timeRelativeToTestModuleStartTime="00:07.601"
+			timeWallClock="15:57:40"
+			time="00:07.601"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#20445;&#23384;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				fullname="Infomation.早期样本.保存按钮"
+				id="6d87e7710eac4f5e967b3bdc39c1208e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="144"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.515"
+			timeRelativeToTestModuleStartTime="00:08.515"
+			timeWallClock="15:57:41"
+			time="00:08.515"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '(null)' on item '&#26089;&#26399;&#26679;&#26412;.&#36865;&#26816;&#21307;&#29983;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				fullname="Infomation.早期样本.送检医生"
+				id="291ab64b70ca40e5b9a8b6d476df42bf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="148"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.625"
+			timeRelativeToTestModuleStartTime="00:08.625"
+			timeWallClock="15:57:41"
+			time="00:08.625"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#20445;&#23384;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				fullname="Infomation.早期样本.保存按钮"
+				id="6d87e7710eac4f5e967b3bdc39c1208e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample019.cs"
+				codeline="152"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

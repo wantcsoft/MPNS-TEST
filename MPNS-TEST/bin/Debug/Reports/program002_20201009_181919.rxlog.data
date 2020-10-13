@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="143b2ca189a178f3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 18:19:21"
+		timestampiso="2020-10-09T10:19:21"
+		endtime="2020/10/9 18:19:27"
+		timeoutfactor="2"
+		module="program002">
+		<detail>
+			program002
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.882"
+			timeRelativeToTestModuleStartTime="00:04.882"
+			timeWallClock="18:19:25"
+			time="00:04.882"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '44' on item '&#26089;&#26399;&#26679;&#26412;.CRL&#38271;&#24230;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/td[4]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/td[4]/input"
+				fullname="Infomation.早期样本.CRL长度"
+				id="76309098831c4afb8b380e4bdc34ca48"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program002.cs"
+				codeline="132"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.168"
+			timeRelativeToTestModuleStartTime="00:06.168"
+			timeWallClock="18:19:27"
+			time="00:06.168"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1' on item '&#26089;&#26399;&#26679;&#26412;.NT_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[1]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[1]/td[3]/input"
+				fullname="Infomation.早期样本.NT_E结果"
+				id="eba162d6c94740008e30e8cf7d6183fb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program002.cs"
+				codeline="136"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.263"
+			timeRelativeToTestModuleStartTime="00:06.263"
+			timeWallClock="18:19:27"
+			time="00:06.263"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '120000' on item '&#26089;&#26399;&#26679;&#26412;.&#21333;&#32974;tbhCG_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[2]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[2]/td[3]/input"
+				fullname="Infomation.早期样本.单胎tbhCG_E结果"
+				id="47afdd2e21b542dea832c1cc421d2270"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program002.cs"
+				codeline="140"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.355"
+			timeRelativeToTestModuleStartTime="00:06.355"
+			timeWallClock="18:19:27"
+			time="00:06.355"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '600' on item '&#26089;&#26399;&#26679;&#26412;.&#21333;&#32974;PAPPA_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[3]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[3]/td[3]/input"
+				fullname="Infomation.早期样本.单胎PAPPA_E结果"
+				id="71cc02f4b4be48d2863470183075de80"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program002.cs"
+				codeline="144"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.446"
+			timeRelativeToTestModuleStartTime="00:06.446"
+			timeWallClock="18:19:27"
+			time="00:06.446"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#26041;&#26696;.&#22686;&#21152;&#26041;&#26696;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				itempath=".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				fullname="Infomation.方案.增加方案"
+				id="bcc01d5b6fe14175aa174119b6efebb0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program002.cs"
+				codeline="148"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

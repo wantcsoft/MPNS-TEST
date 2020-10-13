@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14c1fe9fa67cc66b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/28 9:53:27"
+		timestampiso="2020-09-28T01:53:27"
+		endtime="2020/9/28 9:53:32"
+		timeoutfactor="2"
+		module="sample016">
+		<detail>
+			sample016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.668"
+			timeRelativeToTestModuleStartTime="00:02.668"
+			timeWallClock="09:53:29"
+			time="00:02.668"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#32500;&#25252;&#31649;&#29702;.&#20445;&#23384;&#25104;&#21151;&#30830;&#35748;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[@class='xubox_layer']//span[@class='xubox_botton']/a[@innertext='确定']"
+				itempath=".//div[@class='xubox_layer']//span[@class='xubox_botton']/a[@innertext='确定']"
+				fullname="Infomation.维护管理.保存成功确认"
+				id="dc9f25de78664ab3983e27377f755c47"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample016.cs"
+				codeline="124"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

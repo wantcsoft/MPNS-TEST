@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="30708bfe6df142d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 11:12:15"
+		timestampiso="2020-10-10T03:12:15"
+		endtime="2020/10/10 11:12:19"
+		timeoutfactor="2"
+		module="program014">
+		<detail>
+			program014
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.691"
+			timeRelativeToTestModuleStartTime="00:02.691"
+			timeWallClock="11:12:17"
+			time="00:02.691"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1' on item '&#26089;&#26399;&#26679;&#26412;.NT_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[1]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[1]/td[3]/input"
+				fullname="Infomation.早期样本.NT_E结果"
+				id="eba162d6c94740008e30e8cf7d6183fb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program014.cs"
+				codeline="174"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.942"
+			timeRelativeToTestModuleStartTime="00:03.942"
+			timeWallClock="11:12:19"
+			time="00:03.942"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1.23' on item '&#26089;&#26399;&#26679;&#26412;.&#21452;&#32974;NT_E2&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[2]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[2]/td[3]/input"
+				fullname="Infomation.早期样本.双胎NT_E2结果"
+				id="c447276d2f114d07a33871a564cf7d74"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program014.cs"
+				codeline="178"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.029"
+			timeRelativeToTestModuleStartTime="00:04.029"
+			timeWallClock="11:12:19"
+			time="00:04.029"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'AllSaveRiskbtn']"
+				itempath=".//input[#'AllSaveRiskbtn']"
+				fullname="Infomation.方案.一键保存"
+				id="831493be6a0d4d27838f5db54997f93c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program014.cs"
+				codeline="182"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3f8d1db1057bc2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 14:41:03"
+		timestampiso="2020-10-12T06:41:03"
+		endtime="2020/10/12 14:41:07"
+		timeoutfactor="2"
+		module="revisit033">
+		<detail>
+			revisit033
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.677"
+			timeRelativeToTestModuleStartTime="00:02.677"
+			timeWallClock="14:41:05"
+			time="00:02.677"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20998;&#23081;&#20449;&#24687;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']/body/div[2]/div[2]/table[2]/?/?/tr/td[2]/div[2]/table/tbody/tr[6]/?/?/table//ul/li[3]/a[@innertext='分娩信息']"
+				itempath="body/div[2]/div[2]/table[2]/?/?/tr/td[2]/div[2]/table/tbody/tr[6]/?/?/table//ul/li[3]/a[@innertext='分娩信息']"
+				fullname="Infomation.筛查回访.分娩信息"
+				id="ad541d9b779149debd343e2bba3a47e7"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit033.cs"
+				codeline="163"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.78s"
+		durationms="26780"
+		type="root"
+		rid="6b6bca498c48f28"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/25 15:52:05"
+		timestampiso="2020-09-25T07:52:05"
+		endtime="2020/9/25 15:52:32"
+		timeoutfactor="2"
+		module="sample002">
+		<detail>
+			sample002
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.647"
+			timeRelativeToTestModuleStartTime="00:02.647"
+			timeWallClock="15:52:07"
+			time="00:02.647"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '226' on item '&#26089;&#26399;&#26679;&#26412;.PAPPA_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[8]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[8]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample002.早期样本.PAPPA_E结果"
+				id="231dfac720ef462b863b222b2a9cc989"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.180"
+			timeRelativeToTestModuleStartTime="00:04.180"
+			timeWallClock="15:52:09"
+			time="00:04.180"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-22' on item '&#20013;&#26399;&#26679;&#26412;.CRL&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/?/?/input[@class='input-text-screening width80 time enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[5]/?/?/input[@class='input-text-screening width80 time enter']"
+				fullname="sample002.中期样本.CRL日期"
+				id="f13f371709ff4b58b060bf611990c1ef"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.287"
+			timeRelativeToTestModuleStartTime="00:04.287"
+			timeWallClock="15:52:09"
+			time="00:04.287"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '3' on item '&#20013;&#26399;&#26679;&#26412;.&#23381;&#21608;&#31867;&#22411;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[1]/?/?/select[@class='input-text-screening midforedit required enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/?/?/table/tbody/tr[1]/?/?/select[@class='input-text-screening midforedit required enter']"
+				fullname="sample002.中期样本.孕周类型"
+				id="7f81fe23b20f43768718d93143150590"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.433"
+			timeRelativeToTestModuleStartTime="00:04.433"
+			timeWallClock="15:52:09"
+			time="00:04.433"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#35745;&#31639;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']"
+				fullname="sample002.中期样本.计算按钮"
+				id="da51cfab883543a3a3d01ce31a1044cf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.396"
+			timeRelativeToTestModuleStartTime="00:05.396"
+			timeWallClock="15:52:10"
+			time="00:05.396"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.700"
+			timeRelativeToTestModuleStartTime="00:05.700"
+			timeWallClock="15:52:10"
+			time="00:05.700"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '45' on item '&#20013;&#26399;&#26679;&#26412;.AFP_M&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[1]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[1]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample002.中期样本.AFP_M结果"
+				id="bba36a4077df46288b06803a89f42764"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.812"
+			timeRelativeToTestModuleStartTime="00:05.812"
+			timeWallClock="15:52:11"
+			time="00:05.812"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '33000' on item '&#20013;&#26399;&#26679;&#26412;.tbhCG_M&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[2]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[2]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample002.中期样本.tbhCG_M结果"
+				id="0577ee1259ec449589ca1be0cf8c67f8"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.024"
+			timeRelativeToTestModuleStartTime="00:06.024"
+			timeWallClock="15:52:11"
+			time="00:06.024"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1.3' on item '&#20013;&#26399;&#26679;&#26412;.uE3_M&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[9]/td[2]/table/tbody/tr[3]/td[3]/input[@class='input-text-screening width70 enter']"
+				fullname="sample002.中期样本.uE3_M结果"
+				id="17287f731ddd43ec82b5919f960fe503"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.156"
+			timeRelativeToTestModuleStartTime="00:06.156"
+			timeWallClock="15:52:11"
+			time="00:06.156"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'AllSaveRiskbtn']"
+				itempath=".//input[#'AllSaveRiskbtn']"
+				fullname="sample002.方案.一键保存"
+				id="03bfa8a9f59c438196e0cf94858688a0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.845"
+			timeRelativeToTestModuleStartTime="00:06.845"
+			timeWallClock="15:52:12"
+			time="00:06.845"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.854"
+			timeRelativeToTestModuleStartTime="00:07.854"
+			timeWallClock="15:52:13"
+			time="00:07.854"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#19968;&#38190;&#20445;&#23384;&#21518;&#30830;&#35748;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'xubox_dialog']/a[@innertext='确定']"
+				itempath=".//div[#'xubox_dialog']/a[@innertext='确定']"
+				fullname="sample002.方案.一键保存后确认"
+				id="8dee9f30e0f34397adce885cdc6d30e4"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample002.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.781"
+			timeRelativeToTestModuleStartTime="00:26.781"
+			timeWallClock="15:52:32"
+			time="00:26.781"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

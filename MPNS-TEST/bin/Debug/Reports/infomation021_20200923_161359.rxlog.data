@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6836a0141774d8d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 16:14:01"
+		timestampiso="2020-09-23T08:14:01"
+		endtime="2020/9/23 16:14:04"
+		timeoutfactor="2"
+		module="infomation021">
+		<detail>
+			infomation021
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.565"
+			timeRelativeToTestModuleStartTime="00:02.565"
+			timeWallClock="16:14:03"
+			time="00:02.565"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'BLH0001' on item '&#32500;&#25252;.&#25628;&#32034;&#26694;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'txt_searchKeys']"
+				itempath=".//input[#'txt_searchKeys']"
+				fullname="Infomation.维护.搜索框"
+				id="29ab366f129d4d49ab6be40ac2bb82ac"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="145"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.214"
+			timeRelativeToTestModuleStartTime="00:03.214"
+			timeWallClock="16:14:04"
+			time="00:03.214"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation021.cs"
+				codeline="149"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

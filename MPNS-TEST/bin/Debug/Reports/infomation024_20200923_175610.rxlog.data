@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f146fafa0827530"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 17:56:11"
+		timestampiso="2020-09-23T09:56:11"
+		endtime="2020/9/23 17:56:16"
+		timeoutfactor="2"
+		module="infomation024">
+		<detail>
+			infomation024
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.921"
+			timeRelativeToTestModuleStartTime="00:02.921"
+			timeWallClock="17:56:14"
+			time="00:02.921"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to 'select * FROM T_ForPatientId_BocadeId_Enter where PatientID= #%s# and testdate &gt;= #startDate# and testdate &lt;= #endDate#' on item '&#32500;&#25252;.T_SQL&#35821;&#21477;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[5]/?/?/table//textarea[@innertext>'select IDCard,SocialNo,Pa']"
+				itempath=".//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[5]/?/?/table//textarea[@innertext>'select IDCard,SocialNo,Pa']"
+				fullname="Infomation.维护.T_SQL语句"
+				id="6b2451ec761242d7b204991395e94ad0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation024.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

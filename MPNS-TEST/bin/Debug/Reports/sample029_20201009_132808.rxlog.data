@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="131296516107b358"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 13:28:10"
+		timestampiso="2020-10-09T05:28:10"
+		endtime="2020/10/9 13:28:15"
+		timeoutfactor="2"
+		module="sample029">
+		<detail>
+			sample029
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.661"
+			timeRelativeToTestModuleStartTime="00:02.661"
+			timeWallClock="13:28:13"
+			time="00:02.661"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.LMP&#26085;&#26399;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[3]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[3]/td[2]/input"
+				fullname="Infomation.早期样本.LMP日期"
+				id="d1650f5933df4f16ad06ce25feace121"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample029.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.902"
+			timeRelativeToTestModuleStartTime="00:03.902"
+			timeWallClock="13:28:14"
+			time="00:03.902"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.LMP&#26085;&#26399;&#36873;&#25321;&#20170;&#22825;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[@class='WdateDiv']/div[@id='dpControl']/input[2]"
+				itempath=".//div[@class='WdateDiv']/div[@id='dpControl']/input[2]"
+				fullname="Infomation.早期样本.LMP日期选择今天"
+				id="1ce3046e2adc4c88bf93cc7a65cfdbd8"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample029.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.652"
+			timeRelativeToTestModuleStartTime="00:04.652"
+			timeWallClock="13:28:15"
+			time="00:04.652"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '1' on item '&#26089;&#26399;&#26679;&#26412;.&#23381;&#21608;&#31867;&#22411;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample1_tableleft']//tr[1]/td[2]/select"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample1_tableleft']//tr[1]/td[2]/select"
+				fullname="Infomation.早期样本.孕周类型"
+				id="2beef257508e433a93b4ae5bc7851222"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample029.cs"
+				codeline="124"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.771"
+			timeRelativeToTestModuleStartTime="00:04.771"
+			timeWallClock="13:28:15"
+			time="00:04.771"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '10' on item '&#26089;&#26399;&#26679;&#26412;.&#26376;&#32463;&#21608;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[3]/td[4]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[3]/td[4]/input"
+				fullname="Infomation.早期样本.月经周期"
+				id="faf26df2a7c04a18940e0a7edb1b74c8"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample029.cs"
+				codeline="128"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

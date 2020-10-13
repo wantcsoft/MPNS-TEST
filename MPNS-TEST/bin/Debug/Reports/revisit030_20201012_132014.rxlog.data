@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16d8034cdaae6d20"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/12 13:20:16"
+		timestampiso="2020-10-12T05:20:16"
+		endtime="2020/10/12 13:20:21"
+		timeoutfactor="2"
+		module="revisit030">
+		<detail>
+			revisit030
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.621"
+			timeRelativeToTestModuleStartTime="00:02.621"
+			timeWallClock="13:20:18"
+			time="00:02.621"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '(null)' on item '&#31579;&#26597;&#22238;&#35775;.&#22238;&#35775;&#20154;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Diagnose_ReviewUser']"
+				itempath=".//input[#'Diagnose_ReviewUser']"
+				fullname="Infomation.筛查回访.回访人"
+				id="9a86582dbe9e4b9a8031f0b31111db24"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit030.cs"
+				codeline="111"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.184"
+			timeRelativeToTestModuleStartTime="00:03.184"
+			timeWallClock="13:20:19"
+			time="00:03.184"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '123456789012345678901234567890' with focus on '&#31579;&#26597;&#22238;&#35775;.&#22238;&#35775;&#20154;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Diagnose_ReviewUser']"
+				itempath=".//input[#'Diagnose_ReviewUser']"
+				fullname="Infomation.筛查回访.回访人"
+				id="9a86582dbe9e4b9a8031f0b31111db24"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit030.cs"
+				codeline="115"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.708"
+			timeRelativeToTestModuleStartTime="00:04.708"
+			timeWallClock="13:20:20"
+			time="00:04.708"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'diagnoseeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_SaveDiagnose']"
+				itempath=".//form[#'diagnoseeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_SaveDiagnose']"
+				fullname="Infomation.筛查回访.保存"
+				id="f21495bcced14564b5e7702e1e304c1e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit030.cs"
+				codeline="119"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

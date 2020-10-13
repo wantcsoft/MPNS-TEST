@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="735a26e0e6df014"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/13 9:35:36"
+		timestampiso="2020-10-13T01:35:36"
+		endtime="2020/10/13 9:35:43"
+		timeoutfactor="2"
+		module="revisit043">
+		<detail>
+			revisit043
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.880"
+			timeRelativeToTestModuleStartTime="00:02.880"
+			timeWallClock="09:35:39"
+			time="00:02.880"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '99999' on item '&#31579;&#26597;&#22238;&#35775;.&#32974;&#20799;&#20307;&#38271;1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Child_ChildStatureFirstDay']"
+				itempath=".//input[#'Child_ChildStatureFirstDay']"
+				fullname="Infomation.筛查回访.胎儿体长1"
+				id="22a280254b8049f997751036de800987"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit043.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.763"
+			timeRelativeToTestModuleStartTime="00:04.763"
+			timeWallClock="09:35:41"
+			time="00:04.763"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '99999' on item '&#31579;&#26597;&#22238;&#35775;.&#32974;&#20799;&#20307;&#38271;2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'Child_ChildStatureTwentyEighthDay']"
+				itempath=".//input[#'Child_ChildStatureTwentyEighthDay']"
+				fullname="Infomation.筛查回访.胎儿体长2"
+				id="4d9a93d9fd144356a922701f59d9c6ca"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit043.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.871"
+			timeRelativeToTestModuleStartTime="00:04.871"
+			timeWallClock="09:35:41"
+			time="00:04.871"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#22238;&#35775;.&#26032;&#29983;&#20799;&#20449;&#24687;&#20445;&#23384;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//form[#'childeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				itempath=".//form[#'childeditform']/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/input[@id='sub_ChildBirth']"
+				fullname="Infomation.筛查回访.新生儿信息保存"
+				id="82c5b8a57e6f45318cf722f993bb94e4"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit043.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.168"
+			timeRelativeToTestModuleStartTime="00:06.168"
+			timeWallClock="09:35:43"
+			time="00:06.168"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\revisit\revisit043.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

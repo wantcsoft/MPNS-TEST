@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4af5f2d781e0afb"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 9:55:08"
+		timestampiso="2020-10-09T01:55:08"
+		endtime="2020/10/9 9:55:11"
+		timeoutfactor="2"
+		module="sample022">
+		<detail>
+			sample022
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.611"
+			timeRelativeToTestModuleStartTime="00:02.611"
+			timeWallClock="09:55:10"
+			time="00:02.611"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#26089;&#26399;&#27979;&#35797;&#26085;&#26399;, &#20013;&#26399;&#27979;&#35797;&#26085;&#26399;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.174"
+			timeRelativeToTestModuleStartTime="00:03.174"
+			timeWallClock="09:55:11"
+			time="00:03.174"
+			level="Info"
+			category="User"
+			errimg="images_sample02_a7d7af27\sample02_138dec6c_rxlog.jpg"
+			errthumb="images_sample02_a7d7af27\sample02_138dec6c_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample022.cs"
+				codeline="183"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

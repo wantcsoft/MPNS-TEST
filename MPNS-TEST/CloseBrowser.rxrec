@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a93fbc1d-8657-469e-98e9-c5e4489be468"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="MPNS_TEST">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="617ba833-9437-4e9e-b235-e254185fd3a5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6193bb30-7637-4227-9b51-8cc11f502591"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='localhost:8016']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="fd2f2c0c-6e83-4439-b8e0-83cf60e9e742"
+	name="Infomation"
+	relativepath="Repositorys\Infomation.rxrep">
+		<codegen
+		classname="Infomation"
+		namespace="MPNS_TEST.Repositorys">
+		</codegen>
+		<rootfolder
+		id="56c51c45-13de-46e4-8e1e-ce761c536d7f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="be697bc06a919c5"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/9 10:02:45"
+		timestampiso="2020-10-09T02:02:45"
+		endtime="2020/10/9 10:02:48"
+		timeoutfactor="2"
+		module="sample022">
+		<detail>
+			sample022
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.589"
+			timeRelativeToTestModuleStartTime="00:02.589"
+			timeWallClock="10:02:47"
+			time="00:02.589"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#26089;&#26399;&#27979;&#35797;&#26085;&#26399;, &#20013;&#26399;&#27979;&#35797;&#26085;&#26399;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.609"
+			timeRelativeToTestModuleStartTime="00:02.609"
+			timeWallClock="10:02:47"
+			time="00:02.609"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#30830;&#35748;&#27979;&#35797;&#26085;&#26399;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[@class='xubox_layer']//a[@innertext='确定']"
+				itempath=".//div[@class='xubox_layer']//a[@innertext='确定']"
+				fullname="Infomation.早期样本.确认测试日期"
+				id="f87bbc85d1fc4be9a1516e5c4eb8a5c6"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\sample\sample022.cs"
+				codeline="188"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

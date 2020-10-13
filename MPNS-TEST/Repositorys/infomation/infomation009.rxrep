@@ -1,0 +1,119 @@
+﻿<repository
+id="bd33c445-f2ec-4a2b-bc3c-91e9f8c6489a"
+name="infomation009">
+	<codegen
+	classname="infomation009"
+	namespace="MPNS_TEST.Repositorys.infomation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="961625ae-1129-45b1-85fc-d38947ed7e88"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a7efca04-702f-438e-be5f-6859c2578b63"
+		isrooted="True"
+		name="筛查信息"
+		refimgid="7e233496-6727-42b7-9a6c-96ed8586f411"
+		refpath="/dom[@domain='localhost:8016']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f6984859-bfde-4674-9e61-c1cb3a259c66"
+			name="筛查管理"
+			refimgid="f2f70f5f-4e93-4751-8b19-d72629804fae"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[1]/a[@innertext='筛查管理']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='&#31579;&#26597;&#31649;&#29702;']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e453ddd0-0b7e-4c8c-9961-38eb0cd79378"
+			name="筛查信息"
+			refimgid="559a72d8-4ea3-414f-8f59-ccb5805b08d7"
+			refpath="/dom[@domain='localhost:8016']//ul[#'mainmenus']/li[1]/div/ul/li[1]/a[@innertext='筛查信息']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='&#31579;&#26597;&#20449;&#24687;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="939bc867-274b-46b3-9c80-06e123668baf"
+			name="孕妇姓名"
+			refimgid="1516f2d2-5ed9-4949-83f6-cf156c00f87c"
+			refpath="/dom[@domain='localhost:8016']//input[#'FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a8333816-9850-4ae0-b189-8570117a8500"
+			name="出生日期"
+			refimgid="165b4461-bb51-4b51-a53c-85460a191976"
+			refpath="/dom[@domain='localhost:8016']//input[#'BirthDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'BirthDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="65fb682b-532e-49a0-912c-c8e5ee82f454"
+			name="家庭地址"
+			refimgid="fe8a99a8-c414-457e-9fa0-8692ec5923af"
+			refpath="/dom[@domain='localhost:8016']//input[#'Address']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'Address']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="14b19b0d-0aaf-464c-954c-cb16168186d7"
+			name="保存按钮"
+			refimgid="534df116-5b51-42a9-a434-1b25bfb7241c"
+			refpath="/dom[@domain='localhost:8016']//input[#'butSavePregnant']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//input[#'butSavePregnant']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c940f0e2-dd00-4a68-8dcc-92ed29b2817b"
+			name="社保卡保存失败确定"
+			refimgid="34ff462a-365a-465c-ae01-eb730a8ce733"
+			refpath="/dom[@domain='localhost:8016']//div[#'xubox_layer1']/div[1]/span/a[@innertext='确定']"
+			searchtimeout="30000ms">
+				/dom[@domain='localhost:8016']//div[#'xubox_layer1']//a[@innertext='&#30830;&#23450;']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8016']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

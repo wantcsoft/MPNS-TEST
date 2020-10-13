@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="54e1c1597f0fc08"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/10 13:50:51"
+		timestampiso="2020-10-10T05:50:51"
+		endtime="2020/10/10 13:50:55"
+		timeoutfactor="2"
+		module="program019">
+		<detail>
+			program019
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.642"
+			timeRelativeToTestModuleStartTime="00:02.642"
+			timeWallClock="13:50:53"
+			time="00:02.642"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#20013;&#26399;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']//a[@innertext='中期']"
+				itempath=".//div[#'SolutionList']//a[@innertext='中期']"
+				fullname="Infomation.方案.中期"
+				id="bd38ff7276a9479fada226f84c47c7b0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\program\program019.cs"
+				codeline="252"
+				itemindex="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

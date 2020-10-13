@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="15.72s"
+		durationms="15720"
+		type="root"
+		rid="57d05a5183f24ea"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/9/23 10:10:31"
+		timestampiso="2020-09-23T02:10:31"
+		endtime="2020/9/23 10:10:47"
+		timeoutfactor="2"
+		module="infomation002">
+		<detail>
+			infomation002
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.522"
+			timeRelativeToTestModuleStartTime="00:02.522"
+			timeWallClock="10:10:34"
+			time="00:02.522"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to 'http://localhost:8016/' on item '&#28779;&#29392;&#27983;&#35272;&#22120;.&#25628;&#32034;&#22320;&#22336;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Mozzie - 登录 - Mozilla Fir']/toolbar[@accessiblename='导航']/?/?/text[@accessiblename='使用 百度 搜索，或者输入网址']"
+				itempath="toolbar[@accessiblename='导航']/?/?/text[@accessiblename='使用 百度 搜索，或者输入网址']"
+				fullname="Infomation.火狐浏览器.搜索地址"
+				id="7900b9be5b7e446d9d53fefbc70b5901"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\Infomation\infomation002.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.722"
+			timeRelativeToTestModuleStartTime="00:15.722"
+			timeWallClock="10:10:47"
+			time="00:15.722"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
