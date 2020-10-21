@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3d4ad0fb2c9081a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 16:43:17"
+		timestampiso="2020-10-14T08:43:17"
+		endtime="2020/10/14 16:43:22"
+		timeoutfactor="2"
+		module="batchInput004">
+		<detail>
+			batchInput004
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.756"
+			timeRelativeToTestModuleStartTime="00:02.756"
+			timeWallClock="16:43:19"
+			time="00:02.756"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#31579;&#26597;&#31649;&#29702;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/a[@innertext='筛查管理']"
+				itempath=".//ul[#'mainmenus']/?/?/a[@innertext='筛查管理']"
+				fullname="Infomation.页面头选择.筛查管理"
+				id="f6984859bfde46749e61c1cb3a259c66"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput004.cs"
+				codeline="120"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.597"
+			timeRelativeToTestModuleStartTime="00:04.597"
+			timeWallClock="16:43:21"
+			time="00:04.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#27719;&#24635;&#20449;&#24687;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='汇总信息']"
+				itempath=".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='汇总信息']"
+				fullname="Infomation.页面头选择.汇总信息"
+				id="bff977bcbcff45e0b4498a40abc76ce6"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput004.cs"
+				codeline="124"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b5c2d2bb0f70c80"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 16:00:38"
+		timestampiso="2020-10-19T08:00:38"
+		endtime="2020/10/19 16:00:42"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.720"
+			timeRelativeToTestModuleStartTime="00:02.720"
+			timeWallClock="16:00:40"
+			time="00:02.720"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#31579;&#26597;&#21495;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.746"
+			timeRelativeToTestModuleStartTime="00:02.746"
+			timeWallClock="16:00:40"
+			time="00:02.746"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#26446;&#21307;&#29983;' on item '&#20013;&#26399;&#26679;&#26412;.&#36865;&#26816;&#21307;&#29983;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				fullname="Infomation.中期样本.送检医生"
+				id="59a8ac0022a54e08aceab0b44498e7b3"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="448"
+				itemindex="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.035"
+			timeRelativeToTestModuleStartTime="00:04.035"
+			timeWallClock="16:00:42"
+			time="00:04.035"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#31532;&#19968;&#20154;&#27665;&#21307;&#38498;' on item '&#20013;&#26399;&#26679;&#26412;.&#21333;&#20301;&#26469;&#28304;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width160 enter']"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width160 enter']"
+				fullname="Infomation.中期样本.单位来源"
+				id="8454544ea7cb452fb26d263f223dca7b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="452"
+				itemindex="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.124"
+			timeRelativeToTestModuleStartTime="00:04.124"
+			timeWallClock="16:00:42"
+			time="00:04.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#20445;&#23384;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//div[3]/input[1]"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//div[3]/input[1]"
+				fullname="Infomation.中期样本.保存按钮"
+				id="6749c88ead0b453281d9f733a64c61c9"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="456"
+				itemindex="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

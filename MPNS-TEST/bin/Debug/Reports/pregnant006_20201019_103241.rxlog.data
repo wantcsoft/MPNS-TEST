@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="66d7d418931ba21"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 10:32:43"
+		timestampiso="2020-10-19T02:32:43"
+		endtime="2020/10/19 10:32:47"
+		timeoutfactor="2"
+		module="pregnant006">
+		<detail>
+			pregnant006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.671"
+			timeRelativeToTestModuleStartTime="00:02.671"
+			timeWallClock="10:32:45"
+			time="00:02.671"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#23381;&#22919;&#20449;&#24687;.&#34920;&#22836;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butTableHeader']"
+				itempath=".//input[#'butTableHeader']"
+				fullname="Infomation.孕妇信息.表头"
+				id="d1198a602567422ab1fcbcd70079c604"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant006.cs"
+				codeline="204"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

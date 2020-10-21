@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c1b235df-bbee-4294-a2e2-d67f11319b93"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Summary020"
+	namespace="MPNS_TEST.Models.Screening_Management.summary">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Summary020"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="deleteData"
+		namespace="MPNS_TEST.Models.Screening_Management.summary"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="7ee3743f-d7f8-4cf4-8411-bfa2fa7c9946">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="fd2f2c0c-6e83-4439-b8e0-83cf60e9e742"
+	name="Infomation"
+	relativepath="..\..\..\Repositorys\Infomation.rxrep">
+		<codegen
+		classname="Infomation"
+		namespace="MPNS_TEST.Repositorys">
+		</codegen>
+		<rootfolder
+		id="56c51c45-13de-46e4-8e1e-ce761c536d7f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		summary020.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

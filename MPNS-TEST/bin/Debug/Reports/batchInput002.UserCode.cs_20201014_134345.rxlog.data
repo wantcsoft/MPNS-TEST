@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2ddaca1a0686098"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 13:43:46"
+		timestampiso="2020-10-14T05:43:46"
+		endtime="2020/10/14 13:44:01"
+		timeoutfactor="2"
+		module="batchInput002">
+		<detail>
+			batchInput002
+		</detail>
+		<errormessage>
+			&#26080;&#27861;&#25171;&#24320;&#30331;&#24405;&#25152;&#35831;&#27714;&#30340;&#25968;&#25454;&#24211; &quot;SqlKS&quot;&#12290;&#30331;&#24405;&#22833;&#36133;&#12290;
+&#29992;&#25143; 'DESKTOP-SM51UF2\WMY' &#30331;&#24405;&#22833;&#36133;&#12290;
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.032"
+			timeRelativeToTestModuleStartTime="00:15.032"
+			timeWallClock="13:44:01"
+			time="00:15.032"
+			level="Error"
+			category="Module"
+			errimg="images_batchInp_cb6631b8\batchInp_cb6631b8_e629c289_trace.jpg"
+			errthumb="images_batchInp_cb6631b8\batchInp_cb6631b8_e629c289_trace_thumb.jpg">
+			<message>
+				&#26080;&#27861;&#25171;&#24320;&#30331;&#24405;&#25152;&#35831;&#27714;&#30340;&#25968;&#25454;&#24211; &quot;SqlKS&quot;&#12290;&#30331;&#24405;&#22833;&#36133;&#12290;<br/>&#29992;&#25143; 'DESKTOP-SM51UF2\WMY' &#30331;&#24405;&#22833;&#36133;&#12290;
+			</message>
+			<metainfo
+				stacktrace="   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)&#13;&#10;   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal&amp; connection)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#13;&#10;   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)&#13;&#10;   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)&#13;&#10;   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)&#13;&#10;   在 System.Data.SqlClient.SqlConnection.Open()&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.batchInput.batchInput002.createTable() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput002.UserCode.cs:行号 49&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.batchInput.batchInput002.Ranorex.Core.Testing.ITestModule.Run() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput002.cs:行号 82&#13;&#10;   在 Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput002.UserCode.cs"
+				codeline="49"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

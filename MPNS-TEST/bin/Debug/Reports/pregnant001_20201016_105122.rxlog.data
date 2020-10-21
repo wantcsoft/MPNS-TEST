@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2a6fc20bf2509e0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/16 10:51:24"
+		timestampiso="2020-10-16T02:51:24"
+		endtime="2020/10/16 10:51:31"
+		timeoutfactor="2"
+		module="pregnant001">
+		<detail>
+			pregnant001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.701"
+			timeRelativeToTestModuleStartTime="00:02.701"
+			timeWallClock="10:51:26"
+			time="00:02.701"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#23381;&#22919;&#20449;&#24687;.&#28155;&#21152;&#25152;&#26377;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//form[#'settinglistheaderform']//a[@class='add-all']"
+				itempath=".//body//body//form[#'settinglistheaderform']//a[@class='add-all']"
+				fullname="Infomation.孕妇信息.添加所有"
+				id="ab91efaef42e419bba83768e471c0cbb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant001.cs"
+				codeline="494"
+				itemindex="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

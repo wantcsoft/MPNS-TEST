@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="20cfb25a87644d"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 15:37:48"
+		timestampiso="2020-10-19T07:37:48"
+		endtime="2020/10/19 15:37:52"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.749"
+			timeRelativeToTestModuleStartTime="00:02.749"
+			timeWallClock="15:37:51"
+			time="00:02.749"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#31579;&#26597;&#21495;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.774"
+			timeRelativeToTestModuleStartTime="00:02.774"
+			timeWallClock="15:37:51"
+			time="00:02.774"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-09-21' on item '&#20013;&#26399;&#26679;&#26412;.&#37319;&#26679;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[6]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[6]/input"
+				fullname="Infomation.中期样本.采样日期"
+				id="e7b1aa2749a24249bb4c41d2e9eab685"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="428"
+				itemindex="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.026"
+			timeRelativeToTestModuleStartTime="00:04.026"
+			timeWallClock="15:37:52"
+			time="00:04.026"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-09-21' on item '&#20013;&#26399;&#26679;&#26412;.&#27979;&#35797;&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[8]/input[1]"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[8]/input[1]"
+				fullname="Infomation.中期样本.测试日期"
+				id="b06f15b311dd41ed80aa0e2033ecea85"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="432"
+				itemindex="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.105"
+			timeRelativeToTestModuleStartTime="00:04.105"
+			timeWallClock="15:37:52"
+			time="00:04.105"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'YBH00010' on item '&#20013;&#26399;&#26679;&#26412;.&#20013;&#26399;&#26679;&#26412;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input"
+				fullname="Infomation.中期样本.中期样本号"
+				id="f2932e938ced4649aaa0e6ea2b18259a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="436"
+				itemindex="91"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.198"
+			timeRelativeToTestModuleStartTime="00:04.198"
+			timeWallClock="15:37:52"
+			time="00:04.198"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '46' on item '&#20013;&#26399;&#26679;&#26412;.&#20307;&#37325;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[8]/input[2]"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[8]/input[2]"
+				fullname="Infomation.中期样本.体重"
+				id="8192c9ad5da846068dd96d887837523e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="440"
+				itemindex="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="158fa9090ac8840"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 14:17:23"
+		timestampiso="2020-10-20T06:17:23"
+		endtime="2020/10/20 14:17:28"
+		timeoutfactor="2"
+		module="summary017">
+		<detail>
+			summary017
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.710"
+			timeRelativeToTestModuleStartTime="00:02.710"
+			timeWallClock="14:17:26"
+			time="00:02.710"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#36820;&#22238;&#19978;&#19968;&#20010;&#39029;&#38754;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']/body/div[2]/div[1]/?/?/a[@href='javascript:void(0);']"
+				itempath="body/div[2]/div[1]/?/?/a[@href='javascript:void(0);']"
+				fullname="Infomation.页面头选择.返回上一个页面"
+				id="be396ccb54ab402e96e49487caefe9d3"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary017.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

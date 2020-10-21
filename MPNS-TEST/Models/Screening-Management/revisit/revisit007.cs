@@ -918,20 +918,20 @@ namespace MPNS_TEST.Models.Screening_Management.revisit
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(218));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.显示设置' at Center.", repo.维护管理.显示设置Info, new RecordItemIndex(219));
-            repo.维护管理.显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.显示设置' at Center.", repo.显示设置.显示设置Info, new RecordItemIndex(219));
+            repo.显示设置.显示设置.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item '维护管理.回访信息范围'.", repo.维护管理.回访信息范围Info, new RecordItemIndex(220));
-            repo.维护管理.回访信息范围.Element.SetAttributeValue("TagValue", "1");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item '显示设置.回访信息范围'.", repo.显示设置.回访信息范围Info, new RecordItemIndex(220));
+            repo.显示设置.回访信息范围.Element.SetAttributeValue("TagValue", "1");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '14' on item '维护管理.含高风险的回访'.", repo.维护管理.含高风险的回访Info, new RecordItemIndex(221));
-            repo.维护管理.含高风险的回访.Element.SetAttributeValue("Value", "14");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '14' on item '显示设置.含高风险的回访'.", repo.显示设置.含高风险的回访Info, new RecordItemIndex(221));
+            repo.显示设置.含高风险的回访.Element.SetAttributeValue("Value", "14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.保存显示设置' at Center.", repo.维护管理.保存显示设置Info, new RecordItemIndex(222));
-            repo.维护管理.保存显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.保存显示设置' at Center.", repo.显示设置.保存显示设置Info, new RecordItemIndex(222));
+            repo.显示设置.保存显示设置.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(223));

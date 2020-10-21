@@ -131,6 +131,318 @@
       <UserCode>true</UserCode>
       <id>5840c257-42b5-4771-b9ee-803ef0edfe76</id>
     </Compile>
+    <Compile Include="Models\Login\login.cs">
+      <BoundTo>ced9f394-42cf-46aa-a866-0cd469347f44</BoundTo>
+      <DependentUpon>login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c904d1f-2df6-415b-8053-f803f01ce02c</id>
+    </Compile>
+    <Compile Include="Models\Login\login.UserCode.cs">
+      <BoundTo>ced9f394-42cf-46aa-a866-0cd469347f44</BoundTo>
+      <DependentUpon>login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3864559f-58c0-4bd5-92d0-f02e8b226b7f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate001.cs">
+      <BoundTo>647aacf3-89fd-4320-8b97-8326ebd15ab8</BoundTo>
+      <DependentUpon>batchCalculate001.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ec844748-27ec-433a-8cb3-7b029e6fce90</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate001.UserCode.cs">
+      <BoundTo>647aacf3-89fd-4320-8b97-8326ebd15ab8</BoundTo>
+      <DependentUpon>batchCalculate001.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>83c34f37-1873-42c8-bbf8-3c3f869a6cf9</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate012.cs">
+      <BoundTo>741239d4-8909-4729-aefa-01422531fc1d</BoundTo>
+      <DependentUpon>batchCalculate012.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>341edb55-18f0-4071-8a16-b69bdeabc22b</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate012.UserCode.cs">
+      <BoundTo>741239d4-8909-4729-aefa-01422531fc1d</BoundTo>
+      <DependentUpon>batchCalculate012.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e7c92ea7-f6c2-49cb-8ebc-58e42839d3d8</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate002.cs">
+      <BoundTo>029b7993-7cfa-4121-a06e-e1511750cc0f</BoundTo>
+      <DependentUpon>batchCalculate002.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e4646fd1-4b1f-465a-a11b-e86a5105479c</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate002.UserCode.cs">
+      <BoundTo>029b7993-7cfa-4121-a06e-e1511750cc0f</BoundTo>
+      <DependentUpon>batchCalculate002.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a4438dbf-3239-4b7d-82fa-cb0968007d1f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate004.cs">
+      <BoundTo>7e40e2f1-d830-460c-af5b-66cd54428020</BoundTo>
+      <DependentUpon>batchCalculate004.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>26b67414-1256-470e-b304-c7d701c042b6</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate004.UserCode.cs">
+      <BoundTo>7e40e2f1-d830-460c-af5b-66cd54428020</BoundTo>
+      <DependentUpon>batchCalculate004.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b1b2d00-2359-4fdc-aca8-5e9b18bb6ea3</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate003.cs">
+      <BoundTo>76a1a8b7-e01f-484c-bdf2-9021549e0264</BoundTo>
+      <DependentUpon>batchCalculate003.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>abe11c4c-bc6b-46fe-bc16-c73446de1122</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate003.UserCode.cs">
+      <BoundTo>76a1a8b7-e01f-484c-bdf2-9021549e0264</BoundTo>
+      <DependentUpon>batchCalculate003.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a71bdb0-e964-4570-a76c-2c408762370c</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate006.cs">
+      <BoundTo>affb66b8-1f47-4289-8282-bb4cca8722fb</BoundTo>
+      <DependentUpon>batchCalculate006.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5ecda35-2489-41d5-b020-4592139fbded</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate006.UserCode.cs">
+      <BoundTo>affb66b8-1f47-4289-8282-bb4cca8722fb</BoundTo>
+      <DependentUpon>batchCalculate006.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>545c2122-08dd-44c2-872f-bf5bd1ee075c</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate007.cs">
+      <BoundTo>5caeb627-2705-44ec-b1c9-610bf76577b0</BoundTo>
+      <DependentUpon>batchCalculate007.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7852712d-7cef-47e3-bc90-8582d99476e1</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate007.UserCode.cs">
+      <BoundTo>5caeb627-2705-44ec-b1c9-610bf76577b0</BoundTo>
+      <DependentUpon>batchCalculate007.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f30963c-8de2-4195-979d-b218d797610f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate008.cs">
+      <BoundTo>cdb72617-2131-45bb-84ac-a0908ed7e453</BoundTo>
+      <DependentUpon>batchCalculate008.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d5c32109-4c1b-483b-9d5c-c2c18be18e0f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate008.UserCode.cs">
+      <BoundTo>cdb72617-2131-45bb-84ac-a0908ed7e453</BoundTo>
+      <DependentUpon>batchCalculate008.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ad1861c-cc96-4295-a447-cc317b57b196</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate009.cs">
+      <BoundTo>37652243-8b53-4929-856e-38c84a2a904a</BoundTo>
+      <DependentUpon>batchCalculate009.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10123333-6856-4563-8f53-798c469f5e09</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate009.UserCode.cs">
+      <BoundTo>37652243-8b53-4929-856e-38c84a2a904a</BoundTo>
+      <DependentUpon>batchCalculate009.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6622fbe6-f1f4-4d55-b62b-269d793e8dc2</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate011.cs">
+      <BoundTo>02b08b21-aef4-4f85-a8ea-711a12ce4508</BoundTo>
+      <DependentUpon>batchCalculate011.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb1164c0-64f0-4604-90e6-6cb7c157a16c</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate011.UserCode.cs">
+      <BoundTo>02b08b21-aef4-4f85-a8ea-711a12ce4508</BoundTo>
+      <DependentUpon>batchCalculate011.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5c0adf7-aa1e-4309-bebd-34314a4d3961</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate013.cs">
+      <BoundTo>f3b3ff3f-b582-40a3-b0c2-0d19777836f0</BoundTo>
+      <DependentUpon>batchCalculate013.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa85d616-6aca-4b9f-8ab9-373cb2712966</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate013.UserCode.cs">
+      <BoundTo>f3b3ff3f-b582-40a3-b0c2-0d19777836f0</BoundTo>
+      <DependentUpon>batchCalculate013.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>961bb2b7-5632-452a-995b-3ed946b01537</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate014.cs">
+      <BoundTo>cb7dcee7-a139-4233-9661-9390d396317b</BoundTo>
+      <DependentUpon>batchCalculate014.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>75b71b43-74d4-4b97-8db1-c8856be3ec83</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchCalculate\batchCalculate014.UserCode.cs">
+      <BoundTo>cb7dcee7-a139-4233-9661-9390d396317b</BoundTo>
+      <DependentUpon>batchCalculate014.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de32e856-9fc6-4c7b-b948-3e966e2cb957</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput001.cs">
+      <BoundTo>96fb3c81-5b8a-4576-81c2-9f13d76b7755</BoundTo>
+      <DependentUpon>batchInput001.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87f581fc-d87e-4a01-a9d7-83fec744983c</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput001.UserCode.cs">
+      <BoundTo>96fb3c81-5b8a-4576-81c2-9f13d76b7755</BoundTo>
+      <DependentUpon>batchInput001.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72f1cd9a-f2ec-4cee-aa6a-8e31a028d316</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput002.cs">
+      <BoundTo>1dce51fd-f0fe-4021-afe0-ac8bd7dec81e</BoundTo>
+      <DependentUpon>batchInput002.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2f731e43-b54d-4a17-9c7e-547f3eb43c32</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput002.UserCode.cs">
+      <BoundTo>1dce51fd-f0fe-4021-afe0-ac8bd7dec81e</BoundTo>
+      <DependentUpon>batchInput002.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ad4d17d1-2fd5-4ddb-b0e3-f54b6afad161</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput003.cs">
+      <BoundTo>0eb6e0ed-7bf3-47cb-8c58-9f35f48c98cc</BoundTo>
+      <DependentUpon>batchInput003.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8fe1f05b-b12d-4ad1-94a1-11437f873a87</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput003.UserCode.cs">
+      <BoundTo>0eb6e0ed-7bf3-47cb-8c58-9f35f48c98cc</BoundTo>
+      <DependentUpon>batchInput003.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d3362fc9-2d67-49f8-b1f8-6969eb14cd96</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput004.cs">
+      <BoundTo>f1681ffe-cbc3-4ea9-be96-244328cedcf6</BoundTo>
+      <DependentUpon>batchInput004.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55065b60-e5bd-4ea0-bfdf-24356b6232a6</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput004.UserCode.cs">
+      <BoundTo>f1681ffe-cbc3-4ea9-be96-244328cedcf6</BoundTo>
+      <DependentUpon>batchInput004.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0647f7b7-940b-4845-882f-5c9020a98848</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput005.cs">
+      <BoundTo>f6193d75-5bad-4e0c-970a-0d61799d0288</BoundTo>
+      <DependentUpon>batchInput005.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48739118-b5ca-40bf-9a16-82a74754060b</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput005.UserCode.cs">
+      <BoundTo>f6193d75-5bad-4e0c-970a-0d61799d0288</BoundTo>
+      <DependentUpon>batchInput005.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a90a8850-a1c1-46f5-b8f5-af3056a9776e</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput006.cs">
+      <BoundTo>b97563fa-64cb-4b8a-a9e8-eb98ea669266</BoundTo>
+      <DependentUpon>batchInput006.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3c18dec9-bad5-4ef9-bd29-28dedfcfa9d8</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput006.UserCode.cs">
+      <BoundTo>b97563fa-64cb-4b8a-a9e8-eb98ea669266</BoundTo>
+      <DependentUpon>batchInput006.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>086a2f18-ad0e-40f5-b3ae-db054d790958</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput007.cs">
+      <BoundTo>f13ebbcc-cf56-4d6f-bd90-6c95c981c1b8</BoundTo>
+      <DependentUpon>batchInput007.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa3fbe14-3844-4d14-8295-e4bc6888c243</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput007.UserCode.cs">
+      <BoundTo>f13ebbcc-cf56-4d6f-bd90-6c95c981c1b8</BoundTo>
+      <DependentUpon>batchInput007.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac213f6b-b142-42dc-b9cd-66bd46911057</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput008.cs">
+      <BoundTo>aa4524aa-b84c-4847-85a6-f8f541f486a9</BoundTo>
+      <DependentUpon>batchInput008.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cf03d4e5-80c5-4ad6-83f9-bb34dd72f683</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput008.UserCode.cs">
+      <BoundTo>aa4524aa-b84c-4847-85a6-f8f541f486a9</BoundTo>
+      <DependentUpon>batchInput008.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06ab198a-33b7-413d-98ab-114a8a33880f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput009.cs">
+      <BoundTo>5a855745-486f-49c2-85a2-ac5fc50803b8</BoundTo>
+      <DependentUpon>batchInput009.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>86cdc4cc-0698-4596-91f9-4e6bbf1fe6a4</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput009.UserCode.cs">
+      <BoundTo>5a855745-486f-49c2-85a2-ac5fc50803b8</BoundTo>
+      <DependentUpon>batchInput009.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>150368ac-789d-452a-b180-00ce261aa803</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput010.cs">
+      <BoundTo>c253e4a7-fe11-4bf9-981b-77f518acd9b7</BoundTo>
+      <DependentUpon>batchInput010.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cd558407-2ad9-4abb-853e-c16a999ae312</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput010.UserCode.cs">
+      <BoundTo>c253e4a7-fe11-4bf9-981b-77f518acd9b7</BoundTo>
+      <DependentUpon>batchInput010.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b3908baf-d5c3-4f76-b642-1d1cf9afe1f2</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput011.cs">
+      <BoundTo>e7272c50-78cc-43ad-a5fd-4d2076328825</BoundTo>
+      <DependentUpon>batchInput011.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c29ee0c5-96ee-4edb-bb48-a635c24b6ba7</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput011.UserCode.cs">
+      <BoundTo>e7272c50-78cc-43ad-a5fd-4d2076328825</BoundTo>
+      <DependentUpon>batchInput011.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72d2b1c5-6ea2-4137-9b43-d3f717f3c451</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput012.cs">
+      <BoundTo>ee14c686-f40d-47c5-b5b8-6498ef5d58fe</BoundTo>
+      <DependentUpon>batchInput012.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b9f562e5-5136-4579-bd9a-3370aa8d3c9f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput012.UserCode.cs">
+      <BoundTo>ee14c686-f40d-47c5-b5b8-6498ef5d58fe</BoundTo>
+      <DependentUpon>batchInput012.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>778117de-1e0e-4a1e-b9f7-a88acc00ce4b</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput013.cs">
+      <BoundTo>5a08034c-fff2-4c1e-8b07-99a5b499194b</BoundTo>
+      <DependentUpon>batchInput013.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4df49b2c-8fc6-49fe-8398-058420e0fab8</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\batchInput\batchInput013.UserCode.cs">
+      <BoundTo>5a08034c-fff2-4c1e-8b07-99a5b499194b</BoundTo>
+      <DependentUpon>batchInput013.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>42f138c3-2f18-4150-9660-38eea3700e8a</id>
+    </Compile>
     <Compile Include="Models\Screening-Management\Infomation\infomation001.cs">
       <DependentUpon>infomation001.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -454,6 +766,78 @@
       <DependentUpon>infomation031.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>eaa3ee63-5533-459f-959b-876c23214e2d</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant001.cs">
+      <BoundTo>16264fc4-e2f0-4056-842e-edaa5ccf682a</BoundTo>
+      <DependentUpon>pregnant001.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>99c5ed47-4bee-4df4-ab63-c5fa1fee3c2f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant001.UserCode.cs">
+      <BoundTo>16264fc4-e2f0-4056-842e-edaa5ccf682a</BoundTo>
+      <DependentUpon>pregnant001.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0febef80-0345-428b-9a7c-3a9edeac4e7a</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant002.cs">
+      <BoundTo>41795054-e24b-474f-81cf-84f32bf99bbb</BoundTo>
+      <DependentUpon>pregnant002.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>413b0c1f-265d-490a-ab14-ebd5991b4a16</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant002.UserCode.cs">
+      <BoundTo>41795054-e24b-474f-81cf-84f32bf99bbb</BoundTo>
+      <DependentUpon>pregnant002.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f2790b1-646a-45f3-b973-255e5a51d78f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant003.cs">
+      <BoundTo>b33d25fb-a4d9-4162-915d-d581cc72c57b</BoundTo>
+      <DependentUpon>pregnant003.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>74352b6e-b1e9-4f79-a430-9689bb45e2a1</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant003.UserCode.cs">
+      <BoundTo>b33d25fb-a4d9-4162-915d-d581cc72c57b</BoundTo>
+      <DependentUpon>pregnant003.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb35368f-a59e-4015-9497-28f5f156ffcc</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant004.cs">
+      <BoundTo>98c0e83d-1ba0-48f9-b4cd-f8739a9229ca</BoundTo>
+      <DependentUpon>pregnant004.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>65dadfaa-bb97-44b5-9966-666e8255b084</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant004.UserCode.cs">
+      <BoundTo>98c0e83d-1ba0-48f9-b4cd-f8739a9229ca</BoundTo>
+      <DependentUpon>pregnant004.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>184c50bb-d5b7-4628-b9e2-3e8910d54140</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant005.cs">
+      <BoundTo>4da11b0e-c027-481a-b236-e91a9bef7456</BoundTo>
+      <DependentUpon>pregnant005.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>13a04c3b-cb3e-4afd-9857-48e7fd317b33</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant005.UserCode.cs">
+      <BoundTo>4da11b0e-c027-481a-b236-e91a9bef7456</BoundTo>
+      <DependentUpon>pregnant005.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d12d324f-d523-4f4c-b878-25b5e9bbc3aa</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant006.cs">
+      <BoundTo>e3e7c599-6493-41bc-9ef5-c8d3fecee87e</BoundTo>
+      <DependentUpon>pregnant006.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b15df216-c63b-42b6-8713-ca4ba43f51f2</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\pregnant\pregnant006.UserCode.cs">
+      <BoundTo>e3e7c599-6493-41bc-9ef5-c8d3fecee87e</BoundTo>
+      <DependentUpon>pregnant006.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>29c525f5-607d-4fca-b9c3-47a58801318a</id>
     </Compile>
     <Compile Include="Models\Screening-Management\program\program001.cs">
       <BoundTo>97de1046-c44f-43f0-8cf3-8f1432423665</BoundTo>
@@ -1811,6 +2195,246 @@
       <UserCode>true</UserCode>
       <id>8231eccf-b549-49d7-988e-8240de78aee4</id>
     </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary001.cs">
+      <BoundTo>4b82e81f-d987-4b43-94cd-2e5a1c219242</BoundTo>
+      <DependentUpon>summary001.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5d9464bf-b5ce-47ea-9dbd-177ffc3b00c8</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary001.UserCode.cs">
+      <BoundTo>4b82e81f-d987-4b43-94cd-2e5a1c219242</BoundTo>
+      <DependentUpon>summary001.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fceab3ab-61a0-4e98-9c53-1f9b1d5baadf</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary002.cs">
+      <BoundTo>cc2d3719-f151-4854-bb77-b0d5dec7099d</BoundTo>
+      <DependentUpon>summary002.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>97fc3c57-7db3-4b06-b735-ed8458459ab2</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary002.UserCode.cs">
+      <BoundTo>cc2d3719-f151-4854-bb77-b0d5dec7099d</BoundTo>
+      <DependentUpon>summary002.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>25234651-ddaf-4435-94d6-1106c325f894</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary003.cs">
+      <BoundTo>9a42838d-fcde-4cd1-bc15-1bdbb305cb95</BoundTo>
+      <DependentUpon>summary003.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e6feeade-f0e8-4ba9-8217-b08196752aa6</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary003.UserCode.cs">
+      <BoundTo>9a42838d-fcde-4cd1-bc15-1bdbb305cb95</BoundTo>
+      <DependentUpon>summary003.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7ede4181-bd2a-4c4b-b16d-81bc16b2f0b6</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary004.cs">
+      <BoundTo>61a8c4a1-de61-4ebb-ae0d-0aa73c6cfff1</BoundTo>
+      <DependentUpon>summary004.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33a3e1fb-a735-4102-9876-54264ec8ddff</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary004.UserCode.cs">
+      <BoundTo>61a8c4a1-de61-4ebb-ae0d-0aa73c6cfff1</BoundTo>
+      <DependentUpon>summary004.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a3728e5-0089-4585-bd4c-5f7dd2d27287</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary005.cs">
+      <BoundTo>9ed92aaa-1124-4fab-8347-7c3f446124d8</BoundTo>
+      <DependentUpon>summary005.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d0aa52c5-9621-495a-aa33-678b11c6177a</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary005.UserCode.cs">
+      <BoundTo>9ed92aaa-1124-4fab-8347-7c3f446124d8</BoundTo>
+      <DependentUpon>summary005.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>932608a8-69c5-4dfd-8fc0-37e9c55bbbf0</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary006.cs">
+      <BoundTo>b4784b3d-eb3b-48e0-85d9-82b53b903815</BoundTo>
+      <DependentUpon>summary006.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4931ff65-7bea-46b4-9af1-ff607cde83fb</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary006.UserCode.cs">
+      <BoundTo>b4784b3d-eb3b-48e0-85d9-82b53b903815</BoundTo>
+      <DependentUpon>summary006.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a734cd48-0e85-4fd9-b6da-3bf6445c0fc9</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary007.cs">
+      <BoundTo>4c3296a4-fd79-4062-975f-406f84c3a28a</BoundTo>
+      <DependentUpon>summary007.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba949106-4824-45bc-b787-1ca70eea7f63</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary007.UserCode.cs">
+      <BoundTo>4c3296a4-fd79-4062-975f-406f84c3a28a</BoundTo>
+      <DependentUpon>summary007.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>baa3f957-1dc2-4b0e-a48b-254f14865a79</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary008.cs">
+      <BoundTo>1ca5d5f8-395e-4d83-9d2c-8d5deeddb8af</BoundTo>
+      <DependentUpon>summary008.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>843262bc-12ab-4aa3-bde3-86fc280ada88</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary008.UserCode.cs">
+      <BoundTo>1ca5d5f8-395e-4d83-9d2c-8d5deeddb8af</BoundTo>
+      <DependentUpon>summary008.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7dd842ed-074f-494c-ad45-0e5d74355016</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary009.cs">
+      <BoundTo>2722af34-f8c5-4831-b254-328304812090</BoundTo>
+      <DependentUpon>summary009.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa79e3a2-44a2-4742-adf1-4116640312d8</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary009.UserCode.cs">
+      <BoundTo>2722af34-f8c5-4831-b254-328304812090</BoundTo>
+      <DependentUpon>summary009.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>531887df-4ced-4afa-ac2c-9f362fafaf72</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary010.cs">
+      <BoundTo>e8e1a7e4-7cb9-40ac-a8a4-10805a36cd08</BoundTo>
+      <DependentUpon>summary010.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35668659-89b0-4cdd-a1cf-f535d3319f35</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary010.UserCode.cs">
+      <BoundTo>e8e1a7e4-7cb9-40ac-a8a4-10805a36cd08</BoundTo>
+      <DependentUpon>summary010.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a88eb362-a2e8-4ee5-8cdf-b7c42a113938</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary011.cs">
+      <BoundTo>05a75131-f1c2-4941-9dad-c32d2fbc8a20</BoundTo>
+      <DependentUpon>summary011.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09144793-cc40-4c3f-b5ca-1ba4fce5f4f3</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary011.UserCode.cs">
+      <BoundTo>05a75131-f1c2-4941-9dad-c32d2fbc8a20</BoundTo>
+      <DependentUpon>summary011.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>55916fae-9ea9-45ec-a4ab-b22696b0a58d</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary012.cs">
+      <BoundTo>53d6e38a-e5cc-47a2-9d4b-ac361d7cc7b8</BoundTo>
+      <DependentUpon>summary012.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa21e3e7-e3f8-43c4-a376-ff8add5eed42</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary012.UserCode.cs">
+      <BoundTo>53d6e38a-e5cc-47a2-9d4b-ac361d7cc7b8</BoundTo>
+      <DependentUpon>summary012.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>262f79f8-e3a1-4233-9ac4-047078fc72c5</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary013.cs">
+      <BoundTo>7af1a943-c47a-42f4-a8ef-7954552243e6</BoundTo>
+      <DependentUpon>summary013.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6d1d608f-0716-4551-a869-cb2ded1eb991</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary013.UserCode.cs">
+      <BoundTo>7af1a943-c47a-42f4-a8ef-7954552243e6</BoundTo>
+      <DependentUpon>summary013.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4021bcf3-1195-48db-871f-478907a37103</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary014.cs">
+      <BoundTo>c3b38cf4-a6d4-468e-a123-a641d41449a1</BoundTo>
+      <DependentUpon>summary014.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a18eba21-8446-44e3-8fd4-7281b7919047</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary014.UserCode.cs">
+      <BoundTo>c3b38cf4-a6d4-468e-a123-a641d41449a1</BoundTo>
+      <DependentUpon>summary014.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8d4e1a4a-6fbc-425d-bd11-0267147b7787</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary015.cs">
+      <BoundTo>e1b98226-7baa-42b8-b151-2a921a8418da</BoundTo>
+      <DependentUpon>summary015.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3c61d97a-20bb-483b-8d70-5edb4733ee9f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary015.UserCode.cs">
+      <BoundTo>e1b98226-7baa-42b8-b151-2a921a8418da</BoundTo>
+      <DependentUpon>summary015.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>019ef996-e72e-4675-a1a5-35be9a696243</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary016.cs">
+      <BoundTo>85abe48b-847d-4780-a0e4-0f09cd6528cf</BoundTo>
+      <DependentUpon>summary016.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d8d99d48-266c-4a45-afd5-e54ff0b29cdf</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary016.UserCode.cs">
+      <BoundTo>85abe48b-847d-4780-a0e4-0f09cd6528cf</BoundTo>
+      <DependentUpon>summary016.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a303b08-84e3-4aec-93c4-b923e25f2a5f</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary017.cs">
+      <BoundTo>e2069163-93d9-4d25-a8ff-f9914e7086ba</BoundTo>
+      <DependentUpon>summary017.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d768eb90-7fcc-4f5d-a62c-e8084fcaf885</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary017.UserCode.cs">
+      <BoundTo>e2069163-93d9-4d25-a8ff-f9914e7086ba</BoundTo>
+      <DependentUpon>summary017.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ed60c37-9ffe-4b75-9ed6-90eb83dd9eb7</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary018.cs">
+      <BoundTo>85ce4518-2652-480b-b184-294cbeef17a8</BoundTo>
+      <DependentUpon>summary018.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b938754-0bbd-4348-8d4c-498783d12a2b</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary018.UserCode.cs">
+      <BoundTo>85ce4518-2652-480b-b184-294cbeef17a8</BoundTo>
+      <DependentUpon>summary018.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb3de968-cf36-4d2c-8d9e-6adf8e54d2a7</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary019.cs">
+      <BoundTo>0ac885c3-6ca4-45e6-9052-715065678b1f</BoundTo>
+      <DependentUpon>summary019.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5d52cf34-e1c2-4832-88c7-3e006d5256d5</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary019.UserCode.cs">
+      <BoundTo>0ac885c3-6ca4-45e6-9052-715065678b1f</BoundTo>
+      <DependentUpon>summary019.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>627fc429-2a33-4872-b268-a46aa900f313</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary020.cs">
+      <BoundTo>8b758310-2329-4d3b-a3ca-048b0c9677fc</BoundTo>
+      <DependentUpon>summary020.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae580f3d-4d69-4bc5-b11f-3f72af3b4d91</id>
+    </Compile>
+    <Compile Include="Models\Screening-Management\summary\summary020.UserCode.cs">
+      <BoundTo>8b758310-2329-4d3b-a3ca-048b0c9677fc</BoundTo>
+      <DependentUpon>summary020.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bb53957d-cda4-4d7a-9eeb-29390d1e8284</id>
+    </Compile>
     <Compile Include="MPNS_TESTRepository.cs">
       <BoundTo>0830e1a1-35e8-43b5-8abe-1844a9acc809</BoundTo>
       <DependentUpon>MPNS_TESTRepository.rxrep</DependentUpon>
@@ -1831,18 +2455,6 @@
     </Compile>
     <Compile Include="Program.cs">
       <id>f79a5299-c13a-4da2-a048-c4683e259323</id>
-    </Compile>
-    <Compile Include="Models\Login\login.cs">
-      <BoundTo>ced9f394-42cf-46aa-a866-0cd469347f44</BoundTo>
-      <DependentUpon>login.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>8c904d1f-2df6-415b-8053-f803f01ce02c</id>
-    </Compile>
-    <Compile Include="Models\Login\login.UserCode.cs">
-      <BoundTo>ced9f394-42cf-46aa-a866-0cd469347f44</BoundTo>
-      <DependentUpon>login.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>3864559f-58c0-4bd5-92d0-f02e8b226b7f</id>
     </Compile>
     <Compile Include="Repositorys\Infomation.cs">
       <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
@@ -2022,6 +2634,136 @@
       <recordtableid>a93fbc1d-8657-469e-98e9-c5e4489be468</recordtableid>
       <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
     </None>
+    <None Include="Models\Login\login.rxrec">
+      <id>ced9f394-42cf-46aa-a866-0cd469347f44</id>
+      <recordtableid>3fcb60a6-b4bd-45c7-83f2-7f14a3358607</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate001.rxrec">
+      <id>647aacf3-89fd-4320-8b97-8326ebd15ab8</id>
+      <recordtableid>68ff2602-e1eb-473c-bd13-514ad6d06440</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate012.rxrec">
+      <id>741239d4-8909-4729-aefa-01422531fc1d</id>
+      <recordtableid>51b1b01d-4ed7-49dd-a3b5-11b2404b4078</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate002.rxrec">
+      <id>029b7993-7cfa-4121-a06e-e1511750cc0f</id>
+      <recordtableid>eceff3bd-99dd-48cb-a170-4c92473c35e6</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate004.rxrec">
+      <id>7e40e2f1-d830-460c-af5b-66cd54428020</id>
+      <recordtableid>17a7878f-38f9-499c-b43a-406abd267dc2</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate003.rxrec">
+      <id>76a1a8b7-e01f-484c-bdf2-9021549e0264</id>
+      <recordtableid>98c20dbb-99c4-4165-8384-30f267e9679c</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate006.rxrec">
+      <id>affb66b8-1f47-4289-8282-bb4cca8722fb</id>
+      <recordtableid>ea0bc304-e016-4b1f-9f90-e728339045da</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate007.rxrec">
+      <id>5caeb627-2705-44ec-b1c9-610bf76577b0</id>
+      <recordtableid>8385ee3c-b65b-466d-beb9-32e35f9e3bd8</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate008.rxrec">
+      <id>cdb72617-2131-45bb-84ac-a0908ed7e453</id>
+      <recordtableid>ab98a025-5696-47da-8468-d0d16971bc9d</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate009.rxrec">
+      <id>37652243-8b53-4929-856e-38c84a2a904a</id>
+      <recordtableid>9ea6ecb1-6f09-4305-9add-2d5edd9af53a</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate011.rxrec">
+      <id>02b08b21-aef4-4f85-a8ea-711a12ce4508</id>
+      <recordtableid>0ac6833c-6451-4311-9bbf-14957f87dbfc</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate013.rxrec">
+      <id>f3b3ff3f-b582-40a3-b0c2-0d19777836f0</id>
+      <recordtableid>20243adc-cb46-477b-a193-5c7f6285adae</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchCalculate\batchCalculate014.rxrec">
+      <id>cb7dcee7-a139-4233-9661-9390d396317b</id>
+      <recordtableid>3b2e62e6-8d31-4e3f-8f42-793e6963fd12</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput001.rxrec">
+      <id>96fb3c81-5b8a-4576-81c2-9f13d76b7755</id>
+      <recordtableid>4a63b940-8bc6-41a3-a4da-27727e48c190</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput002.rxrec">
+      <id>1dce51fd-f0fe-4021-afe0-ac8bd7dec81e</id>
+      <recordtableid>dee63870-4ab0-4d89-b502-59a14daab30c</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput003.rxrec">
+      <id>0eb6e0ed-7bf3-47cb-8c58-9f35f48c98cc</id>
+      <recordtableid>423726d4-3b6a-4530-830f-e4d59b4f70df</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput004.rxrec">
+      <id>f1681ffe-cbc3-4ea9-be96-244328cedcf6</id>
+      <recordtableid>7b52a185-cf77-445c-985a-2fa2b7ab5c9f</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput005.rxrec">
+      <id>f6193d75-5bad-4e0c-970a-0d61799d0288</id>
+      <recordtableid>fa493374-969b-4bec-96ef-2b9232c508ff</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput006.rxrec">
+      <id>b97563fa-64cb-4b8a-a9e8-eb98ea669266</id>
+      <recordtableid>06f1d6d0-81d8-45c4-927e-d910372b3234</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput007.rxrec">
+      <id>f13ebbcc-cf56-4d6f-bd90-6c95c981c1b8</id>
+      <recordtableid>0507b4f1-d508-4821-b0a0-98bdebb181cc</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput008.rxrec">
+      <id>aa4524aa-b84c-4847-85a6-f8f541f486a9</id>
+      <recordtableid>a9b3b447-ffd8-406f-bf90-9a38e8d1b6ea</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput009.rxrec">
+      <id>5a855745-486f-49c2-85a2-ac5fc50803b8</id>
+      <recordtableid>c1c28b02-1f09-41e7-ad19-2077de17dc1f</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput010.rxrec">
+      <id>c253e4a7-fe11-4bf9-981b-77f518acd9b7</id>
+      <recordtableid>57a83164-df9f-4fd4-97aa-dd9f8ca111d9</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput011.rxrec">
+      <id>e7272c50-78cc-43ad-a5fd-4d2076328825</id>
+      <recordtableid>09a0f1d5-b4a2-4c0f-be94-2c4fff948a8f</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput012.rxrec">
+      <id>ee14c686-f40d-47c5-b5b8-6498ef5d58fe</id>
+      <recordtableid>a4ec182e-cf90-4fea-94e1-c96ee4b9fb1c</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\batchInput\batchInput013.rxrec">
+      <id>5a08034c-fff2-4c1e-8b07-99a5b499194b</id>
+      <recordtableid>0be894e6-9056-4b9d-9a67-3afa5ce22842</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
     <None Include="Models\Screening-Management\Infomation\infomation001.rxrec">
       <id>e1a130f0-22a2-48de-bdbf-81a27dc0e9a9</id>
       <recordtableid>4a62351b-8f79-4cb9-a4b1-934d6e89740f</recordtableid>
@@ -2156,6 +2898,36 @@
       <id>25e9ed0f-fa19-4826-8b01-5b1331c07271</id>
       <recordtableid>1c5e0cf3-33de-4e11-85c7-d79ec6a757ad</recordtableid>
       <BoundTo>5BB9AC5D-8DC7-4A4F-9CFC-11E81F4591B4</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\pregnant\pregnant001.rxrec">
+      <id>16264fc4-e2f0-4056-842e-edaa5ccf682a</id>
+      <recordtableid>4998a133-296c-437d-8260-27830c8d2402</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\pregnant\pregnant002.rxrec">
+      <id>41795054-e24b-474f-81cf-84f32bf99bbb</id>
+      <recordtableid>e69cf533-cc6a-48df-b1bf-84cf3db55a68</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\pregnant\pregnant003.rxrec">
+      <id>b33d25fb-a4d9-4162-915d-d581cc72c57b</id>
+      <recordtableid>3a9bd278-44d3-4a8c-8b08-88cb86903dd2</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\pregnant\pregnant004.rxrec">
+      <id>98c0e83d-1ba0-48f9-b4cd-f8739a9229ca</id>
+      <recordtableid>22f43df9-471c-4385-a32a-e5463add8f64</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\pregnant\pregnant005.rxrec">
+      <id>4da11b0e-c027-481a-b236-e91a9bef7456</id>
+      <recordtableid>a0f3af30-47bf-4dfa-bd10-832de688279c</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\pregnant\pregnant006.rxrec">
+      <id>e3e7c599-6493-41bc-9ef5-c8d3fecee87e</id>
+      <recordtableid>c811cd83-fa25-4f42-9b99-827ec02a2801</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
     </None>
     <None Include="Models\Screening-Management\program\program001.rxrec">
       <id>97de1046-c44f-43f0-8cf3-8f1432423665</id>
@@ -2722,6 +3494,106 @@
       <recordtableid>eb3d29c7-965a-4a85-9388-d76128e5051d</recordtableid>
       <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
     </None>
+    <None Include="Models\Screening-Management\summary\summary001.rxrec">
+      <id>4b82e81f-d987-4b43-94cd-2e5a1c219242</id>
+      <recordtableid>28eea034-045c-4e82-9071-6aa2bda9f43c</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary002.rxrec">
+      <id>cc2d3719-f151-4854-bb77-b0d5dec7099d</id>
+      <recordtableid>b0d095bb-d0be-4f26-845f-010097b17db3</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary003.rxrec">
+      <id>9a42838d-fcde-4cd1-bc15-1bdbb305cb95</id>
+      <recordtableid>e66e15c8-0475-4fe7-bc05-cb9366397c84</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary004.rxrec">
+      <id>61a8c4a1-de61-4ebb-ae0d-0aa73c6cfff1</id>
+      <recordtableid>c2fed003-d910-4532-91e9-e614cb3eccf6</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary005.rxrec">
+      <id>9ed92aaa-1124-4fab-8347-7c3f446124d8</id>
+      <recordtableid>2fc1013f-e396-4659-be41-71e076e22006</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary006.rxrec">
+      <id>b4784b3d-eb3b-48e0-85d9-82b53b903815</id>
+      <recordtableid>655cc50a-1547-4a17-a52c-53dcdd190068</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary007.rxrec">
+      <id>4c3296a4-fd79-4062-975f-406f84c3a28a</id>
+      <recordtableid>a2e6658a-26d8-433f-bee4-7da90011f928</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary008.rxrec">
+      <id>1ca5d5f8-395e-4d83-9d2c-8d5deeddb8af</id>
+      <recordtableid>18844436-601a-4aa3-b382-e435b664e808</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary009.rxrec">
+      <id>2722af34-f8c5-4831-b254-328304812090</id>
+      <recordtableid>05217fd3-5463-436e-bbb6-e4e798845ff8</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary010.rxrec">
+      <id>e8e1a7e4-7cb9-40ac-a8a4-10805a36cd08</id>
+      <recordtableid>08a327fe-78dd-4592-9ad3-c4889d9a2504</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary011.rxrec">
+      <id>05a75131-f1c2-4941-9dad-c32d2fbc8a20</id>
+      <recordtableid>6017ac92-2e4b-4507-ba40-99667fa6b6c6</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary012.rxrec">
+      <id>53d6e38a-e5cc-47a2-9d4b-ac361d7cc7b8</id>
+      <recordtableid>f77d6e1a-8a2a-4be1-ac4a-b6308a7056ba</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary013.rxrec">
+      <id>7af1a943-c47a-42f4-a8ef-7954552243e6</id>
+      <recordtableid>0ea18216-06a1-4d44-a9e9-9502075c76e7</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary014.rxrec">
+      <id>c3b38cf4-a6d4-468e-a123-a641d41449a1</id>
+      <recordtableid>0d3d7192-36ef-40d6-bb56-e284373a93ee</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary015.rxrec">
+      <id>e1b98226-7baa-42b8-b151-2a921a8418da</id>
+      <recordtableid>a3d2d62f-7230-403c-8c96-20c250ae39c2</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary016.rxrec">
+      <id>85abe48b-847d-4780-a0e4-0f09cd6528cf</id>
+      <recordtableid>d871d4ea-4847-449a-9f63-9f08762b4aac</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary017.rxrec">
+      <id>e2069163-93d9-4d25-a8ff-f9914e7086ba</id>
+      <recordtableid>9291bb4e-ab16-484d-805a-a1be2c8e2107</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary018.rxrec">
+      <id>85ce4518-2652-480b-b184-294cbeef17a8</id>
+      <recordtableid>7e345ac8-c672-4c02-913d-f043138d8a48</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary019.rxrec">
+      <id>0ac885c3-6ca4-45e6-9052-715065678b1f</id>
+      <recordtableid>d4298a6a-06f9-4a3e-b1a3-a2917d1cad13</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
+    <None Include="Models\Screening-Management\summary\summary020.rxrec">
+      <id>8b758310-2329-4d3b-a3ca-048b0c9677fc</id>
+      <recordtableid>c1b235df-bbee-4294-a2e2-d67f11319b93</recordtableid>
+      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
+    </None>
     <None Include="MPNS_TESTRepository.rximg">
       <BoundTo>0830e1a1-35e8-43b5-8abe-1844a9acc809</BoundTo>
       <DependentUpon>MPNS_TESTRepository.rxrep</DependentUpon>
@@ -2736,11 +3608,6 @@
     <None Include="OpenBrowser.rxrec">
       <id>143affc9-eff2-4ab3-b30b-fe2e08c401a9</id>
       <recordtableid>05a8db7a-197e-49fb-82aa-fd30821efe20</recordtableid>
-      <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
-    </None>
-    <None Include="Models\Login\login.rxrec">
-      <id>ced9f394-42cf-46aa-a866-0cd469347f44</id>
-      <recordtableid>3fcb60a6-b4bd-45c7-83f2-7f14a3358607</recordtableid>
       <BoundTo>B000E6B8-BD12-4B3A-ADC5-F6A93AF39AB9</BoundTo>
     </None>
     <None Include="Repositorys\Infomation.rximg">
@@ -3066,17 +3933,29 @@
     <Folder Include="Models">
       <id>9c45b808-9d93-4a32-a7d6-b7279742b9bc</id>
     </Folder>
-    <Folder Include="Models\Login">
-      <id>83a6ff0d-dd91-440e-a585-73770bff76cf</id>
-    </Folder>
     <Folder Include="Models\Index">
       <id>43d4f22e-30c3-408f-be78-a2691c52440b</id>
+    </Folder>
+    <Folder Include="Models\Login">
+      <id>3905af5a-cb84-4448-8e94-17596a7b43a3</id>
     </Folder>
     <Folder Include="Models\Screening-Management">
       <id>ccabb1d0-a6e9-4e1c-8841-0c9d4307ec61</id>
     </Folder>
     <Folder Include="Models\Screening-Management\Infomation">
       <id>77758776-bcd1-4721-8a31-b645b8327926</id>
+    </Folder>
+    <Folder Include="Models\Screening-Management\batchInput">
+      <id>5770ccdb-48bc-4ee6-9804-7822a6e6c7ce</id>
+    </Folder>
+    <Folder Include="Models\Screening-Management\batchCalculate">
+      <id>33052ac4-a871-46a2-b864-f71ef3bb3c63</id>
+    </Folder>
+    <Folder Include="Models\Screening-Management\summary">
+      <id>1bffdc9d-ae26-4d06-9159-476f686393e4</id>
+    </Folder>
+    <Folder Include="Models\Screening-Management\pregnant">
+      <id>ab33d15c-043e-46a3-af65-e975d0fe0589</id>
     </Folder>
     <Folder Include="Models\Screening-Management\revisit">
       <id>7de09585-ab1b-43b2-9b33-23401f5011cd</id>

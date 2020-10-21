@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2bf01b2be92cff0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 11:42:19"
+		timestampiso="2020-10-19T03:42:19"
+		endtime="2020/10/19 11:42:22"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<errormessage>
+			'go' &#38468;&#36817;&#26377;&#35821;&#27861;&#38169;&#35823;&#12290;
+'&#65292;' &#38468;&#36817;&#26377;&#35821;&#27861;&#38169;&#35823;&#12290;
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.704"
+			timeRelativeToTestModuleStartTime="00:02.704"
+			timeWallClock="11:42:22"
+			time="00:02.704"
+			level="Error"
+			category="Module"
+			errimg="images_summary0_3144d428\summary0_3144d428_bcdd3dc4_trace.jpg"
+			errthumb="images_summary0_3144d428\summary0_3144d428_bcdd3dc4_trace_thumb.jpg">
+			<message>
+				'go' &#38468;&#36817;&#26377;&#35821;&#27861;&#38169;&#35823;&#12290;<br/>'&#65292;' &#38468;&#36817;&#26377;&#35821;&#27861;&#38169;&#35823;&#12290;
+			</message>
+			<metainfo
+				stacktrace="   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#13;&#10;   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#13;&#10;   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)&#13;&#10;   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#13;&#10;   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)&#13;&#10;   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)&#13;&#10;   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.summary.summary001.deleteData() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.UserCode.cs:行号 61&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.summary.summary001.Ranorex.Core.Testing.ITestModule.Run() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs:行号 82&#13;&#10;   在 Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.UserCode.cs"
+				codeline="61"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

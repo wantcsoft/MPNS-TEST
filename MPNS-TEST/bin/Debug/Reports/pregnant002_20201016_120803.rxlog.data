@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="101acc66104c6cc0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/16 12:08:04"
+		timestampiso="2020-10-16T04:08:04"
+		endtime="2020/10/16 12:08:09"
+		timeoutfactor="2"
+		module="pregnant002">
+		<detail>
+			pregnant002
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.698"
+			timeRelativeToTestModuleStartTime="00:02.698"
+			timeWallClock="12:08:07"
+			time="00:02.698"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#27169;&#26495;&#19968;' on item '&#23381;&#22919;&#20449;&#24687;.&#27169;&#26495;&#21517;&#31216;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'txt_SearchTemplateName']"
+				itempath=".//input[#'txt_SearchTemplateName']"
+				fullname="Infomation.孕妇信息.模板名称"
+				id="00380a1b8dee46a2bf55cfba3c573bc8"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant002.cs"
+				codeline="225"
+				itemindex="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.931"
+			timeRelativeToTestModuleStartTime="00:03.931"
+			timeWallClock="12:08:08"
+			time="00:03.931"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#23381;&#22919;&#20449;&#24687;.&#27169;&#26495;&#20445;&#23384;&#30830;&#35748;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'xubox_layer1']/div[1]/div//table//input[@value='保存']"
+				itempath=".//div[#'xubox_layer1']/div[1]/div//table//input[@value='保存']"
+				fullname="Infomation.孕妇信息.模板保存确认"
+				id="af1eba4fa73f4d378e0799cb17d4f2de"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant002.cs"
+				codeline="229"
+				itemindex="39"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="116dae797ea19f36"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 14:57:52"
+		timestampiso="2020-10-19T06:57:52"
+		endtime="2020/10/19 14:58:00"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.618"
+			timeRelativeToTestModuleStartTime="00:02.618"
+			timeWallClock="14:57:54"
+			time="00:02.618"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#35282;&#33394;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.642"
+			timeRelativeToTestModuleStartTime="00:02.642"
+			timeWallClock="14:57:54"
+			time="00:02.642"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1000001' on item '&#29992;&#25143;&#31649;&#29702;.&#36134;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'UserCode']"
+				itempath=".//body//body//input[#'UserCode']"
+				fullname="Infomation.用户管理.账号"
+				id="fff1355776d3461583324c7270a09924"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="246"
+				itemindex="41"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.629"
+			timeRelativeToTestModuleStartTime="00:04.629"
+			timeWallClock="14:57:56"
+			time="00:04.629"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#24352;&#21307;&#29983;' on item '&#29992;&#25143;&#31649;&#29702;.&#21307;&#29983;&#22995;&#21517;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'UserName']"
+				itempath=".//body//body//input[#'UserName']"
+				fullname="Infomation.用户管理.医生姓名"
+				id="e06f8b52f1364fd985b6dae61ce2162e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="250"
+				itemindex="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.401"
+			timeRelativeToTestModuleStartTime="00:05.401"
+			timeWallClock="14:57:57"
+			time="00:05.401"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '123456' on item '&#29992;&#25143;&#31649;&#29702;.&#23494;&#30721;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'Password']"
+				itempath=".//body//body//input[#'Password']"
+				fullname="Infomation.用户管理.密码"
+				id="ef1e7de6842f418f8e912f478bdabd4f"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="254"
+				itemindex="43"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.162"
+			timeRelativeToTestModuleStartTime="00:06.162"
+			timeWallClock="14:57:58"
+			time="00:06.162"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to 'e87075b6-dbe7-41b5-b888-8258996a1952' on item '&#29992;&#25143;&#31649;&#29702;.&#35282;&#33394;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//select[#'RoleID']"
+				itempath=".//body//body//select[#'RoleID']"
+				fullname="Infomation.用户管理.角色"
+				id="6c0c2599242844a5b8b9ee6023bb544c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="258"
+				itemindex="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.888"
+			timeRelativeToTestModuleStartTime="00:06.888"
+			timeWallClock="14:57:59"
+			time="00:06.888"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to '&#31532;&#20108;&#20154;&#27665;&#21307;&#38498;' on item '&#29992;&#25143;&#31649;&#29702;.&#26469;&#28304;&#21333;&#20301;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//select[#'OriginPlace']"
+				itempath=".//body//body//select[#'OriginPlace']"
+				fullname="Infomation.用户管理.来源单位"
+				id="280a6a38382f4661a2c284de75d802a5"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="262"
+				itemindex="45"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.621"
+			timeRelativeToTestModuleStartTime="00:07.621"
+			timeWallClock="14:57:59"
+			time="00:07.621"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#29992;&#25143;&#31649;&#29702;.&#21551;&#29992;&#36134;&#25143;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'IsAvaliable']"
+				itempath=".//body//body//input[#'IsAvaliable']"
+				fullname="Infomation.用户管理.启用账户"
+				id="f0ed4cc075dc4ec4adf9a206ef5d1f52"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="266"
+				itemindex="46"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

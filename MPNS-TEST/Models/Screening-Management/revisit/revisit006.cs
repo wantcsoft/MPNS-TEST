@@ -858,20 +858,20 @@ namespace MPNS_TEST.Models.Screening_Management.revisit
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(202));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.显示设置' at Center.", repo.维护管理.显示设置Info, new RecordItemIndex(203));
-            repo.维护管理.显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.显示设置' at Center.", repo.显示设置.显示设置Info, new RecordItemIndex(203));
+            repo.显示设置.显示设置.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '2' on item '维护管理.回访信息范围'.", repo.维护管理.回访信息范围Info, new RecordItemIndex(204));
-            repo.维护管理.回访信息范围.Element.SetAttributeValue("TagValue", "2");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '2' on item '显示设置.回访信息范围'.", repo.显示设置.回访信息范围Info, new RecordItemIndex(204));
+            repo.显示设置.回访信息范围.Element.SetAttributeValue("TagValue", "2");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '7' on item '维护管理.N天数'.", repo.维护管理.N天数Info, new RecordItemIndex(205));
-            repo.维护管理.N天数.Element.SetAttributeValue("Value", "7");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '7' on item '显示设置.N天数'.", repo.显示设置.N天数Info, new RecordItemIndex(205));
+            repo.显示设置.N天数.Element.SetAttributeValue("Value", "7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.保存显示设置' at Center.", repo.维护管理.保存显示设置Info, new RecordItemIndex(206));
-            repo.维护管理.保存显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.保存显示设置' at Center.", repo.显示设置.保存显示设置Info, new RecordItemIndex(206));
+            repo.显示设置.保存显示设置.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(207));
@@ -902,16 +902,16 @@ namespace MPNS_TEST.Models.Screening_Management.revisit
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(214));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.显示设置' at Center.", repo.维护管理.显示设置Info, new RecordItemIndex(215));
-            repo.维护管理.显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.显示设置' at Center.", repo.显示设置.显示设置Info, new RecordItemIndex(215));
+            repo.显示设置.显示设置.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '99' on item '维护管理.N天数'.", repo.维护管理.N天数Info, new RecordItemIndex(216));
-            repo.维护管理.N天数.Element.SetAttributeValue("Value", "99");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Value to '99' on item '显示设置.N天数'.", repo.显示设置.N天数Info, new RecordItemIndex(216));
+            repo.显示设置.N天数.Element.SetAttributeValue("Value", "99");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.保存显示设置' at Center.", repo.维护管理.保存显示设置Info, new RecordItemIndex(217));
-            repo.维护管理.保存显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.保存显示设置' at Center.", repo.显示设置.保存显示设置Info, new RecordItemIndex(217));
+            repo.显示设置.保存显示设置.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(218));
@@ -942,16 +942,16 @@ namespace MPNS_TEST.Models.Screening_Management.revisit
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(225));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.显示设置' at Center.", repo.维护管理.显示设置Info, new RecordItemIndex(226));
-            repo.维护管理.显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.显示设置' at Center.", repo.显示设置.显示设置Info, new RecordItemIndex(226));
+            repo.显示设置.显示设置.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item '维护管理.回访信息范围'.", repo.维护管理.回访信息范围Info, new RecordItemIndex(227));
-            repo.维护管理.回访信息范围.Element.SetAttributeValue("TagValue", "1");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '1' on item '显示设置.回访信息范围'.", repo.显示设置.回访信息范围Info, new RecordItemIndex(227));
+            repo.显示设置.回访信息范围.Element.SetAttributeValue("TagValue", "1");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.保存显示设置' at Center.", repo.维护管理.保存显示设置Info, new RecordItemIndex(228));
-            repo.维护管理.保存显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.保存显示设置' at Center.", repo.显示设置.保存显示设置Info, new RecordItemIndex(228));
+            repo.显示设置.保存显示设置.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(229));
@@ -982,16 +982,16 @@ namespace MPNS_TEST.Models.Screening_Management.revisit
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(236));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.显示设置' at Center.", repo.维护管理.显示设置Info, new RecordItemIndex(237));
-            repo.维护管理.显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.显示设置' at Center.", repo.显示设置.显示设置Info, new RecordItemIndex(237));
+            repo.显示设置.显示设置.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '22' on item '维护管理.非含高风险的回访'.", repo.维护管理.非含高风险的回访Info, new RecordItemIndex(238));
-            repo.维护管理.非含高风险的回访.Element.SetAttributeValue("TagValue", "22");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '22' on item '显示设置.非含高风险的回访'.", repo.显示设置.非含高风险的回访Info, new RecordItemIndex(238));
+            repo.显示设置.非含高风险的回访.Element.SetAttributeValue("TagValue", "22");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '维护管理.保存显示设置' at Center.", repo.维护管理.保存显示设置Info, new RecordItemIndex(239));
-            repo.维护管理.保存显示设置.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item '显示设置.保存显示设置' at Center.", repo.显示设置.保存显示设置Info, new RecordItemIndex(239));
+            repo.显示设置.保存显示设置.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(240));

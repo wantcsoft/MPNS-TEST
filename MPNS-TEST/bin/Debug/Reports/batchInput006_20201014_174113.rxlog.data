@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12144ce2f49795e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 17:41:15"
+		timestampiso="2020-10-14T09:41:15"
+		endtime="2020/10/14 17:41:19"
+		timeoutfactor="2"
+		module="batchInput006">
+		<detail>
+			batchInput006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.699"
+			timeRelativeToTestModuleStartTime="00:02.699"
+			timeWallClock="17:41:18"
+			time="00:02.699"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '&#27979;&#35797;&#29992;&#20363;V1.19.xls' on item '&#25991;&#20214;&#19978;&#20256;.&#25991;&#20214;&#21517;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='文件上传']/?/?/text[@controlid='1148']"
+				itempath="?/?/text[@controlid='1148']"
+				fullname="Infomation.文件上传.文件名"
+				id="8c39677620d34beaaea209654ada2218"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput006.cs"
+				codeline="104"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.419"
+			timeRelativeToTestModuleStartTime="00:03.419"
+			timeWallClock="17:41:18"
+			time="00:03.419"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#25991;&#20214;&#19978;&#20256;.&#25171;&#24320;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='文件上传']/button[@text='打开(&amp;O)']"
+				itempath="button[@text='打开(&amp;O)']"
+				fullname="Infomation.文件上传.打开"
+				id="ef701c19d2304abc9ac22b15fd0f95d1"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput006.cs"
+				codeline="108"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

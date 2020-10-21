@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13fa26f65a0b3ed4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 16:45:27"
+		timestampiso="2020-10-14T08:45:27"
+		endtime="2020/10/14 16:45:34"
+		timeoutfactor="2"
+		module="batchInput004">
+		<detail>
+			batchInput004
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.859"
+			timeRelativeToTestModuleStartTime="00:04.859"
+			timeWallClock="16:45:32"
+			time="00:04.859"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#27719;&#24635;&#20449;&#24687;.&#30830;&#23450;&#25764;&#38144;&#23457;&#26680;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'xubox_layer1']//a[@innertext='确定']"
+				itempath=".//div[#'xubox_layer1']//a[@innertext='确定']"
+				fullname="Infomation.汇总信息.确定撤销审核"
+				id="5759eaf9f9df4dceb2ccfd3afa43d091"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput004.cs"
+				codeline="139"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="178677d7d979d4aa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 14:08:15"
+		timestampiso="2020-10-20T06:08:15"
+		endtime="2020/10/20 14:08:19"
+		timeoutfactor="2"
+		module="summary017">
+		<detail>
+			summary017
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.739"
+			timeRelativeToTestModuleStartTime="00:02.739"
+			timeWallClock="14:08:18"
+			time="00:02.739"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary017.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.055"
+			timeRelativeToTestModuleStartTime="00:03.055"
+			timeWallClock="14:08:19"
+			time="00:03.055"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by 1000 units.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary017.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

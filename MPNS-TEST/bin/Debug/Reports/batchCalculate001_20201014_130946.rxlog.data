@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="103e21b708712024"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 13:09:47"
+		timestampiso="2020-10-14T05:09:47"
+		endtime="2020/10/14 13:09:51"
+		timeoutfactor="2"
+		module="batchCalculate001">
+		<detail>
+			batchCalculate001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.723"
+			timeRelativeToTestModuleStartTime="00:02.723"
+			timeWallClock="13:09:50"
+			time="00:02.723"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#26041;&#26696;.&#26089;&#26399;&#34880;&#28165;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']/div[1]/ul[1]/?/?/input[@type='checkbox']"
+				itempath=".//div[#'SolutionList']/div[1]/ul[1]/?/?/input[@type='checkbox']"
+				fullname="Infomation.方案.早期血清"
+				id="e4c918570f844cd99f9cff13d44d7347"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchCalculate\batchCalculate001.cs"
+				codeline="156"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

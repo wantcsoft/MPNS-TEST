@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c1ee798f893c7f8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 11:58:10"
+		timestampiso="2020-10-19T03:58:10"
+		endtime="2020/10/19 11:58:16"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.815"
+			timeRelativeToTestModuleStartTime="00:04.815"
+			timeWallClock="11:58:15"
+			time="00:04.815"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#30331;&#20986;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']/body/div[1]/div[2]/ul/?/?/div[@innertext='欢迎您,']/a[@innertext='[登出]']"
+				itempath="body/div[1]/div[2]/ul/?/?/div[@innertext='欢迎您,']/a[@innertext='[登出]']"
+				fullname="Infomation.页面头选择.登出"
+				id="e647d7fe46d14431b476c570db486fbb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="99"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.842"
+			timeRelativeToTestModuleStartTime="00:05.842"
+			timeWallClock="11:58:16"
+			time="00:05.842"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#30830;&#23450;&#30331;&#20986;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//span[@class='xubox_botton']/a[@innertext='确定']"
+				itempath=".//span[@class='xubox_botton']/a[@innertext='确定']"
+				fullname="Infomation.页面头选择.确定登出"
+				id="ab0ee8141b8044e084a2f847a4fb3b92"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="103"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

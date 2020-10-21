@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fe388e90be8c3be"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 14:17:32"
+		timestampiso="2020-10-14T06:17:32"
+		endtime="2020/10/14 14:17:35"
+		timeoutfactor="2"
+		module="batchInput002">
+		<detail>
+			batchInput002
+		</detail>
+		<errormessage>
+			&#25968;&#25454;&#24211;&#20013;&#24050;&#23384;&#22312;&#21517;&#20026; 'Batchadding' &#30340;&#23545;&#35937;&#12290;
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.683"
+			timeRelativeToTestModuleStartTime="00:02.683"
+			timeWallClock="14:17:35"
+			time="00:02.683"
+			level="Warn"
+			category="Data"
+			errimg="images_batchInp_c9fa0345\batchInp_c9fa0345_90df8090_trace.jpg"
+			errthumb="images_batchInp_c9fa0345\batchInp_c9fa0345_90df8090_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>count
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.774"
+			timeRelativeToTestModuleStartTime="00:02.774"
+			timeWallClock="14:17:35"
+			time="00:02.774"
+			level="Error"
+			category="Module"
+			errimg="images_batchInp_c9fa0345\batchInp_c9fa0345_25c6435e_trace.jpg"
+			errthumb="images_batchInp_c9fa0345\batchInp_c9fa0345_25c6435e_trace_thumb.jpg">
+			<message>
+				&#25968;&#25454;&#24211;&#20013;&#24050;&#23384;&#22312;&#21517;&#20026; 'Batchadding' &#30340;&#23545;&#35937;&#12290;
+			</message>
+			<metainfo
+				stacktrace="   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#13;&#10;   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#13;&#10;   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)&#13;&#10;   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#13;&#10;   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)&#13;&#10;   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)&#13;&#10;   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.batchInput.batchInput002.createTable() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput002.UserCode.cs:行号 54&#13;&#10;   在 MPNS_TEST.Models.Screening_Management.batchInput.batchInput002.Ranorex.Core.Testing.ITestModule.Run() 位置 d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput002.cs:行号 95&#13;&#10;   在 Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput002.UserCode.cs"
+				codeline="54"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c793e362cad4f96"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 14:18:20"
+		timestampiso="2020-10-20T06:18:20"
+		endtime="2020/10/20 14:18:26"
+		timeoutfactor="2"
+		module="summary017">
+		<detail>
+			summary017
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.701"
+			timeRelativeToTestModuleStartTime="00:02.701"
+			timeWallClock="14:18:23"
+			time="00:02.701"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary017.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.716"
+			timeRelativeToTestModuleStartTime="00:03.716"
+			timeWallClock="14:18:24"
+			time="00:03.716"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Horizontal by 2000 units.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary017.cs"
+				codeline="119"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.034"
+			timeRelativeToTestModuleStartTime="00:04.034"
+			timeWallClock="14:18:24"
+			time="00:04.034"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#27719;&#24635;&#20449;&#24687;.&#25628;&#32034;&#32467;&#26524;&#31532;&#19968;&#26465;&#22238;&#35775;&#20449;&#24687;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body/div[@class='main min_width contenttop']//tbody/tr[1]/td[14]/a[2]"
+				itempath=".//body/div[@class='main min_width contenttop']//tbody/tr[1]/td[14]/a[2]"
+				fullname="Infomation.汇总信息.搜索结果第一条回访信息"
+				id="7ae20f8a3edf47629588ac96a27df66b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary017.cs"
+				codeline="123"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

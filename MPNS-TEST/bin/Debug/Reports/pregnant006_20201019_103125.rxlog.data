@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="57ee6f273a44b60"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 10:31:26"
+		timestampiso="2020-10-19T02:31:26"
+		endtime="2020/10/19 10:31:32"
+		timeoutfactor="2"
+		module="pregnant006">
+		<detail>
+			pregnant006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.615"
+			timeRelativeToTestModuleStartTime="00:02.615"
+			timeWallClock="10:31:29"
+			time="00:02.615"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#23381;&#22919;&#20449;&#24687;.&#20445;&#23384;&#30830;&#23450;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//span[@class='xubox_botton']/a[@innertext='确定']"
+				itempath=".//span[@class='xubox_botton']/a[@innertext='确定']"
+				fullname="Infomation.孕妇信息.保存确定"
+				id="8468b8b8f09d4bb5ba68fb529a0cff67"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant006.cs"
+				codeline="197"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

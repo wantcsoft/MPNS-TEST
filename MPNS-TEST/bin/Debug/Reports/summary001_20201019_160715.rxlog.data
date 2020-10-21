@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21906445865cb50"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 16:07:16"
+		timestampiso="2020-10-19T08:07:16"
+		endtime="2020/10/19 16:07:22"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.791"
+			timeRelativeToTestModuleStartTime="00:04.791"
+			timeWallClock="16:07:21"
+			time="00:04.791"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#31579;&#26597;&#21495;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.817"
+			timeRelativeToTestModuleStartTime="00:04.817"
+			timeWallClock="16:07:21"
+			time="00:04.817"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#26089;&#20013;&#26399;&#32852;&#21512;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'SolutionList']//a[@innertext='早中期联合']"
+				itempath=".//div[#'SolutionList']//a[@innertext='早中期联合']"
+				fullname="Infomation.方案.早中期联合"
+				id="470e5c32ea6b443c8026da74d07e71c6"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="467"
+				itemindex="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

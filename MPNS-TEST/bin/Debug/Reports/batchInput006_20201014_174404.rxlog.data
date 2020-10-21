@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bc200f5e2c95e90"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 17:44:06"
+		timestampiso="2020-10-14T09:44:06"
+		endtime="2020/10/14 17:44:10"
+		timeoutfactor="2"
+		module="batchInput006">
+		<detail>
+			batchInput006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.668"
+			timeRelativeToTestModuleStartTime="00:02.668"
+			timeWallClock="17:44:09"
+			time="00:02.668"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#31649;&#29702;&#25209;&#37327;&#24405;&#20837;.&#30830;&#23450;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[@id='But_MozzieImportExcel']"
+				itempath=".//input[@id='But_MozzieImportExcel']"
+				fullname="Infomation.筛查管理批量录入.确定"
+				id="5bee9bbb8fb04550beb70949a10ed62e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput006.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

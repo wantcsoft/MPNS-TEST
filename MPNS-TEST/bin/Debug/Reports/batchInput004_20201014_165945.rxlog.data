@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2dff3a69313c15e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 16:59:47"
+		timestampiso="2020-10-14T08:59:47"
+		endtime="2020/10/14 16:59:53"
+		timeoutfactor="2"
+		module="batchInput004">
+		<detail>
+			batchInput004
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.859"
+			timeRelativeToTestModuleStartTime="00:04.859"
+			timeWallClock="16:59:52"
+			time="00:04.859"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#23381;&#22919;&#20449;&#24687;.&#30830;&#23450;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'xubox_layer1']//a[@innertext='确定']"
+				itempath=".//div[#'xubox_layer1']//a[@innertext='确定']"
+				fullname="Infomation.孕妇信息.确定"
+				id="403e966fce2f47639f694320f7f09342"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput004.cs"
+				codeline="193"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.990"
+			timeRelativeToTestModuleStartTime="00:05.990"
+			timeWallClock="16:59:53"
+			time="00:05.990"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="30"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput004.cs"
+				codeline="197"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.290"
+			timeRelativeToTestModuleStartTime="00:06.290"
+			timeWallClock="16:59:53"
+			time="00:06.290"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on '&#30331;&#24405;&#20449;&#24687;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']"
+				itempath="/dom[@domain='localhost:8016']"
+				fullname="Infomation.登录信息.Self"
+				id="6193bb30763742279b518cc11f502591"
+				timeout="60000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput004.cs"
+				codeline="200"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

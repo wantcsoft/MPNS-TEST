@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1d6256ac2fbc9e7d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 14:04:01"
+		timestampiso="2020-10-20T06:04:01"
+		endtime="2020/10/20 14:04:10"
+		timeoutfactor="2"
+		module="summary016">
+		<detail>
+			summary016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.859"
+			timeRelativeToTestModuleStartTime="00:04.859"
+			timeWallClock="14:04:05"
+			time="00:04.859"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#27719;&#24635;&#20449;&#24687;.&#20445;&#23384;&#30830;&#23450;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//span[@class='xubox_botton']/a[@innertext='确定']"
+				itempath=".//span[@class='xubox_botton']/a[@innertext='确定']"
+				fullname="Infomation.汇总信息.保存确定"
+				id="3839e68460e543158b558f3f47bb7403"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary016.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

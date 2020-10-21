@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ed29b130e7b44bf"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 11:58:59"
+		timestampiso="2020-10-20T03:58:59"
+		endtime="2020/10/20 11:59:03"
+		timeoutfactor="2"
+		module="summary015">
+		<detail>
+			summary015
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.673"
+			timeRelativeToTestModuleStartTime="00:02.673"
+			timeWallClock="11:59:01"
+			time="00:02.673"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#26041;&#26696;.&#22686;&#21152;&#26041;&#26696;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				itempath=".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]"
+				fullname="Infomation.方案.增加方案"
+				id="bcc01d5b6fe14175aa174119b6efebb0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

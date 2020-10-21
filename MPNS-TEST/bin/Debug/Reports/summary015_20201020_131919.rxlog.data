@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17cc9d8169282348"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 13:19:20"
+		timestampiso="2020-10-20T05:19:20"
+		endtime="2020/10/20 13:19:26"
+		timeoutfactor="2"
+		module="summary015">
+		<detail>
+			summary015
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.851"
+			timeRelativeToTestModuleStartTime="00:04.851"
+			timeWallClock="13:19:25"
+			time="00:04.851"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#36873;&#39033;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.877"
+			timeRelativeToTestModuleStartTime="00:04.877"
+			timeWallClock="13:19:25"
+			time="00:04.877"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Tabindex' from item '&#26041;&#26696;.&#26089;&#26399;&#26679;&#26412;' and assigning its value to variable '&#36873;&#39033;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'EarlySampleLst']"
+				itempath=".//select[#'EarlySampleLst']"
+				fullname="Infomation.方案.早期样本"
+				id="82fd2fa483e04b70bc1dc0f1a379e680"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="145"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.523"
+			timeRelativeToTestModuleStartTime="00:05.523"
+			timeWallClock="13:19:26"
+			time="00:05.523"
+			level="Info"
+			category="User">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="149"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

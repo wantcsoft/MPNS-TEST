@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="db61250ef9c1634"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 13:21:29"
+		timestampiso="2020-10-19T05:21:29"
+		endtime="2020/10/19 13:21:34"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.705"
+			timeRelativeToTestModuleStartTime="00:02.705"
+			timeWallClock="13:21:32"
+			time="00:02.705"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#32534;&#36753;&#20840;&#36873;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//input[#'chk_SelectAll']"
+				itempath=".//iframe[#'xubox_iframe2']//input[#'chk_SelectAll']"
+				fullname="Infomation.角色管理.编辑全选"
+				id="e89561ff158146efbcf6024c6d48338b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="125"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.981"
+			timeRelativeToTestModuleStartTime="00:03.981"
+			timeWallClock="13:21:33"
+			time="00:03.981"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#29992;&#25143;&#31649;&#29702;&#21024;&#38500;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[7]/?/?/ul/?/?/input[@name='chk_ids']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[7]/?/?/ul/?/?/input[@name='chk_ids']"
+				fullname="Infomation.角色管理.用户管理删除"
+				id="ed39f1f63df949ee969da1dbb4cbcd4a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="129"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.074"
+			timeRelativeToTestModuleStartTime="00:04.074"
+			timeWallClock="13:21:33"
+			time="00:04.074"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#29992;&#25143;&#31649;&#29702;&#32534;&#36753;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[7]/?/?/ul/?/?/input[@type='checkbox' and @value>'90e86400-2478-469e-81df-3']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[7]/?/?/ul/?/?/input[@type='checkbox' and @value>'90e86400-2478-469e-81df-3']"
+				fullname="Infomation.角色管理.用户管理编辑"
+				id="763e2f3b16fa43fa95b1be338e48ee9c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="133"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.168"
+			timeRelativeToTestModuleStartTime="00:04.168"
+			timeWallClock="13:21:34"
+			time="00:04.168"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#29992;&#25143;&#31649;&#29702;&#26032;&#22686;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[7]/?/?/ul/?/?/input[@type='checkbox' and @value>'5e16c00f-527d-4535-bc02-6']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[7]/?/?/ul/?/?/input[@type='checkbox' and @value>'5e16c00f-527d-4535-bc02-6']"
+				fullname="Infomation.角色管理.用户管理新增"
+				id="f548c77f8d0b4b7abbf64994d4416879"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="137"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.263"
+			timeRelativeToTestModuleStartTime="00:04.263"
+			timeWallClock="13:21:34"
+			time="00:04.263"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#35282;&#33394;&#31649;&#29702;&#21024;&#38500;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@name='chk_ids']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@name='chk_ids']"
+				fullname="Infomation.角色管理.角色管理删除"
+				id="e6065ec4d70048b3b1267e92baa5f35a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="141"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.355"
+			timeRelativeToTestModuleStartTime="00:04.355"
+			timeWallClock="13:21:34"
+			time="00:04.355"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#35282;&#33394;&#31649;&#29702;&#32534;&#36753;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@type='checkbox' and @value>'d52abbb3-767a-46bd-b480-2']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@type='checkbox' and @value>'d52abbb3-767a-46bd-b480-2']"
+				fullname="Infomation.角色管理.角色管理编辑"
+				id="e69ea0f7bd0540e09798519e9e0f74ad"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="145"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.448"
+			timeRelativeToTestModuleStartTime="00:04.448"
+			timeWallClock="13:21:34"
+			time="00:04.448"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#35282;&#33394;&#31649;&#29702;&#26032;&#22686;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@type='checkbox' and @value>'04788289-de21-4a95-b2ca-8']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@type='checkbox' and @value>'04788289-de21-4a95-b2ca-8']"
+				fullname="Infomation.角色管理.角色管理新增"
+				id="f41d6262d62d4331bb1a3c46389772d0"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="149"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

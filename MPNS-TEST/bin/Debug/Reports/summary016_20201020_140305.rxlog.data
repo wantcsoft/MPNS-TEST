@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="718413e02cb4741"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 14:03:06"
+		timestampiso="2020-10-20T06:03:06"
+		endtime="2020/10/20 14:03:16"
+		timeoutfactor="2"
+		module="summary016">
+		<detail>
+			summary016
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.878"
+			timeRelativeToTestModuleStartTime="00:04.878"
+			timeWallClock="14:03:11"
+			time="00:04.878"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#27719;&#24635;&#20449;&#24687;.&#20445;&#23384;&#34920;&#22836;&#35774;&#32622;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'butSubmit']"
+				itempath=".//body//body//input[#'butSubmit']"
+				fullname="Infomation.汇总信息.保存表头设置"
+				id="68cf02ddbd734feaa51dbe52b97e4028"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary016.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8b3f4039ecb9cfe"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/16 16:17:12"
+		timestampiso="2020-10-16T08:17:12"
+		endtime="2020/10/16 16:17:16"
+		timeoutfactor="2"
+		module="pregnant006">
+		<detail>
+			pregnant006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.769"
+			timeRelativeToTestModuleStartTime="00:02.769"
+			timeWallClock="16:17:15"
+			time="00:02.769"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#23381;&#22919;&#20449;&#24687;.&#35774;&#32622;&#34920;&#22836;&#32974;&#25968;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='胎数']/a"
+				itempath=".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='胎数']/a"
+				fullname="Infomation.孕妇信息.设置表头胎数"
+				id="6495cf4c83804cbea5804beb2c1b515c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant006.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

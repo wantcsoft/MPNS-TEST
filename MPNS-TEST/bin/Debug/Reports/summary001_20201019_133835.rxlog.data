@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.77s"
+		durationms="21774"
+		type="root"
+		rid="87737645b3f0b8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 13:38:37"
+		timestampiso="2020-10-19T05:38:37"
+		endtime="2020/10/19 13:38:59"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.665"
+			timeRelativeToTestModuleStartTime="00:02.665"
+			timeWallClock="13:38:40"
+			time="00:02.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#35282;&#33394;&#31649;&#29702;.&#20445;&#23384;&#35282;&#33394;&#20449;&#24687;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//tr[4]//input[@value='保存']"
+				itempath=".//body//body//tr[4]//input[@value='保存']"
+				fullname="Infomation.角色管理.保存角色信息"
+				id="b6a5ecd0116a4a47a5a5f8f81eae0587"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="167"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.775"
+			timeRelativeToTestModuleStartTime="00:21.775"
+			timeWallClock="13:38:59"
+			time="00:21.775"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

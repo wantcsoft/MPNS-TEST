@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.75s"
+		durationms="23753"
+		type="root"
+		rid="27479dbd8d3d173"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 13:29:00"
+		timestampiso="2020-10-19T05:29:00"
+		endtime="2020/10/19 13:29:24"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.660"
+			timeRelativeToTestModuleStartTime="00:02.660"
+			timeWallClock="13:29:03"
+			time="00:02.660"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#35282;&#33394;&#31649;&#29702;.&#32534;&#36753;&#21307;&#29983;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']/body/div[2]/form[@action='http://localhost:8016/Role']/?/?/table/tbody/tr[4]/?/?/a[@innertext='编辑']"
+				itempath="body/div[2]/form[@action='http://localhost:8016/Role']/?/?/table/tbody/tr[4]/?/?/a[@innertext='编辑']"
+				fullname="Infomation.角色管理.编辑医生"
+				id="bae634a3492142319a250102b5680f5d"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="125"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.452"
+			timeRelativeToTestModuleStartTime="00:04.452"
+			timeWallClock="13:29:05"
+			time="00:04.452"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'true' on item '&#35282;&#33394;&#31649;&#29702;.&#32534;&#36753;&#20840;&#36873;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'chk_SelectAll']"
+				itempath=".//body//body//input[#'chk_SelectAll']"
+				fullname="Infomation.角色管理.编辑全选"
+				id="e89561ff158146efbcf6024c6d48338b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="129"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.969"
+			timeRelativeToTestModuleStartTime="00:05.969"
+			timeWallClock="13:29:06"
+			time="00:05.969"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'false' on item '&#35282;&#33394;&#31649;&#29702;.&#29992;&#25143;&#31649;&#29702;&#21024;&#38500;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//li[1]/input[@name='chk_ids']"
+				itempath=".//body//body//li[1]/input[@name='chk_ids']"
+				fullname="Infomation.角色管理.用户管理删除"
+				id="ed39f1f63df949ee969da1dbb4cbcd4a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="133"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.224"
+			timeRelativeToTestModuleStartTime="00:07.224"
+			timeWallClock="13:29:07"
+			time="00:07.224"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'false' on item '&#35282;&#33394;&#31649;&#29702;.&#29992;&#25143;&#31649;&#29702;&#32534;&#36753;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//li[2]/input[@name='chk_ids']"
+				itempath=".//body//body//li[2]/input[@name='chk_ids']"
+				fullname="Infomation.角色管理.用户管理编辑"
+				id="763e2f3b16fa43fa95b1be338e48ee9c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="137"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.445"
+			timeRelativeToTestModuleStartTime="00:08.445"
+			timeWallClock="13:29:09"
+			time="00:08.445"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'false' on item '&#35282;&#33394;&#31649;&#29702;.&#29992;&#25143;&#31649;&#29702;&#26032;&#22686;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//li[3]/input[@name='chk_ids']"
+				itempath=".//body//body//li[3]/input[@name='chk_ids']"
+				fullname="Infomation.角色管理.用户管理新增"
+				id="f548c77f8d0b4b7abbf64994d4416879"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="141"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.725"
+			timeRelativeToTestModuleStartTime="00:09.725"
+			timeWallClock="13:29:10"
+			time="00:09.725"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Checked to 'false' on item '&#35282;&#33394;&#31649;&#29702;.&#35282;&#33394;&#31649;&#29702;&#21024;&#38500;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@name='chk_ids']"
+				itempath=".//iframe[#'xubox_iframe2']//table[#'tb_list']/tbody/tr[2]/td[2]/table/tbody/tr[8]/?/?/ul/?/?/input[@name='chk_ids']"
+				fullname="Infomation.角色管理.角色管理删除"
+				id="e6065ec4d70048b3b1267e92baa5f35a"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="145"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.755"
+			timeRelativeToTestModuleStartTime="00:23.755"
+			timeWallClock="13:29:24"
+			time="00:23.755"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

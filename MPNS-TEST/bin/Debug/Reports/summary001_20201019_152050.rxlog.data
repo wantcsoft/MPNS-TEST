@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9b878e6beddd701"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 15:20:52"
+		timestampiso="2020-10-19T07:20:52"
+		endtime="2020/10/19 15:20:59"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.791"
+			timeRelativeToTestModuleStartTime="00:04.791"
+			timeWallClock="15:20:57"
+			time="00:04.791"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#31579;&#26597;&#21495;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.818"
+			timeRelativeToTestModuleStartTime="00:04.818"
+			timeWallClock="15:20:57"
+			time="00:04.818"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '0.66' on item '&#26089;&#26399;&#26679;&#26412;.NT_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[1]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[1]/td[3]/input"
+				fullname="Infomation.早期样本.NT_E结果"
+				id="eba162d6c94740008e30e8cf7d6183fb"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="390"
+				itemindex="79"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.072"
+			timeRelativeToTestModuleStartTime="00:06.072"
+			timeWallClock="15:20:58"
+			time="00:06.072"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '22000' on item '&#26089;&#26399;&#26679;&#26412;.&#21333;&#32974;tbhCG_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[2]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[2]/td[3]/input"
+				fullname="Infomation.早期样本.单胎tbhCG_E结果"
+				id="47afdd2e21b542dea832c1cc421d2270"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="394"
+				itemindex="80"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.168"
+			timeRelativeToTestModuleStartTime="00:06.168"
+			timeWallClock="15:20:58"
+			time="00:06.168"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '226' on item '&#26089;&#26399;&#26679;&#26412;.&#21333;&#32974;PAPPA_E&#32467;&#26524;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[3]/td[3]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample_testlist']/table/tbody/tr[3]/td[3]/input"
+				fullname="Infomation.早期样本.单胎PAPPA_E结果"
+				id="71cc02f4b4be48d2863470183075de80"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="398"
+				itemindex="81"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.264"
+			timeRelativeToTestModuleStartTime="00:06.264"
+			timeWallClock="15:20:58"
+			time="00:06.264"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#26446;&#21307;&#29983;' on item '&#26089;&#26399;&#26679;&#26412;.&#36865;&#26816;&#21307;&#29983;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']"
+				fullname="Infomation.早期样本.送检医生"
+				id="291ab64b70ca40e5b9a8b6d476df42bf"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="402"
+				itemindex="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.352"
+			timeRelativeToTestModuleStartTime="00:06.352"
+			timeWallClock="15:20:58"
+			time="00:06.352"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#31532;&#19968;&#20154;&#27665;&#21307;&#38498;' on item '&#26089;&#26399;&#26679;&#26412;.&#21333;&#20301;&#26469;&#28304;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width160 enter']"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width160 enter']"
+				fullname="Infomation.早期样本.单位来源"
+				id="1117116b6c944a28a6f791023a558531"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="406"
+				itemindex="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.437"
+			timeRelativeToTestModuleStartTime="00:06.437"
+			timeWallClock="15:20:58"
+			time="00:06.437"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26089;&#26399;&#26679;&#26412;.&#20445;&#23384;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr/td[@class='screen_sample1_tableleft']/div[3]/input[1]"
+				fullname="Infomation.早期样本.保存按钮"
+				id="6d87e7710eac4f5e967b3bdc39c1208e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="410"
+				itemindex="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

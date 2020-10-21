@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1fba342f89d26b77"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 13:09:52"
+		timestampiso="2020-10-20T05:09:52"
+		endtime="2020/10/20 13:09:59"
+		timeoutfactor="2"
+		module="summary015">
+		<detail>
+			summary015
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.837"
+			timeRelativeToTestModuleStartTime="00:04.837"
+			timeWallClock="13:09:56"
+			time="00:04.837"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#20449;&#24687;.&#21560;&#28895;&#21490;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'SmokeHistory']"
+				itempath=".//select[#'SmokeHistory']"
+				fullname="Infomation.筛查信息.吸烟史"
+				id="95e834402fa844d3b169e30e15e06ee7"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="128"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.076"
+			timeRelativeToTestModuleStartTime="00:06.076"
+			timeWallClock="13:09:58"
+			time="00:06.076"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="132"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.083"
+			timeRelativeToTestModuleStartTime="00:07.083"
+			timeWallClock="13:09:59"
+			time="00:07.083"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#20449;&#24687;.&#21560;&#28895;&#21490;&#36873;&#39033;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'SmokeHistory']/option[2]"
+				itempath=".//select[#'SmokeHistory']/option[2]"
+				fullname="Infomation.筛查信息.吸烟史选项"
+				id="db862da2474d4606b18de8ad291b840e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="135"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

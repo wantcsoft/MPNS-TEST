@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="24d3273c21e646c0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 18:07:09"
+		timestampiso="2020-10-19T10:07:09"
+		endtime="2020/10/19 18:07:15"
+		timeoutfactor="2"
+		module="summary005">
+		<detail>
+			summary005
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.820"
+			timeRelativeToTestModuleStartTime="00:04.820"
+			timeWallClock="18:07:13"
+			time="00:04.820"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#27719;&#24635;&#20449;&#24687;.&#27169;&#26495;&#36873;&#25321;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'SearchTemplate']"
+				itempath=".//select[#'SearchTemplate']"
+				fullname="Infomation.汇总信息.模板选择"
+				id="71bbbd7a23b54fc1a3ddb316a563f1ff"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary005.cs"
+				codeline="201"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

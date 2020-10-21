@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="87cd84eb13aef0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/15 10:18:31"
+		timestampiso="2020-10-15T02:18:31"
+		endtime="2020/10/15 10:18:35"
+		timeoutfactor="2"
+		module="batchInput009">
+		<detail>
+			batchInput009
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.628"
+			timeRelativeToTestModuleStartTime="00:02.628"
+			timeWallClock="10:18:33"
+			time="00:02.628"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="27"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput009.cs"
+				codeline="185"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.945"
+			timeRelativeToTestModuleStartTime="00:02.945"
+			timeWallClock="10:18:33"
+			time="00:02.945"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#31649;&#29702;&#25209;&#37327;&#24405;&#20837;.&#30830;&#23450;&#23548;&#20837;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//span[@class='xubox_botton']/a[@innertext='确定']"
+				itempath=".//span[@class='xubox_botton']/a[@innertext='确定']"
+				fullname="Infomation.筛查管理批量录入.确定导入"
+				id="5bee9bbb8fb04550beb70949a10ed62e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput009.cs"
+				codeline="188"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

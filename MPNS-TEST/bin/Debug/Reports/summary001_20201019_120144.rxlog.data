@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="296e752f811cf3d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 12:01:46"
+		timestampiso="2020-10-19T04:01:46"
+		endtime="2020/10/19 12:01:52"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.827"
+			timeRelativeToTestModuleStartTime="00:04.827"
+			timeWallClock="12:01:51"
+			time="00:04.827"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to 'Administrator' on item '&#30331;&#24405;&#20449;&#24687;.&#36134;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'LoginUserCode']"
+				itempath=".//input[#'LoginUserCode']"
+				fullname="Infomation.登录信息.账号"
+				id="7e31ebfcf61847e1b946a886df001654"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="110"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.014"
+			timeRelativeToTestModuleStartTime="00:06.014"
+			timeWallClock="12:01:52"
+			time="00:06.014"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '123456' on item '&#30331;&#24405;&#20449;&#24687;.&#23494;&#30721;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'LoginPassWord']"
+				itempath=".//input[#'LoginPassWord']"
+				fullname="Infomation.登录信息.密码"
+				id="d31fcfb6b0d8487088ec8296ddd27129"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="114"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.085"
+			timeRelativeToTestModuleStartTime="00:06.085"
+			timeWallClock="12:01:52"
+			time="00:06.085"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#30331;&#24405;&#20449;&#24687;.&#30331;&#24405;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'But_Login']"
+				itempath=".//input[#'But_Login']"
+				fullname="Infomation.登录信息.登录按钮"
+				id="067483c166db4cbeaee3407aaa6613b5"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="118"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.86s"
+		durationms="17858"
+		type="root"
+		rid="7e1410b44de011"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/14 17:43:05"
+		timestampiso="2020-10-14T09:43:05"
+		endtime="2020/10/14 17:43:23"
+		timeoutfactor="2"
+		module="batchInput006">
+		<detail>
+			batchInput006
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.847"
+			timeRelativeToTestModuleStartTime="00:04.847"
+			timeWallClock="17:43:10"
+			time="00:04.847"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#31579;&#26597;&#31649;&#29702;&#25209;&#37327;&#24405;&#20837;.&#30830;&#23450;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'But_MozzieImportExcel']"
+				itempath=".//input[#'But_MozzieImportExcel']"
+				fullname="Infomation.筛查管理批量录入.确定"
+				id="5bee9bbb8fb04550beb70949a10ed62e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput006.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.860"
+			timeRelativeToTestModuleStartTime="00:17.860"
+			timeWallClock="17:43:23"
+			time="00:17.860"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

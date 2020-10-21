@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21116444775a283f"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 15:16:22"
+		timestampiso="2020-10-19T07:16:22"
+		endtime="2020/10/19 15:16:28"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.817"
+			timeRelativeToTestModuleStartTime="00:04.817"
+			timeWallClock="15:16:27"
+			time="00:04.817"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#31579;&#26597;&#21495;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.842"
+			timeRelativeToTestModuleStartTime="00:04.842"
+			timeWallClock="15:16:27"
+			time="00:04.842"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '2018-08-21' on item '&#26089;&#26399;&#26679;&#26412;.CRL&#26085;&#26399;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/td[2]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/td[2]/input"
+				fullname="Infomation.早期样本.CRL日期"
+				id="bec7c4cb8b394175b6a3f803149eb85d"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="378"
+				itemindex="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.106"
+			timeRelativeToTestModuleStartTime="00:06.106"
+			timeWallClock="15:16:28"
+			time="00:06.106"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '44' on item '&#26089;&#26399;&#26679;&#26412;.CRL&#38271;&#24230;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/td[4]/input"
+				itempath=".//div[#'sampleinfoandtestinfoearly_list']/?/?/table/tbody/tr[4]/td[4]/input"
+				fullname="Infomation.早期样本.CRL长度"
+				id="76309098831c4afb8b380e4bdc34ca48"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="382"
+				itemindex="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

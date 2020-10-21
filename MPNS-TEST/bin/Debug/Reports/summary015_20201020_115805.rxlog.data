@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2663111a6589cc80"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 11:58:07"
+		timestampiso="2020-10-20T03:58:07"
+		endtime="2020/10/20 11:58:10"
+		timeoutfactor="2"
+		module="summary015">
+		<detail>
+			summary015
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.626"
+			timeRelativeToTestModuleStartTime="00:02.626"
+			timeWallClock="11:58:09"
+			time="00:02.626"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1000 units.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

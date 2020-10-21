@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2a1a87f964bb42"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 17:58:59"
+		timestampiso="2020-10-19T09:58:59"
+		endtime="2020/10/19 17:59:06"
+		timeoutfactor="2"
+		module="summary005">
+		<detail>
+			summary005
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.941"
+			timeRelativeToTestModuleStartTime="00:04.941"
+			timeWallClock="17:59:04"
+			time="00:04.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#27719;&#24635;&#20449;&#24687;.&#20445;&#23384;&#27169;&#26495;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'searchBox']//input[@class='button-setting']"
+				itempath=".//div[#'searchBox']//input[@class='button-setting']"
+				fullname="Infomation.汇总信息.保存模板"
+				id="b74bd9e12bff4838bea02a3cfd215eba"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary005.cs"
+				codeline="186"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3d7742b9f934de2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 13:44:28"
+		timestampiso="2020-10-19T05:44:28"
+		endtime="2020/10/19 13:44:32"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.645"
+			timeRelativeToTestModuleStartTime="00:02.645"
+			timeWallClock="13:44:30"
+			time="00:02.645"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#22522;&#30784;&#20449;&#24687;&#31649;&#29702;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//a[@innertext='基础信息管理']"
+				itempath=".//a[@innertext='基础信息管理']"
+				fullname="Infomation.页面头选择.基础信息管理"
+				id="1c6ea1c0a04249aa8572b91cb10bddc2"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="178"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.680"
+			timeRelativeToTestModuleStartTime="00:03.680"
+			timeWallClock="13:44:31"
+			time="00:03.680"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#39029;&#38754;&#22836;&#36873;&#25321;.&#21307;&#38498;&#21307;&#29983;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//a[@innertext='医院医生']"
+				itempath=".//a[@innertext='医院医生']"
+				fullname="Infomation.页面头选择.医院医生"
+				id="c3912049f0824786a055c282326640ff"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="182"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.276"
+			timeRelativeToTestModuleStartTime="00:04.276"
+			timeWallClock="13:44:32"
+			time="00:04.276"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="28"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="186"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

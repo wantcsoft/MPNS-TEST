@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.32s"
+		durationms="3318"
+		type="root"
+		rid="fa2f5c809d84420"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 15:23:57"
+		timestampiso="2020-10-19T07:23:57"
+		endtime="2020/10/19 15:24:04"
+		timeoutfactor="2">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.319"
+			timeRelativeToTestModuleStartTime="00:03.319"
+			timeWallClock="15:24:00"
+			time="00:03.319"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.569"
+			timeRelativeToTestModuleStartTime="00:03.569"
+			timeWallClock="15:24:00"
+			time="00:03.569"
+			level="Failure"
+			category="Module"
+			errimg="images_summary0_eab5bd5a\summary0_eab5bd5a_4e3c3d08_trace.jpg"
+			errthumb="images_summary0_eab5bd5a\summary0_eab5bd5a_4e3c3d08_trace_thumb.jpg">
+			<message>
+				&#27491;&#22312;&#20013;&#27490;&#32447;&#31243;&#12290;
+			</message>
+			<metainfo
+				stacktrace="   在 Ranorex.Core.License.LicenseHelper.AcquireLicense(LicenseManagerInfo serverInfo, ProductRequirements productReqs, AcquireLicenseStatus&amp; status, String&amp; reply)&#13;&#10;   在 Ranorex.Core.ElementEngine.CheckFloatingLicense(Boolean verbose, LicenseManagerInfo lsi)&#13;&#10;   在 Ranorex.Core.ElementEngine.CheckLicense(Boolean verbose)&#13;&#10;   在 Ranorex.Core.ElementEngine.AssertLicense()&#13;&#10;   在 Ranorex.Core.ElementEngine..ctor()&#13;&#10;   在 Ranorex.Core.ElementEngine.get_Instance()&#13;&#10;   在 Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

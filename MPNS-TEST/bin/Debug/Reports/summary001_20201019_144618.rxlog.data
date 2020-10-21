@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.99s"
+		durationms="10993"
+		type="root"
+		rid="3c9423dffa8a970"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 14:46:20"
+		timestampiso="2020-10-19T06:46:20"
+		endtime="2020/10/19 14:46:31"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.665"
+			timeRelativeToTestModuleStartTime="00:02.665"
+			timeWallClock="14:46:23"
+			time="00:02.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#29992;&#25143;&#31649;&#29702;.&#26032;&#22686;&#29992;&#25143;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butInsert']"
+				itempath=".//input[#'butInsert']"
+				fullname="Infomation.用户管理.新增用户"
+				id="03643b6645834c0e92cc87d46191b7a7"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="226"
+				itemindex="39"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.442"
+			timeRelativeToTestModuleStartTime="00:04.442"
+			timeWallClock="14:46:24"
+			time="00:04.442"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="40"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="230"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.743"
+			timeRelativeToTestModuleStartTime="00:04.743"
+			timeWallClock="14:46:25"
+			time="00:04.743"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '1000001' on item '&#29992;&#25143;&#31649;&#29702;.&#36134;&#21495;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//input[#'UserCode']"
+				itempath=".//body//body//input[#'UserCode']"
+				fullname="Infomation.用户管理.账号"
+				id="fff1355776d3461583324c7270a09924"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="233"
+				itemindex="41"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.695"
+			timeRelativeToTestModuleStartTime="00:05.695"
+			timeWallClock="14:46:26"
+			time="00:05.695"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#24352;&#21307;&#29983;' on item '&#29992;&#25143;&#31649;&#29702;.&#21307;&#29983;&#22995;&#21517;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//body//body//from[#'usereditform']//input[#'UserName']"
+				itempath=".//body//body//from[#'usereditform']//input[#'UserName']"
+				fullname="Infomation.用户管理.医生姓名"
+				id="e06f8b52f1364fd985b6dae61ce2162e"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="237"
+				itemindex="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.994"
+			timeRelativeToTestModuleStartTime="00:10.994"
+			timeWallClock="14:46:31"
+			time="00:10.994"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

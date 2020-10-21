@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21150fb9352d2f80"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/15 12:08:15"
+		timestampiso="2020-10-15T04:08:15"
+		endtime="2020/10/15 12:08:20"
+		timeoutfactor="2"
+		module="batchInput012">
+		<detail>
+			batchInput012
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.704"
+			timeRelativeToTestModuleStartTime="00:02.704"
+			timeWallClock="12:08:17"
+			time="00:02.704"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="21"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput012.cs"
+				codeline="159"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.025"
+			timeRelativeToTestModuleStartTime="00:03.025"
+			timeWallClock="12:08:18"
+			time="00:03.025"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#21024;&#38500;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//div[3]/input[2]"
+				itempath=".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//div[3]/input[2]"
+				fullname="Infomation.中期样本.删除按钮"
+				id="20fd8bf644b342b798199f90b7ba7e6c"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\batchInput\batchInput012.cs"
+				codeline="162"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

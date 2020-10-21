@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="22531d39eb0fc3ba"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/19 15:31:45"
+		timestampiso="2020-10-19T07:31:45"
+		endtime="2020/10/19 15:31:52"
+		timeoutfactor="2"
+		module="summary001">
+		<detail>
+			summary001
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.833"
+			timeRelativeToTestModuleStartTime="00:04.833"
+			timeWallClock="15:31:50"
+			time="00:04.833"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>&#31579;&#26597;&#21495;
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.858"
+			timeRelativeToTestModuleStartTime="00:04.858"
+			timeWallClock="15:31:50"
+			time="00:04.858"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#20013;&#26399;&#26679;&#26412;.&#26032;&#22686;&#20013;&#26399;&#26679;&#26412;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'butInsertMiddleSample']"
+				itempath=".//input[#'butInsertMiddleSample']"
+				fullname="Infomation.中期样本.新增中期样本"
+				id="54ce9aabcea941449bf6c94d1914a37b"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="417"
+				itemindex="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.769"
+			timeRelativeToTestModuleStartTime="00:06.769"
+			timeWallClock="15:31:52"
+			time="00:06.769"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="87"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="421"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.078"
+			timeRelativeToTestModuleStartTime="00:07.078"
+			timeWallClock="15:31:52"
+			time="00:07.078"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -1000 units.
+			</message>
+			<metainfo
+				itemindex="88"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary001.cs"
+				codeline="424"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="492e159d617081c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/16 13:45:45"
+		timestampiso="2020-10-16T05:45:45"
+		endtime="2020/10/16 13:45:59"
+		timeoutfactor="2"
+		module="pregnant003">
+		<detail>
+			pregnant003
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.651"
+			timeRelativeToTestModuleStartTime="00:02.651"
+			timeWallClock="13:45:48"
+			time="00:02.651"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 300ms.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant003.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.966"
+			timeRelativeToTestModuleStartTime="00:02.966"
+			timeWallClock="13:45:48"
+			time="00:02.966"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+W' Press.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant003.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.001"
+			timeRelativeToTestModuleStartTime="00:03.001"
+			timeWallClock="13:45:48"
+			time="00:03.001"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '&#36213;&#23381;&#22919;' on item '&#23381;&#22919;&#20449;&#24687;.&#25628;&#32034;&#26694;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'KeyWords']"
+				itempath=".//input[#'KeyWords']"
+				fullname="Infomation.孕妇信息.搜索框"
+				id="6eeb043eca4e453d849931d798cf5b48"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant003.cs"
+				codeline="115"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.770"
+			timeRelativeToTestModuleStartTime="00:12.770"
+			timeWallClock="13:45:58"
+			time="00:12.770"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#23381;&#22919;&#20449;&#24687;.&#25628;&#32034;&#25353;&#38062;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//input[#'But_Search']"
+				itempath=".//input[#'But_Search']"
+				fullname="Infomation.孕妇信息.搜索按钮"
+				id="e3c6aad0d2ae4ceca76ab18621f1b7cc"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\pregnant\pregnant003.cs"
+				codeline="119"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

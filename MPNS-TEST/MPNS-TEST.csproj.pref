@@ -1,13 +1,20 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Models\Screening-Management\revisit\revisit043.rxrec" />
+    <Element value="Models\Screening-Management\summary\summary019.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Models\Screening-Management\revisit\revisit042.rxrec" />
-    <Element value="Models\Screening-Management\revisit\revisit043.rxrec" />
+    <Element value="Models\Screening-Management\summary\summary020.rxrec" />
+    <Element value="Models\Screening-Management\summary\summary019.rxrec" />
   </Array>
   <Properties name="projectSavedData">
-    <Array name="recentusercodeselections" />
+    <Array name="recentusercodeselections">
+      <Element value="MPNS_TEST.Models.Screening_Management.summary.Summary020.deleteData()" />
+      <Element value="MPNS_TEST.Models.Screening_Management.summary.Summary020.deleteData()" />
+      <Element value="MPNS_TEST.Models.Screening_Management.summary.summary001.deleteData()" />
+      <Element value="MPNS_TEST.Models.Screening_Management.batchInput.batchInput012.DoDelay2()" />
+      <Element value="MPNS_TEST.Models.Screening_Management.batchInput.batchInput007.insertData()" />
+      <Element value="MPNS_TEST.Models.Screening_Management.batchInput.batchInput007.createTable()" />
+    </Array>
   </Properties>
 </Properties>

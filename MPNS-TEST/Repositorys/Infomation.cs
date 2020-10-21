@@ -32,11 +32,22 @@ namespace MPNS_TEST.Repositorys
         InfomationFolders.早期样本AppFolder _早期样本;
         InfomationFolders.方案AppFolder _方案;
         InfomationFolders.中期样本AppFolder _中期样本;
-        InfomationFolders.维护管理AppFolder _维护管理;
         InfomationFolders.筛查信息查询AppFolder _筛查信息查询;
-        InfomationFolders.页面头选择AppFolder _页面头选择;
-        InfomationFolders.医院医生AppFolder _医院医生;
         InfomationFolders.筛查回访AppFolder _筛查回访;
+        InfomationFolders.显示设置AppFolder _显示设置;
+        InfomationFolders.维护管理AppFolder _维护管理;
+        InfomationFolders.筛查管理批量录入AppFolder _筛查管理批量录入;
+        InfomationFolders.文件上传AppFolder _文件上传;
+        InfomationFolders.数据来源AppFolder _数据来源;
+        InfomationFolders.批量计算AppFolder _批量计算;
+        InfomationFolders.维护管理批量录入AppFolder _维护管理批量录入;
+        InfomationFolders.孕妇信息导出AppFolder _孕妇信息导出;
+        InfomationFolders.孕妇信息AppFolder _孕妇信息;
+        InfomationFolders.角色管理AppFolder _角色管理;
+        InfomationFolders.医院医生AppFolder _医院医生;
+        InfomationFolders.用户管理AppFolder _用户管理;
+        InfomationFolders.页面头选择AppFolder _页面头选择;
+        InfomationFolders.汇总信息AppFolder _汇总信息;
 
         /// <summary>
         /// Gets the singleton class instance representing the Infomation element repository.
@@ -58,11 +69,22 @@ namespace MPNS_TEST.Repositorys
             _早期样本 = new InfomationFolders.早期样本AppFolder(this);
             _方案 = new InfomationFolders.方案AppFolder(this);
             _中期样本 = new InfomationFolders.中期样本AppFolder(this);
-            _维护管理 = new InfomationFolders.维护管理AppFolder(this);
             _筛查信息查询 = new InfomationFolders.筛查信息查询AppFolder(this);
-            _页面头选择 = new InfomationFolders.页面头选择AppFolder(this);
-            _医院医生 = new InfomationFolders.医院医生AppFolder(this);
             _筛查回访 = new InfomationFolders.筛查回访AppFolder(this);
+            _显示设置 = new InfomationFolders.显示设置AppFolder(this);
+            _维护管理 = new InfomationFolders.维护管理AppFolder(this);
+            _筛查管理批量录入 = new InfomationFolders.筛查管理批量录入AppFolder(this);
+            _文件上传 = new InfomationFolders.文件上传AppFolder(this);
+            _数据来源 = new InfomationFolders.数据来源AppFolder(this);
+            _批量计算 = new InfomationFolders.批量计算AppFolder(this);
+            _维护管理批量录入 = new InfomationFolders.维护管理批量录入AppFolder(this);
+            _孕妇信息导出 = new InfomationFolders.孕妇信息导出AppFolder(this);
+            _孕妇信息 = new InfomationFolders.孕妇信息AppFolder(this);
+            _角色管理 = new InfomationFolders.角色管理AppFolder(this);
+            _医院医生 = new InfomationFolders.医院医生AppFolder(this);
+            _用户管理 = new InfomationFolders.用户管理AppFolder(this);
+            _页面头选择 = new InfomationFolders.页面头选择AppFolder(this);
+            _汇总信息 = new InfomationFolders.汇总信息AppFolder(this);
         }
 
 #region Variables
@@ -127,15 +149,6 @@ namespace MPNS_TEST.Repositorys
         }
 
         /// <summary>
-        /// The 维护管理 folder.
-        /// </summary>
-        [RepositoryFolder("fa434f56-77c5-493d-9268-222427114ccc")]
-        public virtual InfomationFolders.维护管理AppFolder 维护管理
-        {
-            get { return _维护管理; }
-        }
-
-        /// <summary>
         /// The 筛查信息查询 folder.
         /// </summary>
         [RepositoryFolder("79d1f82f-9f11-42bb-9ca5-68ddcc310296")]
@@ -145,12 +158,102 @@ namespace MPNS_TEST.Repositorys
         }
 
         /// <summary>
-        /// The 页面头选择 folder.
+        /// The 筛查回访 folder.
         /// </summary>
-        [RepositoryFolder("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
-        public virtual InfomationFolders.页面头选择AppFolder 页面头选择
+        [RepositoryFolder("5bdca74f-ce2d-4366-a72c-e4e22b9fd712")]
+        public virtual InfomationFolders.筛查回访AppFolder 筛查回访
         {
-            get { return _页面头选择; }
+            get { return _筛查回访; }
+        }
+
+        /// <summary>
+        /// The 显示设置 folder.
+        /// </summary>
+        [RepositoryFolder("f0503a95-b8c3-40b6-9fb2-6d28f707ab67")]
+        public virtual InfomationFolders.显示设置AppFolder 显示设置
+        {
+            get { return _显示设置; }
+        }
+
+        /// <summary>
+        /// The 维护管理 folder.
+        /// </summary>
+        [RepositoryFolder("fa434f56-77c5-493d-9268-222427114ccc")]
+        public virtual InfomationFolders.维护管理AppFolder 维护管理
+        {
+            get { return _维护管理; }
+        }
+
+        /// <summary>
+        /// The 筛查管理批量录入 folder.
+        /// </summary>
+        [RepositoryFolder("92fcd464-d7ab-431f-a3f9-46c719cf9316")]
+        public virtual InfomationFolders.筛查管理批量录入AppFolder 筛查管理批量录入
+        {
+            get { return _筛查管理批量录入; }
+        }
+
+        /// <summary>
+        /// The 文件上传 folder.
+        /// </summary>
+        [RepositoryFolder("dcf84e2c-4d94-4603-8b43-21a86395e8cd")]
+        public virtual InfomationFolders.文件上传AppFolder 文件上传
+        {
+            get { return _文件上传; }
+        }
+
+        /// <summary>
+        /// The 数据来源 folder.
+        /// </summary>
+        [RepositoryFolder("bf3346cd-f97b-4cd1-92b8-b8535576f53b")]
+        public virtual InfomationFolders.数据来源AppFolder 数据来源
+        {
+            get { return _数据来源; }
+        }
+
+        /// <summary>
+        /// The 批量计算 folder.
+        /// </summary>
+        [RepositoryFolder("3f3d4072-0a31-4ada-8b29-e0e6c233d72c")]
+        public virtual InfomationFolders.批量计算AppFolder 批量计算
+        {
+            get { return _批量计算; }
+        }
+
+        /// <summary>
+        /// The 维护管理批量录入 folder.
+        /// </summary>
+        [RepositoryFolder("9abf4666-b5bd-4004-a9e4-66d630fabc5d")]
+        public virtual InfomationFolders.维护管理批量录入AppFolder 维护管理批量录入
+        {
+            get { return _维护管理批量录入; }
+        }
+
+        /// <summary>
+        /// The 孕妇信息导出 folder.
+        /// </summary>
+        [RepositoryFolder("49835443-bbef-48ac-8559-db2046482568")]
+        public virtual InfomationFolders.孕妇信息导出AppFolder 孕妇信息导出
+        {
+            get { return _孕妇信息导出; }
+        }
+
+        /// <summary>
+        /// The 孕妇信息 folder.
+        /// </summary>
+        [RepositoryFolder("9640faf8-5280-4a55-a243-75ef6a537f58")]
+        public virtual InfomationFolders.孕妇信息AppFolder 孕妇信息
+        {
+            get { return _孕妇信息; }
+        }
+
+        /// <summary>
+        /// The 角色管理 folder.
+        /// </summary>
+        [RepositoryFolder("e98095e7-3171-481c-adbb-630d3dab5f5d")]
+        public virtual InfomationFolders.角色管理AppFolder 角色管理
+        {
+            get { return _角色管理; }
         }
 
         /// <summary>
@@ -163,12 +266,30 @@ namespace MPNS_TEST.Repositorys
         }
 
         /// <summary>
-        /// The 筛查回访 folder.
+        /// The 用户管理 folder.
         /// </summary>
-        [RepositoryFolder("5bdca74f-ce2d-4366-a72c-e4e22b9fd712")]
-        public virtual InfomationFolders.筛查回访AppFolder 筛查回访
+        [RepositoryFolder("57d4aab7-cf90-4dca-9233-973254dcd27b")]
+        public virtual InfomationFolders.用户管理AppFolder 用户管理
         {
-            get { return _筛查回访; }
+            get { return _用户管理; }
+        }
+
+        /// <summary>
+        /// The 页面头选择 folder.
+        /// </summary>
+        [RepositoryFolder("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
+        public virtual InfomationFolders.页面头选择AppFolder 页面头选择
+        {
+            get { return _页面头选择; }
+        }
+
+        /// <summary>
+        /// The 汇总信息 folder.
+        /// </summary>
+        [RepositoryFolder("8b44a2f8-de7f-47c1-a352-ec51a607747d")]
+        public virtual InfomationFolders.汇总信息AppFolder 汇总信息
+        {
+            get { return _汇总信息; }
         }
     }
 
@@ -2281,10 +2402,15 @@ namespace MPNS_TEST.Repositorys
         public partial class 方案AppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _方案名称Info;
+            RepoItemInfo _早期样本Info;
+            RepoItemInfo _中期样本Info;
+            RepoItemInfo _中期样本首选Info;
             RepoItemInfo _增加方案Info;
             RepoItemInfo _删除方案Info;
             RepoItemInfo _确定添加Info;
+            RepoItemInfo _早期血清Info;
             RepoItemInfo _中期Info;
+            RepoItemInfo _中期三联Info;
             RepoItemInfo _早中期联合Info;
             RepoItemInfo _血清整合三Info;
             RepoItemInfo _报告单语言Info;
@@ -2306,10 +2432,15 @@ namespace MPNS_TEST.Repositorys
                     base("方案", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "cc650593-5ea4-464f-b438-b4a5c5ca517a", "")
             {
                 _方案名称Info = new RepoItemInfo(this, "方案名称", ".//select[#'SolutionName']", 30000, null, "d24e63e8-0732-42c5-9a2f-e5f39d93a955");
+                _早期样本Info = new RepoItemInfo(this, "早期样本", ".//select[#'EarlySampleLst']", 30000, null, "82fd2fa4-83e0-4b70-bc1d-c0f1a379e680");
+                _中期样本Info = new RepoItemInfo(this, "中期样本", ".//select[#'MiddleSampleLst']", 30000, null, "7a409252-df1e-4baf-aa39-f021586473a8");
+                _中期样本首选Info = new RepoItemInfo(this, "中期样本首选", ".//select[#'MiddleSampleLst']/option[@innertext='YBH00012']", 30000, null, "3f999ee5-c09a-4298-bb6d-1ccf2f37cf26");
                 _增加方案Info = new RepoItemInfo(this, "增加方案", ".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[1]", 30000, null, "bcc01d5b-6fe1-4175-aa17-4119b6efebb0");
                 _删除方案Info = new RepoItemInfo(this, "删除方案", ".//div[#'solutionInfo']/table/?/?/tr/td[1]/table[1]/tbody/tr[1]/td[2]/input[2]", 30000, null, "f4f74070-aefd-406a-8af9-9af1ba32c1b3");
                 _确定添加Info = new RepoItemInfo(this, "确定添加", ".//div[#'SolutionList']/?/?/input[@type='button']", 30000, null, "0952b333-f24a-4453-9a71-80eccfc213ed");
+                _早期血清Info = new RepoItemInfo(this, "早期血清", ".//div[#'SolutionList']/div[1]/ul[1]/?/?/input[@type='checkbox']", 30000, null, "e4c91857-0f84-4cd9-9f9c-ff13d44d7347");
                 _中期Info = new RepoItemInfo(this, "中期", ".//div[#'SolutionList']//a[@innertext='中期']", 30000, null, "bd38ff72-76a9-479f-ada2-26f84c47c7b0");
+                _中期三联Info = new RepoItemInfo(this, "中期三联", ".//div[#'SolutionList']/div[1]/ul[2]/?/?/input[@type='checkbox']", 30000, null, "5dcc9b01-9e07-41df-bf75-18ccab2af872");
                 _早中期联合Info = new RepoItemInfo(this, "早中期联合", ".//div[#'SolutionList']//a[@innertext='早中期联合']", 30000, null, "470e5c32-ea6b-443c-8026-da74d07e71c6");
                 _血清整合三Info = new RepoItemInfo(this, "血清整合三", ".//div[#'SolutionList']/div[1]/ul[3]/?/?/input[@type='checkbox']", 30000, null, "26f5f9dc-2733-448c-88a9-a6f232386720");
                 _报告单语言Info = new RepoItemInfo(this, "报告单语言", ".//select[#'ReportLanguage']", 30000, null, "3d2cdf1b-0582-4291-84bd-bf6ccaf859db");
@@ -2370,6 +2501,78 @@ namespace MPNS_TEST.Repositorys
                 get
                 {
                     return _方案名称Info;
+                }
+            }
+
+            /// <summary>
+            /// The 早期样本 item.
+            /// </summary>
+            [RepositoryItem("82fd2fa4-83e0-4b70-bc1d-c0f1a379e680")]
+            public virtual Ranorex.SelectTag 早期样本
+            {
+                get
+                {
+                    return _早期样本Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 早期样本 item info.
+            /// </summary>
+            [RepositoryItemInfo("82fd2fa4-83e0-4b70-bc1d-c0f1a379e680")]
+            public virtual RepoItemInfo 早期样本Info
+            {
+                get
+                {
+                    return _早期样本Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中期样本 item.
+            /// </summary>
+            [RepositoryItem("7a409252-df1e-4baf-aa39-f021586473a8")]
+            public virtual Ranorex.SelectTag 中期样本
+            {
+                get
+                {
+                    return _中期样本Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中期样本 item info.
+            /// </summary>
+            [RepositoryItemInfo("7a409252-df1e-4baf-aa39-f021586473a8")]
+            public virtual RepoItemInfo 中期样本Info
+            {
+                get
+                {
+                    return _中期样本Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中期样本首选 item.
+            /// </summary>
+            [RepositoryItem("3f999ee5-c09a-4298-bb6d-1ccf2f37cf26")]
+            public virtual Ranorex.OptionTag 中期样本首选
+            {
+                get
+                {
+                    return _中期样本首选Info.CreateAdapter<Ranorex.OptionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中期样本首选 item info.
+            /// </summary>
+            [RepositoryItemInfo("3f999ee5-c09a-4298-bb6d-1ccf2f37cf26")]
+            public virtual RepoItemInfo 中期样本首选Info
+            {
+                get
+                {
+                    return _中期样本首选Info;
                 }
             }
 
@@ -2446,6 +2649,30 @@ namespace MPNS_TEST.Repositorys
             }
 
             /// <summary>
+            /// The 早期血清 item.
+            /// </summary>
+            [RepositoryItem("e4c91857-0f84-4cd9-9f9c-ff13d44d7347")]
+            public virtual Ranorex.InputTag 早期血清
+            {
+                get
+                {
+                    return _早期血清Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 早期血清 item info.
+            /// </summary>
+            [RepositoryItemInfo("e4c91857-0f84-4cd9-9f9c-ff13d44d7347")]
+            public virtual RepoItemInfo 早期血清Info
+            {
+                get
+                {
+                    return _早期血清Info;
+                }
+            }
+
+            /// <summary>
             /// The 中期 item.
             /// </summary>
             [RepositoryItem("bd38ff72-76a9-479f-ada2-26f84c47c7b0")]
@@ -2466,6 +2693,30 @@ namespace MPNS_TEST.Repositorys
                 get
                 {
                     return _中期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中期三联 item.
+            /// </summary>
+            [RepositoryItem("5dcc9b01-9e07-41df-bf75-18ccab2af872")]
+            public virtual Ranorex.InputTag 中期三联
+            {
+                get
+                {
+                    return _中期三联Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中期三联 item info.
+            /// </summary>
+            [RepositoryItemInfo("5dcc9b01-9e07-41df-bf75-18ccab2af872")]
+            public virtual RepoItemInfo 中期三联Info
+            {
+                get
+                {
+                    return _中期三联Info;
                 }
             }
 
@@ -2788,6 +3039,7 @@ namespace MPNS_TEST.Repositorys
         [RepositoryFolder("44ab4b90-bee2-4097-9b7b-e47d66e7008a")]
         public partial class 中期样本AppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _已经保存的中期样本Info;
             RepoItemInfo _新增中期样本Info;
             RepoItemInfo _中期样本号Info;
             RepoItemInfo _条形码Info;
@@ -2825,6 +3077,8 @@ namespace MPNS_TEST.Repositorys
             RepoItemInfo _植入日期选择今天Info;
             RepoItemInfo _卵子日期Info;
             RepoItemInfo _卵子日期选择今天Info;
+            RepoItemInfo _送检医生Info;
+            RepoItemInfo _单位来源Info;
             RepoItemInfo _孕周类型Info;
             RepoItemInfo _评估孕周周Info;
             RepoItemInfo _评估孕周天Info;
@@ -2837,6 +3091,7 @@ namespace MPNS_TEST.Repositorys
             RepoItemInfo _计算按钮Info;
             RepoItemInfo _计算提示Info;
             RepoItemInfo _保存按钮Info;
+            RepoItemInfo _删除按钮Info;
             RepoItemInfo _保存失败确定Info;
             RepoItemInfo _保存失败截图Info;
             RepoItemInfo _孕周类型截图Info;
@@ -2847,6 +3102,7 @@ namespace MPNS_TEST.Repositorys
             public 中期样本AppFolder(RepoGenBaseFolder parentFolder) :
                     base("中期样本", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "44ab4b90-bee2-4097-9b7b-e47d66e7008a", "")
             {
+                _已经保存的中期样本Info = new RepoItemInfo(this, "已经保存的中期样本", ".//div[#'sampleInfo']//div[#'sampleinfo_list']/a[@class='midsample']", 30000, null, "57135f15-c29e-40b8-af9d-d969669ab618");
                 _新增中期样本Info = new RepoItemInfo(this, "新增中期样本", ".//input[#'butInsertMiddleSample']", 30000, null, "54ce9aab-cea9-4144-9bf6-c94d1914a37b");
                 _中期样本号Info = new RepoItemInfo(this, "中期样本号", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[2]/input", 30000, null, "f2932e93-8ced-4649-aaa0-e6ea2b18259a");
                 _条形码Info = new RepoItemInfo(this, "条形码", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[2]/td[4]/input", 30000, null, "baa6f3d1-9eb2-40f6-987e-04bba4d683d7");
@@ -2884,6 +3140,8 @@ namespace MPNS_TEST.Repositorys
                 _植入日期选择今天Info = new RepoItemInfo(this, "植入日期选择今天", ".//div[@class='WdateDiv']/div[@id='dpControl']/input[2]", 30000, null, "796c2700-7ed8-415c-8547-2d848a664295");
                 _卵子日期Info = new RepoItemInfo(this, "卵子日期", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='ivftd'][5]/input", 30000, null, "ca756b7f-a7be-4899-b389-8092bd0c914f");
                 _卵子日期选择今天Info = new RepoItemInfo(this, "卵子日期选择今天", ".//div[@class='WdateDiv']/div[@id='dpControl']/input[2]", 30000, null, "bd3346f0-8367-4058-ac69-7726d3b6b01c");
+                _送检医生Info = new RepoItemInfo(this, "送检医生", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width80 enter']", 30000, null, "59a8ac00-22a5-4e08-acea-b0b44498e7b3");
+                _单位来源Info = new RepoItemInfo(this, "单位来源", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td/div/input[@class='input-text-screening width160 enter']", 30000, null, "8454544e-a7cb-452f-b26d-263f223dca7b");
                 _孕周类型Info = new RepoItemInfo(this, "孕周类型", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample0_tableleft']//tr[1]/td[2]/select", 30000, null, "8c3c0d4e-a567-4c98-ba8f-d1acb4106e65");
                 _评估孕周周Info = new RepoItemInfo(this, "评估孕周周", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample0_tableleft']//tr[2]/td[2]/input[1]", 30000, null, "5ef28e9c-fb01-4263-bd91-f1e725062182");
                 _评估孕周天Info = new RepoItemInfo(this, "评估孕周天", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='screen_sample_calculator screen_sample0_tableleft']//tr[2]/td[2]/input[2]", 30000, null, "e96fe289-b534-46b0-bb38-fa9f5ea3a49d");
@@ -2896,6 +3154,7 @@ namespace MPNS_TEST.Repositorys
                 _计算按钮Info = new RepoItemInfo(this, "计算按钮", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//input[@type='button']", 30000, null, "b4d8ed7b-3f16-4b51-b4a4-5008fecb29cb");
                 _计算提示Info = new RepoItemInfo(this, "计算提示", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr/td[@class='screen_sample0_tableleft']/div[2]", 30000, null, "2a993858-a3f9-499c-911d-6dcc89d3a1b6");
                 _保存按钮Info = new RepoItemInfo(this, "保存按钮", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//div[3]/input[1]", 30000, null, "6749c88e-ad0b-4532-81d9-f733a64c61c9");
+                _删除按钮Info = new RepoItemInfo(this, "删除按钮", ".//div[#'sampleinfoandtestinfomiddle_list']/?/?/table/tbody/tr[10]//div[3]/input[2]", 30000, null, "20fd8bf6-44b3-42b7-9819-9f90b7ba7e6c");
                 _保存失败确定Info = new RepoItemInfo(this, "保存失败确定", ".//div[@class='xubox_layer']//span[@class='xubox_botton']/a", 30000, null, "2cf49295-4c83-4c0b-8843-d001cf1c3840");
                 _保存失败截图Info = new RepoItemInfo(this, "保存失败截图", ".//div[@class='xubox_layer']/div[@class='xubox_main']", 30000, null, "074dec25-2a05-49bb-b08e-ea66e5085198");
                 _孕周类型截图Info = new RepoItemInfo(this, "孕周类型截图", ".//div[#'sample_content']", 30000, null, "799c4227-8626-4beb-a077-182548804d12");
@@ -2922,6 +3181,30 @@ namespace MPNS_TEST.Repositorys
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 已经保存的中期样本 item.
+            /// </summary>
+            [RepositoryItem("57135f15-c29e-40b8-af9d-d969669ab618")]
+            public virtual Ranorex.ATag 已经保存的中期样本
+            {
+                get
+                {
+                    return _已经保存的中期样本Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 已经保存的中期样本 item info.
+            /// </summary>
+            [RepositoryItemInfo("57135f15-c29e-40b8-af9d-d969669ab618")]
+            public virtual RepoItemInfo 已经保存的中期样本Info
+            {
+                get
+                {
+                    return _已经保存的中期样本Info;
                 }
             }
 
@@ -3814,6 +4097,54 @@ namespace MPNS_TEST.Repositorys
             }
 
             /// <summary>
+            /// The 送检医生 item.
+            /// </summary>
+            [RepositoryItem("59a8ac00-22a5-4e08-acea-b0b44498e7b3")]
+            public virtual Ranorex.InputTag 送检医生
+            {
+                get
+                {
+                    return _送检医生Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 送检医生 item info.
+            /// </summary>
+            [RepositoryItemInfo("59a8ac00-22a5-4e08-acea-b0b44498e7b3")]
+            public virtual RepoItemInfo 送检医生Info
+            {
+                get
+                {
+                    return _送检医生Info;
+                }
+            }
+
+            /// <summary>
+            /// The 单位来源 item.
+            /// </summary>
+            [RepositoryItem("8454544e-a7cb-452f-b26d-263f223dca7b")]
+            public virtual Ranorex.InputTag 单位来源
+            {
+                get
+                {
+                    return _单位来源Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 单位来源 item info.
+            /// </summary>
+            [RepositoryItemInfo("8454544e-a7cb-452f-b26d-263f223dca7b")]
+            public virtual RepoItemInfo 单位来源Info
+            {
+                get
+                {
+                    return _单位来源Info;
+                }
+            }
+
+            /// <summary>
             /// The 孕周类型 item.
             /// </summary>
             [RepositoryItem("8c3c0d4e-a567-4c98-ba8f-d1acb4106e65")]
@@ -4102,6 +4433,30 @@ namespace MPNS_TEST.Repositorys
             }
 
             /// <summary>
+            /// The 删除按钮 item.
+            /// </summary>
+            [RepositoryItem("20fd8bf6-44b3-42b7-9819-9f90b7ba7e6c")]
+            public virtual Ranorex.InputTag 删除按钮
+            {
+                get
+                {
+                    return _删除按钮Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 删除按钮 item info.
+            /// </summary>
+            [RepositoryItemInfo("20fd8bf6-44b3-42b7-9819-9f90b7ba7e6c")]
+            public virtual RepoItemInfo 删除按钮Info
+            {
+                get
+                {
+                    return _删除按钮Info;
+                }
+            }
+
+            /// <summary>
             /// The 保存失败确定 item.
             /// </summary>
             [RepositoryItem("2cf49295-4c83-4c0b-8843-d001cf1c3840")]
@@ -4175,774 +4530,6 @@ namespace MPNS_TEST.Repositorys
         }
 
         /// <summary>
-        /// The 维护管理AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("fa434f56-77c5-493d-9268-222427114ccc")]
-        public partial class 维护管理AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _标记物设置Info;
-            RepoItemInfo _显示设置Info;
-            RepoItemInfo _回访信息范围Info;
-            RepoItemInfo _n天数Info;
-            RepoItemInfo _含高风险的回访Info;
-            RepoItemInfo _非含高风险的回访Info;
-            RepoItemInfo _保存显示设置Info;
-            RepoItemInfo _中位数Info;
-            RepoItemInfo _中位数列表截图Info;
-            RepoItemInfo _编辑nt_e2Info;
-            RepoItemInfo _nt_e2早期版本是否可用Info;
-            RepoItemInfo _保存nt_e2设置Info;
-            RepoItemInfo _保存成功确认Info;
-            RepoItemInfo _数据来源Info;
-            RepoItemInfo _筛查号前缀Info;
-            RepoItemInfo _自增筛查号位数Info;
-            RepoItemInfo _保存Info;
-            RepoItemInfo _病历号回车Info;
-            RepoItemInfo _外部数据接口Info;
-            RepoItemInfo _读取标记物Info;
-            RepoItemInfo _替换sql语句中的起始日期Info;
-            RepoItemInfo _保存按钮Info;
-            RepoItemInfo _服务器名Info;
-            RepoItemInfo _数据库名Info;
-            RepoItemInfo _账户Info;
-            RepoItemInfo _密码Info;
-            RepoItemInfo _t_sql语句Info;
-            RepoItemInfo _测试连接Info;
-
-            /// <summary>
-            /// Creates a new 维护管理  folder.
-            /// </summary>
-            public 维护管理AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("维护管理", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "fa434f56-77c5-493d-9268-222427114ccc", "")
-            {
-                _标记物设置Info = new RepoItemInfo(this, "标记物设置", ".//div[#'leftcontent']//a[@innertext='标记物设置']", 30000, null, "d0c5dc66-f628-46c8-b205-77eee7130896");
-                _显示设置Info = new RepoItemInfo(this, "显示设置", ".//div[#'leftcontent']//a[@innertext='显示设置']", 30000, null, "ad7923e8-a4ca-4251-bfc0-2edf9bdc7fda");
-                _回访信息范围Info = new RepoItemInfo(this, "回访信息范围", ".//form[#'DisplaySettingform']/fieldset[1]/table//select[@name='VISITBROWERSET']", 30000, null, "918b3479-f1b8-4b29-b229-cb55b614aa07");
-                _n天数Info = new RepoItemInfo(this, "N天数", ".//form[#'DisplaySettingform']/fieldset[1]/table//input[@name='SIFTSHOWDAYS']", 30000, null, "63b43dfa-178d-4482-b155-c6b42c0af434");
-                _含高风险的回访Info = new RepoItemInfo(this, "含高风险的回访", ".//form[#'DisplaySettingform']/fieldset[1]/table//input[@name='REVIEWHIGHRISKREMINDAFTERDAYS']", 30000, null, "2da1befa-20b5-49c5-91a3-80bed6e36db3");
-                _非含高风险的回访Info = new RepoItemInfo(this, "非含高风险的回访", ".//form[#'DisplaySettingform']/fieldset[1]/table//input[@name='REVIEWNORMALRISKREMINDAFTERDAYS']", 30000, null, "1ee01e49-5b05-4818-9db3-59cafdeb2dc7");
-                _保存显示设置Info = new RepoItemInfo(this, "保存显示设置", ".//input[#'but_DisplaySetting']", 30000, null, "dd4a6176-91e1-4031-9a0c-2dde0a19d629");
-                _中位数Info = new RepoItemInfo(this, "中位数", ".//div[#'leftcontent']//a[@innertext='中位数']", 30000, null, "8d3fbde5-7aa0-41b7-ab99-ac56b9c1bc72");
-                _中位数列表截图Info = new RepoItemInfo(this, "中位数列表截图", "body/div[2]/form[@action='http://localhost:8016/StatisticsManager']/?/?/table/tbody/tr[2]/td[2]/div/div[2]/div[1]", 30000, null, "cfb9870d-f219-4387-9051-a6a1fbfd9517");
-                _编辑nt_e2Info = new RepoItemInfo(this, "编辑NT_E2", "body/div[2]/form[@action='http://localhost:8016/Parameter/TestItemSet']/?/?/table/?/?/tr/td[2]/div/table/tbody/tr[16]/td[14]/a", 30000, null, "21d97c3e-4b55-4d7b-95ca-b7c610aa0449");
-                _nt_e2早期版本是否可用Info = new RepoItemInfo(this, "NT_E2早期版本是否可用", ".//table[@class='formtable']//tr[9]/td[2]/input", 30000, null, "48f63500-2f37-468b-bd21-9d50593ee925");
-                _保存nt_e2设置Info = new RepoItemInfo(this, "保存NT_E2设置", ".//table[@class='formtable']//tr[11]/td/input[1]", 30000, null, "7f391556-a030-4ded-863b-8980ce5fc9c4");
-                _保存成功确认Info = new RepoItemInfo(this, "保存成功确认", ".//div[@class='xubox_layer']//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "dc9f25de-7866-4ab3-983e-27377f755c47");
-                _数据来源Info = new RepoItemInfo(this, "数据来源", ".//div[#'leftcontent']//a[@innertext='数据来源']", 30000, null, "9819e926-3c75-41dd-8dd0-05c01e7d9e08");
-                _筛查号前缀Info = new RepoItemInfo(this, "筛查号前缀", ".//input[#'CheckNoHeadString']", 30000, null, "85eb80d0-0efa-4939-8ebc-aa421ca0671d");
-                _自增筛查号位数Info = new RepoItemInfo(this, "自增筛查号位数", ".//input[#'CheckNoLen']", 30000, null, "55a2af4e-747c-4844-b1ad-ab41b5e28bdb");
-                _保存Info = new RepoItemInfo(this, "保存", ".//input[#'but_EntrySetting']", 30000, null, "80039e9a-870f-4726-a859-efa9aab6291e");
-                _病历号回车Info = new RepoItemInfo(this, "病历号回车", ".//input[#'PatientID_StartExternalData']", 30000, null, "45e0355e-70b4-46da-bd42-4b130fe88fd1");
-                _外部数据接口Info = new RepoItemInfo(this, "外部数据接口", ".//input[#'PatientID_EnableExternalData']", 30000, null, "fd0186d7-7a58-4c1e-a24d-0de364ac8f00");
-                _读取标记物Info = new RepoItemInfo(this, "读取标记物", ".//input[#'PatientID_ExternalRecordType']", 30000, null, "6f8cd774-615e-4aa5-994d-0a249b2f2a5e");
-                _替换sql语句中的起始日期Info = new RepoItemInfo(this, "替换SQL语句中的起始日期", ".//input[#'PatientID_ReplDate']", 30000, null, "f65ee4b4-3253-4a99-96b1-3805097b767f");
-                _保存按钮Info = new RepoItemInfo(this, "保存按钮", ".//form[#'ExternalLinksform']/input[@type='submit']", 30000, null, "9a65b12e-2349-494d-99cb-56149441d39b");
-                _服务器名Info = new RepoItemInfo(this, "服务器名", ".//input[#'PatientID_DatabseServerName']", 30000, null, "b312df2b-c5e6-432b-a24b-c609d74ece90");
-                _数据库名Info = new RepoItemInfo(this, "数据库名", ".//input[#'PatientID_DatabaseName']", 30000, null, "01360368-267a-43af-9d78-b4923921c270");
-                _账户Info = new RepoItemInfo(this, "账户", ".//input[#'PatientID_DatabaseUserId']", 30000, null, "efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4");
-                _密码Info = new RepoItemInfo(this, "密码", ".//input[#'PatientID_DatabasePassWord']", 30000, null, "4b1e260e-a105-413e-87ce-51a77ca4b3bb");
-                _t_sql语句Info = new RepoItemInfo(this, "T_SQL语句", ".//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[5]/?/?/table//textarea[@innertext>'select IDCard,SocialNo,Pa']", 30000, null, "6b2451ec-7612-42d7-b204-991395e94ad0");
-                _测试连接Info = new RepoItemInfo(this, "测试连接", ".//form[#'ExternalLinksform']/fieldset[1]/table//fieldset/table/tbody/tr[6]/?/?/input[@type='button']", 30000, null, "32104d34-f208-49fa-b0b7-00ccdf6c402d");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("fa434f56-77c5-493d-9268-222427114ccc")]
-            public virtual Ranorex.WebDocument Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("fa434f56-77c5-493d-9268-222427114ccc")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The 标记物设置 item.
-            /// </summary>
-            [RepositoryItem("d0c5dc66-f628-46c8-b205-77eee7130896")]
-            public virtual Ranorex.ATag 标记物设置
-            {
-                get
-                {
-                    return _标记物设置Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 标记物设置 item info.
-            /// </summary>
-            [RepositoryItemInfo("d0c5dc66-f628-46c8-b205-77eee7130896")]
-            public virtual RepoItemInfo 标记物设置Info
-            {
-                get
-                {
-                    return _标记物设置Info;
-                }
-            }
-
-            /// <summary>
-            /// The 显示设置 item.
-            /// </summary>
-            [RepositoryItem("ad7923e8-a4ca-4251-bfc0-2edf9bdc7fda")]
-            public virtual Ranorex.ATag 显示设置
-            {
-                get
-                {
-                    return _显示设置Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 显示设置 item info.
-            /// </summary>
-            [RepositoryItemInfo("ad7923e8-a4ca-4251-bfc0-2edf9bdc7fda")]
-            public virtual RepoItemInfo 显示设置Info
-            {
-                get
-                {
-                    return _显示设置Info;
-                }
-            }
-
-            /// <summary>
-            /// The 回访信息范围 item.
-            /// </summary>
-            [RepositoryItem("918b3479-f1b8-4b29-b229-cb55b614aa07")]
-            public virtual Ranorex.SelectTag 回访信息范围
-            {
-                get
-                {
-                    return _回访信息范围Info.CreateAdapter<Ranorex.SelectTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 回访信息范围 item info.
-            /// </summary>
-            [RepositoryItemInfo("918b3479-f1b8-4b29-b229-cb55b614aa07")]
-            public virtual RepoItemInfo 回访信息范围Info
-            {
-                get
-                {
-                    return _回访信息范围Info;
-                }
-            }
-
-            /// <summary>
-            /// The N天数 item.
-            /// </summary>
-            [RepositoryItem("63b43dfa-178d-4482-b155-c6b42c0af434")]
-            public virtual Ranorex.InputTag N天数
-            {
-                get
-                {
-                    return _n天数Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The N天数 item info.
-            /// </summary>
-            [RepositoryItemInfo("63b43dfa-178d-4482-b155-c6b42c0af434")]
-            public virtual RepoItemInfo N天数Info
-            {
-                get
-                {
-                    return _n天数Info;
-                }
-            }
-
-            /// <summary>
-            /// The 含高风险的回访 item.
-            /// </summary>
-            [RepositoryItem("2da1befa-20b5-49c5-91a3-80bed6e36db3")]
-            public virtual Ranorex.InputTag 含高风险的回访
-            {
-                get
-                {
-                    return _含高风险的回访Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 含高风险的回访 item info.
-            /// </summary>
-            [RepositoryItemInfo("2da1befa-20b5-49c5-91a3-80bed6e36db3")]
-            public virtual RepoItemInfo 含高风险的回访Info
-            {
-                get
-                {
-                    return _含高风险的回访Info;
-                }
-            }
-
-            /// <summary>
-            /// The 非含高风险的回访 item.
-            /// </summary>
-            [RepositoryItem("1ee01e49-5b05-4818-9db3-59cafdeb2dc7")]
-            public virtual Ranorex.InputTag 非含高风险的回访
-            {
-                get
-                {
-                    return _非含高风险的回访Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 非含高风险的回访 item info.
-            /// </summary>
-            [RepositoryItemInfo("1ee01e49-5b05-4818-9db3-59cafdeb2dc7")]
-            public virtual RepoItemInfo 非含高风险的回访Info
-            {
-                get
-                {
-                    return _非含高风险的回访Info;
-                }
-            }
-
-            /// <summary>
-            /// The 保存显示设置 item.
-            /// </summary>
-            [RepositoryItem("dd4a6176-91e1-4031-9a0c-2dde0a19d629")]
-            public virtual Ranorex.InputTag 保存显示设置
-            {
-                get
-                {
-                    return _保存显示设置Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 保存显示设置 item info.
-            /// </summary>
-            [RepositoryItemInfo("dd4a6176-91e1-4031-9a0c-2dde0a19d629")]
-            public virtual RepoItemInfo 保存显示设置Info
-            {
-                get
-                {
-                    return _保存显示设置Info;
-                }
-            }
-
-            /// <summary>
-            /// The 中位数 item.
-            /// </summary>
-            [RepositoryItem("8d3fbde5-7aa0-41b7-ab99-ac56b9c1bc72")]
-            public virtual Ranorex.ATag 中位数
-            {
-                get
-                {
-                    return _中位数Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 中位数 item info.
-            /// </summary>
-            [RepositoryItemInfo("8d3fbde5-7aa0-41b7-ab99-ac56b9c1bc72")]
-            public virtual RepoItemInfo 中位数Info
-            {
-                get
-                {
-                    return _中位数Info;
-                }
-            }
-
-            /// <summary>
-            /// The 中位数列表截图 item.
-            /// </summary>
-            [RepositoryItem("cfb9870d-f219-4387-9051-a6a1fbfd9517")]
-            public virtual Ranorex.DivTag 中位数列表截图
-            {
-                get
-                {
-                    return _中位数列表截图Info.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 中位数列表截图 item info.
-            /// </summary>
-            [RepositoryItemInfo("cfb9870d-f219-4387-9051-a6a1fbfd9517")]
-            public virtual RepoItemInfo 中位数列表截图Info
-            {
-                get
-                {
-                    return _中位数列表截图Info;
-                }
-            }
-
-            /// <summary>
-            /// The 编辑NT_E2 item.
-            /// </summary>
-            [RepositoryItem("21d97c3e-4b55-4d7b-95ca-b7c610aa0449")]
-            public virtual Ranorex.ATag 编辑NT_E2
-            {
-                get
-                {
-                    return _编辑nt_e2Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 编辑NT_E2 item info.
-            /// </summary>
-            [RepositoryItemInfo("21d97c3e-4b55-4d7b-95ca-b7c610aa0449")]
-            public virtual RepoItemInfo 编辑NT_E2Info
-            {
-                get
-                {
-                    return _编辑nt_e2Info;
-                }
-            }
-
-            /// <summary>
-            /// The NT_E2早期版本是否可用 item.
-            /// </summary>
-            [RepositoryItem("48f63500-2f37-468b-bd21-9d50593ee925")]
-            public virtual Ranorex.InputTag NT_E2早期版本是否可用
-            {
-                get
-                {
-                    return _nt_e2早期版本是否可用Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The NT_E2早期版本是否可用 item info.
-            /// </summary>
-            [RepositoryItemInfo("48f63500-2f37-468b-bd21-9d50593ee925")]
-            public virtual RepoItemInfo NT_E2早期版本是否可用Info
-            {
-                get
-                {
-                    return _nt_e2早期版本是否可用Info;
-                }
-            }
-
-            /// <summary>
-            /// The 保存NT_E2设置 item.
-            /// </summary>
-            [RepositoryItem("7f391556-a030-4ded-863b-8980ce5fc9c4")]
-            public virtual Ranorex.InputTag 保存NT_E2设置
-            {
-                get
-                {
-                    return _保存nt_e2设置Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 保存NT_E2设置 item info.
-            /// </summary>
-            [RepositoryItemInfo("7f391556-a030-4ded-863b-8980ce5fc9c4")]
-            public virtual RepoItemInfo 保存NT_E2设置Info
-            {
-                get
-                {
-                    return _保存nt_e2设置Info;
-                }
-            }
-
-            /// <summary>
-            /// The 保存成功确认 item.
-            /// </summary>
-            [RepositoryItem("dc9f25de-7866-4ab3-983e-27377f755c47")]
-            public virtual Ranorex.ATag 保存成功确认
-            {
-                get
-                {
-                    return _保存成功确认Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 保存成功确认 item info.
-            /// </summary>
-            [RepositoryItemInfo("dc9f25de-7866-4ab3-983e-27377f755c47")]
-            public virtual RepoItemInfo 保存成功确认Info
-            {
-                get
-                {
-                    return _保存成功确认Info;
-                }
-            }
-
-            /// <summary>
-            /// The 数据来源 item.
-            /// </summary>
-            [RepositoryItem("9819e926-3c75-41dd-8dd0-05c01e7d9e08")]
-            public virtual Ranorex.ATag 数据来源
-            {
-                get
-                {
-                    return _数据来源Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 数据来源 item info.
-            /// </summary>
-            [RepositoryItemInfo("9819e926-3c75-41dd-8dd0-05c01e7d9e08")]
-            public virtual RepoItemInfo 数据来源Info
-            {
-                get
-                {
-                    return _数据来源Info;
-                }
-            }
-
-            /// <summary>
-            /// The 筛查号前缀 item.
-            /// </summary>
-            [RepositoryItem("85eb80d0-0efa-4939-8ebc-aa421ca0671d")]
-            public virtual Ranorex.InputTag 筛查号前缀
-            {
-                get
-                {
-                    return _筛查号前缀Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 筛查号前缀 item info.
-            /// </summary>
-            [RepositoryItemInfo("85eb80d0-0efa-4939-8ebc-aa421ca0671d")]
-            public virtual RepoItemInfo 筛查号前缀Info
-            {
-                get
-                {
-                    return _筛查号前缀Info;
-                }
-            }
-
-            /// <summary>
-            /// The 自增筛查号位数 item.
-            /// </summary>
-            [RepositoryItem("55a2af4e-747c-4844-b1ad-ab41b5e28bdb")]
-            public virtual Ranorex.InputTag 自增筛查号位数
-            {
-                get
-                {
-                    return _自增筛查号位数Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 自增筛查号位数 item info.
-            /// </summary>
-            [RepositoryItemInfo("55a2af4e-747c-4844-b1ad-ab41b5e28bdb")]
-            public virtual RepoItemInfo 自增筛查号位数Info
-            {
-                get
-                {
-                    return _自增筛查号位数Info;
-                }
-            }
-
-            /// <summary>
-            /// The 保存 item.
-            /// </summary>
-            [RepositoryItem("80039e9a-870f-4726-a859-efa9aab6291e")]
-            public virtual Ranorex.InputTag 保存
-            {
-                get
-                {
-                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 保存 item info.
-            /// </summary>
-            [RepositoryItemInfo("80039e9a-870f-4726-a859-efa9aab6291e")]
-            public virtual RepoItemInfo 保存Info
-            {
-                get
-                {
-                    return _保存Info;
-                }
-            }
-
-            /// <summary>
-            /// The 病历号回车 item.
-            /// </summary>
-            [RepositoryItem("45e0355e-70b4-46da-bd42-4b130fe88fd1")]
-            public virtual Ranorex.InputTag 病历号回车
-            {
-                get
-                {
-                    return _病历号回车Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 病历号回车 item info.
-            /// </summary>
-            [RepositoryItemInfo("45e0355e-70b4-46da-bd42-4b130fe88fd1")]
-            public virtual RepoItemInfo 病历号回车Info
-            {
-                get
-                {
-                    return _病历号回车Info;
-                }
-            }
-
-            /// <summary>
-            /// The 外部数据接口 item.
-            /// </summary>
-            [RepositoryItem("fd0186d7-7a58-4c1e-a24d-0de364ac8f00")]
-            public virtual Ranorex.InputTag 外部数据接口
-            {
-                get
-                {
-                    return _外部数据接口Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 外部数据接口 item info.
-            /// </summary>
-            [RepositoryItemInfo("fd0186d7-7a58-4c1e-a24d-0de364ac8f00")]
-            public virtual RepoItemInfo 外部数据接口Info
-            {
-                get
-                {
-                    return _外部数据接口Info;
-                }
-            }
-
-            /// <summary>
-            /// The 读取标记物 item.
-            /// </summary>
-            [RepositoryItem("6f8cd774-615e-4aa5-994d-0a249b2f2a5e")]
-            public virtual Ranorex.InputTag 读取标记物
-            {
-                get
-                {
-                    return _读取标记物Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 读取标记物 item info.
-            /// </summary>
-            [RepositoryItemInfo("6f8cd774-615e-4aa5-994d-0a249b2f2a5e")]
-            public virtual RepoItemInfo 读取标记物Info
-            {
-                get
-                {
-                    return _读取标记物Info;
-                }
-            }
-
-            /// <summary>
-            /// The 替换SQL语句中的起始日期 item.
-            /// </summary>
-            [RepositoryItem("f65ee4b4-3253-4a99-96b1-3805097b767f")]
-            public virtual Ranorex.InputTag 替换SQL语句中的起始日期
-            {
-                get
-                {
-                    return _替换sql语句中的起始日期Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 替换SQL语句中的起始日期 item info.
-            /// </summary>
-            [RepositoryItemInfo("f65ee4b4-3253-4a99-96b1-3805097b767f")]
-            public virtual RepoItemInfo 替换SQL语句中的起始日期Info
-            {
-                get
-                {
-                    return _替换sql语句中的起始日期Info;
-                }
-            }
-
-            /// <summary>
-            /// The 保存按钮 item.
-            /// </summary>
-            [RepositoryItem("9a65b12e-2349-494d-99cb-56149441d39b")]
-            public virtual Ranorex.InputTag 保存按钮
-            {
-                get
-                {
-                    return _保存按钮Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 保存按钮 item info.
-            /// </summary>
-            [RepositoryItemInfo("9a65b12e-2349-494d-99cb-56149441d39b")]
-            public virtual RepoItemInfo 保存按钮Info
-            {
-                get
-                {
-                    return _保存按钮Info;
-                }
-            }
-
-            /// <summary>
-            /// The 服务器名 item.
-            /// </summary>
-            [RepositoryItem("b312df2b-c5e6-432b-a24b-c609d74ece90")]
-            public virtual Ranorex.InputTag 服务器名
-            {
-                get
-                {
-                    return _服务器名Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 服务器名 item info.
-            /// </summary>
-            [RepositoryItemInfo("b312df2b-c5e6-432b-a24b-c609d74ece90")]
-            public virtual RepoItemInfo 服务器名Info
-            {
-                get
-                {
-                    return _服务器名Info;
-                }
-            }
-
-            /// <summary>
-            /// The 数据库名 item.
-            /// </summary>
-            [RepositoryItem("01360368-267a-43af-9d78-b4923921c270")]
-            public virtual Ranorex.InputTag 数据库名
-            {
-                get
-                {
-                    return _数据库名Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 数据库名 item info.
-            /// </summary>
-            [RepositoryItemInfo("01360368-267a-43af-9d78-b4923921c270")]
-            public virtual RepoItemInfo 数据库名Info
-            {
-                get
-                {
-                    return _数据库名Info;
-                }
-            }
-
-            /// <summary>
-            /// The 账户 item.
-            /// </summary>
-            [RepositoryItem("efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4")]
-            public virtual Ranorex.InputTag 账户
-            {
-                get
-                {
-                    return _账户Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 账户 item info.
-            /// </summary>
-            [RepositoryItemInfo("efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4")]
-            public virtual RepoItemInfo 账户Info
-            {
-                get
-                {
-                    return _账户Info;
-                }
-            }
-
-            /// <summary>
-            /// The 密码 item.
-            /// </summary>
-            [RepositoryItem("4b1e260e-a105-413e-87ce-51a77ca4b3bb")]
-            public virtual Ranorex.InputTag 密码
-            {
-                get
-                {
-                    return _密码Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 密码 item info.
-            /// </summary>
-            [RepositoryItemInfo("4b1e260e-a105-413e-87ce-51a77ca4b3bb")]
-            public virtual RepoItemInfo 密码Info
-            {
-                get
-                {
-                    return _密码Info;
-                }
-            }
-
-            /// <summary>
-            /// The T_SQL语句 item.
-            /// </summary>
-            [RepositoryItem("6b2451ec-7612-42d7-b204-991395e94ad0")]
-            public virtual Ranorex.TextAreaTag T_SQL语句
-            {
-                get
-                {
-                    return _t_sql语句Info.CreateAdapter<Ranorex.TextAreaTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The T_SQL语句 item info.
-            /// </summary>
-            [RepositoryItemInfo("6b2451ec-7612-42d7-b204-991395e94ad0")]
-            public virtual RepoItemInfo T_SQL语句Info
-            {
-                get
-                {
-                    return _t_sql语句Info;
-                }
-            }
-
-            /// <summary>
-            /// The 测试连接 item.
-            /// </summary>
-            [RepositoryItem("32104d34-f208-49fa-b0b7-00ccdf6c402d")]
-            public virtual Ranorex.InputTag 测试连接
-            {
-                get
-                {
-                    return _测试连接Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 测试连接 item info.
-            /// </summary>
-            [RepositoryItemInfo("32104d34-f208-49fa-b0b7-00ccdf6c402d")]
-            public virtual RepoItemInfo 测试连接Info
-            {
-                get
-                {
-                    return _测试连接Info;
-                }
-            }
-        }
-
-        /// <summary>
         /// The 筛查信息查询AppFolder folder.
         /// </summary>
         [RepositoryFolder("79d1f82f-9f11-42bb-9ca5-68ddcc310296")]
@@ -4980,7 +4567,7 @@ namespace MPNS_TEST.Repositorys
                 _测试结束日期Info = new RepoItemInfo(this, "测试结束日期", ".//input[#'EndDate']", 30000, null, "49d09167-ae52-48f6-8c80-9e9820709c21");
                 _搜索按钮Info = new RepoItemInfo(this, "搜索按钮", ".//div[#'searchSeniorBox']/table//input[@type='button']", 30000, null, "d8c869cd-53c7-44e9-a2ed-29adea5ee4fc");
                 _日志Info = new RepoItemInfo(this, "日志", ".//input[#'butBusinessLog']", 30000, null, "7f9c09c4-ffda-4ea2-8b5c-f05d8432cb5f");
-                _搜索到的第一人Info = new RepoItemInfo(this, "搜索到的第一人", ".//tbody[#'pregnantentitybody']/tr//p[@title='周孕妇']", 30000, null, "49829bcf-990a-45dd-8202-571cdffb5b12");
+                _搜索到的第一人Info = new RepoItemInfo(this, "搜索到的第一人", ".//tbody[#'pregnantentitybody']/tr//p[@class='screenedit_item_title']", 30000, null, "49829bcf-990a-45dd-8202-571cdffb5b12");
             }
 
             /// <summary>
@@ -5316,398 +4903,6 @@ namespace MPNS_TEST.Repositorys
                 get
                 {
                     return _搜索到的第一人Info;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The 页面头选择AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
-        public partial class 页面头选择AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _筛查管理Info;
-            RepoItemInfo _筛查信息Info;
-            RepoItemInfo _筛查回访Info;
-            RepoItemInfo _维护管理Info;
-            RepoItemInfo _参数信息Info;
-            RepoItemInfo _基础信息管理Info;
-            RepoItemInfo _医院医生Info;
-
-            /// <summary>
-            /// Creates a new 页面头选择  folder.
-            /// </summary>
-            public 页面头选择AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("页面头选择", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "131c0ee5-f8b2-4bf1-82bc-fdb3408248d9", "")
-            {
-                _筛查管理Info = new RepoItemInfo(this, "筛查管理", ".//ul[#'mainmenus']/?/?/a[@innertext='筛查管理']", 30000, null, "f6984859-bfde-4674-9e61-c1cb3a259c66");
-                _筛查信息Info = new RepoItemInfo(this, "筛查信息", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='筛查信息']", 30000, null, "e453ddd0-0b7e-4c8c-9961-38eb0cd79378");
-                _筛查回访Info = new RepoItemInfo(this, "筛查回访", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='筛查回访']", 30000, null, "0db82e9c-0b16-4181-9e35-91bbb1a307a0");
-                _维护管理Info = new RepoItemInfo(this, "维护管理", ".//ul[#'mainmenus']/?/?/a[@innertext='维护管理']", 30000, null, "af14041f-7766-4a37-a935-58a8d72444fc");
-                _参数信息Info = new RepoItemInfo(this, "参数信息", ".//ul[#'mainmenus']/li[5]/div/ul/?/?/a[@innertext='参数信息']", 30000, null, "92af5527-5c64-4f52-9272-62cc937457ed");
-                _基础信息管理Info = new RepoItemInfo(this, "基础信息管理", ".//ul[#'mainmenus']/?/?/a[@innertext='基础信息管理']", 30000, null, "1c6ea1c0-a042-49aa-8572-b91cb10bddc2");
-                _医院医生Info = new RepoItemInfo(this, "医院医生", ".//ul[#'mainmenus']/li[4]/div/ul/?/?/a[@innertext='医院医生']", 30000, null, "c3912049-f082-4786-a055-c282326640ff");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
-            public virtual Ranorex.WebDocument Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The 筛查管理 item.
-            /// </summary>
-            [RepositoryItem("f6984859-bfde-4674-9e61-c1cb3a259c66")]
-            public virtual Ranorex.ATag 筛查管理
-            {
-                get
-                {
-                    return _筛查管理Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 筛查管理 item info.
-            /// </summary>
-            [RepositoryItemInfo("f6984859-bfde-4674-9e61-c1cb3a259c66")]
-            public virtual RepoItemInfo 筛查管理Info
-            {
-                get
-                {
-                    return _筛查管理Info;
-                }
-            }
-
-            /// <summary>
-            /// The 筛查信息 item.
-            /// </summary>
-            [RepositoryItem("e453ddd0-0b7e-4c8c-9961-38eb0cd79378")]
-            public virtual Ranorex.ATag 筛查信息
-            {
-                get
-                {
-                    return _筛查信息Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 筛查信息 item info.
-            /// </summary>
-            [RepositoryItemInfo("e453ddd0-0b7e-4c8c-9961-38eb0cd79378")]
-            public virtual RepoItemInfo 筛查信息Info
-            {
-                get
-                {
-                    return _筛查信息Info;
-                }
-            }
-
-            /// <summary>
-            /// The 筛查回访 item.
-            /// </summary>
-            [RepositoryItem("0db82e9c-0b16-4181-9e35-91bbb1a307a0")]
-            public virtual Ranorex.ATag 筛查回访
-            {
-                get
-                {
-                    return _筛查回访Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 筛查回访 item info.
-            /// </summary>
-            [RepositoryItemInfo("0db82e9c-0b16-4181-9e35-91bbb1a307a0")]
-            public virtual RepoItemInfo 筛查回访Info
-            {
-                get
-                {
-                    return _筛查回访Info;
-                }
-            }
-
-            /// <summary>
-            /// The 维护管理 item.
-            /// </summary>
-            [RepositoryItem("af14041f-7766-4a37-a935-58a8d72444fc")]
-            public virtual Ranorex.ATag 维护管理
-            {
-                get
-                {
-                    return _维护管理Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 维护管理 item info.
-            /// </summary>
-            [RepositoryItemInfo("af14041f-7766-4a37-a935-58a8d72444fc")]
-            public virtual RepoItemInfo 维护管理Info
-            {
-                get
-                {
-                    return _维护管理Info;
-                }
-            }
-
-            /// <summary>
-            /// The 参数信息 item.
-            /// </summary>
-            [RepositoryItem("92af5527-5c64-4f52-9272-62cc937457ed")]
-            public virtual Ranorex.ATag 参数信息
-            {
-                get
-                {
-                    return _参数信息Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 参数信息 item info.
-            /// </summary>
-            [RepositoryItemInfo("92af5527-5c64-4f52-9272-62cc937457ed")]
-            public virtual RepoItemInfo 参数信息Info
-            {
-                get
-                {
-                    return _参数信息Info;
-                }
-            }
-
-            /// <summary>
-            /// The 基础信息管理 item.
-            /// </summary>
-            [RepositoryItem("1c6ea1c0-a042-49aa-8572-b91cb10bddc2")]
-            public virtual Ranorex.ATag 基础信息管理
-            {
-                get
-                {
-                    return _基础信息管理Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 基础信息管理 item info.
-            /// </summary>
-            [RepositoryItemInfo("1c6ea1c0-a042-49aa-8572-b91cb10bddc2")]
-            public virtual RepoItemInfo 基础信息管理Info
-            {
-                get
-                {
-                    return _基础信息管理Info;
-                }
-            }
-
-            /// <summary>
-            /// The 医院医生 item.
-            /// </summary>
-            [RepositoryItem("c3912049-f082-4786-a055-c282326640ff")]
-            public virtual Ranorex.ATag 医院医生
-            {
-                get
-                {
-                    return _医院医生Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 医院医生 item info.
-            /// </summary>
-            [RepositoryItemInfo("c3912049-f082-4786-a055-c282326640ff")]
-            public virtual RepoItemInfo 医院医生Info
-            {
-                get
-                {
-                    return _医院医生Info;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The 医院医生AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("7b4d0120-ca0e-41fa-94f1-83dbfaf1b831")]
-        public partial class 医院医生AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _新增医生Info;
-            RepoItemInfo _来源单位Info;
-            RepoItemInfo _送检医生Info;
-            RepoItemInfo _保存Info;
-            RepoItemInfo _确定Info;
-
-            /// <summary>
-            /// Creates a new 医院医生  folder.
-            /// </summary>
-            public 医院医生AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("医院医生", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "7b4d0120-ca0e-41fa-94f1-83dbfaf1b831", "")
-            {
-                _新增医生Info = new RepoItemInfo(this, "新增医生", ".//input[#'butInsert']", 30000, null, "c78b84de-3f00-4059-8103-ce4a6766c1a9");
-                _来源单位Info = new RepoItemInfo(this, "来源单位", ".//table[@class='formtable']//tr[1]/td[2]/input", 30000, null, "0e9f096a-64eb-4b75-8fec-330710354c20");
-                _送检医生Info = new RepoItemInfo(this, "送检医生", ".//table[@class='formtable']//tr[2]/td[2]/input", 30000, null, "2ba1a856-e5d4-4ec0-aab8-00ae3f731d89");
-                _保存Info = new RepoItemInfo(this, "保存", ".//table[@class='formtable']//tr[4]/td/input[1]", 30000, null, "435cff0a-3267-4a7e-a22f-e33047873123");
-                _确定Info = new RepoItemInfo(this, "确定", ".//div[#'xubox_layer1']//a[@innertext='确定']", 30000, null, "042cbcde-79e9-4d3a-a0ce-bb8721491b6d");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("7b4d0120-ca0e-41fa-94f1-83dbfaf1b831")]
-            public virtual Ranorex.WebDocument Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("7b4d0120-ca0e-41fa-94f1-83dbfaf1b831")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The 新增医生 item.
-            /// </summary>
-            [RepositoryItem("c78b84de-3f00-4059-8103-ce4a6766c1a9")]
-            public virtual Ranorex.InputTag 新增医生
-            {
-                get
-                {
-                    return _新增医生Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 新增医生 item info.
-            /// </summary>
-            [RepositoryItemInfo("c78b84de-3f00-4059-8103-ce4a6766c1a9")]
-            public virtual RepoItemInfo 新增医生Info
-            {
-                get
-                {
-                    return _新增医生Info;
-                }
-            }
-
-            /// <summary>
-            /// The 来源单位 item.
-            /// </summary>
-            [RepositoryItem("0e9f096a-64eb-4b75-8fec-330710354c20")]
-            public virtual Ranorex.InputTag 来源单位
-            {
-                get
-                {
-                    return _来源单位Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 来源单位 item info.
-            /// </summary>
-            [RepositoryItemInfo("0e9f096a-64eb-4b75-8fec-330710354c20")]
-            public virtual RepoItemInfo 来源单位Info
-            {
-                get
-                {
-                    return _来源单位Info;
-                }
-            }
-
-            /// <summary>
-            /// The 送检医生 item.
-            /// </summary>
-            [RepositoryItem("2ba1a856-e5d4-4ec0-aab8-00ae3f731d89")]
-            public virtual Ranorex.InputTag 送检医生
-            {
-                get
-                {
-                    return _送检医生Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 送检医生 item info.
-            /// </summary>
-            [RepositoryItemInfo("2ba1a856-e5d4-4ec0-aab8-00ae3f731d89")]
-            public virtual RepoItemInfo 送检医生Info
-            {
-                get
-                {
-                    return _送检医生Info;
-                }
-            }
-
-            /// <summary>
-            /// The 保存 item.
-            /// </summary>
-            [RepositoryItem("435cff0a-3267-4a7e-a22f-e33047873123")]
-            public virtual Ranorex.InputTag 保存
-            {
-                get
-                {
-                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 保存 item info.
-            /// </summary>
-            [RepositoryItemInfo("435cff0a-3267-4a7e-a22f-e33047873123")]
-            public virtual RepoItemInfo 保存Info
-            {
-                get
-                {
-                    return _保存Info;
-                }
-            }
-
-            /// <summary>
-            /// The 确定 item.
-            /// </summary>
-            [RepositoryItem("042cbcde-79e9-4d3a-a0ce-bb8721491b6d")]
-            public virtual Ranorex.ATag 确定
-            {
-                get
-                {
-                    return _确定Info.CreateAdapter<Ranorex.ATag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The 确定 item info.
-            /// </summary>
-            [RepositoryItemInfo("042cbcde-79e9-4d3a-a0ce-bb8721491b6d")]
-            public virtual RepoItemInfo 确定Info
-            {
-                get
-                {
-                    return _确定Info;
                 }
             }
         }
@@ -7542,6 +6737,6832 @@ namespace MPNS_TEST.Repositorys
                 get
                 {
                     return _下页Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 显示设置AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("f0503a95-b8c3-40b6-9fb2-6d28f707ab67")]
+        public partial class 显示设置AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _显示设置Info;
+            RepoItemInfo _回访信息范围Info;
+            RepoItemInfo _n天数Info;
+            RepoItemInfo _含高风险的回访Info;
+            RepoItemInfo _非含高风险的回访Info;
+            RepoItemInfo _保存显示设置Info;
+
+            /// <summary>
+            /// Creates a new 显示设置  folder.
+            /// </summary>
+            public 显示设置AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("显示设置", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "f0503a95-b8c3-40b6-9fb2-6d28f707ab67", "")
+            {
+                _显示设置Info = new RepoItemInfo(this, "显示设置", ".//div[#'leftcontent']//a[@innertext='显示设置']", 30000, null, "ad7923e8-a4ca-4251-bfc0-2edf9bdc7fda");
+                _回访信息范围Info = new RepoItemInfo(this, "回访信息范围", ".//form[#'DisplaySettingform']/fieldset[1]/table//select[@name='VISITBROWERSET']", 30000, null, "918b3479-f1b8-4b29-b229-cb55b614aa07");
+                _n天数Info = new RepoItemInfo(this, "N天数", ".//form[#'DisplaySettingform']/fieldset[1]/table//input[@name='SIFTSHOWDAYS']", 30000, null, "63b43dfa-178d-4482-b155-c6b42c0af434");
+                _含高风险的回访Info = new RepoItemInfo(this, "含高风险的回访", ".//form[#'DisplaySettingform']/fieldset[1]/table//input[@name='REVIEWHIGHRISKREMINDAFTERDAYS']", 30000, null, "2da1befa-20b5-49c5-91a3-80bed6e36db3");
+                _非含高风险的回访Info = new RepoItemInfo(this, "非含高风险的回访", ".//form[#'DisplaySettingform']/fieldset[1]/table//input[@name='REVIEWNORMALRISKREMINDAFTERDAYS']", 30000, null, "1ee01e49-5b05-4818-9db3-59cafdeb2dc7");
+                _保存显示设置Info = new RepoItemInfo(this, "保存显示设置", ".//input[#'but_DisplaySetting']", 30000, null, "dd4a6176-91e1-4031-9a0c-2dde0a19d629");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("f0503a95-b8c3-40b6-9fb2-6d28f707ab67")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("f0503a95-b8c3-40b6-9fb2-6d28f707ab67")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 显示设置 item.
+            /// </summary>
+            [RepositoryItem("ad7923e8-a4ca-4251-bfc0-2edf9bdc7fda")]
+            public virtual Ranorex.ATag 显示设置
+            {
+                get
+                {
+                    return _显示设置Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 显示设置 item info.
+            /// </summary>
+            [RepositoryItemInfo("ad7923e8-a4ca-4251-bfc0-2edf9bdc7fda")]
+            public virtual RepoItemInfo 显示设置Info
+            {
+                get
+                {
+                    return _显示设置Info;
+                }
+            }
+
+            /// <summary>
+            /// The 回访信息范围 item.
+            /// </summary>
+            [RepositoryItem("918b3479-f1b8-4b29-b229-cb55b614aa07")]
+            public virtual Ranorex.SelectTag 回访信息范围
+            {
+                get
+                {
+                    return _回访信息范围Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 回访信息范围 item info.
+            /// </summary>
+            [RepositoryItemInfo("918b3479-f1b8-4b29-b229-cb55b614aa07")]
+            public virtual RepoItemInfo 回访信息范围Info
+            {
+                get
+                {
+                    return _回访信息范围Info;
+                }
+            }
+
+            /// <summary>
+            /// The N天数 item.
+            /// </summary>
+            [RepositoryItem("63b43dfa-178d-4482-b155-c6b42c0af434")]
+            public virtual Ranorex.InputTag N天数
+            {
+                get
+                {
+                    return _n天数Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The N天数 item info.
+            /// </summary>
+            [RepositoryItemInfo("63b43dfa-178d-4482-b155-c6b42c0af434")]
+            public virtual RepoItemInfo N天数Info
+            {
+                get
+                {
+                    return _n天数Info;
+                }
+            }
+
+            /// <summary>
+            /// The 含高风险的回访 item.
+            /// </summary>
+            [RepositoryItem("2da1befa-20b5-49c5-91a3-80bed6e36db3")]
+            public virtual Ranorex.InputTag 含高风险的回访
+            {
+                get
+                {
+                    return _含高风险的回访Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 含高风险的回访 item info.
+            /// </summary>
+            [RepositoryItemInfo("2da1befa-20b5-49c5-91a3-80bed6e36db3")]
+            public virtual RepoItemInfo 含高风险的回访Info
+            {
+                get
+                {
+                    return _含高风险的回访Info;
+                }
+            }
+
+            /// <summary>
+            /// The 非含高风险的回访 item.
+            /// </summary>
+            [RepositoryItem("1ee01e49-5b05-4818-9db3-59cafdeb2dc7")]
+            public virtual Ranorex.InputTag 非含高风险的回访
+            {
+                get
+                {
+                    return _非含高风险的回访Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 非含高风险的回访 item info.
+            /// </summary>
+            [RepositoryItemInfo("1ee01e49-5b05-4818-9db3-59cafdeb2dc7")]
+            public virtual RepoItemInfo 非含高风险的回访Info
+            {
+                get
+                {
+                    return _非含高风险的回访Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存显示设置 item.
+            /// </summary>
+            [RepositoryItem("dd4a6176-91e1-4031-9a0c-2dde0a19d629")]
+            public virtual Ranorex.InputTag 保存显示设置
+            {
+                get
+                {
+                    return _保存显示设置Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存显示设置 item info.
+            /// </summary>
+            [RepositoryItemInfo("dd4a6176-91e1-4031-9a0c-2dde0a19d629")]
+            public virtual RepoItemInfo 保存显示设置Info
+            {
+                get
+                {
+                    return _保存显示设置Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 维护管理AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fa434f56-77c5-493d-9268-222427114ccc")]
+        public partial class 维护管理AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _标记物设置Info;
+            RepoItemInfo _中位数Info;
+            RepoItemInfo _中位数列表截图Info;
+            RepoItemInfo _编辑nt_e2Info;
+            RepoItemInfo _nt_e2早期版本是否可用Info;
+            RepoItemInfo _保存nt_e2设置Info;
+            RepoItemInfo _保存成功确认Info;
+            RepoItemInfo _筛查号前缀Info;
+            RepoItemInfo _自增筛查号位数Info;
+            RepoItemInfo _保存Info;
+
+            /// <summary>
+            /// Creates a new 维护管理  folder.
+            /// </summary>
+            public 维护管理AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("维护管理", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "fa434f56-77c5-493d-9268-222427114ccc", "")
+            {
+                _标记物设置Info = new RepoItemInfo(this, "标记物设置", ".//div[#'leftcontent']//a[@innertext='标记物设置']", 30000, null, "d0c5dc66-f628-46c8-b205-77eee7130896");
+                _中位数Info = new RepoItemInfo(this, "中位数", ".//div[#'leftcontent']//a[@innertext='中位数']", 30000, null, "8d3fbde5-7aa0-41b7-ab99-ac56b9c1bc72");
+                _中位数列表截图Info = new RepoItemInfo(this, "中位数列表截图", "body/div[2]/form[@action='http://localhost:8016/StatisticsManager']/?/?/table/tbody/tr[2]/td[2]/div/div[2]/div[1]", 30000, null, "cfb9870d-f219-4387-9051-a6a1fbfd9517");
+                _编辑nt_e2Info = new RepoItemInfo(this, "编辑NT_E2", "body/div[2]/form[@action='http://localhost:8016/Parameter/TestItemSet']/?/?/table/?/?/tr/td[2]/div/table/tbody/tr[16]/td[14]/a", 30000, null, "21d97c3e-4b55-4d7b-95ca-b7c610aa0449");
+                _nt_e2早期版本是否可用Info = new RepoItemInfo(this, "NT_E2早期版本是否可用", ".//table[@class='formtable']//tr[9]/td[2]/input", 30000, null, "48f63500-2f37-468b-bd21-9d50593ee925");
+                _保存nt_e2设置Info = new RepoItemInfo(this, "保存NT_E2设置", ".//table[@class='formtable']//tr[11]/td/input[1]", 30000, null, "7f391556-a030-4ded-863b-8980ce5fc9c4");
+                _保存成功确认Info = new RepoItemInfo(this, "保存成功确认", ".//div[@class='xubox_layer']//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "dc9f25de-7866-4ab3-983e-27377f755c47");
+                _筛查号前缀Info = new RepoItemInfo(this, "筛查号前缀", ".//input[#'CheckNoHeadString']", 30000, null, "85eb80d0-0efa-4939-8ebc-aa421ca0671d");
+                _自增筛查号位数Info = new RepoItemInfo(this, "自增筛查号位数", ".//input[#'CheckNoLen']", 30000, null, "55a2af4e-747c-4844-b1ad-ab41b5e28bdb");
+                _保存Info = new RepoItemInfo(this, "保存", ".//input[#'but_EntrySetting']", 30000, null, "80039e9a-870f-4726-a859-efa9aab6291e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fa434f56-77c5-493d-9268-222427114ccc")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fa434f56-77c5-493d-9268-222427114ccc")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 标记物设置 item.
+            /// </summary>
+            [RepositoryItem("d0c5dc66-f628-46c8-b205-77eee7130896")]
+            public virtual Ranorex.ATag 标记物设置
+            {
+                get
+                {
+                    return _标记物设置Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 标记物设置 item info.
+            /// </summary>
+            [RepositoryItemInfo("d0c5dc66-f628-46c8-b205-77eee7130896")]
+            public virtual RepoItemInfo 标记物设置Info
+            {
+                get
+                {
+                    return _标记物设置Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中位数 item.
+            /// </summary>
+            [RepositoryItem("8d3fbde5-7aa0-41b7-ab99-ac56b9c1bc72")]
+            public virtual Ranorex.ATag 中位数
+            {
+                get
+                {
+                    return _中位数Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中位数 item info.
+            /// </summary>
+            [RepositoryItemInfo("8d3fbde5-7aa0-41b7-ab99-ac56b9c1bc72")]
+            public virtual RepoItemInfo 中位数Info
+            {
+                get
+                {
+                    return _中位数Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中位数列表截图 item.
+            /// </summary>
+            [RepositoryItem("cfb9870d-f219-4387-9051-a6a1fbfd9517")]
+            public virtual Ranorex.DivTag 中位数列表截图
+            {
+                get
+                {
+                    return _中位数列表截图Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中位数列表截图 item info.
+            /// </summary>
+            [RepositoryItemInfo("cfb9870d-f219-4387-9051-a6a1fbfd9517")]
+            public virtual RepoItemInfo 中位数列表截图Info
+            {
+                get
+                {
+                    return _中位数列表截图Info;
+                }
+            }
+
+            /// <summary>
+            /// The 编辑NT_E2 item.
+            /// </summary>
+            [RepositoryItem("21d97c3e-4b55-4d7b-95ca-b7c610aa0449")]
+            public virtual Ranorex.ATag 编辑NT_E2
+            {
+                get
+                {
+                    return _编辑nt_e2Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 编辑NT_E2 item info.
+            /// </summary>
+            [RepositoryItemInfo("21d97c3e-4b55-4d7b-95ca-b7c610aa0449")]
+            public virtual RepoItemInfo 编辑NT_E2Info
+            {
+                get
+                {
+                    return _编辑nt_e2Info;
+                }
+            }
+
+            /// <summary>
+            /// The NT_E2早期版本是否可用 item.
+            /// </summary>
+            [RepositoryItem("48f63500-2f37-468b-bd21-9d50593ee925")]
+            public virtual Ranorex.InputTag NT_E2早期版本是否可用
+            {
+                get
+                {
+                    return _nt_e2早期版本是否可用Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NT_E2早期版本是否可用 item info.
+            /// </summary>
+            [RepositoryItemInfo("48f63500-2f37-468b-bd21-9d50593ee925")]
+            public virtual RepoItemInfo NT_E2早期版本是否可用Info
+            {
+                get
+                {
+                    return _nt_e2早期版本是否可用Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存NT_E2设置 item.
+            /// </summary>
+            [RepositoryItem("7f391556-a030-4ded-863b-8980ce5fc9c4")]
+            public virtual Ranorex.InputTag 保存NT_E2设置
+            {
+                get
+                {
+                    return _保存nt_e2设置Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存NT_E2设置 item info.
+            /// </summary>
+            [RepositoryItemInfo("7f391556-a030-4ded-863b-8980ce5fc9c4")]
+            public virtual RepoItemInfo 保存NT_E2设置Info
+            {
+                get
+                {
+                    return _保存nt_e2设置Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存成功确认 item.
+            /// </summary>
+            [RepositoryItem("dc9f25de-7866-4ab3-983e-27377f755c47")]
+            public virtual Ranorex.ATag 保存成功确认
+            {
+                get
+                {
+                    return _保存成功确认Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存成功确认 item info.
+            /// </summary>
+            [RepositoryItemInfo("dc9f25de-7866-4ab3-983e-27377f755c47")]
+            public virtual RepoItemInfo 保存成功确认Info
+            {
+                get
+                {
+                    return _保存成功确认Info;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查号前缀 item.
+            /// </summary>
+            [RepositoryItem("85eb80d0-0efa-4939-8ebc-aa421ca0671d")]
+            public virtual Ranorex.InputTag 筛查号前缀
+            {
+                get
+                {
+                    return _筛查号前缀Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查号前缀 item info.
+            /// </summary>
+            [RepositoryItemInfo("85eb80d0-0efa-4939-8ebc-aa421ca0671d")]
+            public virtual RepoItemInfo 筛查号前缀Info
+            {
+                get
+                {
+                    return _筛查号前缀Info;
+                }
+            }
+
+            /// <summary>
+            /// The 自增筛查号位数 item.
+            /// </summary>
+            [RepositoryItem("55a2af4e-747c-4844-b1ad-ab41b5e28bdb")]
+            public virtual Ranorex.InputTag 自增筛查号位数
+            {
+                get
+                {
+                    return _自增筛查号位数Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 自增筛查号位数 item info.
+            /// </summary>
+            [RepositoryItemInfo("55a2af4e-747c-4844-b1ad-ab41b5e28bdb")]
+            public virtual RepoItemInfo 自增筛查号位数Info
+            {
+                get
+                {
+                    return _自增筛查号位数Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item.
+            /// </summary>
+            [RepositoryItem("80039e9a-870f-4726-a859-efa9aab6291e")]
+            public virtual Ranorex.InputTag 保存
+            {
+                get
+                {
+                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("80039e9a-870f-4726-a859-efa9aab6291e")]
+            public virtual RepoItemInfo 保存Info
+            {
+                get
+                {
+                    return _保存Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 筛查管理批量录入AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("92fcd464-d7ab-431f-a3f9-46c719cf9316")]
+        public partial class 筛查管理批量录入AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _开始日期Info;
+            RepoItemInfo _结束日期Info;
+            RepoItemInfo _方案选择Info;
+            RepoItemInfo _外部查询Info;
+            RepoItemInfo _保存Info;
+            RepoItemInfo _全选框Info;
+            RepoItemInfo _导入Info;
+            RepoItemInfo _浏览Info;
+            RepoItemInfo _确定导入Info;
+            RepoItemInfo _取消导入Info;
+            RepoItemInfo _导入成功确定Info;
+
+            /// <summary>
+            /// Creates a new 筛查管理批量录入  folder.
+            /// </summary>
+            public 筛查管理批量录入AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("筛查管理批量录入", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "92fcd464-d7ab-431f-a3f9-46c719cf9316", "")
+            {
+                _开始日期Info = new RepoItemInfo(this, "开始日期", ".//input[#'TestDate']", 30000, null, "2e5fc8fc-00be-479a-a869-a953b986b8a8");
+                _结束日期Info = new RepoItemInfo(this, "结束日期", ".//input[#'EndDate']", 30000, null, "ae4338c4-b13d-4a9f-bfea-3cca9fdc0a4e");
+                _方案选择Info = new RepoItemInfo(this, "方案选择", ".//select[#'ExtendType']", 30000, null, "c55ed10b-279c-4d81-b04e-3c5f02ea1366");
+                _外部查询Info = new RepoItemInfo(this, "外部查询", ".//input[#'btn_QueryBarchData']", 30000, null, "9a9c1071-b033-4a41-b32c-b93c6a342061");
+                _保存Info = new RepoItemInfo(this, "保存", ".//input[#'btn_BarchSave']", 30000, null, "4a9e2eb9-bbe8-486d-86b5-7b1d702b472e");
+                _全选框Info = new RepoItemInfo(this, "全选框", ".//table[#'copytable']/?/?/tr/th[1]/input[@id='chk_SelectAll']", 30000, null, "7b15ccb4-b9eb-4123-ba07-465b6d91c280");
+                _导入Info = new RepoItemInfo(this, "导入", ".//input[#'But_BacthInsertImportExcel']", 30000, null, "c83eb837-db00-4bac-8632-fa3bd423d5f2");
+                _浏览Info = new RepoItemInfo(this, "浏览", ".//input[@name='updateLoadExcelFile']", 30000, null, "3150ceb0-2bda-443d-8c73-9dff438e6853");
+                _确定导入Info = new RepoItemInfo(this, "确定导入", ".//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "5bee9bbb-8fb0-4550-beb7-0949a10ed62e");
+                _取消导入Info = new RepoItemInfo(this, "取消导入", ".//span[@class='xubox_botton']/a[@innertext='取消']", 30000, null, "4ba83fc7-6503-44e4-8499-1af88f1ea1e1");
+                _导入成功确定Info = new RepoItemInfo(this, "导入成功确定", ".//div[#'xubox_layer1']//a[@innertext='确定']", 30000, null, "0f35c7dc-0c6e-4df8-9431-125295d787f0");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("92fcd464-d7ab-431f-a3f9-46c719cf9316")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("92fcd464-d7ab-431f-a3f9-46c719cf9316")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 开始日期 item.
+            /// </summary>
+            [RepositoryItem("2e5fc8fc-00be-479a-a869-a953b986b8a8")]
+            public virtual Ranorex.InputTag 开始日期
+            {
+                get
+                {
+                    return _开始日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 开始日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("2e5fc8fc-00be-479a-a869-a953b986b8a8")]
+            public virtual RepoItemInfo 开始日期Info
+            {
+                get
+                {
+                    return _开始日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 结束日期 item.
+            /// </summary>
+            [RepositoryItem("ae4338c4-b13d-4a9f-bfea-3cca9fdc0a4e")]
+            public virtual Ranorex.InputTag 结束日期
+            {
+                get
+                {
+                    return _结束日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 结束日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("ae4338c4-b13d-4a9f-bfea-3cca9fdc0a4e")]
+            public virtual RepoItemInfo 结束日期Info
+            {
+                get
+                {
+                    return _结束日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 方案选择 item.
+            /// </summary>
+            [RepositoryItem("c55ed10b-279c-4d81-b04e-3c5f02ea1366")]
+            public virtual Ranorex.SelectTag 方案选择
+            {
+                get
+                {
+                    return _方案选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("c55ed10b-279c-4d81-b04e-3c5f02ea1366")]
+            public virtual RepoItemInfo 方案选择Info
+            {
+                get
+                {
+                    return _方案选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 外部查询 item.
+            /// </summary>
+            [RepositoryItem("9a9c1071-b033-4a41-b32c-b93c6a342061")]
+            public virtual Ranorex.InputTag 外部查询
+            {
+                get
+                {
+                    return _外部查询Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 外部查询 item info.
+            /// </summary>
+            [RepositoryItemInfo("9a9c1071-b033-4a41-b32c-b93c6a342061")]
+            public virtual RepoItemInfo 外部查询Info
+            {
+                get
+                {
+                    return _外部查询Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item.
+            /// </summary>
+            [RepositoryItem("4a9e2eb9-bbe8-486d-86b5-7b1d702b472e")]
+            public virtual Ranorex.InputTag 保存
+            {
+                get
+                {
+                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("4a9e2eb9-bbe8-486d-86b5-7b1d702b472e")]
+            public virtual RepoItemInfo 保存Info
+            {
+                get
+                {
+                    return _保存Info;
+                }
+            }
+
+            /// <summary>
+            /// The 全选框 item.
+            /// </summary>
+            [RepositoryItem("7b15ccb4-b9eb-4123-ba07-465b6d91c280")]
+            public virtual Ranorex.InputTag 全选框
+            {
+                get
+                {
+                    return _全选框Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 全选框 item info.
+            /// </summary>
+            [RepositoryItemInfo("7b15ccb4-b9eb-4123-ba07-465b6d91c280")]
+            public virtual RepoItemInfo 全选框Info
+            {
+                get
+                {
+                    return _全选框Info;
+                }
+            }
+
+            /// <summary>
+            /// The 导入 item.
+            /// </summary>
+            [RepositoryItem("c83eb837-db00-4bac-8632-fa3bd423d5f2")]
+            public virtual Ranorex.InputTag 导入
+            {
+                get
+                {
+                    return _导入Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 导入 item info.
+            /// </summary>
+            [RepositoryItemInfo("c83eb837-db00-4bac-8632-fa3bd423d5f2")]
+            public virtual RepoItemInfo 导入Info
+            {
+                get
+                {
+                    return _导入Info;
+                }
+            }
+
+            /// <summary>
+            /// The 浏览 item.
+            /// </summary>
+            [RepositoryItem("3150ceb0-2bda-443d-8c73-9dff438e6853")]
+            public virtual Ranorex.InputTag 浏览
+            {
+                get
+                {
+                    return _浏览Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 浏览 item info.
+            /// </summary>
+            [RepositoryItemInfo("3150ceb0-2bda-443d-8c73-9dff438e6853")]
+            public virtual RepoItemInfo 浏览Info
+            {
+                get
+                {
+                    return _浏览Info;
+                }
+            }
+
+            /// <summary>
+            /// The 确定导入 item.
+            /// </summary>
+            [RepositoryItem("5bee9bbb-8fb0-4550-beb7-0949a10ed62e")]
+            public virtual Ranorex.ATag 确定导入
+            {
+                get
+                {
+                    return _确定导入Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 确定导入 item info.
+            /// </summary>
+            [RepositoryItemInfo("5bee9bbb-8fb0-4550-beb7-0949a10ed62e")]
+            public virtual RepoItemInfo 确定导入Info
+            {
+                get
+                {
+                    return _确定导入Info;
+                }
+            }
+
+            /// <summary>
+            /// The 取消导入 item.
+            /// </summary>
+            [RepositoryItem("4ba83fc7-6503-44e4-8499-1af88f1ea1e1")]
+            public virtual Ranorex.ATag 取消导入
+            {
+                get
+                {
+                    return _取消导入Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 取消导入 item info.
+            /// </summary>
+            [RepositoryItemInfo("4ba83fc7-6503-44e4-8499-1af88f1ea1e1")]
+            public virtual RepoItemInfo 取消导入Info
+            {
+                get
+                {
+                    return _取消导入Info;
+                }
+            }
+
+            /// <summary>
+            /// The 导入成功确定 item.
+            /// </summary>
+            [RepositoryItem("0f35c7dc-0c6e-4df8-9431-125295d787f0")]
+            public virtual Ranorex.ATag 导入成功确定
+            {
+                get
+                {
+                    return _导入成功确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 导入成功确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("0f35c7dc-0c6e-4df8-9431-125295d787f0")]
+            public virtual RepoItemInfo 导入成功确定Info
+            {
+                get
+                {
+                    return _导入成功确定Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 文件上传AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("dcf84e2c-4d94-4603-8b43-21a86395e8cd")]
+        public partial class 文件上传AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _打开Info;
+            RepoItemInfo _文件名Info;
+
+            /// <summary>
+            /// Creates a new 文件上传  folder.
+            /// </summary>
+            public 文件上传AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("文件上传", "/form[@title='文件上传']", parentFolder, 30000, null, true, "dcf84e2c-4d94-4603-8b43-21a86395e8cd", "")
+            {
+                _打开Info = new RepoItemInfo(this, "打开", "button[@text='打开(&O)']", 30000, null, "ef701c19-d230-4abc-9ac2-2b15fd0f95d1");
+                _文件名Info = new RepoItemInfo(this, "文件名", "?/?/text[@controlid='1148']", 30000, null, "8c396776-20d3-4bea-aea2-09654ada2218");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("dcf84e2c-4d94-4603-8b43-21a86395e8cd")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("dcf84e2c-4d94-4603-8b43-21a86395e8cd")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 打开 item.
+            /// </summary>
+            [RepositoryItem("ef701c19-d230-4abc-9ac2-2b15fd0f95d1")]
+            public virtual Ranorex.Button 打开
+            {
+                get
+                {
+                    return _打开Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 打开 item info.
+            /// </summary>
+            [RepositoryItemInfo("ef701c19-d230-4abc-9ac2-2b15fd0f95d1")]
+            public virtual RepoItemInfo 打开Info
+            {
+                get
+                {
+                    return _打开Info;
+                }
+            }
+
+            /// <summary>
+            /// The 文件名 item.
+            /// </summary>
+            [RepositoryItem("8c396776-20d3-4bea-aea2-09654ada2218")]
+            public virtual Ranorex.Text 文件名
+            {
+                get
+                {
+                    return _文件名Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 文件名 item info.
+            /// </summary>
+            [RepositoryItemInfo("8c396776-20d3-4bea-aea2-09654ada2218")]
+            public virtual RepoItemInfo 文件名Info
+            {
+                get
+                {
+                    return _文件名Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 数据来源AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bf3346cd-f97b-4cd1-92b8-b8535576f53b")]
+        public partial class 数据来源AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _数据来源Info;
+            RepoItemInfo _病历号回车Info;
+            RepoItemInfo _外部数据接口Info;
+            RepoItemInfo _读取标记物Info;
+            RepoItemInfo _替换sql语句中的起始日期Info;
+            RepoItemInfo _病历号服务器名Info;
+            RepoItemInfo _病历号数据库名Info;
+            RepoItemInfo _病历号账户Info;
+            RepoItemInfo _病历号密码Info;
+            RepoItemInfo _病历号t_sql语句Info;
+            RepoItemInfo _病历号测试连接Info;
+            RepoItemInfo _批量录入关联依据Info;
+            RepoItemInfo _批量录入启用筛查号关联Info;
+            RepoItemInfo _批量录入服务名Info;
+            RepoItemInfo _批量录入数据库名Info;
+            RepoItemInfo _批量录入账号Info;
+            RepoItemInfo _批量录入密码Info;
+            RepoItemInfo _批量录入测试连接Info;
+            RepoItemInfo _批量录入t_sql语句Info;
+            RepoItemInfo _保存按钮Info;
+
+            /// <summary>
+            /// Creates a new 数据来源  folder.
+            /// </summary>
+            public 数据来源AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("数据来源", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "bf3346cd-f97b-4cd1-92b8-b8535576f53b", "")
+            {
+                _数据来源Info = new RepoItemInfo(this, "数据来源", ".//div[#'leftcontent']//a[@innertext='数据来源']", 30000, null, "9819e926-3c75-41dd-8dd0-05c01e7d9e08");
+                _病历号回车Info = new RepoItemInfo(this, "病历号回车", ".//input[#'PatientID_StartExternalData']", 30000, null, "45e0355e-70b4-46da-bd42-4b130fe88fd1");
+                _外部数据接口Info = new RepoItemInfo(this, "外部数据接口", ".//input[#'PatientID_EnableExternalData']", 30000, null, "fd0186d7-7a58-4c1e-a24d-0de364ac8f00");
+                _读取标记物Info = new RepoItemInfo(this, "读取标记物", ".//input[#'PatientID_ExternalRecordType']", 30000, null, "6f8cd774-615e-4aa5-994d-0a249b2f2a5e");
+                _替换sql语句中的起始日期Info = new RepoItemInfo(this, "替换SQL语句中的起始日期", ".//input[#'PatientID_ReplDate']", 30000, null, "f65ee4b4-3253-4a99-96b1-3805097b767f");
+                _病历号服务器名Info = new RepoItemInfo(this, "病历号服务器名", ".//input[#'PatientID_DatabseServerName']", 30000, null, "b312df2b-c5e6-432b-a24b-c609d74ece90");
+                _病历号数据库名Info = new RepoItemInfo(this, "病历号数据库名", ".//input[#'PatientID_DatabaseName']", 30000, null, "01360368-267a-43af-9d78-b4923921c270");
+                _病历号账户Info = new RepoItemInfo(this, "病历号账户", ".//input[#'PatientID_DatabaseUserId']", 30000, null, "efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4");
+                _病历号密码Info = new RepoItemInfo(this, "病历号密码", ".//input[#'PatientID_DatabasePassWord']", 30000, null, "4b1e260e-a105-413e-87ce-51a77ca4b3bb");
+                _病历号t_sql语句Info = new RepoItemInfo(this, "病历号T_SQL语句", ".//form[#'ExternalLinksform']/fieldset[1]/table/tbody/tr[5]/?/?/table//textarea[@innertext>'select IDCard,SocialNo,Pa']", 30000, null, "6b2451ec-7612-42d7-b204-991395e94ad0");
+                _病历号测试连接Info = new RepoItemInfo(this, "病历号测试连接", ".//form[#'ExternalLinksform']/fieldset[1]/table//fieldset/table/tbody/tr[6]/?/?/input[@type='button']", 30000, null, "32104d34-f208-49fa-b0b7-00ccdf6c402d");
+                _批量录入关联依据Info = new RepoItemInfo(this, "批量录入关联依据", ".//form[#'ExternalLinksform']/div[1]//table/tbody/tr[3]/td[1]/select", 30000, null, "0b24cbe3-00fb-4488-b4dd-6e95f2a3c36c");
+                _批量录入启用筛查号关联Info = new RepoItemInfo(this, "批量录入启用筛查号关联", ".//form[#'ExternalLinksform']/div[1]//table/tbody/tr[3]/td[2]/input", 30000, null, "2ff357fd-9c59-4b44-903c-1768d2674c00");
+                _批量录入服务名Info = new RepoItemInfo(this, "批量录入服务名", ".//form[#'ExternalLinksform']/div[1]/fieldset/table//fieldset/table/tbody/tr[2]/?/?/input[@name='F12_DatabseServerName']", 30000, null, "3c4bd5b3-a75b-4a52-9975-5169a449be84");
+                _批量录入数据库名Info = new RepoItemInfo(this, "批量录入数据库名", ".//form[#'ExternalLinksform']/div[1]/fieldset/table//fieldset/table/tbody/tr[3]/?/?/input[@name='F12_DatabaseName']", 30000, null, "3c0d5de6-9530-46c6-8397-c3f019eb9a4e");
+                _批量录入账号Info = new RepoItemInfo(this, "批量录入账号", ".//form[#'ExternalLinksform']/div[1]/fieldset/table//fieldset/table/tbody/tr[4]/?/?/input[@name='F12_DatabaseUserId']", 30000, null, "49a618df-49d6-47ff-8a04-2ecbef42a60e");
+                _批量录入密码Info = new RepoItemInfo(this, "批量录入密码", ".//form[#'ExternalLinksform']/div[1]/fieldset/table//fieldset/table/tbody/tr[5]/?/?/input[@name='F12_DatabasePassWord']", 30000, null, "287c1435-3d92-4359-96fc-a4a699230caf");
+                _批量录入测试连接Info = new RepoItemInfo(this, "批量录入测试连接", ".//form[#'ExternalLinksform']/div[1]/fieldset/table//fieldset/table/tbody/tr[6]/?/?/input[@type='button']", 30000, null, "01c368cc-139b-47e2-9a31-457fcb5a3453");
+                _批量录入t_sql语句Info = new RepoItemInfo(this, "批量录入T_SQL语句", ".//form[#'ExternalLinksform']/div[1]/fieldset/table/tbody/tr[5]/td/table//textarea[@innertext>'select * FROM BatchAdding']", 30000, null, "6fd4e19f-047d-4023-a416-b370713b7abb");
+                _保存按钮Info = new RepoItemInfo(this, "保存按钮", ".//form[#'ExternalLinksform']/input[@type='submit']", 30000, null, "9a65b12e-2349-494d-99cb-56149441d39b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bf3346cd-f97b-4cd1-92b8-b8535576f53b")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bf3346cd-f97b-4cd1-92b8-b8535576f53b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 数据来源 item.
+            /// </summary>
+            [RepositoryItem("9819e926-3c75-41dd-8dd0-05c01e7d9e08")]
+            public virtual Ranorex.ATag 数据来源
+            {
+                get
+                {
+                    return _数据来源Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 数据来源 item info.
+            /// </summary>
+            [RepositoryItemInfo("9819e926-3c75-41dd-8dd0-05c01e7d9e08")]
+            public virtual RepoItemInfo 数据来源Info
+            {
+                get
+                {
+                    return _数据来源Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号回车 item.
+            /// </summary>
+            [RepositoryItem("45e0355e-70b4-46da-bd42-4b130fe88fd1")]
+            public virtual Ranorex.InputTag 病历号回车
+            {
+                get
+                {
+                    return _病历号回车Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号回车 item info.
+            /// </summary>
+            [RepositoryItemInfo("45e0355e-70b4-46da-bd42-4b130fe88fd1")]
+            public virtual RepoItemInfo 病历号回车Info
+            {
+                get
+                {
+                    return _病历号回车Info;
+                }
+            }
+
+            /// <summary>
+            /// The 外部数据接口 item.
+            /// </summary>
+            [RepositoryItem("fd0186d7-7a58-4c1e-a24d-0de364ac8f00")]
+            public virtual Ranorex.InputTag 外部数据接口
+            {
+                get
+                {
+                    return _外部数据接口Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 外部数据接口 item info.
+            /// </summary>
+            [RepositoryItemInfo("fd0186d7-7a58-4c1e-a24d-0de364ac8f00")]
+            public virtual RepoItemInfo 外部数据接口Info
+            {
+                get
+                {
+                    return _外部数据接口Info;
+                }
+            }
+
+            /// <summary>
+            /// The 读取标记物 item.
+            /// </summary>
+            [RepositoryItem("6f8cd774-615e-4aa5-994d-0a249b2f2a5e")]
+            public virtual Ranorex.InputTag 读取标记物
+            {
+                get
+                {
+                    return _读取标记物Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 读取标记物 item info.
+            /// </summary>
+            [RepositoryItemInfo("6f8cd774-615e-4aa5-994d-0a249b2f2a5e")]
+            public virtual RepoItemInfo 读取标记物Info
+            {
+                get
+                {
+                    return _读取标记物Info;
+                }
+            }
+
+            /// <summary>
+            /// The 替换SQL语句中的起始日期 item.
+            /// </summary>
+            [RepositoryItem("f65ee4b4-3253-4a99-96b1-3805097b767f")]
+            public virtual Ranorex.InputTag 替换SQL语句中的起始日期
+            {
+                get
+                {
+                    return _替换sql语句中的起始日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 替换SQL语句中的起始日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("f65ee4b4-3253-4a99-96b1-3805097b767f")]
+            public virtual RepoItemInfo 替换SQL语句中的起始日期Info
+            {
+                get
+                {
+                    return _替换sql语句中的起始日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号服务器名 item.
+            /// </summary>
+            [RepositoryItem("b312df2b-c5e6-432b-a24b-c609d74ece90")]
+            public virtual Ranorex.InputTag 病历号服务器名
+            {
+                get
+                {
+                    return _病历号服务器名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号服务器名 item info.
+            /// </summary>
+            [RepositoryItemInfo("b312df2b-c5e6-432b-a24b-c609d74ece90")]
+            public virtual RepoItemInfo 病历号服务器名Info
+            {
+                get
+                {
+                    return _病历号服务器名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号数据库名 item.
+            /// </summary>
+            [RepositoryItem("01360368-267a-43af-9d78-b4923921c270")]
+            public virtual Ranorex.InputTag 病历号数据库名
+            {
+                get
+                {
+                    return _病历号数据库名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号数据库名 item info.
+            /// </summary>
+            [RepositoryItemInfo("01360368-267a-43af-9d78-b4923921c270")]
+            public virtual RepoItemInfo 病历号数据库名Info
+            {
+                get
+                {
+                    return _病历号数据库名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号账户 item.
+            /// </summary>
+            [RepositoryItem("efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4")]
+            public virtual Ranorex.InputTag 病历号账户
+            {
+                get
+                {
+                    return _病历号账户Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号账户 item info.
+            /// </summary>
+            [RepositoryItemInfo("efa1c5b2-66cf-4349-bcc7-d0ee7f07ebf4")]
+            public virtual RepoItemInfo 病历号账户Info
+            {
+                get
+                {
+                    return _病历号账户Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号密码 item.
+            /// </summary>
+            [RepositoryItem("4b1e260e-a105-413e-87ce-51a77ca4b3bb")]
+            public virtual Ranorex.InputTag 病历号密码
+            {
+                get
+                {
+                    return _病历号密码Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号密码 item info.
+            /// </summary>
+            [RepositoryItemInfo("4b1e260e-a105-413e-87ce-51a77ca4b3bb")]
+            public virtual RepoItemInfo 病历号密码Info
+            {
+                get
+                {
+                    return _病历号密码Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号T_SQL语句 item.
+            /// </summary>
+            [RepositoryItem("6b2451ec-7612-42d7-b204-991395e94ad0")]
+            public virtual Ranorex.TextAreaTag 病历号T_SQL语句
+            {
+                get
+                {
+                    return _病历号t_sql语句Info.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号T_SQL语句 item info.
+            /// </summary>
+            [RepositoryItemInfo("6b2451ec-7612-42d7-b204-991395e94ad0")]
+            public virtual RepoItemInfo 病历号T_SQL语句Info
+            {
+                get
+                {
+                    return _病历号t_sql语句Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号测试连接 item.
+            /// </summary>
+            [RepositoryItem("32104d34-f208-49fa-b0b7-00ccdf6c402d")]
+            public virtual Ranorex.InputTag 病历号测试连接
+            {
+                get
+                {
+                    return _病历号测试连接Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号测试连接 item info.
+            /// </summary>
+            [RepositoryItemInfo("32104d34-f208-49fa-b0b7-00ccdf6c402d")]
+            public virtual RepoItemInfo 病历号测试连接Info
+            {
+                get
+                {
+                    return _病历号测试连接Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入关联依据 item.
+            /// </summary>
+            [RepositoryItem("0b24cbe3-00fb-4488-b4dd-6e95f2a3c36c")]
+            public virtual Ranorex.SelectTag 批量录入关联依据
+            {
+                get
+                {
+                    return _批量录入关联依据Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入关联依据 item info.
+            /// </summary>
+            [RepositoryItemInfo("0b24cbe3-00fb-4488-b4dd-6e95f2a3c36c")]
+            public virtual RepoItemInfo 批量录入关联依据Info
+            {
+                get
+                {
+                    return _批量录入关联依据Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入启用筛查号关联 item.
+            /// </summary>
+            [RepositoryItem("2ff357fd-9c59-4b44-903c-1768d2674c00")]
+            public virtual Ranorex.InputTag 批量录入启用筛查号关联
+            {
+                get
+                {
+                    return _批量录入启用筛查号关联Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入启用筛查号关联 item info.
+            /// </summary>
+            [RepositoryItemInfo("2ff357fd-9c59-4b44-903c-1768d2674c00")]
+            public virtual RepoItemInfo 批量录入启用筛查号关联Info
+            {
+                get
+                {
+                    return _批量录入启用筛查号关联Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入服务名 item.
+            /// </summary>
+            [RepositoryItem("3c4bd5b3-a75b-4a52-9975-5169a449be84")]
+            public virtual Ranorex.InputTag 批量录入服务名
+            {
+                get
+                {
+                    return _批量录入服务名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入服务名 item info.
+            /// </summary>
+            [RepositoryItemInfo("3c4bd5b3-a75b-4a52-9975-5169a449be84")]
+            public virtual RepoItemInfo 批量录入服务名Info
+            {
+                get
+                {
+                    return _批量录入服务名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入数据库名 item.
+            /// </summary>
+            [RepositoryItem("3c0d5de6-9530-46c6-8397-c3f019eb9a4e")]
+            public virtual Ranorex.InputTag 批量录入数据库名
+            {
+                get
+                {
+                    return _批量录入数据库名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入数据库名 item info.
+            /// </summary>
+            [RepositoryItemInfo("3c0d5de6-9530-46c6-8397-c3f019eb9a4e")]
+            public virtual RepoItemInfo 批量录入数据库名Info
+            {
+                get
+                {
+                    return _批量录入数据库名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入账号 item.
+            /// </summary>
+            [RepositoryItem("49a618df-49d6-47ff-8a04-2ecbef42a60e")]
+            public virtual Ranorex.InputTag 批量录入账号
+            {
+                get
+                {
+                    return _批量录入账号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入账号 item info.
+            /// </summary>
+            [RepositoryItemInfo("49a618df-49d6-47ff-8a04-2ecbef42a60e")]
+            public virtual RepoItemInfo 批量录入账号Info
+            {
+                get
+                {
+                    return _批量录入账号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入密码 item.
+            /// </summary>
+            [RepositoryItem("287c1435-3d92-4359-96fc-a4a699230caf")]
+            public virtual Ranorex.InputTag 批量录入密码
+            {
+                get
+                {
+                    return _批量录入密码Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入密码 item info.
+            /// </summary>
+            [RepositoryItemInfo("287c1435-3d92-4359-96fc-a4a699230caf")]
+            public virtual RepoItemInfo 批量录入密码Info
+            {
+                get
+                {
+                    return _批量录入密码Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入测试连接 item.
+            /// </summary>
+            [RepositoryItem("01c368cc-139b-47e2-9a31-457fcb5a3453")]
+            public virtual Ranorex.InputTag 批量录入测试连接
+            {
+                get
+                {
+                    return _批量录入测试连接Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入测试连接 item info.
+            /// </summary>
+            [RepositoryItemInfo("01c368cc-139b-47e2-9a31-457fcb5a3453")]
+            public virtual RepoItemInfo 批量录入测试连接Info
+            {
+                get
+                {
+                    return _批量录入测试连接Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入T_SQL语句 item.
+            /// </summary>
+            [RepositoryItem("6fd4e19f-047d-4023-a416-b370713b7abb")]
+            public virtual Ranorex.TextAreaTag 批量录入T_SQL语句
+            {
+                get
+                {
+                    return _批量录入t_sql语句Info.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入T_SQL语句 item info.
+            /// </summary>
+            [RepositoryItemInfo("6fd4e19f-047d-4023-a416-b370713b7abb")]
+            public virtual RepoItemInfo 批量录入T_SQL语句Info
+            {
+                get
+                {
+                    return _批量录入t_sql语句Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存按钮 item.
+            /// </summary>
+            [RepositoryItem("9a65b12e-2349-494d-99cb-56149441d39b")]
+            public virtual Ranorex.InputTag 保存按钮
+            {
+                get
+                {
+                    return _保存按钮Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存按钮 item info.
+            /// </summary>
+            [RepositoryItemInfo("9a65b12e-2349-494d-99cb-56149441d39b")]
+            public virtual RepoItemInfo 保存按钮Info
+            {
+                get
+                {
+                    return _保存按钮Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 批量计算AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3f3d4072-0a31-4ada-8b29-e0e6c233d72c")]
+        public partial class 批量计算AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _方案类型Info;
+            RepoItemInfo _方案名称Info;
+            RepoItemInfo _开始日期Info;
+            RepoItemInfo _结束日期Info;
+            RepoItemInfo _时间范围选择Info;
+            RepoItemInfo _批量计算Info;
+
+            /// <summary>
+            /// Creates a new 批量计算  folder.
+            /// </summary>
+            public 批量计算AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("批量计算", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "3f3d4072-0a31-4ada-8b29-e0e6c233d72c", "")
+            {
+                _方案类型Info = new RepoItemInfo(this, "方案类型", ".//select[#'SolutionTypeID']", 30000, null, "08e0ec1d-2e7b-4d82-acad-3712ae1e8204");
+                _方案名称Info = new RepoItemInfo(this, "方案名称", ".//select[#'SolutionID']", 30000, null, "68d2a73e-c50e-4fe7-8e0f-eb6f8461192e");
+                _开始日期Info = new RepoItemInfo(this, "开始日期", ".//input[#'StartDate']", 30000, null, "be682b3a-0eb9-4a3c-b7e9-e944265a3ae3");
+                _结束日期Info = new RepoItemInfo(this, "结束日期", ".//input[#'EndDate']", 30000, null, "434f7c5e-e866-4aa0-9ea3-4bef2403ed82");
+                _时间范围选择Info = new RepoItemInfo(this, "时间范围选择", ".//select[#'DateType']", 30000, null, "c765ebdd-6cf4-43b9-a2f6-1808e80fa4c5");
+                _批量计算Info = new RepoItemInfo(this, "批量计算", ".//input[#'btn_BarchCreatRisk']", 30000, null, "9ca2ca4f-c30e-40bc-adeb-6589423cade0");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3f3d4072-0a31-4ada-8b29-e0e6c233d72c")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3f3d4072-0a31-4ada-8b29-e0e6c233d72c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 方案类型 item.
+            /// </summary>
+            [RepositoryItem("08e0ec1d-2e7b-4d82-acad-3712ae1e8204")]
+            public virtual Ranorex.SelectTag 方案类型
+            {
+                get
+                {
+                    return _方案类型Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案类型 item info.
+            /// </summary>
+            [RepositoryItemInfo("08e0ec1d-2e7b-4d82-acad-3712ae1e8204")]
+            public virtual RepoItemInfo 方案类型Info
+            {
+                get
+                {
+                    return _方案类型Info;
+                }
+            }
+
+            /// <summary>
+            /// The 方案名称 item.
+            /// </summary>
+            [RepositoryItem("68d2a73e-c50e-4fe7-8e0f-eb6f8461192e")]
+            public virtual Ranorex.SelectTag 方案名称
+            {
+                get
+                {
+                    return _方案名称Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案名称 item info.
+            /// </summary>
+            [RepositoryItemInfo("68d2a73e-c50e-4fe7-8e0f-eb6f8461192e")]
+            public virtual RepoItemInfo 方案名称Info
+            {
+                get
+                {
+                    return _方案名称Info;
+                }
+            }
+
+            /// <summary>
+            /// The 开始日期 item.
+            /// </summary>
+            [RepositoryItem("be682b3a-0eb9-4a3c-b7e9-e944265a3ae3")]
+            public virtual Ranorex.InputTag 开始日期
+            {
+                get
+                {
+                    return _开始日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 开始日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("be682b3a-0eb9-4a3c-b7e9-e944265a3ae3")]
+            public virtual RepoItemInfo 开始日期Info
+            {
+                get
+                {
+                    return _开始日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 结束日期 item.
+            /// </summary>
+            [RepositoryItem("434f7c5e-e866-4aa0-9ea3-4bef2403ed82")]
+            public virtual Ranorex.InputTag 结束日期
+            {
+                get
+                {
+                    return _结束日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 结束日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("434f7c5e-e866-4aa0-9ea3-4bef2403ed82")]
+            public virtual RepoItemInfo 结束日期Info
+            {
+                get
+                {
+                    return _结束日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 时间范围选择 item.
+            /// </summary>
+            [RepositoryItem("c765ebdd-6cf4-43b9-a2f6-1808e80fa4c5")]
+            public virtual Ranorex.SelectTag 时间范围选择
+            {
+                get
+                {
+                    return _时间范围选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 时间范围选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("c765ebdd-6cf4-43b9-a2f6-1808e80fa4c5")]
+            public virtual RepoItemInfo 时间范围选择Info
+            {
+                get
+                {
+                    return _时间范围选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量计算 item.
+            /// </summary>
+            [RepositoryItem("9ca2ca4f-c30e-40bc-adeb-6589423cade0")]
+            public virtual Ranorex.InputTag 批量计算
+            {
+                get
+                {
+                    return _批量计算Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量计算 item info.
+            /// </summary>
+            [RepositoryItemInfo("9ca2ca4f-c30e-40bc-adeb-6589423cade0")]
+            public virtual RepoItemInfo 批量计算Info
+            {
+                get
+                {
+                    return _批量计算Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 维护管理批量录入AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("9abf4666-b5bd-4004-a9e4-66d630fabc5d")]
+        public partial class 维护管理批量录入AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _批量录入Info;
+            RepoItemInfo _批量计算时间范围Info;
+            RepoItemInfo _是否包含已生成风险的方案Info;
+            RepoItemInfo _是否重新从仪器获取标记物数据Info;
+            RepoItemInfo _是否启用默认设置Info;
+            RepoItemInfo _联合评估方法Info;
+            RepoItemInfo _中期估方法Info;
+            RepoItemInfo _早期评估方法Info;
+            RepoItemInfo _保存Info;
+            RepoItemInfo _批量导入默认设置截图Info;
+
+            /// <summary>
+            /// Creates a new 维护管理批量录入  folder.
+            /// </summary>
+            public 维护管理批量录入AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("维护管理批量录入", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "9abf4666-b5bd-4004-a9e4-66d630fabc5d", "")
+            {
+                _批量录入Info = new RepoItemInfo(this, "批量录入", ".//div[#'leftcontent']//a[@innertext='批量录入']", 30000, null, "8c24ea0e-a40d-42b0-933e-176bcd3b0df9");
+                _批量计算时间范围Info = new RepoItemInfo(this, "批量计算时间范围", ".//input[#'AutoBatchCalcDay']", 30000, null, "26b90ae5-7943-41d7-8d17-ed56f5af6a6b");
+                _是否包含已生成风险的方案Info = new RepoItemInfo(this, "是否包含已生成风险的方案", ".//input[#'AutoBatchCalcAll']", 30000, null, "c893d49c-bdc1-46a6-a895-cdda6b6623d6");
+                _是否重新从仪器获取标记物数据Info = new RepoItemInfo(this, "是否重新从仪器获取标记物数据", ".//input[#'AutoBatchCalcCover']", 30000, null, "c03635bd-8623-481d-92da-0ee897c9b01e");
+                _是否启用默认设置Info = new RepoItemInfo(this, "是否启用默认设置", ".//input[#'IsEnableBarchAddSet']", 30000, null, "0794db61-b0e9-48f4-8f39-2e11a2cf2311");
+                _联合评估方法Info = new RepoItemInfo(this, "联合评估方法", ".//table//table/tbody/tr/td[4]/select", 30000, null, "59b116bb-371a-4639-af35-513e716219d7");
+                _中期估方法Info = new RepoItemInfo(this, "中期估方法", ".//table//table/tbody/tr/td[6]/select", 30000, null, "0d046ad2-4456-40c8-84d0-702a7b677dd5");
+                _早期评估方法Info = new RepoItemInfo(this, "早期评估方法", ".//table//table/tbody/tr/td[8]/select", 30000, null, "c9316f17-f3ea-4d13-87a5-7094a5fab738");
+                _保存Info = new RepoItemInfo(this, "保存", ".//form[#'BatchComputingform']/input[@type='submit']", 30000, null, "2edaae71-cd95-4f36-980f-dc4b8ebf97a1");
+                _批量导入默认设置截图Info = new RepoItemInfo(this, "批量导入默认设置截图", ".//form[#'BatchComputingform']", 30000, null, "87b809e3-fec4-462e-b2d5-3fbc7df7c465");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("9abf4666-b5bd-4004-a9e4-66d630fabc5d")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("9abf4666-b5bd-4004-a9e4-66d630fabc5d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入 item.
+            /// </summary>
+            [RepositoryItem("8c24ea0e-a40d-42b0-933e-176bcd3b0df9")]
+            public virtual Ranorex.ATag 批量录入
+            {
+                get
+                {
+                    return _批量录入Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入 item info.
+            /// </summary>
+            [RepositoryItemInfo("8c24ea0e-a40d-42b0-933e-176bcd3b0df9")]
+            public virtual RepoItemInfo 批量录入Info
+            {
+                get
+                {
+                    return _批量录入Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量计算时间范围 item.
+            /// </summary>
+            [RepositoryItem("26b90ae5-7943-41d7-8d17-ed56f5af6a6b")]
+            public virtual Ranorex.InputTag 批量计算时间范围
+            {
+                get
+                {
+                    return _批量计算时间范围Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量计算时间范围 item info.
+            /// </summary>
+            [RepositoryItemInfo("26b90ae5-7943-41d7-8d17-ed56f5af6a6b")]
+            public virtual RepoItemInfo 批量计算时间范围Info
+            {
+                get
+                {
+                    return _批量计算时间范围Info;
+                }
+            }
+
+            /// <summary>
+            /// The 是否包含已生成风险的方案 item.
+            /// </summary>
+            [RepositoryItem("c893d49c-bdc1-46a6-a895-cdda6b6623d6")]
+            public virtual Ranorex.InputTag 是否包含已生成风险的方案
+            {
+                get
+                {
+                    return _是否包含已生成风险的方案Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 是否包含已生成风险的方案 item info.
+            /// </summary>
+            [RepositoryItemInfo("c893d49c-bdc1-46a6-a895-cdda6b6623d6")]
+            public virtual RepoItemInfo 是否包含已生成风险的方案Info
+            {
+                get
+                {
+                    return _是否包含已生成风险的方案Info;
+                }
+            }
+
+            /// <summary>
+            /// The 是否重新从仪器获取标记物数据 item.
+            /// </summary>
+            [RepositoryItem("c03635bd-8623-481d-92da-0ee897c9b01e")]
+            public virtual Ranorex.InputTag 是否重新从仪器获取标记物数据
+            {
+                get
+                {
+                    return _是否重新从仪器获取标记物数据Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 是否重新从仪器获取标记物数据 item info.
+            /// </summary>
+            [RepositoryItemInfo("c03635bd-8623-481d-92da-0ee897c9b01e")]
+            public virtual RepoItemInfo 是否重新从仪器获取标记物数据Info
+            {
+                get
+                {
+                    return _是否重新从仪器获取标记物数据Info;
+                }
+            }
+
+            /// <summary>
+            /// The 是否启用默认设置 item.
+            /// </summary>
+            [RepositoryItem("0794db61-b0e9-48f4-8f39-2e11a2cf2311")]
+            public virtual Ranorex.InputTag 是否启用默认设置
+            {
+                get
+                {
+                    return _是否启用默认设置Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 是否启用默认设置 item info.
+            /// </summary>
+            [RepositoryItemInfo("0794db61-b0e9-48f4-8f39-2e11a2cf2311")]
+            public virtual RepoItemInfo 是否启用默认设置Info
+            {
+                get
+                {
+                    return _是否启用默认设置Info;
+                }
+            }
+
+            /// <summary>
+            /// The 联合评估方法 item.
+            /// </summary>
+            [RepositoryItem("59b116bb-371a-4639-af35-513e716219d7")]
+            public virtual Ranorex.SelectTag 联合评估方法
+            {
+                get
+                {
+                    return _联合评估方法Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 联合评估方法 item info.
+            /// </summary>
+            [RepositoryItemInfo("59b116bb-371a-4639-af35-513e716219d7")]
+            public virtual RepoItemInfo 联合评估方法Info
+            {
+                get
+                {
+                    return _联合评估方法Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中期估方法 item.
+            /// </summary>
+            [RepositoryItem("0d046ad2-4456-40c8-84d0-702a7b677dd5")]
+            public virtual Ranorex.SelectTag 中期估方法
+            {
+                get
+                {
+                    return _中期估方法Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中期估方法 item info.
+            /// </summary>
+            [RepositoryItemInfo("0d046ad2-4456-40c8-84d0-702a7b677dd5")]
+            public virtual RepoItemInfo 中期估方法Info
+            {
+                get
+                {
+                    return _中期估方法Info;
+                }
+            }
+
+            /// <summary>
+            /// The 早期评估方法 item.
+            /// </summary>
+            [RepositoryItem("c9316f17-f3ea-4d13-87a5-7094a5fab738")]
+            public virtual Ranorex.SelectTag 早期评估方法
+            {
+                get
+                {
+                    return _早期评估方法Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 早期评估方法 item info.
+            /// </summary>
+            [RepositoryItemInfo("c9316f17-f3ea-4d13-87a5-7094a5fab738")]
+            public virtual RepoItemInfo 早期评估方法Info
+            {
+                get
+                {
+                    return _早期评估方法Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item.
+            /// </summary>
+            [RepositoryItem("2edaae71-cd95-4f36-980f-dc4b8ebf97a1")]
+            public virtual Ranorex.InputTag 保存
+            {
+                get
+                {
+                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("2edaae71-cd95-4f36-980f-dc4b8ebf97a1")]
+            public virtual RepoItemInfo 保存Info
+            {
+                get
+                {
+                    return _保存Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量导入默认设置截图 item.
+            /// </summary>
+            [RepositoryItem("87b809e3-fec4-462e-b2d5-3fbc7df7c465")]
+            public virtual Ranorex.FormTag 批量导入默认设置截图
+            {
+                get
+                {
+                    return _批量导入默认设置截图Info.CreateAdapter<Ranorex.FormTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量导入默认设置截图 item info.
+            /// </summary>
+            [RepositoryItemInfo("87b809e3-fec4-462e-b2d5-3fbc7df7c465")]
+            public virtual RepoItemInfo 批量导入默认设置截图Info
+            {
+                get
+                {
+                    return _批量导入默认设置截图Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 孕妇信息导出AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("49835443-bbef-48ac-8559-db2046482568")]
+        public partial class 孕妇信息导出AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _保存文件Info;
+            RepoItemInfo _确定Info;
+
+            /// <summary>
+            /// Creates a new 孕妇信息导出  folder.
+            /// </summary>
+            public 孕妇信息导出AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("孕妇信息导出", "/form[@title>'正在打开 Export_孕妇信息_2020_10_']", parentFolder, 30000, null, true, "49835443-bbef-48ac-8559-db2046482568", "")
+            {
+                _保存文件Info = new RepoItemInfo(this, "保存文件", "?/?/radiobutton[@accessiblename='保存文件']", 30000, null, "8de7856b-e0b4-4128-aebb-1053d915b7f4");
+                _确定Info = new RepoItemInfo(this, "确定", "button[@accessiblename='确定']", 30000, null, "0ec333c1-232e-492e-85fa-5363076d226e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("49835443-bbef-48ac-8559-db2046482568")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("49835443-bbef-48ac-8559-db2046482568")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 保存文件 item.
+            /// </summary>
+            [RepositoryItem("8de7856b-e0b4-4128-aebb-1053d915b7f4")]
+            public virtual Ranorex.RadioButton 保存文件
+            {
+                get
+                {
+                    return _保存文件Info.CreateAdapter<Ranorex.RadioButton>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存文件 item info.
+            /// </summary>
+            [RepositoryItemInfo("8de7856b-e0b4-4128-aebb-1053d915b7f4")]
+            public virtual RepoItemInfo 保存文件Info
+            {
+                get
+                {
+                    return _保存文件Info;
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item.
+            /// </summary>
+            [RepositoryItem("0ec333c1-232e-492e-85fa-5363076d226e")]
+            public virtual Ranorex.Button 确定
+            {
+                get
+                {
+                    return _确定Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("0ec333c1-232e-492e-85fa-5363076d226e")]
+            public virtual RepoItemInfo 确定Info
+            {
+                get
+                {
+                    return _确定Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 孕妇信息AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("9640faf8-5280-4a55-a243-75ef6a537f58")]
+        public partial class 孕妇信息AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _搜索框Info;
+            RepoItemInfo _搜索按钮Info;
+            RepoItemInfo _高级查询Info;
+            RepoItemInfo _病历号Info;
+            RepoItemInfo _孕妇姓名Info;
+            RepoItemInfo _社保卡号Info;
+            RepoItemInfo _筛查号Info;
+            RepoItemInfo _人种Info;
+            RepoItemInfo _联系电话Info;
+            RepoItemInfo _登记开始日期Info;
+            RepoItemInfo _登记结束日期Info;
+            RepoItemInfo _高级搜索按钮Info;
+            RepoItemInfo _模板选择Info;
+            RepoItemInfo _模板保存Info;
+            RepoItemInfo _模板名称Info;
+            RepoItemInfo _模板保存确认Info;
+            RepoItemInfo _添加所有Info;
+            RepoItemInfo _保存Info;
+            RepoItemInfo _保存确定Info;
+            RepoItemInfo _全选框Info;
+            RepoItemInfo _确定Info;
+            RepoItemInfo _设置表头胎数Info;
+            RepoItemInfo _设置表头孕次Info;
+            RepoItemInfo _设置表头产次Info;
+            RepoItemInfo _设置表头糖尿病Info;
+            RepoItemInfo _设置表头吸烟史Info;
+            RepoItemInfo _设置表头21三体孕产史Info;
+            RepoItemInfo _设置表头辅助妊娠Info;
+            RepoItemInfo _设置表头登记日期Info;
+            RepoItemInfo _设置表头登记人Info;
+            RepoItemInfo _设置表头孕妇编号Info;
+            RepoItemInfo _设置表头社保号Info;
+            RepoItemInfo _设置表头身份证号Info;
+            RepoItemInfo _设置表头人种Info;
+            RepoItemInfo _设置表头地址Info;
+            RepoItemInfo _设置表头邮箱Info;
+            RepoItemInfo _设置表头怀孕编号Info;
+            RepoItemInfo _设置表头遗传病史Info;
+            RepoItemInfo _设置表头登记年龄Info;
+            RepoItemInfo _设置表头创建日期Info;
+            RepoItemInfo _设置表头取消筛查Info;
+            RepoItemInfo _设置表头取消筛查原因Info;
+            RepoItemInfo _设置表头取消回访Info;
+            RepoItemInfo _设置表头取消回访原因Info;
+            RepoItemInfo _设置表头回访史记录Info;
+            RepoItemInfo _删除Info;
+            RepoItemInfo _表头Info;
+            RepoItemInfo _打印Info;
+            RepoItemInfo _导出Info;
+
+            /// <summary>
+            /// Creates a new 孕妇信息  folder.
+            /// </summary>
+            public 孕妇信息AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("孕妇信息", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "9640faf8-5280-4a55-a243-75ef6a537f58", "")
+            {
+                _搜索框Info = new RepoItemInfo(this, "搜索框", ".//input[#'KeyWords']", 30000, null, "6eeb043e-ca4e-453d-8499-31d798cf5b48");
+                _搜索按钮Info = new RepoItemInfo(this, "搜索按钮", ".//input[#'But_Search']", 30000, null, "e3c6aad0-d2ae-4cec-a76a-b18621f1b7cc");
+                _高级查询Info = new RepoItemInfo(this, "高级查询", "body/div[2]/div[1]/?/?/a[@innertext='高级查询']", 30000, null, "6ed960f5-3276-4f3d-935d-2bd852e2687c");
+                _病历号Info = new RepoItemInfo(this, "病历号", ".//input[#'PatientID']", 30000, null, "24145393-c9ad-48fc-ba15-b1696d11803d");
+                _孕妇姓名Info = new RepoItemInfo(this, "孕妇姓名", ".//input[#'RealName']", 30000, null, "43603dc7-d7b4-4ca2-a85a-b9146d977627");
+                _社保卡号Info = new RepoItemInfo(this, "社保卡号", ".//input[#'SocialNo']", 30000, null, "1b238e72-01f4-43e2-a3aa-36f207ffc2bb");
+                _筛查号Info = new RepoItemInfo(this, "筛查号", ".//input[#'CheckNo']", 30000, null, "caa8658d-5a96-4218-a0ff-d3828a59ef6f");
+                _人种Info = new RepoItemInfo(this, "人种", ".//select[#'RaceType']", 30000, null, "be80b061-7b73-45e4-9b9e-e90e75c4907c");
+                _联系电话Info = new RepoItemInfo(this, "联系电话", ".//input[#'PhoneNum']", 30000, null, "aace8f65-8dec-4c5e-9c26-2f7f2f1c34c5");
+                _登记开始日期Info = new RepoItemInfo(this, "登记开始日期", ".//input[#'StartDate']", 30000, null, "0ab66123-185b-4397-ab6d-66761363c2c2");
+                _登记结束日期Info = new RepoItemInfo(this, "登记结束日期", ".//input[#'EndDate']", 30000, null, "c7815ffa-38fe-4e61-9826-01a0b75c86fd");
+                _高级搜索按钮Info = new RepoItemInfo(this, "高级搜索按钮", ".//table[#'searchSeniorBox']/tbody/tr[1]/td[7]/input[@type='button']", 30000, null, "15eedb21-5d3f-40b3-a895-c7a6df52a8a5");
+                _模板选择Info = new RepoItemInfo(this, "模板选择", ".//select[#'SearchTemplate']", 30000, null, "48ab71d0-e9ce-4a54-ab90-b5cf1a37bc82");
+                _模板保存Info = new RepoItemInfo(this, "模板保存", ".//input[@aid='searchSeniorBox']", 30000, null, "bdc7b11e-2504-49cf-b90a-084a7a628d70");
+                _模板名称Info = new RepoItemInfo(this, "模板名称", ".//input[#'txt_SearchTemplateName']", 30000, null, "00380a1b-8dee-46a2-bf55-cfba3c573bc8");
+                _模板保存确认Info = new RepoItemInfo(this, "模板保存确认", ".//div[#'xubox_layer1']/div[1]/div//table//input[@value='保存']", 30000, null, "af1eba4f-a73f-4d37-8e07-99cb17d4f2de");
+                _添加所有Info = new RepoItemInfo(this, "添加所有", ".//body//body//form[#'settinglistheaderform']//a[@class='add-all']", 30000, null, "ab91efae-f42e-419b-ba83-768e471c0cbb");
+                _保存Info = new RepoItemInfo(this, "保存", ".//body//body//form[#'settinglistheaderform']//input[#'butSubmit']", 30000, null, "69d04c6b-849b-4a94-b016-f33a345ca41a");
+                _保存确定Info = new RepoItemInfo(this, "保存确定", ".//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "8468b8b8-f09d-4bb5-ba68-fb529a0cff67");
+                _全选框Info = new RepoItemInfo(this, "全选框", ".//table[#'copytable']/?/?/tr/th[1]/input[@id='chk_SelectAll']", 30000, null, "1cd4cddf-9567-4c08-a346-c9945e865156");
+                _确定Info = new RepoItemInfo(this, "确定", ".//div[#'xubox_layer1']//a[@innertext='确定']", 30000, null, "403e966f-ce2f-4763-9f69-4320f7f09342");
+                _设置表头胎数Info = new RepoItemInfo(this, "设置表头胎数", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='胎数']/a", 30000, null, "6495cf4c-8380-4cbe-a580-4beb2c1b515c");
+                _设置表头孕次Info = new RepoItemInfo(this, "设置表头孕次", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='孕次']/a", 30000, null, "440b76c0-b7d8-4751-8523-0c8e6a949e61");
+                _设置表头产次Info = new RepoItemInfo(this, "设置表头产次", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='产次']/a", 30000, null, "8262e8dd-804b-449d-b520-9a07634190a9");
+                _设置表头糖尿病Info = new RepoItemInfo(this, "设置表头糖尿病", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='糖尿病']/a", 30000, null, "19a213e3-6b92-4220-bf46-849484752a88");
+                _设置表头吸烟史Info = new RepoItemInfo(this, "设置表头吸烟史", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='吸烟史']/a", 30000, null, "19462875-fec1-437f-b06e-cb283e3903cd");
+                _设置表头21三体孕产史Info = new RepoItemInfo(this, "设置表头21三体孕产史", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='21三体孕产史']/a", 30000, null, "28bafd92-1add-4abe-b595-ddf449dcbdd7");
+                _设置表头辅助妊娠Info = new RepoItemInfo(this, "设置表头辅助妊娠", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='辅助妊娠']/a", 30000, null, "b622ee36-462a-4989-8b56-cd5de70957a2");
+                _设置表头登记日期Info = new RepoItemInfo(this, "设置表头登记日期", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='登记日期']/a", 30000, null, "f6619a17-1b58-454a-9137-3a2563388f70");
+                _设置表头登记人Info = new RepoItemInfo(this, "设置表头登记人", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='登记人']/a", 30000, null, "3d1eaaa7-908e-4c4b-b0fe-d96080f60dc0");
+                _设置表头孕妇编号Info = new RepoItemInfo(this, "设置表头孕妇编号", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='孕妇编号']/a", 30000, null, "fb665fd6-dd98-47a1-a12d-ea821bec5589");
+                _设置表头社保号Info = new RepoItemInfo(this, "设置表头社保号", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='社保号']/a", 30000, null, "58b56e41-27fe-4406-9405-25c028150936");
+                _设置表头身份证号Info = new RepoItemInfo(this, "设置表头身份证号", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='身份证号']/a", 30000, null, "772fef9f-768b-4e4d-a53b-d478a2e1bf3f");
+                _设置表头人种Info = new RepoItemInfo(this, "设置表头人种", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='人种']/a", 30000, null, "fdd191a0-a1c9-4d05-ba66-c7856c8bd3a9");
+                _设置表头地址Info = new RepoItemInfo(this, "设置表头地址", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='地址']/a", 30000, null, "204f034f-d807-4e3b-be12-0c50c6527e4b");
+                _设置表头邮箱Info = new RepoItemInfo(this, "设置表头邮箱", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='邮箱']/a", 30000, null, "7f887674-f5f9-421e-86f1-7d73d8e5680b");
+                _设置表头怀孕编号Info = new RepoItemInfo(this, "设置表头怀孕编号", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='怀孕编号']/a", 30000, null, "a995b147-3fc1-4a75-ae79-75dd91c9c332");
+                _设置表头遗传病史Info = new RepoItemInfo(this, "设置表头遗传病史", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='遗传病史']/a", 30000, null, "f0de61dd-e791-40f9-9715-03ed2fbd06a6");
+                _设置表头登记年龄Info = new RepoItemInfo(this, "设置表头登记年龄", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='登记年龄']/a", 30000, null, "93c9f33e-c32e-488a-9c49-b682339de133");
+                _设置表头创建日期Info = new RepoItemInfo(this, "设置表头创建日期", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='创建日期']/a", 30000, null, "7f6cd5ac-66f7-4bc7-9333-ea7f102ec696");
+                _设置表头取消筛查Info = new RepoItemInfo(this, "设置表头取消筛查", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='取消筛查']/a", 30000, null, "ce515d50-5a15-4819-89bf-735210e0dae3");
+                _设置表头取消筛查原因Info = new RepoItemInfo(this, "设置表头取消筛查原因", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='取消筛查原因']/a", 30000, null, "6010c42a-a43d-42be-9c8e-ed8359985637");
+                _设置表头取消回访Info = new RepoItemInfo(this, "设置表头取消回访", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='取消回访 ']/a", 30000, null, "b9dc90a9-1863-428f-bf79-724a33057374");
+                _设置表头取消回访原因Info = new RepoItemInfo(this, "设置表头取消回访原因", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='取消回访原因']/a", 30000, null, "8347dade-c368-4eac-a51f-fc3829b2c979");
+                _设置表头回访史记录Info = new RepoItemInfo(this, "设置表头回访史记录", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='回访史记录']/a", 30000, null, "164d1c37-69a3-4b5e-a782-2250990b9493");
+                _删除Info = new RepoItemInfo(this, "删除", ".//input[#'butDelete']", 30000, null, "92f7b7cc-b9f5-4812-b086-10695a6cce64");
+                _表头Info = new RepoItemInfo(this, "表头", ".//input[#'butTableHeader']", 30000, null, "d1198a60-2567-422a-b1fc-bcd70079c604");
+                _打印Info = new RepoItemInfo(this, "打印", ".//input[#'but_PrintTable']", 30000, null, "bbf3dd5c-eb27-4b10-9cb4-51715e275142");
+                _导出Info = new RepoItemInfo(this, "导出", ".//input[#'But_ExportExcel']", 30000, null, "e1295a36-8e20-4b65-8782-d9748553e684");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("9640faf8-5280-4a55-a243-75ef6a537f58")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("9640faf8-5280-4a55-a243-75ef6a537f58")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 搜索框 item.
+            /// </summary>
+            [RepositoryItem("6eeb043e-ca4e-453d-8499-31d798cf5b48")]
+            public virtual Ranorex.InputTag 搜索框
+            {
+                get
+                {
+                    return _搜索框Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 搜索框 item info.
+            /// </summary>
+            [RepositoryItemInfo("6eeb043e-ca4e-453d-8499-31d798cf5b48")]
+            public virtual RepoItemInfo 搜索框Info
+            {
+                get
+                {
+                    return _搜索框Info;
+                }
+            }
+
+            /// <summary>
+            /// The 搜索按钮 item.
+            /// </summary>
+            [RepositoryItem("e3c6aad0-d2ae-4cec-a76a-b18621f1b7cc")]
+            public virtual Ranorex.InputTag 搜索按钮
+            {
+                get
+                {
+                    return _搜索按钮Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 搜索按钮 item info.
+            /// </summary>
+            [RepositoryItemInfo("e3c6aad0-d2ae-4cec-a76a-b18621f1b7cc")]
+            public virtual RepoItemInfo 搜索按钮Info
+            {
+                get
+                {
+                    return _搜索按钮Info;
+                }
+            }
+
+            /// <summary>
+            /// The 高级查询 item.
+            /// </summary>
+            [RepositoryItem("6ed960f5-3276-4f3d-935d-2bd852e2687c")]
+            public virtual Ranorex.ATag 高级查询
+            {
+                get
+                {
+                    return _高级查询Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 高级查询 item info.
+            /// </summary>
+            [RepositoryItemInfo("6ed960f5-3276-4f3d-935d-2bd852e2687c")]
+            public virtual RepoItemInfo 高级查询Info
+            {
+                get
+                {
+                    return _高级查询Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号 item.
+            /// </summary>
+            [RepositoryItem("24145393-c9ad-48fc-ba15-b1696d11803d")]
+            public virtual Ranorex.InputTag 病历号
+            {
+                get
+                {
+                    return _病历号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号 item info.
+            /// </summary>
+            [RepositoryItemInfo("24145393-c9ad-48fc-ba15-b1696d11803d")]
+            public virtual RepoItemInfo 病历号Info
+            {
+                get
+                {
+                    return _病历号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇姓名 item.
+            /// </summary>
+            [RepositoryItem("43603dc7-d7b4-4ca2-a85a-b9146d977627")]
+            public virtual Ranorex.InputTag 孕妇姓名
+            {
+                get
+                {
+                    return _孕妇姓名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇姓名 item info.
+            /// </summary>
+            [RepositoryItemInfo("43603dc7-d7b4-4ca2-a85a-b9146d977627")]
+            public virtual RepoItemInfo 孕妇姓名Info
+            {
+                get
+                {
+                    return _孕妇姓名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 社保卡号 item.
+            /// </summary>
+            [RepositoryItem("1b238e72-01f4-43e2-a3aa-36f207ffc2bb")]
+            public virtual Ranorex.InputTag 社保卡号
+            {
+                get
+                {
+                    return _社保卡号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 社保卡号 item info.
+            /// </summary>
+            [RepositoryItemInfo("1b238e72-01f4-43e2-a3aa-36f207ffc2bb")]
+            public virtual RepoItemInfo 社保卡号Info
+            {
+                get
+                {
+                    return _社保卡号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查号 item.
+            /// </summary>
+            [RepositoryItem("caa8658d-5a96-4218-a0ff-d3828a59ef6f")]
+            public virtual Ranorex.InputTag 筛查号
+            {
+                get
+                {
+                    return _筛查号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查号 item info.
+            /// </summary>
+            [RepositoryItemInfo("caa8658d-5a96-4218-a0ff-d3828a59ef6f")]
+            public virtual RepoItemInfo 筛查号Info
+            {
+                get
+                {
+                    return _筛查号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 人种 item.
+            /// </summary>
+            [RepositoryItem("be80b061-7b73-45e4-9b9e-e90e75c4907c")]
+            public virtual Ranorex.SelectTag 人种
+            {
+                get
+                {
+                    return _人种Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 人种 item info.
+            /// </summary>
+            [RepositoryItemInfo("be80b061-7b73-45e4-9b9e-e90e75c4907c")]
+            public virtual RepoItemInfo 人种Info
+            {
+                get
+                {
+                    return _人种Info;
+                }
+            }
+
+            /// <summary>
+            /// The 联系电话 item.
+            /// </summary>
+            [RepositoryItem("aace8f65-8dec-4c5e-9c26-2f7f2f1c34c5")]
+            public virtual Ranorex.InputTag 联系电话
+            {
+                get
+                {
+                    return _联系电话Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 联系电话 item info.
+            /// </summary>
+            [RepositoryItemInfo("aace8f65-8dec-4c5e-9c26-2f7f2f1c34c5")]
+            public virtual RepoItemInfo 联系电话Info
+            {
+                get
+                {
+                    return _联系电话Info;
+                }
+            }
+
+            /// <summary>
+            /// The 登记开始日期 item.
+            /// </summary>
+            [RepositoryItem("0ab66123-185b-4397-ab6d-66761363c2c2")]
+            public virtual Ranorex.InputTag 登记开始日期
+            {
+                get
+                {
+                    return _登记开始日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 登记开始日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("0ab66123-185b-4397-ab6d-66761363c2c2")]
+            public virtual RepoItemInfo 登记开始日期Info
+            {
+                get
+                {
+                    return _登记开始日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 登记结束日期 item.
+            /// </summary>
+            [RepositoryItem("c7815ffa-38fe-4e61-9826-01a0b75c86fd")]
+            public virtual Ranorex.InputTag 登记结束日期
+            {
+                get
+                {
+                    return _登记结束日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 登记结束日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("c7815ffa-38fe-4e61-9826-01a0b75c86fd")]
+            public virtual RepoItemInfo 登记结束日期Info
+            {
+                get
+                {
+                    return _登记结束日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 高级搜索按钮 item.
+            /// </summary>
+            [RepositoryItem("15eedb21-5d3f-40b3-a895-c7a6df52a8a5")]
+            public virtual Ranorex.InputTag 高级搜索按钮
+            {
+                get
+                {
+                    return _高级搜索按钮Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 高级搜索按钮 item info.
+            /// </summary>
+            [RepositoryItemInfo("15eedb21-5d3f-40b3-a895-c7a6df52a8a5")]
+            public virtual RepoItemInfo 高级搜索按钮Info
+            {
+                get
+                {
+                    return _高级搜索按钮Info;
+                }
+            }
+
+            /// <summary>
+            /// The 模板选择 item.
+            /// </summary>
+            [RepositoryItem("48ab71d0-e9ce-4a54-ab90-b5cf1a37bc82")]
+            public virtual Ranorex.SelectTag 模板选择
+            {
+                get
+                {
+                    return _模板选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 模板选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("48ab71d0-e9ce-4a54-ab90-b5cf1a37bc82")]
+            public virtual RepoItemInfo 模板选择Info
+            {
+                get
+                {
+                    return _模板选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 模板保存 item.
+            /// </summary>
+            [RepositoryItem("bdc7b11e-2504-49cf-b90a-084a7a628d70")]
+            public virtual Ranorex.InputTag 模板保存
+            {
+                get
+                {
+                    return _模板保存Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 模板保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("bdc7b11e-2504-49cf-b90a-084a7a628d70")]
+            public virtual RepoItemInfo 模板保存Info
+            {
+                get
+                {
+                    return _模板保存Info;
+                }
+            }
+
+            /// <summary>
+            /// The 模板名称 item.
+            /// </summary>
+            [RepositoryItem("00380a1b-8dee-46a2-bf55-cfba3c573bc8")]
+            public virtual Ranorex.InputTag 模板名称
+            {
+                get
+                {
+                    return _模板名称Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 模板名称 item info.
+            /// </summary>
+            [RepositoryItemInfo("00380a1b-8dee-46a2-bf55-cfba3c573bc8")]
+            public virtual RepoItemInfo 模板名称Info
+            {
+                get
+                {
+                    return _模板名称Info;
+                }
+            }
+
+            /// <summary>
+            /// The 模板保存确认 item.
+            /// </summary>
+            [RepositoryItem("af1eba4f-a73f-4d37-8e07-99cb17d4f2de")]
+            public virtual Ranorex.InputTag 模板保存确认
+            {
+                get
+                {
+                    return _模板保存确认Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 模板保存确认 item info.
+            /// </summary>
+            [RepositoryItemInfo("af1eba4f-a73f-4d37-8e07-99cb17d4f2de")]
+            public virtual RepoItemInfo 模板保存确认Info
+            {
+                get
+                {
+                    return _模板保存确认Info;
+                }
+            }
+
+            /// <summary>
+            /// The 添加所有 item.
+            /// </summary>
+            [RepositoryItem("ab91efae-f42e-419b-ba83-768e471c0cbb")]
+            public virtual Ranorex.ATag 添加所有
+            {
+                get
+                {
+                    return _添加所有Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 添加所有 item info.
+            /// </summary>
+            [RepositoryItemInfo("ab91efae-f42e-419b-ba83-768e471c0cbb")]
+            public virtual RepoItemInfo 添加所有Info
+            {
+                get
+                {
+                    return _添加所有Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item.
+            /// </summary>
+            [RepositoryItem("69d04c6b-849b-4a94-b016-f33a345ca41a")]
+            public virtual Ranorex.InputTag 保存
+            {
+                get
+                {
+                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("69d04c6b-849b-4a94-b016-f33a345ca41a")]
+            public virtual RepoItemInfo 保存Info
+            {
+                get
+                {
+                    return _保存Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存确定 item.
+            /// </summary>
+            [RepositoryItem("8468b8b8-f09d-4bb5-ba68-fb529a0cff67")]
+            public virtual Ranorex.ATag 保存确定
+            {
+                get
+                {
+                    return _保存确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("8468b8b8-f09d-4bb5-ba68-fb529a0cff67")]
+            public virtual RepoItemInfo 保存确定Info
+            {
+                get
+                {
+                    return _保存确定Info;
+                }
+            }
+
+            /// <summary>
+            /// The 全选框 item.
+            /// </summary>
+            [RepositoryItem("1cd4cddf-9567-4c08-a346-c9945e865156")]
+            public virtual Ranorex.InputTag 全选框
+            {
+                get
+                {
+                    return _全选框Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 全选框 item info.
+            /// </summary>
+            [RepositoryItemInfo("1cd4cddf-9567-4c08-a346-c9945e865156")]
+            public virtual RepoItemInfo 全选框Info
+            {
+                get
+                {
+                    return _全选框Info;
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item.
+            /// </summary>
+            [RepositoryItem("403e966f-ce2f-4763-9f69-4320f7f09342")]
+            public virtual Ranorex.ATag 确定
+            {
+                get
+                {
+                    return _确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("403e966f-ce2f-4763-9f69-4320f7f09342")]
+            public virtual RepoItemInfo 确定Info
+            {
+                get
+                {
+                    return _确定Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头胎数 item.
+            /// </summary>
+            [RepositoryItem("6495cf4c-8380-4cbe-a580-4beb2c1b515c")]
+            public virtual Ranorex.ATag 设置表头胎数
+            {
+                get
+                {
+                    return _设置表头胎数Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头胎数 item info.
+            /// </summary>
+            [RepositoryItemInfo("6495cf4c-8380-4cbe-a580-4beb2c1b515c")]
+            public virtual RepoItemInfo 设置表头胎数Info
+            {
+                get
+                {
+                    return _设置表头胎数Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头孕次 item.
+            /// </summary>
+            [RepositoryItem("440b76c0-b7d8-4751-8523-0c8e6a949e61")]
+            public virtual Ranorex.ATag 设置表头孕次
+            {
+                get
+                {
+                    return _设置表头孕次Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头孕次 item info.
+            /// </summary>
+            [RepositoryItemInfo("440b76c0-b7d8-4751-8523-0c8e6a949e61")]
+            public virtual RepoItemInfo 设置表头孕次Info
+            {
+                get
+                {
+                    return _设置表头孕次Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头产次 item.
+            /// </summary>
+            [RepositoryItem("8262e8dd-804b-449d-b520-9a07634190a9")]
+            public virtual Ranorex.ATag 设置表头产次
+            {
+                get
+                {
+                    return _设置表头产次Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头产次 item info.
+            /// </summary>
+            [RepositoryItemInfo("8262e8dd-804b-449d-b520-9a07634190a9")]
+            public virtual RepoItemInfo 设置表头产次Info
+            {
+                get
+                {
+                    return _设置表头产次Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头糖尿病 item.
+            /// </summary>
+            [RepositoryItem("19a213e3-6b92-4220-bf46-849484752a88")]
+            public virtual Ranorex.ATag 设置表头糖尿病
+            {
+                get
+                {
+                    return _设置表头糖尿病Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头糖尿病 item info.
+            /// </summary>
+            [RepositoryItemInfo("19a213e3-6b92-4220-bf46-849484752a88")]
+            public virtual RepoItemInfo 设置表头糖尿病Info
+            {
+                get
+                {
+                    return _设置表头糖尿病Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头吸烟史 item.
+            /// </summary>
+            [RepositoryItem("19462875-fec1-437f-b06e-cb283e3903cd")]
+            public virtual Ranorex.ATag 设置表头吸烟史
+            {
+                get
+                {
+                    return _设置表头吸烟史Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头吸烟史 item info.
+            /// </summary>
+            [RepositoryItemInfo("19462875-fec1-437f-b06e-cb283e3903cd")]
+            public virtual RepoItemInfo 设置表头吸烟史Info
+            {
+                get
+                {
+                    return _设置表头吸烟史Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头21三体孕产史 item.
+            /// </summary>
+            [RepositoryItem("28bafd92-1add-4abe-b595-ddf449dcbdd7")]
+            public virtual Ranorex.ATag 设置表头21三体孕产史
+            {
+                get
+                {
+                    return _设置表头21三体孕产史Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头21三体孕产史 item info.
+            /// </summary>
+            [RepositoryItemInfo("28bafd92-1add-4abe-b595-ddf449dcbdd7")]
+            public virtual RepoItemInfo 设置表头21三体孕产史Info
+            {
+                get
+                {
+                    return _设置表头21三体孕产史Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头辅助妊娠 item.
+            /// </summary>
+            [RepositoryItem("b622ee36-462a-4989-8b56-cd5de70957a2")]
+            public virtual Ranorex.ATag 设置表头辅助妊娠
+            {
+                get
+                {
+                    return _设置表头辅助妊娠Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头辅助妊娠 item info.
+            /// </summary>
+            [RepositoryItemInfo("b622ee36-462a-4989-8b56-cd5de70957a2")]
+            public virtual RepoItemInfo 设置表头辅助妊娠Info
+            {
+                get
+                {
+                    return _设置表头辅助妊娠Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头登记日期 item.
+            /// </summary>
+            [RepositoryItem("f6619a17-1b58-454a-9137-3a2563388f70")]
+            public virtual Ranorex.ATag 设置表头登记日期
+            {
+                get
+                {
+                    return _设置表头登记日期Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头登记日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("f6619a17-1b58-454a-9137-3a2563388f70")]
+            public virtual RepoItemInfo 设置表头登记日期Info
+            {
+                get
+                {
+                    return _设置表头登记日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头登记人 item.
+            /// </summary>
+            [RepositoryItem("3d1eaaa7-908e-4c4b-b0fe-d96080f60dc0")]
+            public virtual Ranorex.ATag 设置表头登记人
+            {
+                get
+                {
+                    return _设置表头登记人Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头登记人 item info.
+            /// </summary>
+            [RepositoryItemInfo("3d1eaaa7-908e-4c4b-b0fe-d96080f60dc0")]
+            public virtual RepoItemInfo 设置表头登记人Info
+            {
+                get
+                {
+                    return _设置表头登记人Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头孕妇编号 item.
+            /// </summary>
+            [RepositoryItem("fb665fd6-dd98-47a1-a12d-ea821bec5589")]
+            public virtual Ranorex.ATag 设置表头孕妇编号
+            {
+                get
+                {
+                    return _设置表头孕妇编号Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头孕妇编号 item info.
+            /// </summary>
+            [RepositoryItemInfo("fb665fd6-dd98-47a1-a12d-ea821bec5589")]
+            public virtual RepoItemInfo 设置表头孕妇编号Info
+            {
+                get
+                {
+                    return _设置表头孕妇编号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头社保号 item.
+            /// </summary>
+            [RepositoryItem("58b56e41-27fe-4406-9405-25c028150936")]
+            public virtual Ranorex.ATag 设置表头社保号
+            {
+                get
+                {
+                    return _设置表头社保号Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头社保号 item info.
+            /// </summary>
+            [RepositoryItemInfo("58b56e41-27fe-4406-9405-25c028150936")]
+            public virtual RepoItemInfo 设置表头社保号Info
+            {
+                get
+                {
+                    return _设置表头社保号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头身份证号 item.
+            /// </summary>
+            [RepositoryItem("772fef9f-768b-4e4d-a53b-d478a2e1bf3f")]
+            public virtual Ranorex.ATag 设置表头身份证号
+            {
+                get
+                {
+                    return _设置表头身份证号Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头身份证号 item info.
+            /// </summary>
+            [RepositoryItemInfo("772fef9f-768b-4e4d-a53b-d478a2e1bf3f")]
+            public virtual RepoItemInfo 设置表头身份证号Info
+            {
+                get
+                {
+                    return _设置表头身份证号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头人种 item.
+            /// </summary>
+            [RepositoryItem("fdd191a0-a1c9-4d05-ba66-c7856c8bd3a9")]
+            public virtual Ranorex.ATag 设置表头人种
+            {
+                get
+                {
+                    return _设置表头人种Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头人种 item info.
+            /// </summary>
+            [RepositoryItemInfo("fdd191a0-a1c9-4d05-ba66-c7856c8bd3a9")]
+            public virtual RepoItemInfo 设置表头人种Info
+            {
+                get
+                {
+                    return _设置表头人种Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头地址 item.
+            /// </summary>
+            [RepositoryItem("204f034f-d807-4e3b-be12-0c50c6527e4b")]
+            public virtual Ranorex.ATag 设置表头地址
+            {
+                get
+                {
+                    return _设置表头地址Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头地址 item info.
+            /// </summary>
+            [RepositoryItemInfo("204f034f-d807-4e3b-be12-0c50c6527e4b")]
+            public virtual RepoItemInfo 设置表头地址Info
+            {
+                get
+                {
+                    return _设置表头地址Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头邮箱 item.
+            /// </summary>
+            [RepositoryItem("7f887674-f5f9-421e-86f1-7d73d8e5680b")]
+            public virtual Ranorex.ATag 设置表头邮箱
+            {
+                get
+                {
+                    return _设置表头邮箱Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头邮箱 item info.
+            /// </summary>
+            [RepositoryItemInfo("7f887674-f5f9-421e-86f1-7d73d8e5680b")]
+            public virtual RepoItemInfo 设置表头邮箱Info
+            {
+                get
+                {
+                    return _设置表头邮箱Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头怀孕编号 item.
+            /// </summary>
+            [RepositoryItem("a995b147-3fc1-4a75-ae79-75dd91c9c332")]
+            public virtual Ranorex.ATag 设置表头怀孕编号
+            {
+                get
+                {
+                    return _设置表头怀孕编号Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头怀孕编号 item info.
+            /// </summary>
+            [RepositoryItemInfo("a995b147-3fc1-4a75-ae79-75dd91c9c332")]
+            public virtual RepoItemInfo 设置表头怀孕编号Info
+            {
+                get
+                {
+                    return _设置表头怀孕编号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头遗传病史 item.
+            /// </summary>
+            [RepositoryItem("f0de61dd-e791-40f9-9715-03ed2fbd06a6")]
+            public virtual Ranorex.ATag 设置表头遗传病史
+            {
+                get
+                {
+                    return _设置表头遗传病史Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头遗传病史 item info.
+            /// </summary>
+            [RepositoryItemInfo("f0de61dd-e791-40f9-9715-03ed2fbd06a6")]
+            public virtual RepoItemInfo 设置表头遗传病史Info
+            {
+                get
+                {
+                    return _设置表头遗传病史Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头登记年龄 item.
+            /// </summary>
+            [RepositoryItem("93c9f33e-c32e-488a-9c49-b682339de133")]
+            public virtual Ranorex.ATag 设置表头登记年龄
+            {
+                get
+                {
+                    return _设置表头登记年龄Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头登记年龄 item info.
+            /// </summary>
+            [RepositoryItemInfo("93c9f33e-c32e-488a-9c49-b682339de133")]
+            public virtual RepoItemInfo 设置表头登记年龄Info
+            {
+                get
+                {
+                    return _设置表头登记年龄Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头创建日期 item.
+            /// </summary>
+            [RepositoryItem("7f6cd5ac-66f7-4bc7-9333-ea7f102ec696")]
+            public virtual Ranorex.ATag 设置表头创建日期
+            {
+                get
+                {
+                    return _设置表头创建日期Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头创建日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("7f6cd5ac-66f7-4bc7-9333-ea7f102ec696")]
+            public virtual RepoItemInfo 设置表头创建日期Info
+            {
+                get
+                {
+                    return _设置表头创建日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消筛查 item.
+            /// </summary>
+            [RepositoryItem("ce515d50-5a15-4819-89bf-735210e0dae3")]
+            public virtual Ranorex.ATag 设置表头取消筛查
+            {
+                get
+                {
+                    return _设置表头取消筛查Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消筛查 item info.
+            /// </summary>
+            [RepositoryItemInfo("ce515d50-5a15-4819-89bf-735210e0dae3")]
+            public virtual RepoItemInfo 设置表头取消筛查Info
+            {
+                get
+                {
+                    return _设置表头取消筛查Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消筛查原因 item.
+            /// </summary>
+            [RepositoryItem("6010c42a-a43d-42be-9c8e-ed8359985637")]
+            public virtual Ranorex.ATag 设置表头取消筛查原因
+            {
+                get
+                {
+                    return _设置表头取消筛查原因Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消筛查原因 item info.
+            /// </summary>
+            [RepositoryItemInfo("6010c42a-a43d-42be-9c8e-ed8359985637")]
+            public virtual RepoItemInfo 设置表头取消筛查原因Info
+            {
+                get
+                {
+                    return _设置表头取消筛查原因Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消回访 item.
+            /// </summary>
+            [RepositoryItem("b9dc90a9-1863-428f-bf79-724a33057374")]
+            public virtual Ranorex.ATag 设置表头取消回访
+            {
+                get
+                {
+                    return _设置表头取消回访Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消回访 item info.
+            /// </summary>
+            [RepositoryItemInfo("b9dc90a9-1863-428f-bf79-724a33057374")]
+            public virtual RepoItemInfo 设置表头取消回访Info
+            {
+                get
+                {
+                    return _设置表头取消回访Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消回访原因 item.
+            /// </summary>
+            [RepositoryItem("8347dade-c368-4eac-a51f-fc3829b2c979")]
+            public virtual Ranorex.ATag 设置表头取消回访原因
+            {
+                get
+                {
+                    return _设置表头取消回访原因Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头取消回访原因 item info.
+            /// </summary>
+            [RepositoryItemInfo("8347dade-c368-4eac-a51f-fc3829b2c979")]
+            public virtual RepoItemInfo 设置表头取消回访原因Info
+            {
+                get
+                {
+                    return _设置表头取消回访原因Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头回访史记录 item.
+            /// </summary>
+            [RepositoryItem("164d1c37-69a3-4b5e-a782-2250990b9493")]
+            public virtual Ranorex.ATag 设置表头回访史记录
+            {
+                get
+                {
+                    return _设置表头回访史记录Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头回访史记录 item info.
+            /// </summary>
+            [RepositoryItemInfo("164d1c37-69a3-4b5e-a782-2250990b9493")]
+            public virtual RepoItemInfo 设置表头回访史记录Info
+            {
+                get
+                {
+                    return _设置表头回访史记录Info;
+                }
+            }
+
+            /// <summary>
+            /// The 删除 item.
+            /// </summary>
+            [RepositoryItem("92f7b7cc-b9f5-4812-b086-10695a6cce64")]
+            public virtual Ranorex.InputTag 删除
+            {
+                get
+                {
+                    return _删除Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 删除 item info.
+            /// </summary>
+            [RepositoryItemInfo("92f7b7cc-b9f5-4812-b086-10695a6cce64")]
+            public virtual RepoItemInfo 删除Info
+            {
+                get
+                {
+                    return _删除Info;
+                }
+            }
+
+            /// <summary>
+            /// The 表头 item.
+            /// </summary>
+            [RepositoryItem("d1198a60-2567-422a-b1fc-bcd70079c604")]
+            public virtual Ranorex.InputTag 表头
+            {
+                get
+                {
+                    return _表头Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 表头 item info.
+            /// </summary>
+            [RepositoryItemInfo("d1198a60-2567-422a-b1fc-bcd70079c604")]
+            public virtual RepoItemInfo 表头Info
+            {
+                get
+                {
+                    return _表头Info;
+                }
+            }
+
+            /// <summary>
+            /// The 打印 item.
+            /// </summary>
+            [RepositoryItem("bbf3dd5c-eb27-4b10-9cb4-51715e275142")]
+            public virtual Ranorex.InputTag 打印
+            {
+                get
+                {
+                    return _打印Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 打印 item info.
+            /// </summary>
+            [RepositoryItemInfo("bbf3dd5c-eb27-4b10-9cb4-51715e275142")]
+            public virtual RepoItemInfo 打印Info
+            {
+                get
+                {
+                    return _打印Info;
+                }
+            }
+
+            /// <summary>
+            /// The 导出 item.
+            /// </summary>
+            [RepositoryItem("e1295a36-8e20-4b65-8782-d9748553e684")]
+            public virtual Ranorex.InputTag 导出
+            {
+                get
+                {
+                    return _导出Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 导出 item info.
+            /// </summary>
+            [RepositoryItemInfo("e1295a36-8e20-4b65-8782-d9748553e684")]
+            public virtual RepoItemInfo 导出Info
+            {
+                get
+                {
+                    return _导出Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 角色管理AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("e98095e7-3171-481c-adbb-630d3dab5f5d")]
+        public partial class 角色管理AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _编辑医生Info;
+            RepoItemInfo _编辑全选Info;
+            RepoItemInfo _用户管理删除Info;
+            RepoItemInfo _用户管理编辑Info;
+            RepoItemInfo _用户管理新增Info;
+            RepoItemInfo _角色管理删除Info;
+            RepoItemInfo _角色管理编辑Info;
+            RepoItemInfo _角色管理新增Info;
+            RepoItemInfo _保存角色信息Info;
+            RepoItemInfo _保存成功确定Info;
+
+            /// <summary>
+            /// Creates a new 角色管理  folder.
+            /// </summary>
+            public 角色管理AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("角色管理", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "e98095e7-3171-481c-adbb-630d3dab5f5d", "")
+            {
+                _编辑医生Info = new RepoItemInfo(this, "编辑医生", "body/div[2]/form[@action='http://localhost:8016/Role']/?/?/table/tbody/tr[4]/?/?/a[@innertext='编辑']", 30000, null, "bae634a3-4921-4231-9a25-0102b5680f5d");
+                _编辑全选Info = new RepoItemInfo(this, "编辑全选", ".//body//body//input[#'chk_SelectAll']", 30000, null, "e89561ff-1581-46ef-bcf6-024c6d48338b");
+                _用户管理删除Info = new RepoItemInfo(this, "用户管理删除", ".//body//body//tr[7]//li[1]/input[@name='chk_ids']", 30000, null, "ed39f1f6-3df9-49ee-969d-a1dbb4cbcd4a");
+                _用户管理编辑Info = new RepoItemInfo(this, "用户管理编辑", ".//body//body//tr[7]//li[2]/input[@name='chk_ids']", 30000, null, "763e2f3b-16fa-43fa-95b1-be338e48ee9c");
+                _用户管理新增Info = new RepoItemInfo(this, "用户管理新增", ".//body//body//tr[7]//li[3]/input[@name='chk_ids']", 30000, null, "f548c77f-8d0b-4b7a-bbf6-4994d4416879");
+                _角色管理删除Info = new RepoItemInfo(this, "角色管理删除", ".//body//body//tr[8]//li[1]/input[@name='chk_ids']", 30000, null, "e6065ec4-d700-48b3-b126-7e92baa5f35a");
+                _角色管理编辑Info = new RepoItemInfo(this, "角色管理编辑", ".//body//body//tr[8]//li[2]/input[@name='chk_ids']", 30000, null, "e69ea0f7-bd05-40e0-9798-519e9e0f74ad");
+                _角色管理新增Info = new RepoItemInfo(this, "角色管理新增", ".//body//body//tr[8]//li[3]/input[@name='chk_ids']", 30000, null, "f41d6262-d62d-4331-bb1a-3c46389772d0");
+                _保存角色信息Info = new RepoItemInfo(this, "保存角色信息", ".//body//body//tr[5]//input[@value='保存']", 30000, null, "b6a5ecd0-116a-4a47-a5a5-f8f81eae0587");
+                _保存成功确定Info = new RepoItemInfo(this, "保存成功确定", ".//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "2ee1cd8d-fab1-43da-8085-627f762d27ed");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e98095e7-3171-481c-adbb-630d3dab5f5d")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e98095e7-3171-481c-adbb-630d3dab5f5d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 编辑医生 item.
+            /// </summary>
+            [RepositoryItem("bae634a3-4921-4231-9a25-0102b5680f5d")]
+            public virtual Ranorex.ATag 编辑医生
+            {
+                get
+                {
+                    return _编辑医生Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 编辑医生 item info.
+            /// </summary>
+            [RepositoryItemInfo("bae634a3-4921-4231-9a25-0102b5680f5d")]
+            public virtual RepoItemInfo 编辑医生Info
+            {
+                get
+                {
+                    return _编辑医生Info;
+                }
+            }
+
+            /// <summary>
+            /// The 编辑全选 item.
+            /// </summary>
+            [RepositoryItem("e89561ff-1581-46ef-bcf6-024c6d48338b")]
+            public virtual Ranorex.InputTag 编辑全选
+            {
+                get
+                {
+                    return _编辑全选Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 编辑全选 item info.
+            /// </summary>
+            [RepositoryItemInfo("e89561ff-1581-46ef-bcf6-024c6d48338b")]
+            public virtual RepoItemInfo 编辑全选Info
+            {
+                get
+                {
+                    return _编辑全选Info;
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理删除 item.
+            /// </summary>
+            [RepositoryItem("ed39f1f6-3df9-49ee-969d-a1dbb4cbcd4a")]
+            public virtual Ranorex.InputTag 用户管理删除
+            {
+                get
+                {
+                    return _用户管理删除Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理删除 item info.
+            /// </summary>
+            [RepositoryItemInfo("ed39f1f6-3df9-49ee-969d-a1dbb4cbcd4a")]
+            public virtual RepoItemInfo 用户管理删除Info
+            {
+                get
+                {
+                    return _用户管理删除Info;
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理编辑 item.
+            /// </summary>
+            [RepositoryItem("763e2f3b-16fa-43fa-95b1-be338e48ee9c")]
+            public virtual Ranorex.InputTag 用户管理编辑
+            {
+                get
+                {
+                    return _用户管理编辑Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理编辑 item info.
+            /// </summary>
+            [RepositoryItemInfo("763e2f3b-16fa-43fa-95b1-be338e48ee9c")]
+            public virtual RepoItemInfo 用户管理编辑Info
+            {
+                get
+                {
+                    return _用户管理编辑Info;
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理新增 item.
+            /// </summary>
+            [RepositoryItem("f548c77f-8d0b-4b7a-bbf6-4994d4416879")]
+            public virtual Ranorex.InputTag 用户管理新增
+            {
+                get
+                {
+                    return _用户管理新增Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理新增 item info.
+            /// </summary>
+            [RepositoryItemInfo("f548c77f-8d0b-4b7a-bbf6-4994d4416879")]
+            public virtual RepoItemInfo 用户管理新增Info
+            {
+                get
+                {
+                    return _用户管理新增Info;
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理删除 item.
+            /// </summary>
+            [RepositoryItem("e6065ec4-d700-48b3-b126-7e92baa5f35a")]
+            public virtual Ranorex.InputTag 角色管理删除
+            {
+                get
+                {
+                    return _角色管理删除Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理删除 item info.
+            /// </summary>
+            [RepositoryItemInfo("e6065ec4-d700-48b3-b126-7e92baa5f35a")]
+            public virtual RepoItemInfo 角色管理删除Info
+            {
+                get
+                {
+                    return _角色管理删除Info;
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理编辑 item.
+            /// </summary>
+            [RepositoryItem("e69ea0f7-bd05-40e0-9798-519e9e0f74ad")]
+            public virtual Ranorex.InputTag 角色管理编辑
+            {
+                get
+                {
+                    return _角色管理编辑Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理编辑 item info.
+            /// </summary>
+            [RepositoryItemInfo("e69ea0f7-bd05-40e0-9798-519e9e0f74ad")]
+            public virtual RepoItemInfo 角色管理编辑Info
+            {
+                get
+                {
+                    return _角色管理编辑Info;
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理新增 item.
+            /// </summary>
+            [RepositoryItem("f41d6262-d62d-4331-bb1a-3c46389772d0")]
+            public virtual Ranorex.InputTag 角色管理新增
+            {
+                get
+                {
+                    return _角色管理新增Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理新增 item info.
+            /// </summary>
+            [RepositoryItemInfo("f41d6262-d62d-4331-bb1a-3c46389772d0")]
+            public virtual RepoItemInfo 角色管理新增Info
+            {
+                get
+                {
+                    return _角色管理新增Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存角色信息 item.
+            /// </summary>
+            [RepositoryItem("b6a5ecd0-116a-4a47-a5a5-f8f81eae0587")]
+            public virtual Ranorex.InputTag 保存角色信息
+            {
+                get
+                {
+                    return _保存角色信息Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存角色信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("b6a5ecd0-116a-4a47-a5a5-f8f81eae0587")]
+            public virtual RepoItemInfo 保存角色信息Info
+            {
+                get
+                {
+                    return _保存角色信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存成功确定 item.
+            /// </summary>
+            [RepositoryItem("2ee1cd8d-fab1-43da-8085-627f762d27ed")]
+            public virtual Ranorex.ATag 保存成功确定
+            {
+                get
+                {
+                    return _保存成功确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存成功确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("2ee1cd8d-fab1-43da-8085-627f762d27ed")]
+            public virtual RepoItemInfo 保存成功确定Info
+            {
+                get
+                {
+                    return _保存成功确定Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 医院医生AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("7b4d0120-ca0e-41fa-94f1-83dbfaf1b831")]
+        public partial class 医院医生AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _新增医生Info;
+            RepoItemInfo _来源单位Info;
+            RepoItemInfo _送检医生Info;
+            RepoItemInfo _保存Info;
+            RepoItemInfo _确定Info;
+
+            /// <summary>
+            /// Creates a new 医院医生  folder.
+            /// </summary>
+            public 医院医生AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("医院医生", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "7b4d0120-ca0e-41fa-94f1-83dbfaf1b831", "")
+            {
+                _新增医生Info = new RepoItemInfo(this, "新增医生", ".//input[#'butInsert']", 30000, null, "c78b84de-3f00-4059-8103-ce4a6766c1a9");
+                _来源单位Info = new RepoItemInfo(this, "来源单位", ".//table[@class='formtable']//tr[1]/td[2]/input", 30000, null, "0e9f096a-64eb-4b75-8fec-330710354c20");
+                _送检医生Info = new RepoItemInfo(this, "送检医生", ".//table[@class='formtable']//tr[2]/td[2]/input", 30000, null, "2ba1a856-e5d4-4ec0-aab8-00ae3f731d89");
+                _保存Info = new RepoItemInfo(this, "保存", ".//table[@class='formtable']//tr[4]/td/input[1]", 30000, null, "435cff0a-3267-4a7e-a22f-e33047873123");
+                _确定Info = new RepoItemInfo(this, "确定", ".//body//body/div[@class='xubox_layer']//a[@innertext='确定']", 30000, null, "042cbcde-79e9-4d3a-a0ce-bb8721491b6d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("7b4d0120-ca0e-41fa-94f1-83dbfaf1b831")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("7b4d0120-ca0e-41fa-94f1-83dbfaf1b831")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 新增医生 item.
+            /// </summary>
+            [RepositoryItem("c78b84de-3f00-4059-8103-ce4a6766c1a9")]
+            public virtual Ranorex.InputTag 新增医生
+            {
+                get
+                {
+                    return _新增医生Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 新增医生 item info.
+            /// </summary>
+            [RepositoryItemInfo("c78b84de-3f00-4059-8103-ce4a6766c1a9")]
+            public virtual RepoItemInfo 新增医生Info
+            {
+                get
+                {
+                    return _新增医生Info;
+                }
+            }
+
+            /// <summary>
+            /// The 来源单位 item.
+            /// </summary>
+            [RepositoryItem("0e9f096a-64eb-4b75-8fec-330710354c20")]
+            public virtual Ranorex.InputTag 来源单位
+            {
+                get
+                {
+                    return _来源单位Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 来源单位 item info.
+            /// </summary>
+            [RepositoryItemInfo("0e9f096a-64eb-4b75-8fec-330710354c20")]
+            public virtual RepoItemInfo 来源单位Info
+            {
+                get
+                {
+                    return _来源单位Info;
+                }
+            }
+
+            /// <summary>
+            /// The 送检医生 item.
+            /// </summary>
+            [RepositoryItem("2ba1a856-e5d4-4ec0-aab8-00ae3f731d89")]
+            public virtual Ranorex.InputTag 送检医生
+            {
+                get
+                {
+                    return _送检医生Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 送检医生 item info.
+            /// </summary>
+            [RepositoryItemInfo("2ba1a856-e5d4-4ec0-aab8-00ae3f731d89")]
+            public virtual RepoItemInfo 送检医生Info
+            {
+                get
+                {
+                    return _送检医生Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item.
+            /// </summary>
+            [RepositoryItem("435cff0a-3267-4a7e-a22f-e33047873123")]
+            public virtual Ranorex.InputTag 保存
+            {
+                get
+                {
+                    return _保存Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("435cff0a-3267-4a7e-a22f-e33047873123")]
+            public virtual RepoItemInfo 保存Info
+            {
+                get
+                {
+                    return _保存Info;
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item.
+            /// </summary>
+            [RepositoryItem("042cbcde-79e9-4d3a-a0ce-bb8721491b6d")]
+            public virtual Ranorex.ATag 确定
+            {
+                get
+                {
+                    return _确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("042cbcde-79e9-4d3a-a0ce-bb8721491b6d")]
+            public virtual RepoItemInfo 确定Info
+            {
+                get
+                {
+                    return _确定Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 用户管理AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("57d4aab7-cf90-4dca-9233-973254dcd27b")]
+        public partial class 用户管理AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _新增用户Info;
+            RepoItemInfo _账号Info;
+            RepoItemInfo _医生姓名Info;
+            RepoItemInfo _密码Info;
+            RepoItemInfo _角色Info;
+            RepoItemInfo _来源单位Info;
+            RepoItemInfo _启用账户Info;
+            RepoItemInfo _保存用户信息Info;
+            RepoItemInfo _保存确定Info;
+
+            /// <summary>
+            /// Creates a new 用户管理  folder.
+            /// </summary>
+            public 用户管理AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("用户管理", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "57d4aab7-cf90-4dca-9233-973254dcd27b", "")
+            {
+                _新增用户Info = new RepoItemInfo(this, "新增用户", ".//input[#'butInsert']", 30000, null, "03643b66-4583-4c0e-92cc-87d46191b7a7");
+                _账号Info = new RepoItemInfo(this, "账号", ".//body//body//input[#'UserCode']", 30000, null, "fff13557-76d3-4615-8332-4c7270a09924");
+                _医生姓名Info = new RepoItemInfo(this, "医生姓名", ".//body//body//input[#'UserName']", 30000, null, "e06f8b52-f136-4fd9-85b6-dae61ce2162e");
+                _密码Info = new RepoItemInfo(this, "密码", ".//body//body//input[#'Password']", 30000, null, "ef1e7de6-842f-418f-8e91-2f478bdabd4f");
+                _角色Info = new RepoItemInfo(this, "角色", ".//body//body//select[#'RoleID']", 30000, null, "6c0c2599-2428-44a5-b8b9-ee6023bb544c");
+                _来源单位Info = new RepoItemInfo(this, "来源单位", ".//body//body//select[#'OriginPlace']", 30000, null, "280a6a38-382f-4661-a2c2-84de75d802a5");
+                _启用账户Info = new RepoItemInfo(this, "启用账户", ".//body//body//input[#'IsAvaliable']", 30000, null, "f0ed4cc0-75dc-4ec4-adf9-a206ef5d1f52");
+                _保存用户信息Info = new RepoItemInfo(this, "保存用户信息", ".//body//body//input[#'butSubmit']", 30000, null, "12b6d0f0-4743-4a6d-bfc2-f1eb23cd72fb");
+                _保存确定Info = new RepoItemInfo(this, "保存确定", ".//div[#'xubox_layer1']//a[@innertext='确定']", 30000, null, "a790fecb-7201-4379-a69e-3297be5e449b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("57d4aab7-cf90-4dca-9233-973254dcd27b")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("57d4aab7-cf90-4dca-9233-973254dcd27b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 新增用户 item.
+            /// </summary>
+            [RepositoryItem("03643b66-4583-4c0e-92cc-87d46191b7a7")]
+            public virtual Ranorex.InputTag 新增用户
+            {
+                get
+                {
+                    return _新增用户Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 新增用户 item info.
+            /// </summary>
+            [RepositoryItemInfo("03643b66-4583-4c0e-92cc-87d46191b7a7")]
+            public virtual RepoItemInfo 新增用户Info
+            {
+                get
+                {
+                    return _新增用户Info;
+                }
+            }
+
+            /// <summary>
+            /// The 账号 item.
+            /// </summary>
+            [RepositoryItem("fff13557-76d3-4615-8332-4c7270a09924")]
+            public virtual Ranorex.InputTag 账号
+            {
+                get
+                {
+                    return _账号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 账号 item info.
+            /// </summary>
+            [RepositoryItemInfo("fff13557-76d3-4615-8332-4c7270a09924")]
+            public virtual RepoItemInfo 账号Info
+            {
+                get
+                {
+                    return _账号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 医生姓名 item.
+            /// </summary>
+            [RepositoryItem("e06f8b52-f136-4fd9-85b6-dae61ce2162e")]
+            public virtual Ranorex.InputTag 医生姓名
+            {
+                get
+                {
+                    return _医生姓名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 医生姓名 item info.
+            /// </summary>
+            [RepositoryItemInfo("e06f8b52-f136-4fd9-85b6-dae61ce2162e")]
+            public virtual RepoItemInfo 医生姓名Info
+            {
+                get
+                {
+                    return _医生姓名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 密码 item.
+            /// </summary>
+            [RepositoryItem("ef1e7de6-842f-418f-8e91-2f478bdabd4f")]
+            public virtual Ranorex.InputTag 密码
+            {
+                get
+                {
+                    return _密码Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 密码 item info.
+            /// </summary>
+            [RepositoryItemInfo("ef1e7de6-842f-418f-8e91-2f478bdabd4f")]
+            public virtual RepoItemInfo 密码Info
+            {
+                get
+                {
+                    return _密码Info;
+                }
+            }
+
+            /// <summary>
+            /// The 角色 item.
+            /// </summary>
+            [RepositoryItem("6c0c2599-2428-44a5-b8b9-ee6023bb544c")]
+            public virtual Ranorex.SelectTag 角色
+            {
+                get
+                {
+                    return _角色Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 角色 item info.
+            /// </summary>
+            [RepositoryItemInfo("6c0c2599-2428-44a5-b8b9-ee6023bb544c")]
+            public virtual RepoItemInfo 角色Info
+            {
+                get
+                {
+                    return _角色Info;
+                }
+            }
+
+            /// <summary>
+            /// The 来源单位 item.
+            /// </summary>
+            [RepositoryItem("280a6a38-382f-4661-a2c2-84de75d802a5")]
+            public virtual Ranorex.SelectTag 来源单位
+            {
+                get
+                {
+                    return _来源单位Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 来源单位 item info.
+            /// </summary>
+            [RepositoryItemInfo("280a6a38-382f-4661-a2c2-84de75d802a5")]
+            public virtual RepoItemInfo 来源单位Info
+            {
+                get
+                {
+                    return _来源单位Info;
+                }
+            }
+
+            /// <summary>
+            /// The 启用账户 item.
+            /// </summary>
+            [RepositoryItem("f0ed4cc0-75dc-4ec4-adf9-a206ef5d1f52")]
+            public virtual Ranorex.InputTag 启用账户
+            {
+                get
+                {
+                    return _启用账户Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 启用账户 item info.
+            /// </summary>
+            [RepositoryItemInfo("f0ed4cc0-75dc-4ec4-adf9-a206ef5d1f52")]
+            public virtual RepoItemInfo 启用账户Info
+            {
+                get
+                {
+                    return _启用账户Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存用户信息 item.
+            /// </summary>
+            [RepositoryItem("12b6d0f0-4743-4a6d-bfc2-f1eb23cd72fb")]
+            public virtual Ranorex.InputTag 保存用户信息
+            {
+                get
+                {
+                    return _保存用户信息Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存用户信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("12b6d0f0-4743-4a6d-bfc2-f1eb23cd72fb")]
+            public virtual RepoItemInfo 保存用户信息Info
+            {
+                get
+                {
+                    return _保存用户信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存确定 item.
+            /// </summary>
+            [RepositoryItem("a790fecb-7201-4379-a69e-3297be5e449b")]
+            public virtual Ranorex.ATag 保存确定
+            {
+                get
+                {
+                    return _保存确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("a790fecb-7201-4379-a69e-3297be5e449b")]
+            public virtual RepoItemInfo 保存确定Info
+            {
+                get
+                {
+                    return _保存确定Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 页面头选择AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
+        public partial class 页面头选择AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _筛查管理Info;
+            RepoItemInfo _筛查信息Info;
+            RepoItemInfo _筛查回访Info;
+            RepoItemInfo _批量录入Info;
+            RepoItemInfo _批量计算Info;
+            RepoItemInfo _孕妇信息Info;
+            RepoItemInfo _汇总信息Info;
+            RepoItemInfo _基础信息管理Info;
+            RepoItemInfo _医院医生Info;
+            RepoItemInfo _用户管理Info;
+            RepoItemInfo _角色管理Info;
+            RepoItemInfo _维护管理Info;
+            RepoItemInfo _参数信息Info;
+            RepoItemInfo _登出Info;
+            RepoItemInfo _确定登出Info;
+            RepoItemInfo _返回上一个页面Info;
+
+            /// <summary>
+            /// Creates a new 页面头选择  folder.
+            /// </summary>
+            public 页面头选择AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("页面头选择", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "131c0ee5-f8b2-4bf1-82bc-fdb3408248d9", "")
+            {
+                _筛查管理Info = new RepoItemInfo(this, "筛查管理", ".//ul[#'mainmenus']/?/?/a[@innertext='筛查管理']", 30000, null, "f6984859-bfde-4674-9e61-c1cb3a259c66");
+                _筛查信息Info = new RepoItemInfo(this, "筛查信息", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='筛查信息']", 30000, null, "e453ddd0-0b7e-4c8c-9961-38eb0cd79378");
+                _筛查回访Info = new RepoItemInfo(this, "筛查回访", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='筛查回访']", 30000, null, "0db82e9c-0b16-4181-9e35-91bbb1a307a0");
+                _批量录入Info = new RepoItemInfo(this, "批量录入", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='批量录入']", 30000, null, "b2936262-b46d-42b7-9deb-4f9617775b63");
+                _批量计算Info = new RepoItemInfo(this, "批量计算", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='批量计算']", 30000, null, "47b14b4c-1661-46b2-8fcd-f82b0cac861b");
+                _孕妇信息Info = new RepoItemInfo(this, "孕妇信息", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='孕妇信息']", 30000, null, "85081524-ca0f-45df-8bfa-8814b26bed92");
+                _汇总信息Info = new RepoItemInfo(this, "汇总信息", ".//ul[#'mainmenus']/?/?/div/ul/?/?/a[@innertext='汇总信息']", 30000, null, "bff977bc-bcff-45e0-b449-8a40abc76ce6");
+                _基础信息管理Info = new RepoItemInfo(this, "基础信息管理", ".//a[@innertext='基础信息管理']", 30000, null, "1c6ea1c0-a042-49aa-8572-b91cb10bddc2");
+                _医院医生Info = new RepoItemInfo(this, "医院医生", ".//a[@innertext='医院医生']", 30000, null, "c3912049-f082-4786-a055-c282326640ff");
+                _用户管理Info = new RepoItemInfo(this, "用户管理", ".//a[@innertext='用户管理']", 30000, null, "3fb85e8b-58b7-49d6-a9de-5036703fffc1");
+                _角色管理Info = new RepoItemInfo(this, "角色管理", ".//a[@innertext='角色管理']", 30000, null, "7f7d1ca4-5dc6-4c5b-910b-966747e554b7");
+                _维护管理Info = new RepoItemInfo(this, "维护管理", ".//ul[#'mainmenus']/?/?/a[@innertext='维护管理']", 30000, null, "af14041f-7766-4a37-a935-58a8d72444fc");
+                _参数信息Info = new RepoItemInfo(this, "参数信息", ".//ul[#'mainmenus']/li[5]/div/ul/?/?/a[@innertext='参数信息']", 30000, null, "92af5527-5c64-4f52-9272-62cc937457ed");
+                _登出Info = new RepoItemInfo(this, "登出", "body/div[1]/div[2]/ul/?/?/div[@innertext='欢迎您,']/a[@innertext='[登出]']", 30000, null, "e647d7fe-46d1-4431-b476-c570db486fbb");
+                _确定登出Info = new RepoItemInfo(this, "确定登出", ".//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "ab0ee814-1b80-44e0-84a2-f847a4fb3b92");
+                _返回上一个页面Info = new RepoItemInfo(this, "返回上一个页面", "body/div[2]/div[1]/?/?/a[@href='javascript:void(0);']", 30000, null, "be396ccb-54ab-402e-96e4-9487caefe9d3");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("131c0ee5-f8b2-4bf1-82bc-fdb3408248d9")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查管理 item.
+            /// </summary>
+            [RepositoryItem("f6984859-bfde-4674-9e61-c1cb3a259c66")]
+            public virtual Ranorex.ATag 筛查管理
+            {
+                get
+                {
+                    return _筛查管理Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查管理 item info.
+            /// </summary>
+            [RepositoryItemInfo("f6984859-bfde-4674-9e61-c1cb3a259c66")]
+            public virtual RepoItemInfo 筛查管理Info
+            {
+                get
+                {
+                    return _筛查管理Info;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查信息 item.
+            /// </summary>
+            [RepositoryItem("e453ddd0-0b7e-4c8c-9961-38eb0cd79378")]
+            public virtual Ranorex.ATag 筛查信息
+            {
+                get
+                {
+                    return _筛查信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("e453ddd0-0b7e-4c8c-9961-38eb0cd79378")]
+            public virtual RepoItemInfo 筛查信息Info
+            {
+                get
+                {
+                    return _筛查信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查回访 item.
+            /// </summary>
+            [RepositoryItem("0db82e9c-0b16-4181-9e35-91bbb1a307a0")]
+            public virtual Ranorex.ATag 筛查回访
+            {
+                get
+                {
+                    return _筛查回访Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查回访 item info.
+            /// </summary>
+            [RepositoryItemInfo("0db82e9c-0b16-4181-9e35-91bbb1a307a0")]
+            public virtual RepoItemInfo 筛查回访Info
+            {
+                get
+                {
+                    return _筛查回访Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入 item.
+            /// </summary>
+            [RepositoryItem("b2936262-b46d-42b7-9deb-4f9617775b63")]
+            public virtual Ranorex.ATag 批量录入
+            {
+                get
+                {
+                    return _批量录入Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量录入 item info.
+            /// </summary>
+            [RepositoryItemInfo("b2936262-b46d-42b7-9deb-4f9617775b63")]
+            public virtual RepoItemInfo 批量录入Info
+            {
+                get
+                {
+                    return _批量录入Info;
+                }
+            }
+
+            /// <summary>
+            /// The 批量计算 item.
+            /// </summary>
+            [RepositoryItem("47b14b4c-1661-46b2-8fcd-f82b0cac861b")]
+            public virtual Ranorex.ATag 批量计算
+            {
+                get
+                {
+                    return _批量计算Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 批量计算 item info.
+            /// </summary>
+            [RepositoryItemInfo("47b14b4c-1661-46b2-8fcd-f82b0cac861b")]
+            public virtual RepoItemInfo 批量计算Info
+            {
+                get
+                {
+                    return _批量计算Info;
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇信息 item.
+            /// </summary>
+            [RepositoryItem("85081524-ca0f-45df-8bfa-8814b26bed92")]
+            public virtual Ranorex.ATag 孕妇信息
+            {
+                get
+                {
+                    return _孕妇信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("85081524-ca0f-45df-8bfa-8814b26bed92")]
+            public virtual RepoItemInfo 孕妇信息Info
+            {
+                get
+                {
+                    return _孕妇信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 汇总信息 item.
+            /// </summary>
+            [RepositoryItem("bff977bc-bcff-45e0-b449-8a40abc76ce6")]
+            public virtual Ranorex.ATag 汇总信息
+            {
+                get
+                {
+                    return _汇总信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 汇总信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("bff977bc-bcff-45e0-b449-8a40abc76ce6")]
+            public virtual RepoItemInfo 汇总信息Info
+            {
+                get
+                {
+                    return _汇总信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 基础信息管理 item.
+            /// </summary>
+            [RepositoryItem("1c6ea1c0-a042-49aa-8572-b91cb10bddc2")]
+            public virtual Ranorex.ATag 基础信息管理
+            {
+                get
+                {
+                    return _基础信息管理Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 基础信息管理 item info.
+            /// </summary>
+            [RepositoryItemInfo("1c6ea1c0-a042-49aa-8572-b91cb10bddc2")]
+            public virtual RepoItemInfo 基础信息管理Info
+            {
+                get
+                {
+                    return _基础信息管理Info;
+                }
+            }
+
+            /// <summary>
+            /// The 医院医生 item.
+            /// </summary>
+            [RepositoryItem("c3912049-f082-4786-a055-c282326640ff")]
+            public virtual Ranorex.ATag 医院医生
+            {
+                get
+                {
+                    return _医院医生Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 医院医生 item info.
+            /// </summary>
+            [RepositoryItemInfo("c3912049-f082-4786-a055-c282326640ff")]
+            public virtual RepoItemInfo 医院医生Info
+            {
+                get
+                {
+                    return _医院医生Info;
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理 item.
+            /// </summary>
+            [RepositoryItem("3fb85e8b-58b7-49d6-a9de-5036703fffc1")]
+            public virtual Ranorex.ATag 用户管理
+            {
+                get
+                {
+                    return _用户管理Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 用户管理 item info.
+            /// </summary>
+            [RepositoryItemInfo("3fb85e8b-58b7-49d6-a9de-5036703fffc1")]
+            public virtual RepoItemInfo 用户管理Info
+            {
+                get
+                {
+                    return _用户管理Info;
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理 item.
+            /// </summary>
+            [RepositoryItem("7f7d1ca4-5dc6-4c5b-910b-966747e554b7")]
+            public virtual Ranorex.ATag 角色管理
+            {
+                get
+                {
+                    return _角色管理Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 角色管理 item info.
+            /// </summary>
+            [RepositoryItemInfo("7f7d1ca4-5dc6-4c5b-910b-966747e554b7")]
+            public virtual RepoItemInfo 角色管理Info
+            {
+                get
+                {
+                    return _角色管理Info;
+                }
+            }
+
+            /// <summary>
+            /// The 维护管理 item.
+            /// </summary>
+            [RepositoryItem("af14041f-7766-4a37-a935-58a8d72444fc")]
+            public virtual Ranorex.ATag 维护管理
+            {
+                get
+                {
+                    return _维护管理Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 维护管理 item info.
+            /// </summary>
+            [RepositoryItemInfo("af14041f-7766-4a37-a935-58a8d72444fc")]
+            public virtual RepoItemInfo 维护管理Info
+            {
+                get
+                {
+                    return _维护管理Info;
+                }
+            }
+
+            /// <summary>
+            /// The 参数信息 item.
+            /// </summary>
+            [RepositoryItem("92af5527-5c64-4f52-9272-62cc937457ed")]
+            public virtual Ranorex.ATag 参数信息
+            {
+                get
+                {
+                    return _参数信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 参数信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("92af5527-5c64-4f52-9272-62cc937457ed")]
+            public virtual RepoItemInfo 参数信息Info
+            {
+                get
+                {
+                    return _参数信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 登出 item.
+            /// </summary>
+            [RepositoryItem("e647d7fe-46d1-4431-b476-c570db486fbb")]
+            public virtual Ranorex.ATag 登出
+            {
+                get
+                {
+                    return _登出Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 登出 item info.
+            /// </summary>
+            [RepositoryItemInfo("e647d7fe-46d1-4431-b476-c570db486fbb")]
+            public virtual RepoItemInfo 登出Info
+            {
+                get
+                {
+                    return _登出Info;
+                }
+            }
+
+            /// <summary>
+            /// The 确定登出 item.
+            /// </summary>
+            [RepositoryItem("ab0ee814-1b80-44e0-84a2-f847a4fb3b92")]
+            public virtual Ranorex.ATag 确定登出
+            {
+                get
+                {
+                    return _确定登出Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 确定登出 item info.
+            /// </summary>
+            [RepositoryItemInfo("ab0ee814-1b80-44e0-84a2-f847a4fb3b92")]
+            public virtual RepoItemInfo 确定登出Info
+            {
+                get
+                {
+                    return _确定登出Info;
+                }
+            }
+
+            /// <summary>
+            /// The 返回上一个页面 item.
+            /// </summary>
+            [RepositoryItem("be396ccb-54ab-402e-96e4-9487caefe9d3")]
+            public virtual Ranorex.ATag 返回上一个页面
+            {
+                get
+                {
+                    return _返回上一个页面Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 返回上一个页面 item info.
+            /// </summary>
+            [RepositoryItemInfo("be396ccb-54ab-402e-96e4-9487caefe9d3")]
+            public virtual RepoItemInfo 返回上一个页面Info
+            {
+                get
+                {
+                    return _返回上一个页面Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The 汇总信息AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8b44a2f8-de7f-47c1-a352-ec51a607747d")]
+        public partial class 汇总信息AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _搜索框Info;
+            RepoItemInfo _搜索按钮Info;
+            RepoItemInfo _高级查询Info;
+            RepoItemInfo _模板选择Info;
+            RepoItemInfo _保存模板Info;
+            RepoItemInfo _模板名称Info;
+            RepoItemInfo _保存模板信息Info;
+            RepoItemInfo _元素间关系Info;
+            RepoItemInfo _高级搜索按钮Info;
+            RepoItemInfo _方案信息Info;
+            RepoItemInfo _方案状态Info;
+            RepoItemInfo _评估方法Info;
+            RepoItemInfo _筛查状态Info;
+            RepoItemInfo _提交责任人Info;
+            RepoItemInfo _审核责任人Info;
+            RepoItemInfo _日期类型Info;
+            RepoItemInfo _方案开始日期Info;
+            RepoItemInfo _方案结束日期Info;
+            RepoItemInfo _孕妇信息Info;
+            RepoItemInfo _孕妇姓名Info;
+            RepoItemInfo _病历号Info;
+            RepoItemInfo _筛查号Info;
+            RepoItemInfo _胎数选择Info;
+            RepoItemInfo _吸烟选择Info;
+            RepoItemInfo _糖尿病选择Info;
+            RepoItemInfo _n21三体孕产选择Info;
+            RepoItemInfo _辅助妊娠选择Info;
+            RepoItemInfo _样本信息Info;
+            RepoItemInfo _样本阶段选择Info;
+            RepoItemInfo _样本号1Info;
+            RepoItemInfo _样本号2Info;
+            RepoItemInfo _送检医生Info;
+            RepoItemInfo _来源单位Info;
+            RepoItemInfo _孕周类型选择Info;
+            RepoItemInfo _预产期1Info;
+            RepoItemInfo _预产期2Info;
+            RepoItemInfo _预产年龄1Info;
+            RepoItemInfo _预产年龄2Info;
+            RepoItemInfo _评估孕周周1Info;
+            RepoItemInfo _评估孕周天1Info;
+            RepoItemInfo _评估孕周周2Info;
+            RepoItemInfo _评估孕周天2Info;
+            RepoItemInfo _日期类型选择Info;
+            RepoItemInfo _样本开始日期Info;
+            RepoItemInfo _样本结束日期Info;
+            RepoItemInfo _早期标记物Info;
+            RepoItemInfo _ntmom1Info;
+            RepoItemInfo _ntmom2Info;
+            RepoItemInfo _hcgmome1Info;
+            RepoItemInfo _hcgmome2Info;
+            RepoItemInfo _pappamome1Info;
+            RepoItemInfo _pappamome2Info;
+            RepoItemInfo _pappamome范围选择Info;
+            RepoItemInfo _nte1Info;
+            RepoItemInfo _nte2Info;
+            RepoItemInfo _hcge1Info;
+            RepoItemInfo _hcge2Info;
+            RepoItemInfo _pappae1Info;
+            RepoItemInfo _pappae2Info;
+            RepoItemInfo _pappae范围选择Info;
+            RepoItemInfo _中期标记物Info;
+            RepoItemInfo _afpmomm1Info;
+            RepoItemInfo _afpmomm2Info;
+            RepoItemInfo _hcgmomm1Info;
+            RepoItemInfo _hcgmomm2Info;
+            RepoItemInfo _ue3momm1Info;
+            RepoItemInfo _ue3momm2Info;
+            RepoItemInfo _afpm1Info;
+            RepoItemInfo _afpm2Info;
+            RepoItemInfo _hcgm1Info;
+            RepoItemInfo _hcgm2Info;
+            RepoItemInfo _ue3m1Info;
+            RepoItemInfo _ue3m2Info;
+            RepoItemInfo _全选框Info;
+            RepoItemInfo _撤销审核Info;
+            RepoItemInfo _确定Info;
+            RepoItemInfo _表头Info;
+            RepoItemInfo _设置表头联系电话Info;
+            RepoItemInfo _设置表头身份证号Info;
+            RepoItemInfo _保存表头设置Info;
+            RepoItemInfo _保存确定Info;
+            RepoItemInfo _删除Info;
+            RepoItemInfo _截图Info;
+            RepoItemInfo _搜索结果第一条筛查信息Info;
+            RepoItemInfo _搜索结果第一条回访信息Info;
+
+            /// <summary>
+            /// Creates a new 汇总信息  folder.
+            /// </summary>
+            public 汇总信息AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("汇总信息", "/dom[@domain='localhost:8016']", parentFolder, 30000, null, false, "8b44a2f8-de7f-47c1-a352-ec51a607747d", "")
+            {
+                _搜索框Info = new RepoItemInfo(this, "搜索框", ".//input[#'KeyWords']", 30000, null, "8ae3a951-d958-42f3-bc34-2a3b811e1e6e");
+                _搜索按钮Info = new RepoItemInfo(this, "搜索按钮", ".//input[#'But_Search']", 30000, null, "5fd97e99-5b94-41c0-a908-52cf52e02253");
+                _高级查询Info = new RepoItemInfo(this, "高级查询", ".//body/div[2]/div[1]/?/?/a[@innertext='高级查询']", 30000, null, "b88564f4-fc26-48e1-a060-164cd47e7732");
+                _模板选择Info = new RepoItemInfo(this, "模板选择", ".//select[#'SearchTemplate']", 30000, null, "71bbbd7a-23b5-4fc1-a3dd-b316a563f1ff");
+                _保存模板Info = new RepoItemInfo(this, "保存模板", ".//div[#'searchBox']//input[@class='button-templatesave']", 30000, null, "b74bd9e1-2bff-4838-bea0-2a3cfd215eba");
+                _模板名称Info = new RepoItemInfo(this, "模板名称", ".//input[#'txt_SearchTemplateName']", 30000, null, "6f4d3602-f320-4427-9f4f-bc4dd8bd2116");
+                _保存模板信息Info = new RepoItemInfo(this, "保存模板信息", ".//body//div[@class='xubox_layer']//input[@value='保存']", 30000, null, "4e551858-5234-4c64-b64e-a1371d5ffcae");
+                _元素间关系Info = new RepoItemInfo(this, "元素间关系", ".//select[#'SearchFlag']", 30000, null, "b879567c-910d-4b79-a36f-df7bc77e8de9");
+                _高级搜索按钮Info = new RepoItemInfo(this, "高级搜索按钮", ".//div[#'searchBox']/table//input[@value='搜索']", 30000, null, "269053df-f13a-4697-9269-5c187e614794");
+                _方案信息Info = new RepoItemInfo(this, "方案信息", ".//div[#'pregnantDivSearch']/?/?/ul/?/?/a[@innertext='方案信息']", 30000, null, "18ce0930-9620-4a50-8d99-ac8b8fede4a8");
+                _方案状态Info = new RepoItemInfo(this, "方案状态", ".//select[#'SolutionRiskState']", 30000, null, "47d9bdfa-03a6-4fbe-b828-e744357e52c4");
+                _评估方法Info = new RepoItemInfo(this, "评估方法", ".//select[#'SolutionType']", 30000, null, "47480f1c-f72a-443b-8282-cf867558dd98");
+                _筛查状态Info = new RepoItemInfo(this, "筛查状态", ".//select[#'SolutionResultState']", 30000, null, "729a8a23-571b-4906-8e56-a346b3f9837a");
+                _提交责任人Info = new RepoItemInfo(this, "提交责任人", ".//input[#'CommitUser']", 30000, null, "a0b2b6e3-c0d6-4fda-99c2-3875392cc81a");
+                _审核责任人Info = new RepoItemInfo(this, "审核责任人", ".//input[#'ValidateUser']", 30000, null, "219c9f43-e43c-4ba8-a8c0-164beeabe109");
+                _日期类型Info = new RepoItemInfo(this, "日期类型", ".//select[#'DateType']", 30000, null, "85c85138-cb79-4e91-a760-81330f374530");
+                _方案开始日期Info = new RepoItemInfo(this, "方案开始日期", ".//input[#'DateTypeStartDate']", 30000, null, "2025361e-a7dd-453d-91b5-7965bd61d01b");
+                _方案结束日期Info = new RepoItemInfo(this, "方案结束日期", ".//input[#'DateTypeEndDate']", 30000, null, "15ce8a27-19be-41d0-9c67-0f74c0ba3e59");
+                _孕妇信息Info = new RepoItemInfo(this, "孕妇信息", ".//div[#'pregnantDivSearch']/?/?/ul/?/?/a[@innertext='孕妇信息']", 30000, null, "bbf35056-90bc-4143-9d32-87e263ad5f1d");
+                _孕妇姓名Info = new RepoItemInfo(this, "孕妇姓名", ".//input[#'FirstName']", 30000, null, "0cdf09eb-2a18-4954-9945-b76c61e2dc2e");
+                _病历号Info = new RepoItemInfo(this, "病历号", ".//input[#'PatientID']", 30000, null, "87d41b41-7adf-45a6-a9a5-aa29061dd855");
+                _筛查号Info = new RepoItemInfo(this, "筛查号", ".//input[#'CheckNo']", 30000, null, "2167070a-227d-4957-bcdd-b666951d0a46");
+                _胎数选择Info = new RepoItemInfo(this, "胎数选择", ".//select[#'FetalNumber']", 30000, null, "6de1849d-55bc-4467-820a-2dbae6d20e96");
+                _吸烟选择Info = new RepoItemInfo(this, "吸烟选择", ".//select[#'SmokeHistory']", 30000, null, "e02a2904-116b-441e-8aae-942bf6abe27c");
+                _糖尿病选择Info = new RepoItemInfo(this, "糖尿病选择", ".//select[#'Diabetes']", 30000, null, "0e9bc3a5-6a96-4b37-aa60-0d3588f95592");
+                _n21三体孕产选择Info = new RepoItemInfo(this, "N21三体孕产选择", ".//select[#'DownsHistory']", 30000, null, "8467d795-e017-4f79-a53c-8e67c9c05c5c");
+                _辅助妊娠选择Info = new RepoItemInfo(this, "辅助妊娠选择", ".//select[#'IVF']", 30000, null, "11f30177-4480-47a5-8fea-0893cf65aea2");
+                _样本信息Info = new RepoItemInfo(this, "样本信息", ".//div[#'pregnantDivSearch']/?/?/ul/?/?/a[@innertext='样本信息']", 30000, null, "e89f1088-9248-4a78-b80b-f4befe5fae43");
+                _样本阶段选择Info = new RepoItemInfo(this, "样本阶段选择", ".//select[#'Period']", 30000, null, "0cf71788-a92c-454c-8527-500e3c16f3b7");
+                _样本号1Info = new RepoItemInfo(this, "样本号1", ".//input[#'StartSampleID']", 30000, null, "138ca22b-6325-48da-bec5-8a49af48ebd3");
+                _样本号2Info = new RepoItemInfo(this, "样本号2", ".//input[#'EndSampleID']", 30000, null, "813fd1d2-3e6d-4dd2-9f13-3dd652034c79");
+                _送检医生Info = new RepoItemInfo(this, "送检医生", ".//input[#'SDoctor']", 30000, null, "9e17b81f-2d69-4833-b650-7cc4e68a7c9f");
+                _来源单位Info = new RepoItemInfo(this, "来源单位", ".//input[#'OriginPlace']", 30000, null, "d8f4f3e2-d72b-4bba-94e9-bd4eb3e29e55");
+                _孕周类型选择Info = new RepoItemInfo(this, "孕周类型选择", ".//select[#'GestationType']", 30000, null, "c6684fb0-7098-4f08-aec5-b13b0f3a7d59");
+                _预产期1Info = new RepoItemInfo(this, "预产期1", ".//input[#'ChildBirthDateStartDate']", 30000, null, "1185d90e-92d7-48a6-859b-51f37ea8a0d9");
+                _预产期2Info = new RepoItemInfo(this, "预产期2", ".//input[#'ChildBirthDateEndDate']", 30000, null, "9ead2852-8f77-4e4e-9948-228d23746487");
+                _预产年龄1Info = new RepoItemInfo(this, "预产年龄1", ".//input[#'ChildBirthStartDateAge']", 30000, null, "d7212d6a-6aa1-4606-a65a-8c8ccbaa8291");
+                _预产年龄2Info = new RepoItemInfo(this, "预产年龄2", ".//input[#'ChildBirthEndDateAge']", 30000, null, "fd3a5a74-3fba-497b-8928-71b495a14e03");
+                _评估孕周周1Info = new RepoItemInfo(this, "评估孕周周1", ".//input[#'GestateStartWeek']", 30000, null, "ef395ecc-7e45-4472-bff4-ad348849e804");
+                _评估孕周天1Info = new RepoItemInfo(this, "评估孕周天1", ".//input[#'GestationstartDay']", 30000, null, "8bda1e0a-d5c7-4d34-a4f7-2835b60051c2");
+                _评估孕周周2Info = new RepoItemInfo(this, "评估孕周周2", ".//input[#'GestateEndWeek']", 30000, null, "07a6b25d-8965-4050-a6ca-e91c2323dfd0");
+                _评估孕周天2Info = new RepoItemInfo(this, "评估孕周天2", ".//input[#'GestationEndDay']", 30000, null, "629061ca-f92d-4172-8a4a-3276777b87dc");
+                _日期类型选择Info = new RepoItemInfo(this, "日期类型选择", ".//select[#'SampleDateType']", 30000, null, "3b375458-8250-4579-8cbf-d6ccc74a7e47");
+                _样本开始日期Info = new RepoItemInfo(this, "样本开始日期", ".//input[#'SampleStartDate']", 30000, null, "f102de1a-ee32-4940-8ffb-067c3da27eb9");
+                _样本结束日期Info = new RepoItemInfo(this, "样本结束日期", ".//input[#'SampleEndDate']", 30000, null, "f353cde8-283e-4d74-a5da-1c67141d66a1");
+                _早期标记物Info = new RepoItemInfo(this, "早期标记物", ".//div[#'pregnantDivSearch']/?/?/ul/?/?/a[@innertext='早期标记物']", 30000, null, "bc6cb20a-19ca-44a1-a881-a331d7e306b0");
+                _ntmom1Info = new RepoItemInfo(this, "NTMOM1", ".//input[#'NTStartResultMOM_E']", 30000, null, "6635b154-270e-4a0a-a8f1-f4ddc1111f94");
+                _ntmom2Info = new RepoItemInfo(this, "NTMOM2", ".//input[#'NTEndResultMOM_E']", 30000, null, "19ca7512-1135-4f1b-99d1-1f1c217230fe");
+                _hcgmome1Info = new RepoItemInfo(this, "HCGMOME1", ".//input[#'HCGStartResultMOM_E']", 30000, null, "398f9919-d52f-491c-b6ba-8b4228eda402");
+                _hcgmome2Info = new RepoItemInfo(this, "HCGMOME2", ".//input[#'HCGEndResultMOM_E']", 30000, null, "5716163c-b474-4787-a1c3-f79671649b17");
+                _pappamome1Info = new RepoItemInfo(this, "PAPPAMOME1", ".//input[#'PAPPAStartResultMOM_E']", 30000, null, "ca61aac6-3e23-4b95-a3a3-3b61bcec3126");
+                _pappamome2Info = new RepoItemInfo(this, "PAPPAMOME2", ".//input[#'PAPPAEndResultMOM_E']", 30000, null, "11704a6d-4382-478c-a2cf-c363a228c0d7");
+                _pappamome范围选择Info = new RepoItemInfo(this, "PAPPAMOME范围选择", ".//select[#'PAPPAStateMOM_E']", 30000, null, "a3d71725-1b0e-4310-826b-da555667f105");
+                _nte1Info = new RepoItemInfo(this, "NTE1", ".//input[#'NTStartResult_E']", 30000, null, "938afc0e-1107-435a-aa28-b238ef5fa0ee");
+                _nte2Info = new RepoItemInfo(this, "NTE2", ".//input[#'NTEndResult_E']", 30000, null, "896b9780-1ef3-470a-a7ce-df68c6616239");
+                _hcge1Info = new RepoItemInfo(this, "HCGE1", ".//input[#'HCGStartResult_E']", 30000, null, "9cdec28a-c41b-4e3d-a394-be7ee4df800f");
+                _hcge2Info = new RepoItemInfo(this, "HCGE2", ".//input[#'HCGEndResult_E']", 30000, null, "7f041377-ef80-4007-aa1d-ed785acf62ea");
+                _pappae1Info = new RepoItemInfo(this, "PAPPAE1", ".//input[#'PAPPAStartResult_E']", 30000, null, "690373db-5c89-4dac-9820-a7c3d6d9f2bc");
+                _pappae2Info = new RepoItemInfo(this, "PAPPAE2", ".//input[#'PAPPAEndResult_E']", 30000, null, "8ba25367-2a33-40fa-9a33-980d0e2e2b19");
+                _pappae范围选择Info = new RepoItemInfo(this, "PAPPAE范围选择", ".//select[#'PAPPAStateRes_E']", 30000, null, "245a9deb-5776-4c94-a6e9-1d6b114411af");
+                _中期标记物Info = new RepoItemInfo(this, "中期标记物", ".//div[#'pregnantDivSearch']/?/?/ul/?/?/a[@innertext='中期标记物']", 30000, null, "5344d4c1-07b8-4ccd-9da4-d2a54e124411");
+                _afpmomm1Info = new RepoItemInfo(this, "AFPMOMM1", ".//input[#'AFPStartResultMOM_M']", 30000, null, "9c18b07a-4a7e-40e0-902c-556134bfacef");
+                _afpmomm2Info = new RepoItemInfo(this, "AFPMOMM2", ".//input[#'AFPEndResultMOM_M']", 30000, null, "cc090ced-c4fb-4fbe-9ee4-f59a954d14ea");
+                _hcgmomm1Info = new RepoItemInfo(this, "HCGMOMM1", ".//input[#'HCGStartResultMOM_M']", 30000, null, "d1c04733-e397-4b77-9068-b3829d67983f");
+                _hcgmomm2Info = new RepoItemInfo(this, "HCGMOMM2", ".//input[#'HCGEndResultMOM_M']", 30000, null, "763aebb8-cd96-495e-bcdf-08750f60075a");
+                _ue3momm1Info = new RepoItemInfo(this, "UE3MOMM1", ".//input[#'uE3StartResultMOM_M']", 30000, null, "dc3b51bc-cdaa-44ca-b62d-475de5a78bc3");
+                _ue3momm2Info = new RepoItemInfo(this, "UE3MOMM2", ".//input[#'uE3EndResultMOM_M']", 30000, null, "919df987-2c57-41dd-9e4d-86b47b165c4b");
+                _afpm1Info = new RepoItemInfo(this, "AFPM1", ".//input[#'AFPStartResult_M']", 30000, null, "fa0727b7-a972-4482-a972-6d4f2f614115");
+                _afpm2Info = new RepoItemInfo(this, "AFPM2", ".//input[#'AFPEndResult_M']", 30000, null, "810d7bcd-4029-4fd9-a37b-166e6e7721be");
+                _hcgm1Info = new RepoItemInfo(this, "HCGM1", ".//input[#'HCGStartResult_M']", 30000, null, "f531c533-d2b4-4486-be56-eaa610e1f093");
+                _hcgm2Info = new RepoItemInfo(this, "HCGM2", ".//input[#'HCGEndResult_M']", 30000, null, "2c9e8d5c-09e5-4d0b-98db-c678d1e5baf6");
+                _ue3m1Info = new RepoItemInfo(this, "UE3M1", ".//input[#'uE3StartResult_M']", 30000, null, "3e61904b-1efd-4169-8e2c-130437064c5b");
+                _ue3m2Info = new RepoItemInfo(this, "UE3M2", ".//input[#'uE3EndResult_M']", 30000, null, "f7f22740-6677-4bdf-91ff-5fe616443ae2");
+                _全选框Info = new RepoItemInfo(this, "全选框", ".//table[#'copytable']/?/?/tr/th[1]/input[@id='chk_SelectAll']", 30000, null, "9a18ca24-9bf9-420d-9c5a-9d3279a405b3");
+                _撤销审核Info = new RepoItemInfo(this, "撤销审核", ".//input[#'CannelPassAudit']", 30000, null, "e677b04c-5733-43bb-a7d6-f6616735146f");
+                _确定Info = new RepoItemInfo(this, "确定", ".//div[#'xubox_layer1']//a[@innertext='确定']", 30000, null, "5759eaf9-f9df-4dce-b2cc-fd3afa43d091");
+                _表头Info = new RepoItemInfo(this, "表头", ".//input[#'butTableHeader']", 30000, null, "121bc161-cf09-40e7-8e94-a3086c52c528");
+                _设置表头联系电话Info = new RepoItemInfo(this, "设置表头联系电话", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='联系电话']/a", 30000, null, "58c78e6e-b360-48ba-a576-34469c7e1bc8");
+                _设置表头身份证号Info = new RepoItemInfo(this, "设置表头身份证号", ".//iframe[#'xubox_iframe1']//form[#'settinglistheaderform']//li[@title='身份证号']/a", 30000, null, "5591cbb1-8300-4395-9f92-925b17f92a90");
+                _保存表头设置Info = new RepoItemInfo(this, "保存表头设置", ".//body//body//input[#'butSubmit']", 30000, null, "68cf02dd-bd73-4fea-a51d-be52b97e4028");
+                _保存确定Info = new RepoItemInfo(this, "保存确定", ".//span[@class='xubox_botton']/a[@innertext='确定']", 30000, null, "3839e684-60e5-4315-8b55-8f3f47bb7403");
+                _删除Info = new RepoItemInfo(this, "删除", ".//input[#'butDelete']", 30000, null, "3026a711-0148-479f-baf5-5f475ce6564d");
+                _截图Info = new RepoItemInfo(this, "截图", ".//div[#'pregnantDivSearch']/div[2]", 30000, null, "4182ab62-1f53-4b66-8811-b9b597f346b9");
+                _搜索结果第一条筛查信息Info = new RepoItemInfo(this, "搜索结果第一条筛查信息", ".//body/div[@class='main min_width contenttop']//tbody/tr[1]/td[14]/a[1]", 30000, null, "07870cac-abb4-487a-9d26-1b9c110a23e7");
+                _搜索结果第一条回访信息Info = new RepoItemInfo(this, "搜索结果第一条回访信息", ".//body/div[@class='main min_width contenttop']//tbody/tr[1]/td[14]/a[2]", 30000, null, "7ae20f8a-3edf-4762-9588-ac96a27df66b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8b44a2f8-de7f-47c1-a352-ec51a607747d")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8b44a2f8-de7f-47c1-a352-ec51a607747d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The 搜索框 item.
+            /// </summary>
+            [RepositoryItem("8ae3a951-d958-42f3-bc34-2a3b811e1e6e")]
+            public virtual Ranorex.InputTag 搜索框
+            {
+                get
+                {
+                    return _搜索框Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 搜索框 item info.
+            /// </summary>
+            [RepositoryItemInfo("8ae3a951-d958-42f3-bc34-2a3b811e1e6e")]
+            public virtual RepoItemInfo 搜索框Info
+            {
+                get
+                {
+                    return _搜索框Info;
+                }
+            }
+
+            /// <summary>
+            /// The 搜索按钮 item.
+            /// </summary>
+            [RepositoryItem("5fd97e99-5b94-41c0-a908-52cf52e02253")]
+            public virtual Ranorex.InputTag 搜索按钮
+            {
+                get
+                {
+                    return _搜索按钮Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 搜索按钮 item info.
+            /// </summary>
+            [RepositoryItemInfo("5fd97e99-5b94-41c0-a908-52cf52e02253")]
+            public virtual RepoItemInfo 搜索按钮Info
+            {
+                get
+                {
+                    return _搜索按钮Info;
+                }
+            }
+
+            /// <summary>
+            /// The 高级查询 item.
+            /// </summary>
+            [RepositoryItem("b88564f4-fc26-48e1-a060-164cd47e7732")]
+            public virtual Ranorex.ATag 高级查询
+            {
+                get
+                {
+                    return _高级查询Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 高级查询 item info.
+            /// </summary>
+            [RepositoryItemInfo("b88564f4-fc26-48e1-a060-164cd47e7732")]
+            public virtual RepoItemInfo 高级查询Info
+            {
+                get
+                {
+                    return _高级查询Info;
+                }
+            }
+
+            /// <summary>
+            /// The 模板选择 item.
+            /// </summary>
+            [RepositoryItem("71bbbd7a-23b5-4fc1-a3dd-b316a563f1ff")]
+            public virtual Ranorex.SelectTag 模板选择
+            {
+                get
+                {
+                    return _模板选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 模板选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("71bbbd7a-23b5-4fc1-a3dd-b316a563f1ff")]
+            public virtual RepoItemInfo 模板选择Info
+            {
+                get
+                {
+                    return _模板选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存模板 item.
+            /// </summary>
+            [RepositoryItem("b74bd9e1-2bff-4838-bea0-2a3cfd215eba")]
+            public virtual Ranorex.InputTag 保存模板
+            {
+                get
+                {
+                    return _保存模板Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存模板 item info.
+            /// </summary>
+            [RepositoryItemInfo("b74bd9e1-2bff-4838-bea0-2a3cfd215eba")]
+            public virtual RepoItemInfo 保存模板Info
+            {
+                get
+                {
+                    return _保存模板Info;
+                }
+            }
+
+            /// <summary>
+            /// The 模板名称 item.
+            /// </summary>
+            [RepositoryItem("6f4d3602-f320-4427-9f4f-bc4dd8bd2116")]
+            public virtual Ranorex.InputTag 模板名称
+            {
+                get
+                {
+                    return _模板名称Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 模板名称 item info.
+            /// </summary>
+            [RepositoryItemInfo("6f4d3602-f320-4427-9f4f-bc4dd8bd2116")]
+            public virtual RepoItemInfo 模板名称Info
+            {
+                get
+                {
+                    return _模板名称Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存模板信息 item.
+            /// </summary>
+            [RepositoryItem("4e551858-5234-4c64-b64e-a1371d5ffcae")]
+            public virtual Ranorex.InputTag 保存模板信息
+            {
+                get
+                {
+                    return _保存模板信息Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存模板信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("4e551858-5234-4c64-b64e-a1371d5ffcae")]
+            public virtual RepoItemInfo 保存模板信息Info
+            {
+                get
+                {
+                    return _保存模板信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 元素间关系 item.
+            /// </summary>
+            [RepositoryItem("b879567c-910d-4b79-a36f-df7bc77e8de9")]
+            public virtual Ranorex.SelectTag 元素间关系
+            {
+                get
+                {
+                    return _元素间关系Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 元素间关系 item info.
+            /// </summary>
+            [RepositoryItemInfo("b879567c-910d-4b79-a36f-df7bc77e8de9")]
+            public virtual RepoItemInfo 元素间关系Info
+            {
+                get
+                {
+                    return _元素间关系Info;
+                }
+            }
+
+            /// <summary>
+            /// The 高级搜索按钮 item.
+            /// </summary>
+            [RepositoryItem("269053df-f13a-4697-9269-5c187e614794")]
+            public virtual Ranorex.InputTag 高级搜索按钮
+            {
+                get
+                {
+                    return _高级搜索按钮Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 高级搜索按钮 item info.
+            /// </summary>
+            [RepositoryItemInfo("269053df-f13a-4697-9269-5c187e614794")]
+            public virtual RepoItemInfo 高级搜索按钮Info
+            {
+                get
+                {
+                    return _高级搜索按钮Info;
+                }
+            }
+
+            /// <summary>
+            /// The 方案信息 item.
+            /// </summary>
+            [RepositoryItem("18ce0930-9620-4a50-8d99-ac8b8fede4a8")]
+            public virtual Ranorex.ATag 方案信息
+            {
+                get
+                {
+                    return _方案信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("18ce0930-9620-4a50-8d99-ac8b8fede4a8")]
+            public virtual RepoItemInfo 方案信息Info
+            {
+                get
+                {
+                    return _方案信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 方案状态 item.
+            /// </summary>
+            [RepositoryItem("47d9bdfa-03a6-4fbe-b828-e744357e52c4")]
+            public virtual Ranorex.SelectTag 方案状态
+            {
+                get
+                {
+                    return _方案状态Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案状态 item info.
+            /// </summary>
+            [RepositoryItemInfo("47d9bdfa-03a6-4fbe-b828-e744357e52c4")]
+            public virtual RepoItemInfo 方案状态Info
+            {
+                get
+                {
+                    return _方案状态Info;
+                }
+            }
+
+            /// <summary>
+            /// The 评估方法 item.
+            /// </summary>
+            [RepositoryItem("47480f1c-f72a-443b-8282-cf867558dd98")]
+            public virtual Ranorex.SelectTag 评估方法
+            {
+                get
+                {
+                    return _评估方法Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 评估方法 item info.
+            /// </summary>
+            [RepositoryItemInfo("47480f1c-f72a-443b-8282-cf867558dd98")]
+            public virtual RepoItemInfo 评估方法Info
+            {
+                get
+                {
+                    return _评估方法Info;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查状态 item.
+            /// </summary>
+            [RepositoryItem("729a8a23-571b-4906-8e56-a346b3f9837a")]
+            public virtual Ranorex.SelectTag 筛查状态
+            {
+                get
+                {
+                    return _筛查状态Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查状态 item info.
+            /// </summary>
+            [RepositoryItemInfo("729a8a23-571b-4906-8e56-a346b3f9837a")]
+            public virtual RepoItemInfo 筛查状态Info
+            {
+                get
+                {
+                    return _筛查状态Info;
+                }
+            }
+
+            /// <summary>
+            /// The 提交责任人 item.
+            /// </summary>
+            [RepositoryItem("a0b2b6e3-c0d6-4fda-99c2-3875392cc81a")]
+            public virtual Ranorex.InputTag 提交责任人
+            {
+                get
+                {
+                    return _提交责任人Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 提交责任人 item info.
+            /// </summary>
+            [RepositoryItemInfo("a0b2b6e3-c0d6-4fda-99c2-3875392cc81a")]
+            public virtual RepoItemInfo 提交责任人Info
+            {
+                get
+                {
+                    return _提交责任人Info;
+                }
+            }
+
+            /// <summary>
+            /// The 审核责任人 item.
+            /// </summary>
+            [RepositoryItem("219c9f43-e43c-4ba8-a8c0-164beeabe109")]
+            public virtual Ranorex.InputTag 审核责任人
+            {
+                get
+                {
+                    return _审核责任人Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 审核责任人 item info.
+            /// </summary>
+            [RepositoryItemInfo("219c9f43-e43c-4ba8-a8c0-164beeabe109")]
+            public virtual RepoItemInfo 审核责任人Info
+            {
+                get
+                {
+                    return _审核责任人Info;
+                }
+            }
+
+            /// <summary>
+            /// The 日期类型 item.
+            /// </summary>
+            [RepositoryItem("85c85138-cb79-4e91-a760-81330f374530")]
+            public virtual Ranorex.SelectTag 日期类型
+            {
+                get
+                {
+                    return _日期类型Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 日期类型 item info.
+            /// </summary>
+            [RepositoryItemInfo("85c85138-cb79-4e91-a760-81330f374530")]
+            public virtual RepoItemInfo 日期类型Info
+            {
+                get
+                {
+                    return _日期类型Info;
+                }
+            }
+
+            /// <summary>
+            /// The 方案开始日期 item.
+            /// </summary>
+            [RepositoryItem("2025361e-a7dd-453d-91b5-7965bd61d01b")]
+            public virtual Ranorex.InputTag 方案开始日期
+            {
+                get
+                {
+                    return _方案开始日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案开始日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("2025361e-a7dd-453d-91b5-7965bd61d01b")]
+            public virtual RepoItemInfo 方案开始日期Info
+            {
+                get
+                {
+                    return _方案开始日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 方案结束日期 item.
+            /// </summary>
+            [RepositoryItem("15ce8a27-19be-41d0-9c67-0f74c0ba3e59")]
+            public virtual Ranorex.InputTag 方案结束日期
+            {
+                get
+                {
+                    return _方案结束日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 方案结束日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("15ce8a27-19be-41d0-9c67-0f74c0ba3e59")]
+            public virtual RepoItemInfo 方案结束日期Info
+            {
+                get
+                {
+                    return _方案结束日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇信息 item.
+            /// </summary>
+            [RepositoryItem("bbf35056-90bc-4143-9d32-87e263ad5f1d")]
+            public virtual Ranorex.ATag 孕妇信息
+            {
+                get
+                {
+                    return _孕妇信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("bbf35056-90bc-4143-9d32-87e263ad5f1d")]
+            public virtual RepoItemInfo 孕妇信息Info
+            {
+                get
+                {
+                    return _孕妇信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇姓名 item.
+            /// </summary>
+            [RepositoryItem("0cdf09eb-2a18-4954-9945-b76c61e2dc2e")]
+            public virtual Ranorex.InputTag 孕妇姓名
+            {
+                get
+                {
+                    return _孕妇姓名Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 孕妇姓名 item info.
+            /// </summary>
+            [RepositoryItemInfo("0cdf09eb-2a18-4954-9945-b76c61e2dc2e")]
+            public virtual RepoItemInfo 孕妇姓名Info
+            {
+                get
+                {
+                    return _孕妇姓名Info;
+                }
+            }
+
+            /// <summary>
+            /// The 病历号 item.
+            /// </summary>
+            [RepositoryItem("87d41b41-7adf-45a6-a9a5-aa29061dd855")]
+            public virtual Ranorex.InputTag 病历号
+            {
+                get
+                {
+                    return _病历号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 病历号 item info.
+            /// </summary>
+            [RepositoryItemInfo("87d41b41-7adf-45a6-a9a5-aa29061dd855")]
+            public virtual RepoItemInfo 病历号Info
+            {
+                get
+                {
+                    return _病历号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 筛查号 item.
+            /// </summary>
+            [RepositoryItem("2167070a-227d-4957-bcdd-b666951d0a46")]
+            public virtual Ranorex.InputTag 筛查号
+            {
+                get
+                {
+                    return _筛查号Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 筛查号 item info.
+            /// </summary>
+            [RepositoryItemInfo("2167070a-227d-4957-bcdd-b666951d0a46")]
+            public virtual RepoItemInfo 筛查号Info
+            {
+                get
+                {
+                    return _筛查号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 胎数选择 item.
+            /// </summary>
+            [RepositoryItem("6de1849d-55bc-4467-820a-2dbae6d20e96")]
+            public virtual Ranorex.SelectTag 胎数选择
+            {
+                get
+                {
+                    return _胎数选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 胎数选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("6de1849d-55bc-4467-820a-2dbae6d20e96")]
+            public virtual RepoItemInfo 胎数选择Info
+            {
+                get
+                {
+                    return _胎数选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 吸烟选择 item.
+            /// </summary>
+            [RepositoryItem("e02a2904-116b-441e-8aae-942bf6abe27c")]
+            public virtual Ranorex.SelectTag 吸烟选择
+            {
+                get
+                {
+                    return _吸烟选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 吸烟选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("e02a2904-116b-441e-8aae-942bf6abe27c")]
+            public virtual RepoItemInfo 吸烟选择Info
+            {
+                get
+                {
+                    return _吸烟选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 糖尿病选择 item.
+            /// </summary>
+            [RepositoryItem("0e9bc3a5-6a96-4b37-aa60-0d3588f95592")]
+            public virtual Ranorex.SelectTag 糖尿病选择
+            {
+                get
+                {
+                    return _糖尿病选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 糖尿病选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("0e9bc3a5-6a96-4b37-aa60-0d3588f95592")]
+            public virtual RepoItemInfo 糖尿病选择Info
+            {
+                get
+                {
+                    return _糖尿病选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The N21三体孕产选择 item.
+            /// </summary>
+            [RepositoryItem("8467d795-e017-4f79-a53c-8e67c9c05c5c")]
+            public virtual Ranorex.SelectTag N21三体孕产选择
+            {
+                get
+                {
+                    return _n21三体孕产选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The N21三体孕产选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("8467d795-e017-4f79-a53c-8e67c9c05c5c")]
+            public virtual RepoItemInfo N21三体孕产选择Info
+            {
+                get
+                {
+                    return _n21三体孕产选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 辅助妊娠选择 item.
+            /// </summary>
+            [RepositoryItem("11f30177-4480-47a5-8fea-0893cf65aea2")]
+            public virtual Ranorex.SelectTag 辅助妊娠选择
+            {
+                get
+                {
+                    return _辅助妊娠选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 辅助妊娠选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("11f30177-4480-47a5-8fea-0893cf65aea2")]
+            public virtual RepoItemInfo 辅助妊娠选择Info
+            {
+                get
+                {
+                    return _辅助妊娠选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 样本信息 item.
+            /// </summary>
+            [RepositoryItem("e89f1088-9248-4a78-b80b-f4befe5fae43")]
+            public virtual Ranorex.ATag 样本信息
+            {
+                get
+                {
+                    return _样本信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 样本信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("e89f1088-9248-4a78-b80b-f4befe5fae43")]
+            public virtual RepoItemInfo 样本信息Info
+            {
+                get
+                {
+                    return _样本信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 样本阶段选择 item.
+            /// </summary>
+            [RepositoryItem("0cf71788-a92c-454c-8527-500e3c16f3b7")]
+            public virtual Ranorex.SelectTag 样本阶段选择
+            {
+                get
+                {
+                    return _样本阶段选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 样本阶段选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("0cf71788-a92c-454c-8527-500e3c16f3b7")]
+            public virtual RepoItemInfo 样本阶段选择Info
+            {
+                get
+                {
+                    return _样本阶段选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 样本号1 item.
+            /// </summary>
+            [RepositoryItem("138ca22b-6325-48da-bec5-8a49af48ebd3")]
+            public virtual Ranorex.InputTag 样本号1
+            {
+                get
+                {
+                    return _样本号1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 样本号1 item info.
+            /// </summary>
+            [RepositoryItemInfo("138ca22b-6325-48da-bec5-8a49af48ebd3")]
+            public virtual RepoItemInfo 样本号1Info
+            {
+                get
+                {
+                    return _样本号1Info;
+                }
+            }
+
+            /// <summary>
+            /// The 样本号2 item.
+            /// </summary>
+            [RepositoryItem("813fd1d2-3e6d-4dd2-9f13-3dd652034c79")]
+            public virtual Ranorex.InputTag 样本号2
+            {
+                get
+                {
+                    return _样本号2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 样本号2 item info.
+            /// </summary>
+            [RepositoryItemInfo("813fd1d2-3e6d-4dd2-9f13-3dd652034c79")]
+            public virtual RepoItemInfo 样本号2Info
+            {
+                get
+                {
+                    return _样本号2Info;
+                }
+            }
+
+            /// <summary>
+            /// The 送检医生 item.
+            /// </summary>
+            [RepositoryItem("9e17b81f-2d69-4833-b650-7cc4e68a7c9f")]
+            public virtual Ranorex.InputTag 送检医生
+            {
+                get
+                {
+                    return _送检医生Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 送检医生 item info.
+            /// </summary>
+            [RepositoryItemInfo("9e17b81f-2d69-4833-b650-7cc4e68a7c9f")]
+            public virtual RepoItemInfo 送检医生Info
+            {
+                get
+                {
+                    return _送检医生Info;
+                }
+            }
+
+            /// <summary>
+            /// The 来源单位 item.
+            /// </summary>
+            [RepositoryItem("d8f4f3e2-d72b-4bba-94e9-bd4eb3e29e55")]
+            public virtual Ranorex.InputTag 来源单位
+            {
+                get
+                {
+                    return _来源单位Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 来源单位 item info.
+            /// </summary>
+            [RepositoryItemInfo("d8f4f3e2-d72b-4bba-94e9-bd4eb3e29e55")]
+            public virtual RepoItemInfo 来源单位Info
+            {
+                get
+                {
+                    return _来源单位Info;
+                }
+            }
+
+            /// <summary>
+            /// The 孕周类型选择 item.
+            /// </summary>
+            [RepositoryItem("c6684fb0-7098-4f08-aec5-b13b0f3a7d59")]
+            public virtual Ranorex.SelectTag 孕周类型选择
+            {
+                get
+                {
+                    return _孕周类型选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 孕周类型选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("c6684fb0-7098-4f08-aec5-b13b0f3a7d59")]
+            public virtual RepoItemInfo 孕周类型选择Info
+            {
+                get
+                {
+                    return _孕周类型选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 预产期1 item.
+            /// </summary>
+            [RepositoryItem("1185d90e-92d7-48a6-859b-51f37ea8a0d9")]
+            public virtual Ranorex.InputTag 预产期1
+            {
+                get
+                {
+                    return _预产期1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 预产期1 item info.
+            /// </summary>
+            [RepositoryItemInfo("1185d90e-92d7-48a6-859b-51f37ea8a0d9")]
+            public virtual RepoItemInfo 预产期1Info
+            {
+                get
+                {
+                    return _预产期1Info;
+                }
+            }
+
+            /// <summary>
+            /// The 预产期2 item.
+            /// </summary>
+            [RepositoryItem("9ead2852-8f77-4e4e-9948-228d23746487")]
+            public virtual Ranorex.InputTag 预产期2
+            {
+                get
+                {
+                    return _预产期2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 预产期2 item info.
+            /// </summary>
+            [RepositoryItemInfo("9ead2852-8f77-4e4e-9948-228d23746487")]
+            public virtual RepoItemInfo 预产期2Info
+            {
+                get
+                {
+                    return _预产期2Info;
+                }
+            }
+
+            /// <summary>
+            /// The 预产年龄1 item.
+            /// </summary>
+            [RepositoryItem("d7212d6a-6aa1-4606-a65a-8c8ccbaa8291")]
+            public virtual Ranorex.InputTag 预产年龄1
+            {
+                get
+                {
+                    return _预产年龄1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 预产年龄1 item info.
+            /// </summary>
+            [RepositoryItemInfo("d7212d6a-6aa1-4606-a65a-8c8ccbaa8291")]
+            public virtual RepoItemInfo 预产年龄1Info
+            {
+                get
+                {
+                    return _预产年龄1Info;
+                }
+            }
+
+            /// <summary>
+            /// The 预产年龄2 item.
+            /// </summary>
+            [RepositoryItem("fd3a5a74-3fba-497b-8928-71b495a14e03")]
+            public virtual Ranorex.InputTag 预产年龄2
+            {
+                get
+                {
+                    return _预产年龄2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 预产年龄2 item info.
+            /// </summary>
+            [RepositoryItemInfo("fd3a5a74-3fba-497b-8928-71b495a14e03")]
+            public virtual RepoItemInfo 预产年龄2Info
+            {
+                get
+                {
+                    return _预产年龄2Info;
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周周1 item.
+            /// </summary>
+            [RepositoryItem("ef395ecc-7e45-4472-bff4-ad348849e804")]
+            public virtual Ranorex.InputTag 评估孕周周1
+            {
+                get
+                {
+                    return _评估孕周周1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周周1 item info.
+            /// </summary>
+            [RepositoryItemInfo("ef395ecc-7e45-4472-bff4-ad348849e804")]
+            public virtual RepoItemInfo 评估孕周周1Info
+            {
+                get
+                {
+                    return _评估孕周周1Info;
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周天1 item.
+            /// </summary>
+            [RepositoryItem("8bda1e0a-d5c7-4d34-a4f7-2835b60051c2")]
+            public virtual Ranorex.InputTag 评估孕周天1
+            {
+                get
+                {
+                    return _评估孕周天1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周天1 item info.
+            /// </summary>
+            [RepositoryItemInfo("8bda1e0a-d5c7-4d34-a4f7-2835b60051c2")]
+            public virtual RepoItemInfo 评估孕周天1Info
+            {
+                get
+                {
+                    return _评估孕周天1Info;
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周周2 item.
+            /// </summary>
+            [RepositoryItem("07a6b25d-8965-4050-a6ca-e91c2323dfd0")]
+            public virtual Ranorex.InputTag 评估孕周周2
+            {
+                get
+                {
+                    return _评估孕周周2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周周2 item info.
+            /// </summary>
+            [RepositoryItemInfo("07a6b25d-8965-4050-a6ca-e91c2323dfd0")]
+            public virtual RepoItemInfo 评估孕周周2Info
+            {
+                get
+                {
+                    return _评估孕周周2Info;
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周天2 item.
+            /// </summary>
+            [RepositoryItem("629061ca-f92d-4172-8a4a-3276777b87dc")]
+            public virtual Ranorex.InputTag 评估孕周天2
+            {
+                get
+                {
+                    return _评估孕周天2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 评估孕周天2 item info.
+            /// </summary>
+            [RepositoryItemInfo("629061ca-f92d-4172-8a4a-3276777b87dc")]
+            public virtual RepoItemInfo 评估孕周天2Info
+            {
+                get
+                {
+                    return _评估孕周天2Info;
+                }
+            }
+
+            /// <summary>
+            /// The 日期类型选择 item.
+            /// </summary>
+            [RepositoryItem("3b375458-8250-4579-8cbf-d6ccc74a7e47")]
+            public virtual Ranorex.SelectTag 日期类型选择
+            {
+                get
+                {
+                    return _日期类型选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 日期类型选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("3b375458-8250-4579-8cbf-d6ccc74a7e47")]
+            public virtual RepoItemInfo 日期类型选择Info
+            {
+                get
+                {
+                    return _日期类型选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 样本开始日期 item.
+            /// </summary>
+            [RepositoryItem("f102de1a-ee32-4940-8ffb-067c3da27eb9")]
+            public virtual Ranorex.InputTag 样本开始日期
+            {
+                get
+                {
+                    return _样本开始日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 样本开始日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("f102de1a-ee32-4940-8ffb-067c3da27eb9")]
+            public virtual RepoItemInfo 样本开始日期Info
+            {
+                get
+                {
+                    return _样本开始日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 样本结束日期 item.
+            /// </summary>
+            [RepositoryItem("f353cde8-283e-4d74-a5da-1c67141d66a1")]
+            public virtual Ranorex.InputTag 样本结束日期
+            {
+                get
+                {
+                    return _样本结束日期Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 样本结束日期 item info.
+            /// </summary>
+            [RepositoryItemInfo("f353cde8-283e-4d74-a5da-1c67141d66a1")]
+            public virtual RepoItemInfo 样本结束日期Info
+            {
+                get
+                {
+                    return _样本结束日期Info;
+                }
+            }
+
+            /// <summary>
+            /// The 早期标记物 item.
+            /// </summary>
+            [RepositoryItem("bc6cb20a-19ca-44a1-a881-a331d7e306b0")]
+            public virtual Ranorex.ATag 早期标记物
+            {
+                get
+                {
+                    return _早期标记物Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 早期标记物 item info.
+            /// </summary>
+            [RepositoryItemInfo("bc6cb20a-19ca-44a1-a881-a331d7e306b0")]
+            public virtual RepoItemInfo 早期标记物Info
+            {
+                get
+                {
+                    return _早期标记物Info;
+                }
+            }
+
+            /// <summary>
+            /// The NTMOM1 item.
+            /// </summary>
+            [RepositoryItem("6635b154-270e-4a0a-a8f1-f4ddc1111f94")]
+            public virtual Ranorex.InputTag NTMOM1
+            {
+                get
+                {
+                    return _ntmom1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NTMOM1 item info.
+            /// </summary>
+            [RepositoryItemInfo("6635b154-270e-4a0a-a8f1-f4ddc1111f94")]
+            public virtual RepoItemInfo NTMOM1Info
+            {
+                get
+                {
+                    return _ntmom1Info;
+                }
+            }
+
+            /// <summary>
+            /// The NTMOM2 item.
+            /// </summary>
+            [RepositoryItem("19ca7512-1135-4f1b-99d1-1f1c217230fe")]
+            public virtual Ranorex.InputTag NTMOM2
+            {
+                get
+                {
+                    return _ntmom2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NTMOM2 item info.
+            /// </summary>
+            [RepositoryItemInfo("19ca7512-1135-4f1b-99d1-1f1c217230fe")]
+            public virtual RepoItemInfo NTMOM2Info
+            {
+                get
+                {
+                    return _ntmom2Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOME1 item.
+            /// </summary>
+            [RepositoryItem("398f9919-d52f-491c-b6ba-8b4228eda402")]
+            public virtual Ranorex.InputTag HCGMOME1
+            {
+                get
+                {
+                    return _hcgmome1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOME1 item info.
+            /// </summary>
+            [RepositoryItemInfo("398f9919-d52f-491c-b6ba-8b4228eda402")]
+            public virtual RepoItemInfo HCGMOME1Info
+            {
+                get
+                {
+                    return _hcgmome1Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOME2 item.
+            /// </summary>
+            [RepositoryItem("5716163c-b474-4787-a1c3-f79671649b17")]
+            public virtual Ranorex.InputTag HCGMOME2
+            {
+                get
+                {
+                    return _hcgmome2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOME2 item info.
+            /// </summary>
+            [RepositoryItemInfo("5716163c-b474-4787-a1c3-f79671649b17")]
+            public virtual RepoItemInfo HCGMOME2Info
+            {
+                get
+                {
+                    return _hcgmome2Info;
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAMOME1 item.
+            /// </summary>
+            [RepositoryItem("ca61aac6-3e23-4b95-a3a3-3b61bcec3126")]
+            public virtual Ranorex.InputTag PAPPAMOME1
+            {
+                get
+                {
+                    return _pappamome1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAMOME1 item info.
+            /// </summary>
+            [RepositoryItemInfo("ca61aac6-3e23-4b95-a3a3-3b61bcec3126")]
+            public virtual RepoItemInfo PAPPAMOME1Info
+            {
+                get
+                {
+                    return _pappamome1Info;
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAMOME2 item.
+            /// </summary>
+            [RepositoryItem("11704a6d-4382-478c-a2cf-c363a228c0d7")]
+            public virtual Ranorex.InputTag PAPPAMOME2
+            {
+                get
+                {
+                    return _pappamome2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAMOME2 item info.
+            /// </summary>
+            [RepositoryItemInfo("11704a6d-4382-478c-a2cf-c363a228c0d7")]
+            public virtual RepoItemInfo PAPPAMOME2Info
+            {
+                get
+                {
+                    return _pappamome2Info;
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAMOME范围选择 item.
+            /// </summary>
+            [RepositoryItem("a3d71725-1b0e-4310-826b-da555667f105")]
+            public virtual Ranorex.SelectTag PAPPAMOME范围选择
+            {
+                get
+                {
+                    return _pappamome范围选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAMOME范围选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("a3d71725-1b0e-4310-826b-da555667f105")]
+            public virtual RepoItemInfo PAPPAMOME范围选择Info
+            {
+                get
+                {
+                    return _pappamome范围选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The NTE1 item.
+            /// </summary>
+            [RepositoryItem("938afc0e-1107-435a-aa28-b238ef5fa0ee")]
+            public virtual Ranorex.InputTag NTE1
+            {
+                get
+                {
+                    return _nte1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NTE1 item info.
+            /// </summary>
+            [RepositoryItemInfo("938afc0e-1107-435a-aa28-b238ef5fa0ee")]
+            public virtual RepoItemInfo NTE1Info
+            {
+                get
+                {
+                    return _nte1Info;
+                }
+            }
+
+            /// <summary>
+            /// The NTE2 item.
+            /// </summary>
+            [RepositoryItem("896b9780-1ef3-470a-a7ce-df68c6616239")]
+            public virtual Ranorex.InputTag NTE2
+            {
+                get
+                {
+                    return _nte2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NTE2 item info.
+            /// </summary>
+            [RepositoryItemInfo("896b9780-1ef3-470a-a7ce-df68c6616239")]
+            public virtual RepoItemInfo NTE2Info
+            {
+                get
+                {
+                    return _nte2Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGE1 item.
+            /// </summary>
+            [RepositoryItem("9cdec28a-c41b-4e3d-a394-be7ee4df800f")]
+            public virtual Ranorex.InputTag HCGE1
+            {
+                get
+                {
+                    return _hcge1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGE1 item info.
+            /// </summary>
+            [RepositoryItemInfo("9cdec28a-c41b-4e3d-a394-be7ee4df800f")]
+            public virtual RepoItemInfo HCGE1Info
+            {
+                get
+                {
+                    return _hcge1Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGE2 item.
+            /// </summary>
+            [RepositoryItem("7f041377-ef80-4007-aa1d-ed785acf62ea")]
+            public virtual Ranorex.InputTag HCGE2
+            {
+                get
+                {
+                    return _hcge2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGE2 item info.
+            /// </summary>
+            [RepositoryItemInfo("7f041377-ef80-4007-aa1d-ed785acf62ea")]
+            public virtual RepoItemInfo HCGE2Info
+            {
+                get
+                {
+                    return _hcge2Info;
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAE1 item.
+            /// </summary>
+            [RepositoryItem("690373db-5c89-4dac-9820-a7c3d6d9f2bc")]
+            public virtual Ranorex.InputTag PAPPAE1
+            {
+                get
+                {
+                    return _pappae1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAE1 item info.
+            /// </summary>
+            [RepositoryItemInfo("690373db-5c89-4dac-9820-a7c3d6d9f2bc")]
+            public virtual RepoItemInfo PAPPAE1Info
+            {
+                get
+                {
+                    return _pappae1Info;
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAE2 item.
+            /// </summary>
+            [RepositoryItem("8ba25367-2a33-40fa-9a33-980d0e2e2b19")]
+            public virtual Ranorex.InputTag PAPPAE2
+            {
+                get
+                {
+                    return _pappae2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAE2 item info.
+            /// </summary>
+            [RepositoryItemInfo("8ba25367-2a33-40fa-9a33-980d0e2e2b19")]
+            public virtual RepoItemInfo PAPPAE2Info
+            {
+                get
+                {
+                    return _pappae2Info;
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAE范围选择 item.
+            /// </summary>
+            [RepositoryItem("245a9deb-5776-4c94-a6e9-1d6b114411af")]
+            public virtual Ranorex.SelectTag PAPPAE范围选择
+            {
+                get
+                {
+                    return _pappae范围选择Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PAPPAE范围选择 item info.
+            /// </summary>
+            [RepositoryItemInfo("245a9deb-5776-4c94-a6e9-1d6b114411af")]
+            public virtual RepoItemInfo PAPPAE范围选择Info
+            {
+                get
+                {
+                    return _pappae范围选择Info;
+                }
+            }
+
+            /// <summary>
+            /// The 中期标记物 item.
+            /// </summary>
+            [RepositoryItem("5344d4c1-07b8-4ccd-9da4-d2a54e124411")]
+            public virtual Ranorex.ATag 中期标记物
+            {
+                get
+                {
+                    return _中期标记物Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 中期标记物 item info.
+            /// </summary>
+            [RepositoryItemInfo("5344d4c1-07b8-4ccd-9da4-d2a54e124411")]
+            public virtual RepoItemInfo 中期标记物Info
+            {
+                get
+                {
+                    return _中期标记物Info;
+                }
+            }
+
+            /// <summary>
+            /// The AFPMOMM1 item.
+            /// </summary>
+            [RepositoryItem("9c18b07a-4a7e-40e0-902c-556134bfacef")]
+            public virtual Ranorex.InputTag AFPMOMM1
+            {
+                get
+                {
+                    return _afpmomm1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AFPMOMM1 item info.
+            /// </summary>
+            [RepositoryItemInfo("9c18b07a-4a7e-40e0-902c-556134bfacef")]
+            public virtual RepoItemInfo AFPMOMM1Info
+            {
+                get
+                {
+                    return _afpmomm1Info;
+                }
+            }
+
+            /// <summary>
+            /// The AFPMOMM2 item.
+            /// </summary>
+            [RepositoryItem("cc090ced-c4fb-4fbe-9ee4-f59a954d14ea")]
+            public virtual Ranorex.InputTag AFPMOMM2
+            {
+                get
+                {
+                    return _afpmomm2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AFPMOMM2 item info.
+            /// </summary>
+            [RepositoryItemInfo("cc090ced-c4fb-4fbe-9ee4-f59a954d14ea")]
+            public virtual RepoItemInfo AFPMOMM2Info
+            {
+                get
+                {
+                    return _afpmomm2Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOMM1 item.
+            /// </summary>
+            [RepositoryItem("d1c04733-e397-4b77-9068-b3829d67983f")]
+            public virtual Ranorex.InputTag HCGMOMM1
+            {
+                get
+                {
+                    return _hcgmomm1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOMM1 item info.
+            /// </summary>
+            [RepositoryItemInfo("d1c04733-e397-4b77-9068-b3829d67983f")]
+            public virtual RepoItemInfo HCGMOMM1Info
+            {
+                get
+                {
+                    return _hcgmomm1Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOMM2 item.
+            /// </summary>
+            [RepositoryItem("763aebb8-cd96-495e-bcdf-08750f60075a")]
+            public virtual Ranorex.InputTag HCGMOMM2
+            {
+                get
+                {
+                    return _hcgmomm2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGMOMM2 item info.
+            /// </summary>
+            [RepositoryItemInfo("763aebb8-cd96-495e-bcdf-08750f60075a")]
+            public virtual RepoItemInfo HCGMOMM2Info
+            {
+                get
+                {
+                    return _hcgmomm2Info;
+                }
+            }
+
+            /// <summary>
+            /// The UE3MOMM1 item.
+            /// </summary>
+            [RepositoryItem("dc3b51bc-cdaa-44ca-b62d-475de5a78bc3")]
+            public virtual Ranorex.InputTag UE3MOMM1
+            {
+                get
+                {
+                    return _ue3momm1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UE3MOMM1 item info.
+            /// </summary>
+            [RepositoryItemInfo("dc3b51bc-cdaa-44ca-b62d-475de5a78bc3")]
+            public virtual RepoItemInfo UE3MOMM1Info
+            {
+                get
+                {
+                    return _ue3momm1Info;
+                }
+            }
+
+            /// <summary>
+            /// The UE3MOMM2 item.
+            /// </summary>
+            [RepositoryItem("919df987-2c57-41dd-9e4d-86b47b165c4b")]
+            public virtual Ranorex.InputTag UE3MOMM2
+            {
+                get
+                {
+                    return _ue3momm2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UE3MOMM2 item info.
+            /// </summary>
+            [RepositoryItemInfo("919df987-2c57-41dd-9e4d-86b47b165c4b")]
+            public virtual RepoItemInfo UE3MOMM2Info
+            {
+                get
+                {
+                    return _ue3momm2Info;
+                }
+            }
+
+            /// <summary>
+            /// The AFPM1 item.
+            /// </summary>
+            [RepositoryItem("fa0727b7-a972-4482-a972-6d4f2f614115")]
+            public virtual Ranorex.InputTag AFPM1
+            {
+                get
+                {
+                    return _afpm1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AFPM1 item info.
+            /// </summary>
+            [RepositoryItemInfo("fa0727b7-a972-4482-a972-6d4f2f614115")]
+            public virtual RepoItemInfo AFPM1Info
+            {
+                get
+                {
+                    return _afpm1Info;
+                }
+            }
+
+            /// <summary>
+            /// The AFPM2 item.
+            /// </summary>
+            [RepositoryItem("810d7bcd-4029-4fd9-a37b-166e6e7721be")]
+            public virtual Ranorex.InputTag AFPM2
+            {
+                get
+                {
+                    return _afpm2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AFPM2 item info.
+            /// </summary>
+            [RepositoryItemInfo("810d7bcd-4029-4fd9-a37b-166e6e7721be")]
+            public virtual RepoItemInfo AFPM2Info
+            {
+                get
+                {
+                    return _afpm2Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGM1 item.
+            /// </summary>
+            [RepositoryItem("f531c533-d2b4-4486-be56-eaa610e1f093")]
+            public virtual Ranorex.InputTag HCGM1
+            {
+                get
+                {
+                    return _hcgm1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGM1 item info.
+            /// </summary>
+            [RepositoryItemInfo("f531c533-d2b4-4486-be56-eaa610e1f093")]
+            public virtual RepoItemInfo HCGM1Info
+            {
+                get
+                {
+                    return _hcgm1Info;
+                }
+            }
+
+            /// <summary>
+            /// The HCGM2 item.
+            /// </summary>
+            [RepositoryItem("2c9e8d5c-09e5-4d0b-98db-c678d1e5baf6")]
+            public virtual Ranorex.InputTag HCGM2
+            {
+                get
+                {
+                    return _hcgm2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HCGM2 item info.
+            /// </summary>
+            [RepositoryItemInfo("2c9e8d5c-09e5-4d0b-98db-c678d1e5baf6")]
+            public virtual RepoItemInfo HCGM2Info
+            {
+                get
+                {
+                    return _hcgm2Info;
+                }
+            }
+
+            /// <summary>
+            /// The UE3M1 item.
+            /// </summary>
+            [RepositoryItem("3e61904b-1efd-4169-8e2c-130437064c5b")]
+            public virtual Ranorex.InputTag UE3M1
+            {
+                get
+                {
+                    return _ue3m1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UE3M1 item info.
+            /// </summary>
+            [RepositoryItemInfo("3e61904b-1efd-4169-8e2c-130437064c5b")]
+            public virtual RepoItemInfo UE3M1Info
+            {
+                get
+                {
+                    return _ue3m1Info;
+                }
+            }
+
+            /// <summary>
+            /// The UE3M2 item.
+            /// </summary>
+            [RepositoryItem("f7f22740-6677-4bdf-91ff-5fe616443ae2")]
+            public virtual Ranorex.InputTag UE3M2
+            {
+                get
+                {
+                    return _ue3m2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UE3M2 item info.
+            /// </summary>
+            [RepositoryItemInfo("f7f22740-6677-4bdf-91ff-5fe616443ae2")]
+            public virtual RepoItemInfo UE3M2Info
+            {
+                get
+                {
+                    return _ue3m2Info;
+                }
+            }
+
+            /// <summary>
+            /// The 全选框 item.
+            /// </summary>
+            [RepositoryItem("9a18ca24-9bf9-420d-9c5a-9d3279a405b3")]
+            public virtual Ranorex.InputTag 全选框
+            {
+                get
+                {
+                    return _全选框Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 全选框 item info.
+            /// </summary>
+            [RepositoryItemInfo("9a18ca24-9bf9-420d-9c5a-9d3279a405b3")]
+            public virtual RepoItemInfo 全选框Info
+            {
+                get
+                {
+                    return _全选框Info;
+                }
+            }
+
+            /// <summary>
+            /// The 撤销审核 item.
+            /// </summary>
+            [RepositoryItem("e677b04c-5733-43bb-a7d6-f6616735146f")]
+            public virtual Ranorex.InputTag 撤销审核
+            {
+                get
+                {
+                    return _撤销审核Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 撤销审核 item info.
+            /// </summary>
+            [RepositoryItemInfo("e677b04c-5733-43bb-a7d6-f6616735146f")]
+            public virtual RepoItemInfo 撤销审核Info
+            {
+                get
+                {
+                    return _撤销审核Info;
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item.
+            /// </summary>
+            [RepositoryItem("5759eaf9-f9df-4dce-b2cc-fd3afa43d091")]
+            public virtual Ranorex.ATag 确定
+            {
+                get
+                {
+                    return _确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("5759eaf9-f9df-4dce-b2cc-fd3afa43d091")]
+            public virtual RepoItemInfo 确定Info
+            {
+                get
+                {
+                    return _确定Info;
+                }
+            }
+
+            /// <summary>
+            /// The 表头 item.
+            /// </summary>
+            [RepositoryItem("121bc161-cf09-40e7-8e94-a3086c52c528")]
+            public virtual Ranorex.InputTag 表头
+            {
+                get
+                {
+                    return _表头Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 表头 item info.
+            /// </summary>
+            [RepositoryItemInfo("121bc161-cf09-40e7-8e94-a3086c52c528")]
+            public virtual RepoItemInfo 表头Info
+            {
+                get
+                {
+                    return _表头Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头联系电话 item.
+            /// </summary>
+            [RepositoryItem("58c78e6e-b360-48ba-a576-34469c7e1bc8")]
+            public virtual Ranorex.ATag 设置表头联系电话
+            {
+                get
+                {
+                    return _设置表头联系电话Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头联系电话 item info.
+            /// </summary>
+            [RepositoryItemInfo("58c78e6e-b360-48ba-a576-34469c7e1bc8")]
+            public virtual RepoItemInfo 设置表头联系电话Info
+            {
+                get
+                {
+                    return _设置表头联系电话Info;
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头身份证号 item.
+            /// </summary>
+            [RepositoryItem("5591cbb1-8300-4395-9f92-925b17f92a90")]
+            public virtual Ranorex.ATag 设置表头身份证号
+            {
+                get
+                {
+                    return _设置表头身份证号Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 设置表头身份证号 item info.
+            /// </summary>
+            [RepositoryItemInfo("5591cbb1-8300-4395-9f92-925b17f92a90")]
+            public virtual RepoItemInfo 设置表头身份证号Info
+            {
+                get
+                {
+                    return _设置表头身份证号Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存表头设置 item.
+            /// </summary>
+            [RepositoryItem("68cf02dd-bd73-4fea-a51d-be52b97e4028")]
+            public virtual Ranorex.InputTag 保存表头设置
+            {
+                get
+                {
+                    return _保存表头设置Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存表头设置 item info.
+            /// </summary>
+            [RepositoryItemInfo("68cf02dd-bd73-4fea-a51d-be52b97e4028")]
+            public virtual RepoItemInfo 保存表头设置Info
+            {
+                get
+                {
+                    return _保存表头设置Info;
+                }
+            }
+
+            /// <summary>
+            /// The 保存确定 item.
+            /// </summary>
+            [RepositoryItem("3839e684-60e5-4315-8b55-8f3f47bb7403")]
+            public virtual Ranorex.ATag 保存确定
+            {
+                get
+                {
+                    return _保存确定Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 保存确定 item info.
+            /// </summary>
+            [RepositoryItemInfo("3839e684-60e5-4315-8b55-8f3f47bb7403")]
+            public virtual RepoItemInfo 保存确定Info
+            {
+                get
+                {
+                    return _保存确定Info;
+                }
+            }
+
+            /// <summary>
+            /// The 删除 item.
+            /// </summary>
+            [RepositoryItem("3026a711-0148-479f-baf5-5f475ce6564d")]
+            public virtual Ranorex.InputTag 删除
+            {
+                get
+                {
+                    return _删除Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 删除 item info.
+            /// </summary>
+            [RepositoryItemInfo("3026a711-0148-479f-baf5-5f475ce6564d")]
+            public virtual RepoItemInfo 删除Info
+            {
+                get
+                {
+                    return _删除Info;
+                }
+            }
+
+            /// <summary>
+            /// The 截图 item.
+            /// </summary>
+            [RepositoryItem("4182ab62-1f53-4b66-8811-b9b597f346b9")]
+            public virtual Ranorex.DivTag 截图
+            {
+                get
+                {
+                    return _截图Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 截图 item info.
+            /// </summary>
+            [RepositoryItemInfo("4182ab62-1f53-4b66-8811-b9b597f346b9")]
+            public virtual RepoItemInfo 截图Info
+            {
+                get
+                {
+                    return _截图Info;
+                }
+            }
+
+            /// <summary>
+            /// The 搜索结果第一条筛查信息 item.
+            /// </summary>
+            [RepositoryItem("07870cac-abb4-487a-9d26-1b9c110a23e7")]
+            public virtual Ranorex.ATag 搜索结果第一条筛查信息
+            {
+                get
+                {
+                    return _搜索结果第一条筛查信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 搜索结果第一条筛查信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("07870cac-abb4-487a-9d26-1b9c110a23e7")]
+            public virtual RepoItemInfo 搜索结果第一条筛查信息Info
+            {
+                get
+                {
+                    return _搜索结果第一条筛查信息Info;
+                }
+            }
+
+            /// <summary>
+            /// The 搜索结果第一条回访信息 item.
+            /// </summary>
+            [RepositoryItem("7ae20f8a-3edf-4762-9588-ac96a27df66b")]
+            public virtual Ranorex.ATag 搜索结果第一条回访信息
+            {
+                get
+                {
+                    return _搜索结果第一条回访信息Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The 搜索结果第一条回访信息 item info.
+            /// </summary>
+            [RepositoryItemInfo("7ae20f8a-3edf-4762-9588-ac96a27df66b")]
+            public virtual RepoItemInfo 搜索结果第一条回访信息Info
+            {
+                get
+                {
+                    return _搜索结果第一条回访信息Info;
                 }
             }
         }

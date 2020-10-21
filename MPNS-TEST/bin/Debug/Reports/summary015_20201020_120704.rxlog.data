@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ac2c4c8c69c3cd8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="WMY"
+		rxversion="9.1.1.0"
+		host="DESKTOP-SM51UF2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="zh-CN"
+		dtnlanguage="zh-CN"
+		screenresolution="1920x1080"
+		timestamp="2020/10/20 12:07:06"
+		timestampiso="2020-10-20T04:07:06"
+		endtime="2020/10/20 12:07:13"
+		timeoutfactor="2"
+		module="summary015">
+		<detail>
+			summary015
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.485"
+			timeRelativeToTestModuleStartTime="00:05.485"
+			timeWallClock="12:07:12"
+			time="00:05.485"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item '&#26041;&#26696;.&#20013;&#26399;&#26679;&#26412;' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'MiddleSampleLst']"
+				itempath=".//select[#'MiddleSampleLst']"
+				fullname="Infomation.方案.中期样本"
+				id="7a409252df1e4bafaa39f021586473a8"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="128"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.150"
+			timeRelativeToTestModuleStartTime="00:07.150"
+			timeWallClock="12:07:13"
+			time="00:07.150"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item '&#26041;&#26696;.&#20013;&#26399;&#26679;&#26412;&#39318;&#36873;'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8016']//select[#'MiddleSampleLst']/option[2]"
+				itempath=".//select[#'MiddleSampleLst']/option[2]"
+				fullname="Infomation.方案.中期样本首选"
+				id="3f999ee5c09a4298bb6d1ccf2f37cf26"
+				timeout="120000"
+				codefile="d:\testProject\MPNS-TEST\MPNS-TEST\Models\Screening-Management\summary\summary015.cs"
+				codeline="132"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
